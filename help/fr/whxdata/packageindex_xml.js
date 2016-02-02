@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"utf-8\"?><cki><ck fm=\"!\" to=\"bouton\"/><ck fm=\"bureau\" to=\"débloquer\"/><ck fm=\"débloqué\" to=\"internationaux\"/><ck fm=\"introuvable\" to=\"modification\"/><ck fm=\"modifications\" to=\"précédente\"/><ck fm=\"prénom\" to=\"touche\"/><ck fm=\"toujours\" to=\"être\"/></cki>";

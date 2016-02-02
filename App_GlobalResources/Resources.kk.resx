@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName_UserPortal" xml:space="preserve">
+    <value>Пайдаланушы порталы</value>
+    <comment>Application name for Multi-Factor Authentications</comment>
+  </data>
+  <data name="Button_AuthenticateMeNow" xml:space="preserve">
+    <value>Түпнұсқалығымды қазір растау</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_CallMeNowToAuthenticate" xml:space="preserve">
+    <value>Түпнұсқалықты растау үшін, маған қазір қоңырау шалу</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_Next" xml:space="preserve">
+    <value>Келесі</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_TextMeNowToAuthenticate" xml:space="preserve">
+    <value>Түпнұсқалықты растау үшін, маған қазір мәтіндік хабар жіберу</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_VerifyOathToken" xml:space="preserve">
+    <value>OATH таңбалауышын тексеру</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Help_File" xml:space="preserve">
+    <value>help/PhoneFactor_User_Portal.htm</value>
+    <comment>Localize as help/xx/PhoneFactor_User_Portal.htm where xx is langauge code (e.g. de for German, zh-hans for Simplified Chinese)</comment>
+  </data>
+  <data name="Label_AlternatePhoneOathToken" xml:space="preserve">
+    <value>Түпнұсқалықты растау кодтарын көрсету үшін, Multi-Factor Authentication мобильді бағдарламасы мобильді желіге не WiFi желісіне қосылып тұруы қажет емес.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_AlternatePhonePhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication мобильді бағдарламасы WiFi арқылы да жұмыс істейді.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneSms" xml:space="preserve">
+    <value>"Телефон нөмірін өзгерту" параметрін таңдау арқылы тіркелгіні балама телефон нөміріне бағыттайтын түрде өзгертуге болады.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneVoice" xml:space="preserve">
+    <value>"Телефон нөмірін өзгерту" параметрін таңдау арқылы тіркелгіні жердегі байланыс желісі сияқты балама телефон нөміріне бағыттайтын түрде өзгертуге болады.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_CannotChangeModeToPhoneApp" xml:space="preserve">
+    <value>Құрылғыда Multi-Factor Authentication мобильді бағдарламасын белсендіргеннен кейін, бағдарламаны қолдана алу үшін, тіркелгідегі әдісті "Мобильді бағдарлама" әдісіне өзгерту керек. Әдісіңізді "Мобильді бағдарлама" әдісіне өзгерту үшін, қолдау көрсету қызметімен хабарласыңыз.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_Disable" xml:space="preserve">
+    <value>Ажырату</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>Қосу</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_FraudAlertPhoneApp" xml:space="preserve">
+    <value>Оқиға туралы хабарлау үшін, Multi-Factor Authentication мобильді бағдарламасындағы "Тыйым салу және алаяқтық туралы хабарлау" түймесін басыңыз. Ол компанияңыздың АТ қауіпсіздік тобын ескертеді. Мәселе шешілгенше, келешектегі түпнұсқалықты растау әрекеттеріне тыйым салынады.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertSms" xml:space="preserve">
+    <value>Оқиға туралы хабарлау үшін, жауабыңызға алаяқтық кодын енгізіңіз. Ол компанияңыздың АТ қауіпсіздік тобын ескертеді. Мәселе шешілгенше, келешектегі түпнұсқалықты растау әрекеттеріне тыйым салынады.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertVoice" xml:space="preserve">
+    <value>Оқиға туралы хабарлау үшін, түпнұсқалықты растау қоңырауы барысында телефон мәзірінен "Алаяқтық туралы ескерту" параметрін таңдаңыз. Ол компанияңыздың АТ қауіпсіздік тобын ескертеді. Мәселе шешілгенше, келешектегі түпнұсқалықты растау әрекеттеріне тыйым салынады.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_GenerateActivationCode" xml:space="preserve">
+    <value>Белсендіру кодын жасау</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateActivationLink" xml:space="preserve">
+    <value>Белсендіру сілтемесін жасау</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationCode" xml:space="preserve">
+    <value>Жаңа белсендіру кодын жасау</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationLink" xml:space="preserve">
+    <value>Жаңа белсендіру сілтемесін жасау</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication кіру кезінде түпнұсқалықты растау кодын сұрау арқылы жұмыс істейді.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionPhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication кіру кезінде Multi-Factor Authentication мобильді бағдарламасына хабарландыру жіберу арқылы жұмыс істейді.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionSms" xml:space="preserve">
+    <value>Multi-Factor Authentication кіру кезінде телефонға мәтіндік хабар жіберу арқылы жұмыс істейді.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionVoice" xml:space="preserve">
+    <value>Multi-Factor Authentication кіру кезінде телефонға қоңырау соғу арқылы жұмыс істейді.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsAdministrator" xml:space="preserve">
+    <value>Мәзірден "Пайдаланушыларды табу" параметрін таңдау арқылы пайдаланушы тіркелгілерін басқарыңыз. Тіркелгіңізді тиісті параметрді таңдау арқылы басқарыңыз. Көмек алу үшін, "Анықтама" белгішесін (жоғарғы оң жақта) таңдаңыз.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication мобильді бағдарламасындағы түпнұсқалықты растау кодымен түпнұсқалықты растау үшін, &lt;b&gt;OATH таңбалауышы&lt;/b&gt; әдісін таңдаңыз.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModePhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication мобильді бағдарламасының көмегімен түпнұсқалықты растау үшін, &lt;b&gt;Мобильді бағдарлама&lt;/b&gt; әдісін таңдаңыз.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeSmsText" xml:space="preserve">
+    <value>Мәтіндік хабар алып, түпнұсқалықты растау үшін, &lt;b&gt;Мәтіндік хабар&lt;/b&gt; әдісін таңдаңыз.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeVoiceCall" xml:space="preserve">
+    <value>Телефон қоңырауын қабылдап, түпнұсқалықты растау үшін, &lt;b&gt;Телефон қоңырауы&lt;/b&gt; әдісін таңдаңыз.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtp" xml:space="preserve">
+    <value>Растауыңызды аяқтау үшін сізге мәтіндік хабар арқылы бір рет пайдалануға берілген құпия кодты енгізіңіз.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtpPlusPin" xml:space="preserve">
+    <value>Растауыңызды аяқтау үшін сізге мәтіндік хабар арқылы бір рет пайдалануға берілген құпия кодты және PIN енгізіңіз.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsFindUser" xml:space="preserve">
+    <value>Пайдаланушы атының бірінші бірнеше таңбасын енгізіп, "Табу" түймесін басыңыз.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsOathToken" xml:space="preserve">
+    <value>Осы пайдаланушының OATH таңбалауышымен түпнұсқалықты растауды тексеру.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneApp" xml:space="preserve">
+    <value>Осы пайдаланушының мобильді бағдарламасымен түпнұсқалық растауын тексеру.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationIpWhitelist" xml:space="preserve">
+    <value>Белсендіру аяқталғаннан кейін орнату процесін жалғастыру үшін, "Келесі" түймесін басыңыз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationOathToken" xml:space="preserve">
+    <value>Белсендіру аяқталғаннан кейін түпнұсқалық растамасын тексеріп, орнату процесін жалғастыру үшін, төмендегі түймені басыңыз. Сұралған кезде, мобильді бағдарламада көрсетілген ағымдағы түпнұсқалықты растау кодын енгізіңіз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsSelectUser" xml:space="preserve">
+    <value>Тізімнен пайдаланушыны таңдаңыз немесе басқа пайдаланушыны табу үшін, "Артқа" түймесін таңдаңыз.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsSmsText" xml:space="preserve">
+    <value>Осы пайдаланушының мәтіндік хабарымен түпнұсқалықты растауды тексеру.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUnblockUser" xml:space="preserve">
+    <value>Блоктан шығару себебін енгізіп, пайдаланушыны блоктан шығаруды растаңыз. Бұдан былай пайдаланушының тыйым салынған түпнұсқалық растамалары болмайды.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Label_InstructionsUserActivatePhoneApp" xml:space="preserve">
+    <value>Пайдаланушы телефонына алдымен Multi-Factor Authentication мобильді бағдарламасын орнатуы керек. Белсендіру кодын алу үшін, "Жасау" түймесін басыңыз. Белсендіру процесін аяқтау үшін, пайдаланушының мобильді бағдарламасына белсендіру коды енгізілуі қажет.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserDeactivatePhoneApp" xml:space="preserve">
+    <value>Пайдаланушы үшін құрылғыны ажырату үшін, құрылғының "Ажырату" сілтемесін басыңыз.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserEnable" xml:space="preserve">
+    <value>Пайдаланушы қосылғанын растаңыз, сөйтіп олар кірген кезде Multi-Factor Authentication қоңырауларын қабылдай бастайды.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_InstructionsUserInformation" xml:space="preserve">
+    <value>Осы пайдаланушы үшін жаңа ақпаратты көрсетіңіз.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Label_InstructionsUserLanguage" xml:space="preserve">
+    <value>Осы пайдаланушы үшін тіл таңдауын көрсетіңіз.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Label_InstructionsUserMode" xml:space="preserve">
+    <value>Осы пайдаланушы үшін әдісті таңдаңыз.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathCode" xml:space="preserve">
+    <value>Түпнұсқалықты растауды аяқтау үшін, пайдаланушының Multi-Factor Authentication мобильді бағдарламасында немесе таңбалауышында көрсетілген ағымдағы түпнұсқалықты растау кодын енгізіңіз.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathToken" xml:space="preserve">
+    <value>Таңбалауышты пайдаланушымен байланыстыру үшін, OATH таңбалауышының сериялық нөмірін және таңбалауышта көрсетіліп тұрған кодты енгізіңіз.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Label_InstructionsUserOneTimeBypass" xml:space="preserve">
+    <value>Осы пайдаланушы келесі рет кірген кезде Multi-Factor Authentication қызметін өткізіп жіберу үшін, бір рет айналып өтуді растаңыз. Айналып өту уақытша болады.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtp" xml:space="preserve">
+    <value>Түпнұсқалықты растауды аяқтау үшін, пайдаланушы SMS хабарымен алған бір рет қолданылатын құпия кодты енгізіңіз.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtpPlusPin" xml:space="preserve">
+    <value>Түпнұсқалықты растауды аяқтау үшін, пайдаланушы SMS хабарымен алған бір рет қолданылатын құпия кодты және пайдаланушының PIN кодын енгізіңіз.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserPhone" xml:space="preserve">
+    <value>Осы пайдаланушы үшін жаңа телефон нөмірін көрсетіңіз.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Label_InstructionsUserPin" xml:space="preserve">
+    <value>Осы пайдаланушы үшін жаңа PIN нөмірін көрсетіңіз.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Label_InstructionsUserResetVoiceprint" xml:space="preserve">
+    <value>Пайдаланушының дауыстық растамасы қалпына келтірілетінін растаңыз. Келесі түпнұсқалықты растау қоңырауы барысында пайдаланушы жаңа дауыстық растама тіркеуі қажет болады.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathToken" xml:space="preserve">
+    <value>OATH таңбалауышы әдісімен тіркелгіңізге Multi-Factor Authentication қызметін қосу үшін, OATH таңбалауышының артқы жағына басылған сериялық нөмірді және таңбалауышта көрсетіліп тұрған кодты енгізіп, таңбалауышты тіркелгіңізге байланыстырыңыз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathTokenPhoneApp" xml:space="preserve">
+    <value>OATH таңбалауышы әдісімен тіркелгіңізге Multi-Factor Authentication қызметін қосу үшін, алдымен телефонға Multi-Factor Authentication бағдарламасын орнатыңыз да, төмендегі "Жасау" түймесін басып, белсендіру кодын алыңыз. Белсендіру процесін аяқтау үшін, белсендіру коды мобильді бағдарламада енгізіледі. Белсендіру кодының мерзімі 10 минутта аяқталады.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPhoneApp" xml:space="preserve">
+    <value>Мобильді бағдарлама көмегімен тіркелгіңізге Multi-Factor Authentication қызметін қосу үшін, алдымен телефонға Multi-Factor Authentication бағдарламасын орнатыңыз да, төмендегі "Жасау" түймесін басып, белсендіру кодын алыңыз. Белсендіру процесін аяқтау үшін, белсендіру коды мобильді бағдарламада енгізіледі. Белсендіру кодының мерзімі 10 минутта аяқталады.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPin" xml:space="preserve">
+    <value>Тіркелгіңізге Multi-Factor Authentication қызметін қосу үшін, түпнұсқалықты растауға қолданылатын телефон нөмірін және PIN кодын көрсетіңіз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtp" xml:space="preserve">
+    <value>Тіркелгіңізге Multi-Factor Authentication қызметін қосу үшін, түпнұсқалықты растауға қолданылатын телефон нөмірін көрсетіңіз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Тіркелгіңізге Multi-Factor Authentication қызметін қосу үшін, түпнұсқалықты растауға қолданылатын телефон нөмірін және PIN кодын көрсетіңіз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtp" xml:space="preserve">
+    <value>Тіркелгіңізге Multi-Factor Authentication қызметін қосу үшін, түпнұсқалықты растауға қолданылатын телефон нөмірін көрсетіңіз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Тіркелгіңізге Multi-Factor Authentication қызметін қосу үшін, түпнұсқалықты растауға қолданылатын телефон нөмірін және PIN кодын көрсетіңіз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupStandard" xml:space="preserve">
+    <value>Тіркелгіңізге Multi-Factor Authentication қызметін қосу үшін, түпнұсқалықты растауға қолданылатын телефон нөмірін көрсетіңіз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteOathToken" xml:space="preserve">
+    <value>Телефонда Multi-Factor Authentication бағдарламасын белсендіру және мобильді бағдарлама берген түпнұсқалықты растау кодтарымен түпнұсқалықты растауды тексеру үшін, төмендегі нұсқауларды орындаңыз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePhoneApp" xml:space="preserve">
+    <value>Телефонда Multi-Factor Authentication бағдарламасын белсендіру және мобильді бағдарлама көмегімен түпнұсқалықты растауды тексеру үшін, төмендегі нұсқауларды орындаңыз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePin" xml:space="preserve">
+    <value>Бұл қадамды аяқтау үшін, Multi-Factor Authentication қызметі енгізілген нөмірге қоңырау соғады. Түпнұсқалықты растау үшін, PIN кодын және # таңбасын енгізіңіз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtp" xml:space="preserve">
+    <value>Бұл қадамды аяқтау үшін, Multi-Factor Authentication қызметі енгізілген нөмірге мәтіндік хабармен бір рет қолданылатын құпия кодты жібереді. Сұралған кезде түпнұсқалықты растау үшін, бір рет қолданылатын құпия кодты енгізіңіз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Бұл қадамды аяқтау үшін, Multi-Factor Authentication қызметі енгізілген нөмірге мәтіндік хабармен бір рет қолданылатын құпия кодты жібереді. Сұралған кезде түпнұсқалықты растау үшін, бір рет қолданылатын құпия кодты және PIN кодын енгізіңіз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtp" xml:space="preserve">
+    <value>Бұл қадамды аяқтау үшін, Multi-Factor Authentication қызметі енгізілген нөмірге мәтіндік хабармен бір рет қолданылатын құпия кодты жібереді. Түпнұсқалықты растау үшін, мәтіндік хабарға бір рет қолданылатын құпия кодты жазып жауап беріңіз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Бұл қадамды аяқтау үшін, Multi-Factor Authentication қызметі енгізілген нөмірге мәтіндік хабармен бір рет қолданылатын құпия кодты жібереді. Түпнұсқалықты растау үшін, мәтіндік хабарға бір рет қолданылатын құпия код пен PIN кодын жазып жауап беріңіз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteStandard" xml:space="preserve">
+    <value>Бұл қадамды аяқтау үшін, Multi-Factor Authentication қызметі енгізілген нөмірге қоңырау соғады. Түпнұсқалықты растау үшін, жауап беріп, # түймесін басыңыз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteVoiceprint" xml:space="preserve">
+    <value>Бұл қадамды аяқтау үшін, Multi-Factor Authentication қызметі енгізілген нөмірге қоңырау соғады. Дауыстық растаманың құпия сөз орамын тіркеу үшін, нұсқауларды орындаңыз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupVoiceprint" xml:space="preserve">
+    <value>Тіркелгіңізге Multi-Factor Authentication қызметін қосу үшін, түпнұсқалықты растауға қолданылатын телефон нөмірін көрсетіңіз.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserStaticToken" xml:space="preserve">
+    <value>Осы пайдаланушы үшін жаңа тұрақты таңбалауыш белгілеңіз.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Label_MessageOathToken" xml:space="preserve">
+    <value>Тіркелгіңіз Multi-Factor Authentication қолдануға конфигурацияланды.&lt;br/&gt;&lt;br/&gt;
+Кірген кезде, бұрынғы пайдаланушы аты мен құпия сөзді қолдана бересіз. Түпнұсқалығыңызды растау аяқталғанша, кіруді аяқтау үшін, бағдарлама сізден Multi-Factor Authentication мобильді бағдарламасындағы немесе пайдаланушы атымен кіру үшін алынған кодты енгізуді сұрайды. Дұрыс түпнұсқалықты растау кодын енгізбесеңіз, кіруге тыйым салынады.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppPin" xml:space="preserve">
+    <value>Тіркелгіңіз Multi-Factor Authentication қолдануға конфигурацияланды.&lt;br/&gt;&lt;br/&gt;
+Кірген кезде, бұрынғы пайдаланушы аты мен құпия сөзді қолдана бересіз. Түпнұсқалығыңызды растау аяқталғанша, 
+кіруді растау үшін, сізден Multi-Factor Authentication мобильді бағдарламасын іске қосып, PIN кодын енгізуді сұрайтын хабарландыру аласыз. PIN кодын енгізіп және # түймесін басып, кіруді растамасаңыз, кіруге тыйым салынады.&lt;br/&gt;&lt;br/&gt;
+Шынымен бағдарламаға кіріп жатқан болсаңыз, Multi-Factor Authentication мобильді бағдарламасынан хабарландыру алған кезде ғана PIN кодын енгізу керек. Әйтпесе басқа біреу сіздің пайдаланушы атыңыз бен құпия сөзіңізді қолданып, кіруге әрекет жасап жатуы мүмкін, сондықтан АТ әкімшіңізге мұндай ықтимал алаяқтық туралы хабар беруіңіз керек.&lt;br/&gt;&lt;br/&gt;PIN кодын өзгерту үшін, Multi-Factor Authentication порталына кез келген уақытта оралуға болады.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppStandard" xml:space="preserve">
+    <value>Тіркелгіңіз Multi-Factor Authentication қолдануға конфигурацияланды.&lt;br/&gt;&lt;br/&gt;
+Кірген кезде, бұрынғы пайдаланушы аты мен құпия сөзді қолдана бересіз. Түпнұсқалығыңызды растау аяқталғанша,
+кіруді растау үшін, сізден Multi-Factor Authentication мобильді бағдарламасын іске қосып, "Түпнұсқалықты растау" түймесін басуды сұрайтын хабарландыру аласыз. "Түпнұсқалықты растау" түймесін басып, кіруді растамасаңыз, кіруге тыйым салынады.&lt;br/&gt;&lt;br/&gt;
+Шынымен бағдарламаға кіріп жатқан болсаңыз, Multi-Factor Authentication мобильді бағдарламасынан хабарландыру алған кезде ғана "Түпнұсқалықты растау" түймесін басу керек. Кері жағдайда, басқа біреу сіздің пайдаланушы атыңыз бен құпия сөзіңізді қолданып, кіруге әрекет жасап жатуы мүмкін, сондықтан АТ әкімшіңізге мұндай ықтимал алаяқтық туралы хабар беруіңіз керек.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppVoiceprint" xml:space="preserve">
+    <value>Тіркелгіңіз Multi-Factor Authentication қолдануға конфигурацияланды.&lt;br/&gt;&lt;br/&gt;
+Кірген кезде, бұрынғы пайдаланушы аты мен құпия сөзді қолдана бересіз. Түпнұсқалығыңызды растау аяқталғанша,
+кіруді растау үшін, сізден Multi-Factor Authentication мобильді бағдарламасын іске қосып, құпия сөз орамын айтуды сұрайтын хабарландыру аласыз. Құпия сөз орамын айтып, кіруді растамасаңыз, кіруге тыйым салынады.&lt;br/&gt;&lt;br/&gt;
+Шынымен бағдарламаға кіріп жатқан болсаңыз, Multi-Factor Authentication мобильді бағдарламасынан хабарландыру алған кезде ғана құпия сөз орамын айту керек. Кері жағдайда, басқа біреу сіздің пайдаланушы атыңыз бен құпия сөзіңізді қолданып, кіруге әрекет жасап жатуы мүмкін, сондықтан АТ әкімшіңізге мұндай ықтимал алаяқтық туралы хабар беруіңіз керек.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePin" xml:space="preserve">
+    <value>Тіркелгіңіз Multi-Factor Authentication қолдануға конфигурацияланды.&lt;br/&gt;&lt;br/&gt;
+Кірген кезде, бұрынғы пайдаланушы аты мен құпия сөзді қолдана бересіз. Түпнұсқалығыңызды растау аяқталғанша,
+кіруді растау үшін, сізден телефон қоңырауы арқылы PIN кодын енгізіп, тор (#) түймесін басу сұралады. PIN кодын
+енгізіп, # түймесін басу арқылы кіруді растамасаңыз, кіруге тыйым салынады.&lt;br/&gt;&lt;br/&gt;
+Шынымен бағдарламаға кіріп жатқан болсаңыз, Multi-Factor Authentication қоңырауын қабылдаған кезде ғана PIN кодын енгізу керек.
+Кері жағдайда, басқа біреу сіздің пайдаланушы атыңыз бен құпия сөзіңізді қолданып, кіруге әрекет жасап жатуы мүмкін, сондықтан АТ әкімшіңізге мұндай ықтимал
+алаяқтық туралы хабар беруіңіз керек.&lt;br/&gt;&lt;br/&gt;
+Телефон нөмірін немесе PIN кодын өзгерту үшін, Multi-Factor Authentication порталына кез келген уақытта оралуға болады.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtp" xml:space="preserve">
+    <value>Тіркелгіңіз Multi-Factor Authentication қолдануға конфигурацияланды.&lt;br/&gt;&lt;br/&gt;
+Кірген кезде, бұрынғы пайдаланушы аты мен құпия сөзді қолдана бересіз. Түпнұсқалығыңызды растау аяқталмас бұрын,
+сізге бір рет қолданылатын құпия код жазылған мәтіндік хабар жіберіледі. Бағдарлама сұраған кезде осы құпия кодты енгізіңіз.
+Дұрыс құпия код енгізілмесе, кіруге тыйым салынады.&lt;br/&gt;&lt;br/&gt;
+Телефон нөмірін өзгерту үшін, Multi-Factor Authentication порталына кез келген уақытта оралуға болады.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Тіркелгіңіз Multi-Factor Authentication қолдануға конфигурацияланды.&lt;br/&gt;&lt;br/&gt;
+Кірген кезде, бұрынғы пайдаланушы аты мен құпия сөзді қолдана бересіз. Түпнұсқалығыңызды растау аяқталмас бұрын,
+сізге бір рет қолданылатын құпия код жазылған мәтіндік хабар жіберіледі. Бағдарлама сұраған кезде осы құпия код пен PIN кодын енгізіңіз.
+Дұрыс құпия код пен PIN коды енгізілмесе, кіруге тыйым салынады.&lt;br/&gt;&lt;br/&gt;
+Телефон нөмірін не PIN кодын өзгерту үшін, Multi-Factor Authentication порталына кез келген уақытта оралуға болады.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtp" xml:space="preserve">
+    <value>Тіркелгіңіз Multi-Factor Authentication қолдануға конфигурацияланды.&lt;br/&gt;&lt;br/&gt;
+Кірген кезде, бұрынғы пайдаланушы аты мен құпия сөзді қолдана бересіз. Түпнұсқалығыңызды растау аяқталмас бұрын,
+сізге бір рет қолданылатын құпия код жазылған мәтіндік хабар жіберіледі. Осы құпия кодты жазып, мәтіндік хабарға жауап беріңіз.
+Дұрыс құпия кодты жазып жауап бермесеңіз, кіруге тыйым салынады.&lt;br/&gt;&lt;br/&gt;
+Шынымен бағдарламаға кіріп жатқан болсаңыз, Multi-Factor Authentication мәтіндік хабарын қабылдаған кезде ғана жауап беру керек.
+Кері жағдайда, басқа біреу сіздің пайдаланушы атыңыз бен құпия сөзіңізді қолданып, кіруге әрекет жасап жатуы мүмкін, сондықтан АТ әкімшіңізге мұндай ықтимал
+алаяқтық туралы хабар беруіңіз керек.&lt;br/&gt;&lt;br/&gt;
+Телефон нөмірін өзгерту үшін, Multi-Factor Authentication порталына кез келген уақытта оралуға болады.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Тіркелгіңіз Multi-Factor Authentication қолдануға конфигурацияланды.&lt;br/&gt;&lt;br/&gt;
+Кірген кезде, бұрынғы пайдаланушы аты мен құпия сөзді қолдана бересіз. Түпнұсқалығыңызды растау аяқталмас бұрын,
+сізге бір рет қолданылатын құпия код жазылған мәтіндік хабар жіберіледі. Осы құпия кодпен PIN кодын жазып, мәтіндік хабарға жауап беріңіз.
+Дұрыс құпия код пен PIN кодын жазып жауап бермесеңіз, кіруге тыйым салынады.&lt;br/&gt;&lt;br/&gt;
+Шынымен бағдарламаға кіріп жатқан болсаңыз, Multi-Factor Authentication мәтіндік хабарын қабылдаған кезде ғана жауап беру керек.
+Кері жағдайда, басқа біреу сіздің пайдаланушы атыңыз бен құпия сөзіңізді қолданып, кіруге әрекет жасап жатуы мүмкін, сондықтан АТ әкімшіңізге мұндай ықтимал
+алаяқтық туралы хабар беруіңіз керек.&lt;br/&gt;&lt;br/&gt;
+Телефон нөмірін не PIN кодын өзгерту үшін, Multi-Factor Authentication порталына кез келген уақытта оралуға болады.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageStandard" xml:space="preserve">
+    <value>Тіркелгіңіз Multi-Factor Authentication қолдануға конфигурацияланды.&lt;br/&gt;&lt;br/&gt;
+Кірген кезде, бұрынғы пайдаланушы аты мен құпия сөзді қолдана бересіз. Түпнұсқалығыңызды растау аяқталмас бұрын,
+кіруді растау үшін, телефон қоңырауы арқылы сізден тор (#) түймесін басу сұралады. # түймесін басып,
+кіруді растамасаңыз, кіруге тыйым салынады.&lt;br/&gt;&lt;br/&gt;
+Шынымен бағдарламаға кіріп жатқан болсаңыз, Multi-Factor Authentication қоңырауын қабылдаған кезде ғана # түймесін басу керек.
+Кері жағдайда, басқа біреу сіздің пайдаланушы атыңыз бен құпия сөзіңізді қолданып, кіруге әрекет жасап жатуы мүмкін, сондықтан АТ әкімшіңізге мұндай ықтимал
+алаяқтық туралы хабар беруіңіз керек.&lt;br/&gt;&lt;br/&gt;
+Телефон нөмірін өзгерту үшін, Multi-Factor Authentication порталына кез келген уақытта оралуға болады.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageVoiceprint" xml:space="preserve">
+    <value>Тіркелгіңіз Multi-Factor Authentication қолдануға конфигурацияланды.&lt;br/&gt;&lt;br/&gt;
+Кірген кезде, бұрынғы пайдаланушы аты мен құпия сөзді қолдана бересіз. Түпнұсқалығыңызды растау аяқталмас бұрын,
+кіруді растау үшін, телефон қоңырауы арқылы сізден құпия сөз орамын айту сұралады. Құпия сөз орамын айтып,
+кіруді растамасаңыз, кіруге тыйым салынады.&lt;br/&gt;&lt;br/&gt;
+Шынымен бағдарламаға кіріп жатқан болсаңыз, Multi-Factor Authentication қоңырауын қабылдаған кезде ғана құпия сөз орамын айту керек.
+Кері жағдайда, басқа біреу сіздің пайдаланушы атыңыз бен құпия сөзіңізді қолданып, кіруге әрекет жасап жатуы мүмкін, сондықтан АТ әкімшіңізге мұндай ықтимал
+алаяқтық туралы хабар беруіңіз керек.&lt;br/&gt;&lt;br/&gt;
+Телефон нөмірін өзгерту үшін, Multi-Factor Authentication порталына кез келген уақытта оралуға болады.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MustChangeModeToPhoneApp" xml:space="preserve">
+    <value>Құрылғыда Multi-Factor Authentication мобильді бағдарламасын белсендіргеннен кейін, Мобильді бағдарлама әдісіне ауысу керек. Бағдарламаны қолдана бастау үшін, шарлау мәзірінде "Әдісті өзгерту" сілтемесін басып, "Мобильді бағдарлама" әдісін белгілеңіз.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_MustChangeUserToPhoneAppMode" xml:space="preserve">
+    <value>Пайдаланушы құрылғыда Multi-Factor Authentication мобильді бағдарламасын белсендіргеннен кейін, бағдарламаны қолдана алуы үшін, оның әдісін "Мобильді бағдарлама" әдісіне өзгерту керек.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerPhoneApp" xml:space="preserve">
+    <value>Басқа біреу құпия сөзді біле отырып, тіркелгіге кіруге әрекет жасаған кезде ғана, мұндай жағдай орын алуы мүмкін. Есіңізде болсын, Multi-Factor Authentication мобильді бағдарламасының хабарландырулары пайдаланушы аты мен құпия сөз тексерілгеннен кейін ғана жіберіледі. Мұндай жағдай орын алса, демек Multi-Factor Authentication қызметі тіркелгіңізді рұқсатсыз қолданудан сақтап қалды.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerSms" xml:space="preserve">
+    <value>Басқа біреу құпия сөзді біле отырып, тіркелгіге кіруге әрекет жасаған кезде ғана, мұндай жағдай орын алуы мүмкін. Есіңізде болсын, мәтіндік хабарлар пайдаланушы аты мен құпия сөз тексерілгеннен кейін ғана жіберіледі. Мұндай жағдай орын алса, демек Multi-Factor Authentication қызметі тіркелгіңізді рұқсатсыз қолданудан сақтап қалды.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerVoice" xml:space="preserve">
+    <value>Басқа біреу құпия сөзді біле отырып, тіркелгіге кіруге әрекет жасаған кезде ғана, мұндай жағдай орын алуы мүмкін. Есіңізде болсын, пайдаланушы аты мен құпия сөз тексерілгеннен кейін ғана қоңырау соғылады. Мұндай жағдай орын алса, демек Multi-Factor Authentication қызметі тіркелгіңізді рұқсатсыз қолданудан сақтап қалды.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionPhoneApp" xml:space="preserve">
+    <value>Кіруге әрекет жасап жатпаған кезде, Multi-Factor Authentication мобильді бағдарламасының хабарландыруын алсам, ол нені білдіреді?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionSms" xml:space="preserve">
+    <value>Кіруге әрекет жасап жатпаған кезде, Multi-Factor Authentication қызметінен мәтіндік хабар алсам, ол нені білдіреді?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionVoice" xml:space="preserve">
+    <value>Кіруге әрекет жасап жатпаған кезде, Multi-Factor Authentication қызметінен телефон қоңырауын қабылдасам, ол нені білдіреді?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassOathToken" xml:space="preserve">
+    <value>Сондай-ақ компанияңыз бір рет айналып өту параметрін қамтамасыз етеді. Оның көмегімен түпнұсқалықты растау кодынсыз бір рет кіруге болады. Осы мүмкіндікті қолдану үшін, "Бір рет айналып өту" параметрін таңдаңыз. Немесе, көмек алу үшін, қолдау көрсету қызметіне кез келген телефоннан қоңырау соғыңыз.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_OneTimeBypassPhoneApp" xml:space="preserve">
+    <value>Сондай-ақ компанияңыз бір рет айналып өту параметрін қамтамасыз етеді. Оның көмегімен Multi-Factor Authentication мобильді бағдарламасының хабарландыруынсыз бір рет кіруге болады. Осы мүмкіндікті қолдану үшін, "Бір рет айналып өту" параметрін таңдаңыз. Немесе көмек алу үшін, қолдау көрсету қызметіне кез келген телефоннан қоңырау соғыңыз.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassSms" xml:space="preserve">
+    <value>Сондай-ақ компанияңыз бір рет айналып өту параметрін қамтамасыз етеді. Оның көмегімен мәтіндік хабарсыз бір рет кіруге болады. Осы мүмкіндікті қолдану үшін, "Бір рет айналып өту" параметрін таңдаңыз. Немесе көмек алу үшін, қолдау көрсету қызметіне кез келген телефоннан қоңырау соғыңыз.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassVoice" xml:space="preserve">
+    <value>Сондай-ақ компанияңыз бір рет айналып өту параметрін қамтамасыз етеді. Оның көмегімен телефон қоңырауынсыз бір рет кіруге болады. Осы мүмкіндікті қолдану үшін, "Бір рет айналып өту" параметрін таңдаңыз. Немесе көмек алу үшін, қолдау көрсету қызметіне кез келген телефоннан қоңырау соғыңыз.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtp" xml:space="preserve">
+    <value>Бір рет қолданылатын құпия код</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtpPlusPin" xml:space="preserve">
+    <value>Бір рет қолданылатын құпия код + PIN</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_SimpleProcessOathToken" xml:space="preserve">
+    <value>Бұл қарапайым процесс арқасында сізде түпнұсқалықты растаудың екі бөлек әдісі болады. Екінші түпнұсқалықты растау әдісі үшін өзіңізде бар басқа құралды қолдана аласыз (смартфон не таңбалауыш).</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_SimpleProcessPhoneApp" xml:space="preserve">
+    <value>Бұл қарапайым процесс арқасында сізде екі бөлек арна арқылы түпнұсқалықты растаудың екі бөлек әдісі болады (компьютер және смартфон).</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessSms" xml:space="preserve">
+    <value>Бұл қарапайым процесс арқасында сізде екі бөлек арна арқылы түпнұсқалықты растаудың екі бөлек әдісі болады (компьютер және телефон қызметі). Ол мәтіндік хабар алмасу мүмкіндігі бар кез келген телефон арқылы жұмыс істейді.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessVoice" xml:space="preserve">
+    <value>Бұл қарапайым процесс арқасында сізде екі бөлек арна арқылы түпнұсқалықты растаудың екі бөлек әдісі болады (компьютер және телефон қызметі). Ол кез келген әдеттегі не мобильді телефон арқылы жұмыс істейді.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionOathToken" xml:space="preserve">
+    <value>Сізден бірден түпнұсқалықты растау коды сұралады. Multi-Factor Authentication мобильді бағдарламасында не таңбалауышта көрсетіліп тұрған ағымдағы түпнұсқалықты растау кодын енгізіңіз.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppPin" xml:space="preserve">
+    <value>Сізге бірден Multi-Factor Authentication мобильді бағдарламасының хабарландыруы келеді. Бағдарламаны іске қосып, PIN кодын енгізіңіз де, "Түпнұсқалықты растау" түймесін басыңыз.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppStandard" xml:space="preserve">
+    <value>Сізге бірден Multi-Factor Authentication мобильді бағдарламасының хабарландыруы келеді. Бағдарламаны іске қосып, "Түпнұсқалықты растау" түймесін басыңыз.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppVoiceprint" xml:space="preserve">
+    <value>Сізге бірден Multi-Factor Authentication мобильді бағдарламасының хабарландыруы келеді. Бағдарламаны іске қосып, сұралған кезде, құпия сөз орамын айтыңыз.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPin" xml:space="preserve">
+    <value>Сізге бірден қоңырау соғылады. Оған жауап беріп, PIN кодын енгізіңіз де, # түймесін басыңыз.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtp" xml:space="preserve">
+    <value>Сізге бірден бір рет қолданылатын құпия код жазылған мәтіндік хабар келеді. Бағдарлама сұраған кезде, осы құпия кодты енгізіңіз.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Сізге бірден бір рет қолданылатын құпия код жазылған мәтіндік хабар келеді. Бағдарлама сұраған кезде, осы құпия код пен PIN кодын енгізіңіз.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtp" xml:space="preserve">
+    <value>Сізге бірден бір рет қолданылатын құпия код жазылған мәтіндік хабар келеді. Осы құпия кодты жазып, мәтіндік хабарға жауап беріңіз.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Сізге бірден бір рет қолданылатын құпия код жазылған мәтіндік хабар келеді. Осы құпия код пен PIN кодын жазып, мәтіндік хабарға жауап беріңіз.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionStandard" xml:space="preserve">
+    <value>Сізге бірден қоңырау соғылады. Оған жауап беріп, # түймесін басыңыз.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionVoiceprint" xml:space="preserve">
+    <value>Сізге бірден қоңырау соғылады. Оған жауап беріп, сигналдан кейін құпия сөз орамын айтыңыз.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_TitleWithColon" xml:space="preserve">
+    <value>{0}:</value>
+    <comment>Page header on most pages</comment>
+  </data>
+  <data name="Label_UnblockReason" xml:space="preserve">
+    <value>Блоктан шығару себебі</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_AccountConfigurationComplete" xml:space="preserve">
+    <value>Тіркелгіні конфигурациялау аяқталды</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Message_AnswerRequired" xml:space="preserve">
+    <value>Кем дегенде бір қауіпсіздік сұрағына жауап беру керек.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AnswerSecurityQuestions" xml:space="preserve">
+    <value>Кіру үшін, қауіпсіздік сұрақтарына жауап беріңіз.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AnswersIncorrect" xml:space="preserve">
+    <value>Бір не одан көп жауап қате.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AuthenticationDenied" xml:space="preserve">
+    <value>Multi-Factor Authentication қабылданбады.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedAnswerSecurityQuestions" xml:space="preserve">
+    <value>Multi-Factor Authentication қабылданбады. Кіру үшін, қауіпсіздік сұрақтарына жауап беріңіз.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedCallResult" xml:space="preserve">
+    <value>Multi-Factor Authentication қабылданбады: {0}</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_AuthenticationSuccessful" xml:space="preserve">
+    <value>Multi-Factor Authentication нәтижелі болды.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_BypassSecondsNumeric" xml:space="preserve">
+    <value>Айналып өту секундтары саннан тұруы қажет.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRange" xml:space="preserve">
+    <value>Айналып өту секундтары 5 пен 1800 аралығында болуы керек (30 минут).</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRequired" xml:space="preserve">
+    <value>Айналып өту секундтары қажет.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_CannotActivateDevice" xml:space="preserve">
+    <value>"Мобильді  бағдарлама" әдісіне ауысу үшін, тіркелгіңіз құрылғыда белсендірілген Multi-Factor Authentication мобильді бағдарламасымен байланыстырылған болуы керек. Құрылғыда Multi-Factor Authentication мобильді бағдарламасын белсендіруге қатысты көмек алу үшін, қолдау көрсету қызметіне хабарласыңыз.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotEstablishWebServiceSdkConnection" xml:space="preserve">
+    <value>Multi-Factor Authentication пайдаланушыларының порталы веб қызметі SDK құралымен қауіпсіз байланыс орната алмады: {0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_CannotGetOathToken" xml:space="preserve">
+    <value>"OATH таңбалауышы" әдісіне ауысу үшін, тіркелгіңіз құрылғыда белсендірілген Multi-Factor Authentication мобильді бағдарламасымен немесе OATH таңбалауышымен байланыстырылған болуы керек. Құрылғыда Multi-Factor Authentication мобильді бағдарламасын белсендіруге немесе OATH таңбалауышын тағайындауға қатысты көмек алу үшін, қолдау көрсету қызметіне хабарласыңыз.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneSmsText" xml:space="preserve">
+    <value>"Мәтіндік хабар" әдісіне ауысу үшін, тіркелгіңізде тағайындалған телефон нөмірі болуы керек. Тіркелгіңізге телефон нөмірін тағайындау үшін, қолдау көрсету қызметіне хабарласыңыз.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Телефон қоңырауы әдісіне ауысу үшін тіркелгіңізде тағайындалған телефон нөмірі болуы керек. Тіркелгіңізге телефон нөмірін тағайындау үшін қолдау көрсету қызметіне хабарласыңыз.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeOathTokenIncomplete" xml:space="preserve">
+    <value>Ескерім: пайдаланушы құрылғыда Multi-Factor Authentication мобильді бағдарламасын белсендірген жоқ немесе оған үшінші тарап OATH таңбалауышы тағайындалған, сондықтан оның деректері OATH таңбалауышы әдісін қолдану үшін толық емес деп есептеледі. Бұл пайдаланушы үшін қорғалған бағдарламаларға түпнұсқалықты растау әрекеттері нәтижелі болмайды және Пайдаланушы порталына кіру әрекеттері жасалғанда, одан қайта тіркелу талап етіледі. Пайдаланушыға хабарласып, Multi-Factor Authentication мобильді бағдарламасын белсендіруге көмектескеніңіз немесе үшінші тарап OATH таңбалауышын тағайындап таратқаныңыз дұрыс болады.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModePhoneAppIncomplete" xml:space="preserve">
+    <value>Ескерім: пайдаланушы құрылғыда Multi-Factor Authentication мобильді бағдарламасын белсендірген жоқ, сондықтан оның деректері Мобильді бағдарлама әдісін қолдану үшін толық емес деп есептеледі. Бұл пайдаланушы үшін қорғалған бағдарламаларға түпнұсқалықты растау әрекеттері нәтижелі болмайды және Пайдаланушы порталына кіру әрекеттері жасалғанда, одан қайта тіркелу талап етіледі. Пайдаланушыға хабарласып, Multi-Factor Authentication мобильді бағдарламасын белсендіруге көмектескеніңіз дұрыс болады.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeSmsTextIncomplete" xml:space="preserve">
+    <value>Ескерім: пайдаланушының белгіленген телефон нөмірі жоқ, сондықтан оның деректері Мәтіндік хабар әдісін қолдану үшін толық емес деп есептеледі. Бұл пайдаланушы үшін қорғалған бағдарламаларға түпнұсқалықты растау әрекеттері нәтижелі болмайды және Пайдаланушы порталына кіру әрекеттері жасалғанда, одан қайта тіркелу талап етіледі. Пайдаланушы қайта тіркелмей қорғалған бағдарламаларды қолдана алуы үшін, оның телефон нөмірін белгілеген жөн.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeVoiceCallIncomplete" xml:space="preserve">
+    <value>Ескерім: пайдаланушының белгіленген телефон нөмірі жоқ, сондықтан оның деректері Телефон қоңырауы әдісін қолдану үшін толық емес деп есептеледі. Бұл пайдаланушы үшін қорғалған бағдарламаларға түпнұсқалықты растау әрекеттері нәтижелі болмайды және Пайдаланушы порталына кіру әрекеттері жасалғанда, одан қайта тіркелу талап етіледі. Пайдаланушы қайта тіркелмей қорғалған бағдарламаларды қолдана алуы үшін, оның телефон нөмірін белгілеген жөн.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CodeRequired" xml:space="preserve">
+    <value>Код қажет.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_CodeRequiredCross" xml:space="preserve">
+    <value>Сериялық нөмір белгіленген кезде код қажет болады.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ConfirmDeactivate" xml:space="preserve">
+    <value>Осы құрылғыны шынымен біржола ажырату керек пе?</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceDeactivated" xml:space="preserve">
+    <value>Құрылғы ажыратылды.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceLimit" xml:space="preserve">
+    <value>Тіркелгіңіз {0} құрылғы шегіне жетті. Жаңа бір құрылғыны белсендірмес бұрын, бұрыннан бар бір құрылғыны ажырату керек.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DuplicateAnswer" xml:space="preserve">
+    <value>Қайталанатын жауапқа рұқсат жоқ.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateQuestion" xml:space="preserve">
+    <value>Қайталанатын сұраққа рұқсат жоқ.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateUsername" xml:space="preserve">
+    <value>Қайталанатын пайдаланушы аты.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUser" xml:space="preserve">
+    <value>Пайдаланушы қосу қатесі.&lt;br/&gt;{0}</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUserForPassedSession" xml:space="preserve">
+    <value>Өткен сеанс үшін пайдаланушы қосу қатесі.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithLocal" xml:space="preserve">
+    <value>Жергілікті Multi-Factor Authentication қызметімен байланысу қатесі. Әкімшіге хабарласыңыз.</value>
+    <comment>Most pages when connection to local server is lost</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithMaster" xml:space="preserve">
+    <value>Басты Multi-Factor Authentication қызметімен байланысу қатесі. Әкімшіге хабарласыңыз.</value>
+    <comment>Most pages when connection to master server is lost</comment>
+  </data>
+  <data name="Message_ErrorDeactivatingDevice" xml:space="preserve">
+    <value>Құрылғыны ажырату қатесі.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorDisablingUser" xml:space="preserve">
+    <value>Пайдаланушыны ажырату қатесі.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorEnablingUser" xml:space="preserve">
+    <value>Пайдаланушыны қосу қатесі.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorFindingUsers" xml:space="preserve">
+    <value>Пайдаланушыларды табу қатесі.&lt;br/&gt;{0}</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_ErrorGeneratingActivationCode" xml:space="preserve">
+    <value>Белсендіру кодын жасау қатесі.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorIssuingOneTimeBypass" xml:space="preserve">
+    <value>Бір рет айналып өту мүмкіндігін шығару қатесі. Әкімшіге хабарласыңыз.&lt;br/&gt;{0}</value>
+    <comment>one_time_bypass and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorRemovingUser" xml:space="preserve">
+    <value>Пайдаланушыны жою қатесі.&lt;br/&gt;{0}</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_ErrorResettingMode" xml:space="preserve">
+    <value>Әдісті қалпына келтіру қатесі.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPhone" xml:space="preserve">
+    <value>Телефонды қалпына келтіру қатесі.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPin" xml:space="preserve">
+    <value>PIN кодын қалпына келтіру қатесі.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingVoiceprint" xml:space="preserve">
+    <value>Дауыстық растаманы қалпына келтіру қатесі. Әкімшіге хабарласыңыз.&lt;br/&gt;{0}</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingLanguage" xml:space="preserve">
+    <value>Тілді жаңарту қатесі.&lt;br/&gt;{0}</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingMode" xml:space="preserve">
+    <value>Әдісті жаңарту қатесі.&lt;br/&gt;{0}</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhone" xml:space="preserve">
+    <value>Телефонды жаңарту қатесі.&lt;br/&gt;{0}</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhoneAppMode" xml:space="preserve">
+    <value>Мобильді бағдарлама режимін жаңарту қатесі.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPin" xml:space="preserve">
+    <value>PIN кодын жаңарту қатесі.&lt;br/&gt;{0}</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSecurityQuestions" xml:space="preserve">
+    <value>Қауіпсіздік сұрақтарын жаңарту қатесі.&lt;br/&gt;{0}</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSmsTextMode" xml:space="preserve">
+    <value>Мәтіндік хабар режимін жаңарту қатесі.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingStaticToken" xml:space="preserve">
+    <value>Тұрақты таңбалауышты жаңарту қатесі.&lt;br/&gt;{0}</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserForSecurityQuestionSetup" xml:space="preserve">
+    <value>Қауіпсіздік сұрағын орнату үшін пайдаланушыны жаңарту қатесі.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserInformation" xml:space="preserve">
+    <value>Пайдаланушы ақпаратын жаңарту қатесі.&lt;br/&gt;{0}</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingVoiceCallMode" xml:space="preserve">
+    <value>Телефон қоңырауы режимін жаңарту қатесі.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ExpiredSession" xml:space="preserve">
+    <value>Сеанстың мерзімі аяқталды.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_IncorrectAnswers" xml:space="preserve">
+    <value>Берген жауаптарыңыз қате, әрекетті қайталаңыз.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_IncorrectOathCode" xml:space="preserve">
+    <value>Түпнұсқалықты растау коды дұрыс емес.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscode" xml:space="preserve">
+    <value>Бір рет қолданылатын құпия код дұрыс емес.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscodePlusPin" xml:space="preserve">
+    <value>Бір рет қолданылатын құпия код + PIN дұрыс емес.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_InvalidExtension" xml:space="preserve">
+    <value>Жарамсыз кеңейтім. Тек сандар, үтірлер, * және # таңбаларын қолдануға болады. Бір секундқа тоқтата тұру үшін үтір қолданыңыз. Кеңейтім сандарын қолмен тасымалдау үшін кеңейтім алдына @ таңбасын қойыңыз.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_InvalidSerialNumber" xml:space="preserve">
+    <value>Жарамсыз сериялық нөмір. Сериялық нөмірі осындай OATH таңбалауышын пайдаланушымен байланыстырмас бұрын, оны Multi-Factor Authentication серверінің пайдаланушы интерфейсінде анықтау қажет.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_LineBreak" xml:space="preserve">
+    <value>&lt;br/&gt;{0}</value>
+    <comment>add_user, change_phone, change_pin, change_mode, change_language and enable_disable pages</comment>
+  </data>
+  <data name="Message_LoginFailed" xml:space="preserve">
+    <value>Кіру орындалмады.</value>
+    <comment>login and secondary_authentication pages</comment>
+  </data>
+  <data name="Message_MustActivateDevice" xml:space="preserve">
+    <value>Мобильді бағдарлама әдісіне ауысу үшін құрылғыда Multi-Factor Authentication мобильді бағдарламасын белсендіру керек. Белсендіруді бастау үшін шарлау мәзірінде "Мобильді бағдарлама" сілтемесін басыңыз.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustActivateDeviceOathToken" xml:space="preserve">
+    <value>OATH таңбалауышы әдісіне ауысу үшін құрылғыда Multi-Factor Authentication мобильді бағдарламасын белсендіру керек. Белсендіруді бастау үшін шарлау мәзірінде "Мобильді бағдарлама" сілтемесін басыңыз.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustAnswerAllQuestions" xml:space="preserve">
+    <value>Барлық қауіпсіздік сұрақтарына жауап беру керек.</value>
+    <comment>create_security_questions, change_security_questions, and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_MustEnrollOathToken" xml:space="preserve">
+    <value>OATH таңбалауышы әдісіне ауысу үшін тіркелгіңізге OATH таңбалауышын байланыстыру керек. OATH таңбалауышын байланыстыру үшін "OATH таңбалауышы" сілтемесін басыңыз.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustHaveOathToken" xml:space="preserve">
+    <value>OATH таңбалауышы әдісіне ауысу үшін құрылғыда Multi-Factor Authentication мобильді бағдарламасын белсендіру немесе тіркелгіге OATH таңбалауышын байланыстыру керек. Белсендіруді бастау үшін "Мобильді бағдарламаны белсендіру" сілтемесін басыңыз немесе OATH таңбалауышын байланыстыру үшін "OATH таңбалауышы" сілтемесін басыңыз.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Мәтіндік хабар әдісіне ауысу үшін тіркелгіңізге телефон нөмірін белгілеу керек. Телефон нөмірін белгілеу үшін шарлау мәзірінде "Телефонды өзгерту" сілтемесін басыңыз.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Телефон қоңырауы әдісіне ауысу үшін тіркелгіңізге телефон нөмірін белгілеу керек. Телефон нөмірін белгілеу үшін шарлау мәзірінде "Телефонды өзгерту" сілтемесін басыңыз.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifySearchField" xml:space="preserve">
+    <value>Кем дегенде бір іздеу өрісін белгілеу керек.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoActivatedDevices" xml:space="preserve">
+    <value>Бұл пайдаланушы үшін белсендірілген құрылғылар жоқ.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_NoMatchingUsersFound" xml:space="preserve">
+    <value>Сәйкес келетін пайдаланушылар табылған жоқ.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoSsl" xml:space="preserve">
+    <value>Multi-Factor Authentication пайдаланушы порталы SSL протоколымен қорғалмаған, Web.config ішіндегі сеанстардың "cookie" файлдары үшін SSL қажет. Сеанс күйі сақталмайтындықтан, пайдаланушы порталы жұмыс істемейді. Пайдаланушы порталын SSL протоколымен қорғаған жөн. Тексеру үшін Web.config ішіндегі &lt;httpCookies&gt; тегінде requireSSL параметрін уақытша "жалған" мәніне өзгертуге болады.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailed" xml:space="preserve">
+    <value>OATH таңбалауышын синхрондау орындалмады. Енгізілген код дұрыс емес немесе OATH таңбалауышының сериялық нөмірі жарамсыз.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailedUser" xml:space="preserve">
+    <value>OATH таңбалауышын синхрондау орындалмады. Енгізілген код дұрыс емес.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OnlyFirstMatchesDisplayed" xml:space="preserve">
+    <value>Тек алғашқы {0} сәйкес келетін жазбалар көрсетіледі. Тізімнен пайдаланушы табылмаса, дәлірек іздеу шарттарын енгізіңіз.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_PassedSessionFailed" xml:space="preserve">
+    <value>Өткен сеанс сәтсіз болды.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_PhoneRequired" xml:space="preserve">
+    <value>Телефон қажет.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMatch" xml:space="preserve">
+    <value>PIN коды мен PIN кодын растау жолақтары сәйкес келуі керек.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMinimumLength" xml:space="preserve">
+    <value>PIN кодында кем дегенде {0} сан болуы керек.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinNumeric" xml:space="preserve">
+    <value>PIN кодында тек сандар болуы керек.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinRecentlyUsed" xml:space="preserve">
+    <value>PIN коды соңғы кезде қолданылған PIN кодтарының бірімен бірдей болмауы керек. Басқа PIN кодын таңдаңыз.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_SamlDisabled" xml:space="preserve">
+    <value>Сыртқы бағдарламаларға SAML көмегімен құпия сөзді бір рет енгізу арқылы кіру ажыратылған.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotDefined" xml:space="preserve">
+    <value>Бұл пайдаланушы үшін қауіпсіздік сұрақтары анықталмаған.&lt;br/&gt;</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotSetUp" xml:space="preserve">
+    <value>Қауіпсіздік сұрақтарын орнатпағандықтан, телефонсыз кіре алмауыңыз мүмкін.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsVerified" xml:space="preserve">
+    <value>Қауіпсіздік сұрақтары тексерілді.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityWarningNoSsl" xml:space="preserve">
+    <value>ҚАУІПСІЗДІК ЕСКЕРТУІ: Multi-Factor Authentication пайдаланушы порталы SSL протоколымен қорғалмаған. Құпия сөздер кәдімгі мәтін түрінде жіберіледі.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SerialNumberAlreadyAssociated" xml:space="preserve">
+    <value>Сериялық нөмір мен {0} әлдеқашан байланыстырылған. Осы пайдаланушымен байланыстыру үшін сериялық нөмірді сол пайдаланушыдан жою керек.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_SerialNumberRequired" xml:space="preserve">
+    <value>Сериялық нөмір қажет.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_SerialNumberRequiredCross" xml:space="preserve">
+    <value>Код белгіленген кезде сериялық нөмір қажет болады.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ShortAnswer" xml:space="preserve">
+    <value>Жауапта кем дегенде 4 таңба болуы керек.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_StaticTokenMatch" xml:space="preserve">
+    <value>"Тұрақты таңбалауыш" және "Тұрақты таңбалауышты растау" жолақтары сәйкес келуі керек.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenMinimumLength" xml:space="preserve">
+    <value>Тұрақты таңбалауышта кем дегенде {0} сан болуы керек.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenNumeric" xml:space="preserve">
+    <value>Тұрақты таңбалауышта тек сандар болуы керек.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserAdded" xml:space="preserve">
+    <value>Пайдаланушы қосылды.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_UserAlreadyBlocked" xml:space="preserve">
+    <value>Блоктау орындалмады. Пайдаланушыға әлдеқашан тыйым салынған.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlocked" xml:space="preserve">
+    <value>Пайдаланушыға тыйым салынды.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlockFailed" xml:space="preserve">
+    <value>Блоктау орындалмады.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserDeviceLimit" xml:space="preserve">
+    <value>Пайдаланушы {0} құрал шегіне жетті. Пайдаланушы жаңа бір құрылғыны белсендіруі үшін оның бар бір құрылғысын ажырату қажет.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_UserDisabled" xml:space="preserve">
+    <value>Пайдаланушы ажыратылды.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserEnabled" xml:space="preserve">
+    <value>Пайдаланушы сәтті түрде қосылды.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserInformationChanged" xml:space="preserve">
+    <value>Пайдаланушы ақпараты өзгертілді.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_UserLanguageChanged" xml:space="preserve">
+    <value>Пайдаланушының тіл таңдауы өзгертілді.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_UserModeChanged" xml:space="preserve">
+    <value>Пайдаланушының әдісі өзгертілді.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_UsernameRequired" xml:space="preserve">
+    <value>Пайдаланушы аты қажет.</value>
+    <comment>login and add_user pages</comment>
+  </data>
+  <data name="Message_UserNotBlocked" xml:space="preserve">
+    <value>Блоктан шығару орындалмады. Пайдаланушыға тыйым салынған емес.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserOathTokenSaved" xml:space="preserve">
+    <value>Пайдаланушының OATH таңбалауышы сақталды.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_UserOneTimeBypassIssued" xml:space="preserve">
+    <value>Бір рет айналып өту мүмкіндігі шығарылды. Пайдаланушы келесі рет кірген кезде Multi-Factor Authentication қызметін өткізіп жібереді.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_UserPhoneChanged" xml:space="preserve">
+    <value>Пайдаланушының телефоны өзгертілді.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_UserPinChanged" xml:space="preserve">
+    <value>Пайдаланушының PIN коды өзгертілді.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_UserPortalDisabled" xml:space="preserve">
+    <value>Пайдаланушы порталына тікелей кіру ажыратылды.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserPortalNotPurchased" xml:space="preserve">
+    <value>Multi-Factor Authentication пайдаланушы порталы сатып алынбағандықтан, бұл мүмкіндік жұмыс істемейді.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserRemoved" xml:space="preserve">
+    <value>Пайдаланушы жойылды.</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_UserStaticTokenChanged" xml:space="preserve">
+    <value>Пайдаланушының тұрақты таңбалауышы өзгертілді.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserSubmodeChanged" xml:space="preserve">
+    <value>Пайдаланушының әдіс(тер)і өзгертілді.</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_UserUnblocked" xml:space="preserve">
+    <value>Пайдаланушы блоктан шығарылды.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserUnblockFailed" xml:space="preserve">
+    <value>Блоктан шығару орындалмады.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserVoiceprintReset" xml:space="preserve">
+    <value>Дауыстық растама қалпына келтірілді. Пайдаланушы келесі рет кірген кезде, одан жаңа дауыстық растама тіркеу сұралады.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_WeakPinNotAllowed" xml:space="preserve">
+    <value>Әлсіз PIN кодына рұқсат жоқ. Құрамында телефон нөмірінің 4 не одан көп сандар жиыны, 3 не одан көп қайталанатын сан немесе 3 не одан көп реттік сан болмауы керек.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_WeakStaticTokenNotAllowed" xml:space="preserve">
+    <value>Әлсіз тұрақты таңбалауышқа рұқсат жоқ. Құрамында телефон нөмірінің 4 не одан көп сандар жиыны, 3 не одан көп қайталанатын сан немесе 3 не одан көп реттік сан болмауы керек.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_WebServiceSdkError" xml:space="preserve">
+    <value>Multi-Factor Authentication пайдаланушы порталы веб қызметі SDK құралымен байланысуға конфигурацияланған, ол келесі қатені қайтарды:&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_WebServiceSdkNotPurchased" xml:space="preserve">
+    <value>Multi-Factor Authentication пайдаланушы порталы веб қызметі SDK құралымен байланысуға конфигурацияланған, ол сатып алынған емес.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_YourInformationChanged" xml:space="preserve">
+    <value>Ақпаратыңыз өзгертілді.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_YourLanguageChanged" xml:space="preserve">
+    <value>Тіл таңдауыңыз өзгертілді.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_YourModeChanged" xml:space="preserve">
+    <value>Әдісіңіз өзгертілді.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_YourOathTokenSaved" xml:space="preserve">
+    <value>OATH таңбалауышыңыз сақталды.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_YourOneTimeBypassIssued" xml:space="preserve">
+    <value>Бір рет айналып өту мүмкіндігі шығарылды. Келесі рет кірген кезде Multi-Factor Authentication қызметін өткізіп жібересіз.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_YourPhoneChanged" xml:space="preserve">
+    <value>Телефоныңыз өзгертілді.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_YourPinChanged" xml:space="preserve">
+    <value>PIN кодыңыз өзгертілді.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_YourSecurityQuestionsChanged" xml:space="preserve">
+    <value>Қауіпсіздік сұрақтарыңыз бен жауаптарыңыз өзгертілді.</value>
+    <comment>change_security_questions page</comment>
+  </data>
+  <data name="Message_YourStaticTokenChanged" xml:space="preserve">
+    <value>Тұрақты таңбалауышыңыз өзгертілді.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_YourVoiceprintReset" xml:space="preserve">
+    <value>Дауыстық растама қалпына келтірілді. Келесі рет кірген кезде, сізден жаңа дауыстық растама тіркеу сұралады.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Reason_InitiatedByAdmin" xml:space="preserve">
+    <value>Пайдаланушы порталындағы әкімші іске қосқан</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Reason_InitiatedByUser" xml:space="preserve">
+    <value>Пайдаланушы порталындағы пайдаланушы іске қосқан</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Subtitle_DeactivatePhoneApp" xml:space="preserve">
+    <value>Мобильді бағдарламаны ажырату</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Subtitle_Enable" xml:space="preserve">
+    <value>Қосу</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Subtitle_UnblockUser" xml:space="preserve">
+    <value>Пайдаланушыны блоктан шығару</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Title_PhoneFactorUserPortal" xml:space="preserve">
+    <value>Multi-Factor Authentication™ | пайдаланушы порталы</value>
+    <comment>Title on all pages</comment>
+  </data>
+  <data name="Value_All" xml:space="preserve">
+    <value>Барлығы</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Value_Masked" xml:space="preserve">
+    <value>Бүркемеленген</value>
+    <comment>add_user, change_pin, and oath_token pages</comment>
+  </data>
+</root>

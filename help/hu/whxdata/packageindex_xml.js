@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"utf-8\"?><cki><ck fm=\"!\" to=\"aktuáli\"/><ck fm=\"aktuálisan\" to=\"eszközén\"/><ck fm=\"eszközének\" to=\"hogy\"/><ck fm=\"hogyan\" to=\"lejár\"/><ck fm=\"letiltott\" to=\"működik\"/><ck fm=\"működését\" to=\"tilthatja\"/><ck fm=\"tiltá\" to=\"–\"/></cki>";

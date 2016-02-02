@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName_UserPortal" xml:space="preserve">
+    <value>Портал користувача</value>
+    <comment>Application name for Multi-Factor Authentications</comment>
+  </data>
+  <data name="Button_AuthenticateMeNow" xml:space="preserve">
+    <value>Автентифікувати мене</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_CallMeNowToAuthenticate" xml:space="preserve">
+    <value>Зателефонувати мені для автентифікації</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_Next" xml:space="preserve">
+    <value>Далі</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_TextMeNowToAuthenticate" xml:space="preserve">
+    <value>Надіслати мені текстове повідомлення для автентифікації</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_VerifyOathToken" xml:space="preserve">
+    <value>Перевірити маркер OATH</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Help_File" xml:space="preserve">
+    <value>help/PhoneFactor_User_Portal.htm</value>
+    <comment>Localize as help/xx/PhoneFactor_User_Portal.htm where xx is langauge code (e.g. de for German, zh-hans for Simplified Chinese)</comment>
+  </data>
+  <data name="Label_AlternatePhoneOathToken" xml:space="preserve">
+    <value>Для відображення кодів автентифікації мобільну програму Multi-Factor Authentication можна не підключати до мобільної мережі або WiFi.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_AlternatePhonePhoneApp" xml:space="preserve">
+    <value>Мобільна програма Multi-Factor Authentication так само добре працює через WiFi.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneSms" xml:space="preserve">
+    <value>Можна змінити обліковий запис таким чином, щоб він вказував на додатковий номер телефону. Для цього потрібно вибрати параметр "Змінити телефон".</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneVoice" xml:space="preserve">
+    <value>Можна змінити обліковий запис таким чином, щоб він вказував на додатковий номер телефону, наприклад стаціонарний номер. Для цього потрібно вибрати параметр "Змінити телефон".</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_CannotChangeModeToPhoneApp" xml:space="preserve">
+    <value>Після активації у пристрої мобільної програми Multi-Factor Authentication і перед початком використання програми необхідно в обліковому записі змінити його метод на "Мобільна програма". З питання змінення методу на "Мобільна програма" зверніться до служби технічної підтримки.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_Disable" xml:space="preserve">
+    <value>Вимкнути</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>Увімкнути</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_FraudAlertPhoneApp" xml:space="preserve">
+    <value>Щоб повідомити про інцидент, у мобільній програмі Multi-Factor Authentication натисніть кнопку "Відхилити", а потім – "Повідомити про шахрайство". Співробітників відділу ІТ-безпеки вашої організації буде попереджено. Подальші спроби автентифікації будуть блокуватися, доки проблему не буде усунуто.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertSms" xml:space="preserve">
+    <value>Щоб повідомити про інцидент, введіть у вашій відповіді код шахрайства. Співробітників відділу ІТ-безпеки вашої організації буде попереджено. Подальші спроби автентифікації блокуватимуться, доки проблему не буде усунуто.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertVoice" xml:space="preserve">
+    <value>Щоб повідомити про інцидент, під час виклику для автентифікації виберіть у меню телефону пункт "Попередження про шахрайство". Співробітників відділу ІТ-безпеки вашої організації буде попереджено. Подальші спроби автентифікації блокуватимуться, доки проблему не буде усунуто.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_GenerateActivationCode" xml:space="preserve">
+    <value>Створити код активації</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateActivationLink" xml:space="preserve">
+    <value>Створити посилання для активації</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationCode" xml:space="preserve">
+    <value>Створити новий код активації</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationLink" xml:space="preserve">
+    <value>Створити нове посилання для активації</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionOathToken" xml:space="preserve">
+    <value>Під час входу служба Multi-Factor Authentication запитує код автентифікації.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionPhoneApp" xml:space="preserve">
+    <value>Під час входу служба Multi-Factor Authentication надсилає сповіщення в мобільну програму Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionSms" xml:space="preserve">
+    <value>Під час входу служба Multi-Factor Authentication надсилає на ваш телефон текстове повідомлення.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionVoice" xml:space="preserve">
+    <value>Під час входу служба Multi-Factor Authentication телефонує вам для підтвердження.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsAdministrator" xml:space="preserve">
+    <value>Для керування обліковими записами користувачів виберіть у меню пункт "Знайти користувачів". Для керування своїм обліковим записом виберіть потрібний параметр. Для отримання допомоги виберіть піктограму довідки (вверху праворуч).</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeOathToken" xml:space="preserve">
+    <value>Виберіть метод &lt;b&gt;Маркер OATH&lt;/b&gt;, щоб виконувати автентифікацію за допомогою коду автентифікації з мобільної програми Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModePhoneApp" xml:space="preserve">
+    <value>Виберіть метод &lt;b&gt;Мобільна програма&lt;/b&gt;, щоб виконувати автентифікацію за допомогою мобільної програми Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeSmsText" xml:space="preserve">
+    <value>Виберіть метод &lt;b&gt;Текстове повідомлення&lt;/b&gt;, щоб виконувати автентифікацію через текстове повідомлення.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeVoiceCall" xml:space="preserve">
+    <value>Виберіть метод &lt;b&gt;Телефонний дзвінок&lt;/b&gt;, щоб виконувати автентифікацію через телефонний дзвінок.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtp" xml:space="preserve">
+    <value>Щоб завершити перевірку, введіть одноразовий код доступу, отриманий у текстовому повідомленні.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtpPlusPin" xml:space="preserve">
+    <value>Щоб завершити перевірку, введіть одноразовий код доступу, отриманий у текстовому повідомленні, а також PIN-код.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsFindUser" xml:space="preserve">
+    <value>Введіть кілька перших символів імені користувача та натисніть кнопку "Пошук".</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsOathToken" xml:space="preserve">
+    <value>Протестуйте автентифікацію цього користувача за допомогою маркера OATH.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneApp" xml:space="preserve">
+    <value>Протестуйте автентифікацію цього користувача за допомогою мобільної програми.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationIpWhitelist" xml:space="preserve">
+    <value>Після завершення активації натисніть кнопку "Далі", щоб продовжити процес настроювання.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationOathToken" xml:space="preserve">
+    <value>Після завершення активації натисніть розташовану нижче кнопку, щоб протестувати автентифікацію та продовжити процес настроювання. З появою запиту введіть поточний код автентифікації, який відображається у мобільній програмі.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsSelectUser" xml:space="preserve">
+    <value>Виберіть користувача зі списку або натисніть кнопку "Назад", щоб знайти іншого користувача.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsSmsText" xml:space="preserve">
+    <value>Протестуйте автентифікацію цього користувача за допомогою текстового повідомлення.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUnblockUser" xml:space="preserve">
+    <value>Введіть причину для розблокування та підтвердьте розблокування користувача. Автентифікація користувача більше не буде блокуватися.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Label_InstructionsUserActivatePhoneApp" xml:space="preserve">
+    <value>Користувач має спочатку інсталювати у своєму телефоні мобільну програму Multi-Factor Authentication. Натисніть кнопку "Створити", щоб отримати код активації. Код активації буде введено в мобільну програму користувача для завершення процесу активації.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserDeactivatePhoneApp" xml:space="preserve">
+    <value>Щоб вимкнути пристрій для користувача, клацніть посилання "Вимкнути" для пристрою.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserEnable" xml:space="preserve">
+    <value>Підтвердьте активацію користувача, щоб він почав отримувати виклики від служби Multi-Factor Authentication під час входу.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_InstructionsUserInformation" xml:space="preserve">
+    <value>Укажіть нову інформацію для цього користувача.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Label_InstructionsUserLanguage" xml:space="preserve">
+    <value>Укажіть пріоритетну мову для цього користувача.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Label_InstructionsUserMode" xml:space="preserve">
+    <value>Виберіть метод для цього користувача.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathCode" xml:space="preserve">
+    <value>Щоб завершити автентифікацію, введіть поточний код автентифікації, який відображається в мобільній програмі або маркері Multi-Factor Authentication.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathToken" xml:space="preserve">
+    <value>Введіть серійний номер маркера OATH і код, який відображається в даний момент у маркері, щоб прив'язати маркер до користувача.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Label_InstructionsUserOneTimeBypass" xml:space="preserve">
+    <value>Підтвердьте одноразовий обхід перевірки, щоб під час наступного входу цього користувача пропустити процедуру Multi-Factor Authentication. Обхід перевірки є тимчасовою операцією.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtp" xml:space="preserve">
+    <value>Щоб завершити автентифікацію, введіть одноразовий код доступу, який користувач отримав у SMS-повідомленні.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtpPlusPin" xml:space="preserve">
+    <value>Щоб завершити автентифікацію, введіть одноразовий код доступу, який користувач отримав у SMS-повідомленні, та PIN-код користувача.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserPhone" xml:space="preserve">
+    <value>Укажіть для цього користувача новий номер телефону.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Label_InstructionsUserPin" xml:space="preserve">
+    <value>Укажіть для цього користувача новий PIN-код.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Label_InstructionsUserResetVoiceprint" xml:space="preserve">
+    <value>Підтвердьте скидання голосового відбитка користувача. Під час наступного виклику для автентифікації користувач матиме зареєструвати новий голосовий відбиток.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathToken" xml:space="preserve">
+    <value>Щоб увімкнути службу Multi-Factor Authentication для облікового запису за допомогою методу "Маркер OATH", введіть серійний номер, зазначений наприкінці маркера OATH, і код, який відображається в даний момент у маркері, щоб прив'язати маркер до облікового запису.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathTokenPhoneApp" xml:space="preserve">
+    <value>Щоб увімкнути службу Multi-Factor Authentication для облікового запису за допомогою методу "Маркер OATH", спочатку потрібно інсталювати в телефоні програму Multi-Factor Authentication і потім натиснути розташовану нижче кнопку "Створити", щоб отримати код активації. Код активації буде введено в мобільну програму для завершення процесу активації. Код активації діє протягом 10 хвилин.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPhoneApp" xml:space="preserve">
+    <value>Щоб увімкнути службу Multi-Factor Authentication для облікового запису за допомогою мобільної програми, спочатку потрібно інсталювати програму Multi-Factor Authentication у телефоні й потім натиснути розташовану нижче кнопку "Створити", щоб отримати код активації. Код активації буде введено в мобільну програму для завершення процесу активації. Код активації діє протягом 10 хвилин.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPin" xml:space="preserve">
+    <value>Щоб увімкнути службу Multi-Factor Authentication для облікового запису, укажіть номер телефону, який буде використовуватися для автентифікації, та PIN-код.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtp" xml:space="preserve">
+    <value>Щоб увімкнути службу Multi-Factor Authentication для облікового запису, укажіть номер телефону, який буде використовуватися для автентифікації.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Щоб увімкнути службу Multi-Factor Authentication для облікового запису, укажіть номер телефону, який буде використовуватися для автентифікації, та PIN-код.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtp" xml:space="preserve">
+    <value>Щоб увімкнути службу Multi-Factor Authentication для облікового запису, укажіть номер телефону, який буде використовуватися для автентифікації.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Щоб увімкнути службу Multi-Factor Authentication для облікового запису, укажіть номер телефону, який буде використовуватися для автентифікації, та PIN-код.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupStandard" xml:space="preserve">
+    <value>Щоб увімкнути службу Multi-Factor Authentication для облікового запису, укажіть номер телефону, який буде використовуватися для автентифікації.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteOathToken" xml:space="preserve">
+    <value>Дотримуйтесь наведених нижче інструкцій для активації в телефоні програми Multi-Factor Authentication і тестування автентифікації за допомогою кодів автентифікації, наданих мобільною програмою.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePhoneApp" xml:space="preserve">
+    <value>Дотримуйтесь наведених нижче інструкцій для активації в телефоні програми Multi-Factor Authentication і тестування автентифікації за допомогою мобільної програми.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePin" xml:space="preserve">
+    <value>Для виконання цього кроку Multi-Factor Authentication зателефонує за зазначеним номером. Для автентифікації введіть PIN-код і натисніть клавішу "#".</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtp" xml:space="preserve">
+    <value>Для виконання цього кроку Multi-Factor Authentication надішле одноразовий код доступу в текстовому повідомленні на зазначений номер. Для автентифікації з появою запиту введіть одноразовий код доступу.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Для виконання цього кроку Multi-Factor Authentication надішле одноразовий код доступу в текстовому повідомленні на зазначений номер. Для автентифікації з появою запиту введіть одноразовий код доступу та PIN-код.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtp" xml:space="preserve">
+    <value>Для виконання цього кроку Multi-Factor Authentication надішле одноразовий код доступу в текстовому повідомленні на зазначений номер. Для автентифікації потрібно відповісти на текстове повідомлення, надіславши одноразовий код доступу.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Для виконання цього кроку Multi-Factor Authentication надішле одноразовий код доступу в текстовому повідомленні на зазначений номер. Для автентифікації потрібно відповісти на текстове повідомлення, надіславши одноразовий код доступу та PIN-код.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteStandard" xml:space="preserve">
+    <value>Для виконання цього кроку Multi-Factor Authentication зателефонує за зазначеним номером. Для автентифікації потрібно відповісти і натиснути "#".</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteVoiceprint" xml:space="preserve">
+    <value>Для виконання цього кроку Multi-Factor Authentication зателефонує за зазначеним номером. Дотримуйтесь інструкцій із реєстрації парольної фрази голосового відбитка.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupVoiceprint" xml:space="preserve">
+    <value>Щоб увімкнути службу Multi-Factor Authentication для облікового запису, укажіть номер телефону, який буде використовуватися для автентифікації.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserStaticToken" xml:space="preserve">
+    <value>Укажіть для цього користувача новий статичний маркер.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Label_MessageOathToken" xml:space="preserve">
+    <value>У вашому обліковому записі настроєно використання служби Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Під час входу буде використано ті самі ім’я користувача та пароль. Перш ніж перевірка завершиться, програма запропонує ввести маркер або поточний код автентифікації з програми для мобільних пристроїв Multi-Factor Authentication, щоб завершити вхід. Якщо ви не введете правильний код автентифікації, у вході буде відмовлено.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppPin" xml:space="preserve">
+    <value>У вашому обліковому записі настроєно використання служби Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Під час входу буде використано ті самі ім’я користувача та пароль. Перш ніж перевірка завершиться,
+ви отримаєте сповіщення з проханням запустити програму для мобільних пристроїв Multi-Factor Authentication і ввести PIN-код, щоб підтвердити вхід. Якщо ви не підтвердите вхід, указавши PIN-код і натиснувши клавішу "#", у вході буде відмовлено.&lt;br/&gt;&lt;br/&gt;
+Вводити PIN-код слід лише тоді, коли ви отримаєте сповіщення програми для мобільних пристроїв Multi-Factor Authentication після спроби ввійти в програму. В іншому випадку, імовірно, хтось інший намагається ввійти за допомогою ваших імені користувача та пароля. Про це потенційне шахрайство слід повідомити ІТ-адміністратора.&lt;br/&gt;&lt;br/&gt;PIN-код можна будь-коли змінити, повернувшись на портал Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppStandard" xml:space="preserve">
+    <value>У вашому обліковому записі настроєно використання служби Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Під час входу буде використано ті самі ім’я користувача та пароль. Перш ніж перевірка завершиться,
+ви отримаєте сповіщення з проханням запустити програму для мобільних пристроїв Multi-Factor Authentication і натиснути кнопку "Автентифікувати", щоб підтвердити вхід. Якщо ви не підтвердите вхід, натиснувши кнопку "Автентифікувати", у вході буде відмовлено.&lt;br/&gt;&lt;br/&gt;
+Натискати кнопку "Автентифікувати" слід лише тоді, коли ви отримаєте сповіщення програми для мобільних пристроїв Multi-Factor Authentication після спроби ввійти в програму. В іншому випадку, імовірно, хтось інший намагається ввійти за допомогою ваших імені користувача та пароля. Про це потенційне шахрайство слід повідомити ІТ-адміністратора.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppVoiceprint" xml:space="preserve">
+    <value>У вашому обліковому записі настроєно використання служби Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Під час входу буде використано ті самі ім’я користувача та пароль. Перш ніж перевірка завершиться,
+ви отримаєте сповіщення з проханням запустити програму для мобільних пристроїв Multi-Factor Authentication і сказати парольну фразу, щоб підтвердити вхід. Якщо ви не підтвердите вхід за допомогою парольної фрази, у вході буде відмовлено.&lt;br/&gt;&lt;br/&gt;
+Говорити парольну фразу слід лише тоді, коли ви отримаєте сповіщення програми для мобільних пристроїв Multi-Factor Authentication після спроби ввійти в програму. В іншому випадку, імовірно, хтось інший намагається ввійти за допомогою ваших імені користувача та пароля. Про це потенційне шахрайство слід повідомити ІТ-адміністратора.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePin" xml:space="preserve">
+    <value>У вашому обліковому записі настроєно використання служби Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Під час входу буде використано ті самі ім’я користувача та пароль. Перш ніж перевірка завершиться,
+на ваш номер надійде телефонний виклик із проханням ввести PIN-код і натиснути клавішу решітки (#), щоб підтвердити вхід. Якщо ви
+не підтвердите вхід, указавши PIN-код і натиснувши клавішу "#", у вході буде відмовлено.&lt;br/&gt;&lt;br/&gt;
+Вводити PIN-код слід лише тоді, коли ви отримаєте виклик Multi-Factor Authentication після спроби ввійти в програму.
+В іншому випадку, імовірно, хтось інший намагається ввійти за допомогою ваших імені користувача та пароля. Про це потенційне
+шахрайство слід повідомити ІТ-адміністратора.&lt;br/&gt;&lt;br/&gt;
+Номер телефону або PIN-код можна будь-коли змінити, повернувшись на портал Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtp" xml:space="preserve">
+    <value>У вашому обліковому записі настроєно використання служби Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Під час входу буде використано ті самі ім’я користувача та пароль. Перш ніж перевірка завершиться,
+ви отримаєте текстове повідомлення з одноразовим кодом доступу. Введіть цей код доступу за запитом програми.
+Якщо ви не введете правильний код доступу, у вході буде відмовлено.&lt;br/&gt;&lt;br/&gt;
+Номер телефону можна будь-коли змінити, повернувшись на портал Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>У вашому обліковому записі настроєно використання служби Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Під час входу буде використано ті самі ім’я користувача та пароль. Перш ніж перевірка завершиться,
+ви отримаєте текстове повідомлення з одноразовим кодом доступу. Введіть цей код доступу та PIN-код за запитом програми.
+Якщо ви не введете правильні код доступу та PIN-код, у вході буде відмовлено.&lt;br/&gt;&lt;br/&gt;
+Номер телефону або PIN-код можна будь-коли змінити, повернувшись на портал Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtp" xml:space="preserve">
+    <value>У вашому обліковому записі настроєно використання служби Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Під час входу буде використано ті самі ім’я користувача та пароль. Перш ніж перевірка завершиться,
+ви отримаєте текстове повідомлення з одноразовим кодом доступу. Необхідно відповісти на текстове повідомлення, надіславши цей код доступу.
+Якщо ви не відповісте, зазначивши правильний код доступу, у вході буде відмовлено.&lt;br/&gt;&lt;br/&gt;
+Відповідати слід лише тоді, коли ви отримаєте текстове повідомлення Multi-Factor Authentication після спроби ввійти в програму.
+В іншому випадку, імовірно, хтось інший намагається ввійти за допомогою ваших імені користувача та пароля. Про це потенційне
+шахрайство слід повідомити ІТ-адміністратора.&lt;br/&gt;&lt;br/&gt;
+Номер телефону можна будь-коли змінити, повернувшись на портал Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>У вашому обліковому записі настроєно використання служби Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Під час входу буде використано ті самі ім’я користувача та пароль. Перш ніж перевірка завершиться,
+ви отримаєте текстове повідомлення з одноразовим кодом доступу. Необхідно відповісти на текстове повідомлення, надіславши цей код доступу та PIN-код.
+Якщо ви не відповісте, зазначивши правильний код доступу та PIN-код, у вході буде відмовлено.&lt;br/&gt;&lt;br/&gt;
+Відповідати слід лише тоді, коли ви отримаєте текстове повідомлення Multi-Factor Authentication після спроби ввійти в програму.
+В іншому випадку, імовірно, хтось інший намагається ввійти за допомогою ваших імені користувача та пароля. Про це потенційне
+шахрайство слід повідомити ІТ-адміністратора.&lt;br/&gt;&lt;br/&gt;
+Номер телефону або PIN-код можна будь-коли змінити, повернувшись на портал Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageStandard" xml:space="preserve">
+    <value>У вашому обліковому записі настроєно використання служби Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Під час входу буде використано ті самі ім’я користувача та пароль. Перш ніж перевірка завершиться,
+на ваш номер надійде телефонний виклик із проханням натиснути клавішу решітки (#), щоб підтвердити вхід. Якщо ви не підтвердите вхід,
+натиснувши клавішу "#", у вході буде відмовлено.&lt;br/&gt;&lt;br/&gt;
+Натискати клавішу "#" слід лише тоді, коли ви отримаєте виклик Multi-Factor Authentication після спроби ввійти в програму.
+В іншому випадку, імовірно, хтось інший намагається ввійти за допомогою ваших імені користувача та пароля. Про це потенційне
+шахрайство слід повідомити ІТ-адміністратора.&lt;br/&gt;&lt;br/&gt;
+Номер телефону можна будь-коли змінити, повернувшись на портал Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageVoiceprint" xml:space="preserve">
+    <value>У вашому обліковому записі настроєно використання служби Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Під час входу буде використано ті самі ім’я користувача та пароль. Перш ніж перевірка завершиться,
+на ваш номер надійде телефонний виклик із проханням сказати парольну фразу, щоб підтвердити вхід. Якщо ви не підтвердите вхід
+за допомогою парольної фрази, у вході буде відмовлено.&lt;br/&gt;&lt;br/&gt;
+Говорити парольну фразу слід лише тоді, коли ви отримаєте виклик Multi-Factor Authentication після спроби ввійти в програму.
+В іншому випадку, імовірно, хтось інший намагається ввійти за допомогою ваших імені користувача та пароля. Про це потенційне
+шахрайство слід повідомити ІТ-адміністратора.&lt;br/&gt;&lt;br/&gt;
+Номер телефону можна будь-коли змінити, повернувшись на портал Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MustChangeModeToPhoneApp" xml:space="preserve">
+    <value>Після активації у пристрої мобільної програми Multi-Factor Authentication необхідно змінити ваш метод на "Мобільна програма". У меню навігації натисніть "Змінити метод" і вкажіть метод "Мобільна програма", щоб почати використовувати програму.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_MustChangeUserToPhoneAppMode" xml:space="preserve">
+    <value>Після того, як користувач активує у своєму пристрої мобільну програму Multi-Factor Authentication, необхідно змінити його метод на "Мобільна програма", щоб користувач міг використовувати програму.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerPhoneApp" xml:space="preserve">
+    <value>Це може трапитися тільки якщо стороння особа, знаючи ваш пароль, намагається ввійти у ваш обліковий запис. Пам'ятайте, що сповіщення від мобільної програми Multi-Factor Authentication надсилаються лише після перевірки імені користувача та пароля. Тобто, це буде означати, що система Multi-Factor Authentication щойно захистила ваш обліковий запис від несанкціонованого доступу!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerSms" xml:space="preserve">
+    <value>Це може трапитися тільки якщо стороння особа, знаючи ваш пароль, намагається ввійти у ваш обліковий запис. Пам'ятайте, що текстові повідомлення надсилаються тільки після перевірки імені користувача та пароля. Тобто, це буде означати, що система Multi-Factor Authentication щойно захистила ваш обліковий запис від несанкціонованого доступу!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerVoice" xml:space="preserve">
+    <value>Це може трапитися тільки якщо стороння особа, знаючи ваш пароль, намагається ввійти у ваш обліковий запис. Пам'ятайте, що телефонний дзвінок надійде до вас тільки після перевірки імені користувача та пароля. Тобто, це буде означати, що система Multi-Factor Authentication щойно захистила ваш обліковий запис від несанкціонованого доступу!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionPhoneApp" xml:space="preserve">
+    <value>Що робити, якщо мені надійшло сповіщення від мобільної програми Multi-Factor Authentication, коли я не намагаюся ввійти?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionSms" xml:space="preserve">
+    <value>Що робити, якщо мені надійшло текстове повідомлення від служби Multi-Factor Authentication, коли я не намагаюся ввійти?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionVoice" xml:space="preserve">
+    <value>Що робити, якщо мені надійшов телефонний дзвінок від служби Multi-Factor Authentication, коли я не намагаюся ввійти?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassOathToken" xml:space="preserve">
+    <value>Крім того, ваша організація надає параметр "Одноразовий обхід перевірки", за допомогою якого можна один раз увійти без запиту коду автентифікації. Для доступу до цієї функції виберіть параметр "Одноразовий обхід перевірки" або з будь-якого телефону зверніться по допомогу до служби технічної підтримки.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_OneTimeBypassPhoneApp" xml:space="preserve">
+    <value>Крім того, ваша організація надає параметр "Одноразовий обхід перевірки", за допомогою якого можна один раз увійти без сповіщення від мобільної програми Multi-Factor Authentication. Для доступу до цієї функції виберіть параметр "Одноразовий обхід перевірки" або з будь-якого телефону зверніться по допомогу до служби технічної підтримки.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassSms" xml:space="preserve">
+    <value>Ваша організація надає параметр "Одноразовий обхід перевірки", за допомогою якого можна один раз увійти без текстового повідомлення. Для доступу до цієї функції виберіть параметр "Одноразовий обхід перевірки" або з будь-якого телефону зверніться по допомогу до служби технічної підтримки.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassVoice" xml:space="preserve">
+    <value>Ваша організація надає параметр "Одноразовий обхід перевірки", за допомогою якого можна один раз увійти без телефонного дзвінка. Для доступу до цієї функції виберіть параметр "Одноразовий обхід перевірки" або з будь-якого телефону зверніться по допомогу до служби технічної підтримки.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtp" xml:space="preserve">
+    <value>Одноразовий код доступу</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtpPlusPin" xml:space="preserve">
+    <value>Одноразовий код доступу та PIN-код</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_SimpleProcessOathToken" xml:space="preserve">
+    <value>У цьому простому процесі використовується два окремих фактори автентифікації з додатковою автентифікацією за допомогою чогось, що ви маєте (смартфон або маркер).</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_SimpleProcessPhoneApp" xml:space="preserve">
+    <value>У цьому простому процесі використовується два окремих фактори автентифікації двома окремими каналами (комп'ютер і смартфон).</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessSms" xml:space="preserve">
+    <value>У цьому простому процесі використовується два окремих фактори автентифікації двома окремими каналами (комп'ютер і телефонна служба). Він працює з будь-яким телефоном, який підтримує текстові повідомлення.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessVoice" xml:space="preserve">
+    <value>У цьому простому процесі використовується два окремих фактори автентифікації двома окремими каналами (комп'ютер і телефонна служба). Він працює з будь-яким звичайним і мобільним телефоном.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionOathToken" xml:space="preserve">
+    <value>Система одразу ж запитує у вас код автентифікації. Введіть поточний код автентифікації, який відображається в мобільній програмі або маркері Multi-Factor Authentication.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppPin" xml:space="preserve">
+    <value>Ви одразу ж отримаєте сповіщення від мобільної програми Multi-Factor Authentication. Запустіть програму, введіть PIN-код і натисніть кнопку "Автентифікувати".</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppStandard" xml:space="preserve">
+    <value>Ви одразу ж отримаєте сповіщення від мобільної програми Multi-Factor Authentication. Запустіть програму й натисніть кнопку "Автентифікувати".</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppVoiceprint" xml:space="preserve">
+    <value>Ви одразу ж отримаєте сповіщення від мобільної програми Multi-Factor Authentication. Запустіть програму і з появою запиту скажіть парольну фразу.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPin" xml:space="preserve">
+    <value>До вас одразу ж надійде телефонний дзвінок. Необхідно відповісти, ввести PIN-код і натиснути "#".</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtp" xml:space="preserve">
+    <value>Ви одразу ж отримаєте текстове повідомлення з одноразовим кодом доступу. Введіть цей код доступу із появою запиту від програми.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Ви одразу ж отримаєте текстове повідомлення з одноразовим кодом доступу. Введіть цей код доступу та PIN-код із появою запиту від програми.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtp" xml:space="preserve">
+    <value>Ви одразу ж отримаєте текстове повідомлення з одноразовим кодом доступу. Необхідно відповісти на текстове повідомлення, надіславши цей код доступу.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Ви одразу ж отримаєте текстове повідомлення з одноразовим кодом доступу. Необхідно відповісти на текстове повідомлення, надіславши цей код доступу та PIN-код.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionStandard" xml:space="preserve">
+    <value>До вас одразу ж надійде телефонний дзвінок. Необхідно відповісти й натиснути "#".</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionVoiceprint" xml:space="preserve">
+    <value>До вас одразу ж надійде телефонний дзвінок. Необхідно відповісти і сказати парольну фразу правильним тоном.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_TitleWithColon" xml:space="preserve">
+    <value>{0}:</value>
+    <comment>Page header on most pages</comment>
+  </data>
+  <data name="Label_UnblockReason" xml:space="preserve">
+    <value>Причина розблокування</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_AccountConfigurationComplete" xml:space="preserve">
+    <value>Настроювання облікового запису завершено</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Message_AnswerRequired" xml:space="preserve">
+    <value>Необхідно відповісти принаймні на одне контрольне запитання.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AnswerSecurityQuestions" xml:space="preserve">
+    <value>Щоб увійти в систему, необхідно відповісти на контрольні запитання.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AnswersIncorrect" xml:space="preserve">
+    <value>Одна або кілька відповідей неправильні.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AuthenticationDenied" xml:space="preserve">
+    <value>У процедурі Multi-Factor Authentication відмовлено.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedAnswerSecurityQuestions" xml:space="preserve">
+    <value>У процедурі Multi-Factor Authentication відмовлено. Щоб увійти в систему, необхідно відповісти на контрольні запитання.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedCallResult" xml:space="preserve">
+    <value>У процедурі Multi-Factor Authentication відмовлено: {0}</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_AuthenticationSuccessful" xml:space="preserve">
+    <value>Процедуру Multi-Factor Authentication виконано.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_BypassSecondsNumeric" xml:space="preserve">
+    <value>Час обходу перевірки в секундах має виражатися числом.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRange" xml:space="preserve">
+    <value>Час обходу перевірки в секундах має бути в діапазоні від 5 до 1800 (30 хвилин).</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRequired" xml:space="preserve">
+    <value>Необхідно вказати час обходу перевірки в секундах.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_CannotActivateDevice" xml:space="preserve">
+    <value>Перш ніж ви зможете змінити метод на "Мобільна програма", ваш обліковий запис має бути прив'язано до активованої мобільної програми Multi-Factor Authentication на пристрої. Зверніться до служби технічної підтримки по допомогу з активацією мобільної програми Multi-Factor Authentication на пристрої.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotEstablishWebServiceSdkConnection" xml:space="preserve">
+    <value>Портал користувача Multi-Factor Authentication не може встановити безпечне підключення до SDK веб-служби: {0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_CannotGetOathToken" xml:space="preserve">
+    <value>Перш ніж ви зможете змінити метод на "Мобільна програма", ваш обліковий запис має бути прив'язано до активованої мобільної програми Multi-Factor Authentication у пристрої або до маркера OATH. Зверніться до служби технічної підтримки за допомогою з активацією мобільної програми Multi-Factor Authentication у пристрої або отриманням маркера OATH.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Перш ніж ви зможете змінити метод на "Текстове повідомлення", до вашого облікового запису має бути прив'язано номер телефону. Зверніться до служби технічної підтримки з питання прив'язування номера телефону до облікового запису.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Перш ніж ви зможете змінити метод на "Телефонний дзвінок", до вашого облікового запису має бути прив'язано номер телефону. Зверніться до служби технічної підтримки з питання прив'язування номера телефону до облікового запису.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeOathTokenIncomplete" xml:space="preserve">
+    <value>Примітка. Користувач не активував у своєму пристрої мобільну програму Multi-Factor Authentication або йому призначений маркер OATH стороннього виробника. Тому користувач вважається неготовим для використання методу "Маркер OATH". Виконати автентифікацію для доступу до захищених програм для цього користувача буде неможливо, і під час входу на портал користувача знадобиться його повторна реєстрація. Рекомендуємо зв'язатися з користувачем, щоб допомогти йому з активацією мобільної програми Multi-Factor Authentication або призначити та поширити маркер OATH стороннього виробника.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModePhoneAppIncomplete" xml:space="preserve">
+    <value>Примітка. Користувач не активував у своєму пристрої мобільну програму Multi-Factor Authentication і тому вважається неготовим для використання методу "Мобільна програма". Виконати автентифікацію для доступу до захищених програм для цього користувача буде неможливо, і під час входу на портал користувача знадобиться його повторна реєстрація. Рекомендуємо зв'язатися з користувачем, щоб допомогти йому з активацією мобільної програми Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeSmsTextIncomplete" xml:space="preserve">
+    <value>Примітка. Для користувача не вказано номер телефону, тому він вважається неготовим для використання методу "Текстове повідомлення". Виконати автентифікацію для доступу до захищених програм для цього користувача буде неможливо, і під час входу на портал користувача знадобиться його повторна реєстрація. Рекомендуємо вказати для користувача номер телефону, щоб він міг продовжити використовувати захищені програми без повторної реєстрації.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeVoiceCallIncomplete" xml:space="preserve">
+    <value>Примітка. Для користувача не вказано номер телефону, тому він вважається неготовим для використання методу "Телефонний дзвінок". Виконати автентифікацію для доступу до захищених програм для цього користувача буде неможливо, і під час входу на портал користувача знадобиться його повторна реєстрація. Рекомендуємо вказати для користувача номер телефону, щоб він міг продовжити використовувати захищені програми без повторної реєстрації.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CodeRequired" xml:space="preserve">
+    <value>Необхідно ввести код.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_CodeRequiredCross" xml:space="preserve">
+    <value>Якщо вказано серійний номер, необхідно ввести код.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ConfirmDeactivate" xml:space="preserve">
+    <value>Дійсно остаточно вимкнути цей пристрій?</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceDeactivated" xml:space="preserve">
+    <value>Пристрій вимкнуто.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceLimit" xml:space="preserve">
+    <value>Ваш обліковий запис досяг обмеження у {0} пристроїв. Перед активацією нового пристрою необхідно вимкнути існуюче.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DuplicateAnswer" xml:space="preserve">
+    <value>Дублювання відповідей не дозволено.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateQuestion" xml:space="preserve">
+    <value>Дублювання запитань не дозволено.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateUsername" xml:space="preserve">
+    <value>Дублювання імені користувача.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUser" xml:space="preserve">
+    <value>Помилка під час додавання користувача.&lt;br/&gt;{0}</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUserForPassedSession" xml:space="preserve">
+    <value>Помилка під час додавання користувача для переданого сеансу.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithLocal" xml:space="preserve">
+    <value>Помилка зв'язку з локальною службою Multi-Factor Authentication. Зверніться до адміністратора.</value>
+    <comment>Most pages when connection to local server is lost</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithMaster" xml:space="preserve">
+    <value>Помилка зв'язку з головною службою Multi-Factor Authentication. Зверніться до адміністратора.</value>
+    <comment>Most pages when connection to master server is lost</comment>
+  </data>
+  <data name="Message_ErrorDeactivatingDevice" xml:space="preserve">
+    <value>Помилка під час вимикання пристрою.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorDisablingUser" xml:space="preserve">
+    <value>Помилка під час вимикання користувача.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorEnablingUser" xml:space="preserve">
+    <value>Помилка під час вмикання користувача.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorFindingUsers" xml:space="preserve">
+    <value>Помилка під час пошуку користувачів.&lt;br/&gt;{0}</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_ErrorGeneratingActivationCode" xml:space="preserve">
+    <value>Помилка під час створення коду активації.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorIssuingOneTimeBypass" xml:space="preserve">
+    <value>Помилка під час надання дозволу на одноразовий обхід перевірки. Зверніться до адміністратора.&lt;br/&gt;{0}</value>
+    <comment>one_time_bypass and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorRemovingUser" xml:space="preserve">
+    <value>Помилка під час видалення користувача.&lt;br/&gt;{0}</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_ErrorResettingMode" xml:space="preserve">
+    <value>Помилка під час скидання методу.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPhone" xml:space="preserve">
+    <value>Помилка під час скидання телефону.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPin" xml:space="preserve">
+    <value>Помилка під час скидання PIN-коду.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingVoiceprint" xml:space="preserve">
+    <value>Помилка під час скидання голосового відбитка. Зверніться до адміністратора.&lt;br/&gt;{0}</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingLanguage" xml:space="preserve">
+    <value>Помилка під час оновлення мови.&lt;br/&gt;{0}</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingMode" xml:space="preserve">
+    <value>Помилка під час оновлення методу.&lt;br/&gt;{0}</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhone" xml:space="preserve">
+    <value>Помилка під час оновлення телефону.&lt;br/&gt;{0}</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhoneAppMode" xml:space="preserve">
+    <value>Помилка під час оновлення режиму "Мобільна програма".&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPin" xml:space="preserve">
+    <value>Помилка під час оновлення PIN-коду.&lt;br/&gt;{0}</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSecurityQuestions" xml:space="preserve">
+    <value>Помилка під час оновлення контрольних запитань.&lt;br/&gt;{0}</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSmsTextMode" xml:space="preserve">
+    <value>Помилка під час оновлення режиму "Текстове повідомлення".&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingStaticToken" xml:space="preserve">
+    <value>Помилка під час оновлення статичного маркера.&lt;br/&gt;{0}</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserForSecurityQuestionSetup" xml:space="preserve">
+    <value>Помилка під час оновлення користувача для настроювання контрольних запитань.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserInformation" xml:space="preserve">
+    <value>Помилка під час оновлення відомостей про користувача.&lt;br/&gt;{0}</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingVoiceCallMode" xml:space="preserve">
+    <value>Помилка під час оновлення режиму "Телефонний дзвінок".&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ExpiredSession" xml:space="preserve">
+    <value>Час сеансу завершився.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_IncorrectAnswers" xml:space="preserve">
+    <value>Надані відповіді неправильні, повторіть спробу.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_IncorrectOathCode" xml:space="preserve">
+    <value>Неправильний код автентифікації.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscode" xml:space="preserve">
+    <value>Неправильний одноразовий код доступу.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscodePlusPin" xml:space="preserve">
+    <value>Неправильні одноразовий код доступу та PIN-код.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_InvalidExtension" xml:space="preserve">
+    <value>Неприпустимий додатковий номер.  Можна вводити лише цифри, коми, знаки "*" і "#". Для односекундної паузи використовуйте кому. Щоб вимовити цифри додаткового номера для ручного передавання, використовуйте перед додатковим номером префікс "@".</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_InvalidSerialNumber" xml:space="preserve">
+    <value>Неприпустимий серійний номер. Маркер OATH із цим серійним номером перед прив'язкою до користувача має бути визначено в інтерфейсі користувача сервера Multi-Factor Authentication.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_LineBreak" xml:space="preserve">
+    <value>&lt;br/&gt;{0}</value>
+    <comment>add_user, change_phone, change_pin, change_mode, change_language and enable_disable pages</comment>
+  </data>
+  <data name="Message_LoginFailed" xml:space="preserve">
+    <value>Вхід не виконано.</value>
+    <comment>login and secondary_authentication pages</comment>
+  </data>
+  <data name="Message_MustActivateDevice" xml:space="preserve">
+    <value>Перш ніж можна буде змінити метод на "Мобільна програма", необхідно активувати у пристрої мобільну програму Multi-Factor Authentication. Щоб розпочати активацію, у меню навігації натисніть посилання "Активувати мобільну програму".</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustActivateDeviceOathToken" xml:space="preserve">
+    <value>Перш ніж можна буде змінити метод на "Маркер OATH", необхідно активувати в пристрої мобільну програму Multi-Factor Authentication. Щоб розпочати активацію, у меню навігації натисніть посилання "Активувати мобільну програму".</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustAnswerAllQuestions" xml:space="preserve">
+    <value>Необхідно відповісти на всі контрольні запитання.</value>
+    <comment>create_security_questions, change_security_questions, and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_MustEnrollOathToken" xml:space="preserve">
+    <value>Перш ніж можна буде змінити метод на "Маркер OATH", необхідно прив'язати маркер OATH до облікового запису. Щоб прив'язати маркер OATH, натисніть посилання "Маркер OATH".</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustHaveOathToken" xml:space="preserve">
+    <value>Перш ніж можна буде змінити метод на "Маркер OATH", необхідно активувати у пристрої мобільну програму Multi-Factor Authentication або прив'язати маркер OATH до облікового запису. Щоб прив'язати маркер OATH, у меню навігації натисніть посилання "Активувати мобільна програма", щоб розпочати активацію, або натисніть посилання "Маркер OATH".</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Перш ніж можна буде змінити метод на "Текстове повідомлення", необхідно вказати для облікового запису номер телефону. Щоб указати номер телефону, у меню навігації натисніть посилання "Змінити телефон".</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Перш ніж можна буде змінити метод на "Телефонний дзвінок", необхідно вказати для облікового запису номер телефону. Щоб указати номер телефону, у меню навігації натисніть посилання "Змінити телефон".</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifySearchField" xml:space="preserve">
+    <value>Необхідно вказати принаймні одне пошукове поле.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoActivatedDevices" xml:space="preserve">
+    <value>Для цього користувача немає активованих пристроїв.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_NoMatchingUsersFound" xml:space="preserve">
+    <value>Відповідних користувачів не знайдено.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoSsl" xml:space="preserve">
+    <value>Портал користувача Multi-Factor Authentication не захищений за допомогою SSL, але SSL необхідно вказати для файлів cookie сеансу у файлі Web.config. Портал користувача не функціонує, тому що неможливо підтримувати стан сеансу. Рекомендуємо захистити портал користувача за допомогою SSL. Для цілей тестування можна параметр requireSSL у тезі &lt;httpCookies&gt; у файлі Web.config тимчасово змінити на "хибність".</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailed" xml:space="preserve">
+    <value>Не вдалося виконати синхронізацію маркера OATH. Введено неправильний код або серійний номер маркера OATH неприпустимий.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailedUser" xml:space="preserve">
+    <value>Не вдалося виконати синхронізацію маркера OATH. Введено неприпустимий код.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OnlyFirstMatchesDisplayed" xml:space="preserve">
+    <value>Відображаються тільки перші {0} збігів. Якщо не можете знайти користувача в списку, введіть конкретніші умови пошуку.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_PassedSessionFailed" xml:space="preserve">
+    <value>Не вдалося виконати переданий сеанс.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_PhoneRequired" xml:space="preserve">
+    <value>Необхідно вказати номер телефону.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMatch" xml:space="preserve">
+    <value>PIN-код і PIN-код підтвердження мають збігатися.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMinimumLength" xml:space="preserve">
+    <value>PIN-код має містити не менше {0} цифр.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinNumeric" xml:space="preserve">
+    <value>PIN-код має бути числовим.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinRecentlyUsed" xml:space="preserve">
+    <value>PIN-код не може збігатися з одним із недавно використаних PIN-кодів. Виберіть інший PIN-код.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_SamlDisabled" xml:space="preserve">
+    <value>Єдині входи в зовнішні програми за допомогою SAML вимкнуто.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotDefined" xml:space="preserve">
+    <value>Контрольні запитання для цього користувача не визначено.&lt;br/&gt;</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotSetUp" xml:space="preserve">
+    <value>Ви не маєте права на вхід без телефону, тому що не настроїли контрольні запитання.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsVerified" xml:space="preserve">
+    <value>Контрольні запитання перевірено.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityWarningNoSsl" xml:space="preserve">
+    <value>ПОПЕРЕДЖЕННЯ СИСТЕМИ БЕЗПЕКИ. Портал користувача Multi-Factor Authentication не захищено за допомогою SSL. Коди доступу будуть передаватися у вигляді звичайного тексту.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SerialNumberAlreadyAssociated" xml:space="preserve">
+    <value>Серійний номер уже прив'язаний до користувача {0}. Необхідно видалити серійний номер із цього користувача, перш ніж прив'язувати його до даного користувача.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_SerialNumberRequired" xml:space="preserve">
+    <value>Необхідно вказати серійний номер.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_SerialNumberRequiredCross" xml:space="preserve">
+    <value>Якщо зазначено код, необхідно ввести серійний номер.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ShortAnswer" xml:space="preserve">
+    <value>Відповідь має містити не менше 4 символів.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_StaticTokenMatch" xml:space="preserve">
+    <value>Статичний маркер і статичний маркер підтвердження мають збігатися.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenMinimumLength" xml:space="preserve">
+    <value>Статичний маркер має містити не менше {0} цифр.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenNumeric" xml:space="preserve">
+    <value>Статичний маркер повинен мати числове значення.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserAdded" xml:space="preserve">
+    <value>Користувача додано.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_UserAlreadyBlocked" xml:space="preserve">
+    <value>Не вдалося заблокувати. Користувач уже заблокований.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlocked" xml:space="preserve">
+    <value>Користувача успішно заблоковано.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlockFailed" xml:space="preserve">
+    <value>Не вдалося заблокувати.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserDeviceLimit" xml:space="preserve">
+    <value>Користувач досяг обмеження у {0} пристроїв. Щоб користувач зміг активувати новий пристрій, необхідно вимкнути для нього існуючий.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_UserDisabled" xml:space="preserve">
+    <value>Користувача успішно вимкнуто.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserEnabled" xml:space="preserve">
+    <value>Користувача успішно увімкнуто.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserInformationChanged" xml:space="preserve">
+    <value>Інформацію користувача змінено.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_UserLanguageChanged" xml:space="preserve">
+    <value>Пріоритетну мову користувача змінено.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_UserModeChanged" xml:space="preserve">
+    <value>Метод користувача змінено.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_UsernameRequired" xml:space="preserve">
+    <value>Необхідно вказати ім'я користувача.</value>
+    <comment>login and add_user pages</comment>
+  </data>
+  <data name="Message_UserNotBlocked" xml:space="preserve">
+    <value>Не вдалося розблокувати. Користувач зараз не заблокований.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserOathTokenSaved" xml:space="preserve">
+    <value>Маркер OATH користувача збережено.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_UserOneTimeBypassIssued" xml:space="preserve">
+    <value>Надано дозвіл на одноразовий обхід перевірки. Під час наступного входу користувача процедуру Multi-Factor Authentication буде пропущено.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_UserPhoneChanged" xml:space="preserve">
+    <value>Телефон користувача змінено.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_UserPinChanged" xml:space="preserve">
+    <value>PIN-код користувача змінено.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_UserPortalDisabled" xml:space="preserve">
+    <value>Прямі входи на портал користувача вимкнуті.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserPortalNotPurchased" xml:space="preserve">
+    <value>Портал користувача Multi-Factor Authentication не функціонує, тому що цей компонент не придбано.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserRemoved" xml:space="preserve">
+    <value>Користувача видалено.</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_UserStaticTokenChanged" xml:space="preserve">
+    <value>Статичний маркер користувача змінено.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserSubmodeChanged" xml:space="preserve">
+    <value>Режими користувача змінено.</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_UserUnblocked" xml:space="preserve">
+    <value>Користувача успішно розблоковано.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserUnblockFailed" xml:space="preserve">
+    <value>Не вдалося розблокувати.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserVoiceprintReset" xml:space="preserve">
+    <value>Голосовий відбиток успішно скинуто. Під час наступного входу користувачу буде запропоновано зареєструвати новий голосовий відбиток.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_WeakPinNotAllowed" xml:space="preserve">
+    <value>Ненадійний PIN-код не дозволений. Він не може містити 4 чи більше цифрових підмножин номера телефону, 3 чи більше повторюваних цифр і 3 чи більше послідовних цифр.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_WeakStaticTokenNotAllowed" xml:space="preserve">
+    <value>Ненадійний статичний маркер не дозволений. Він не може містити 4 чи більше цифрових підмножин номера телефону, 3 чи більше повторюваних цифр і 3 чи більше послідовних цифр.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_WebServiceSdkError" xml:space="preserve">
+    <value>Портал користувача Multi-Factor Authentication настроєно для взаємодії з пакетом SDK веб-служби, який повернув таку помилку:&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_WebServiceSdkNotPurchased" xml:space="preserve">
+    <value>Портал користувача Multi-Factor Authentication настроєно для взаємодії з SDK веб-служби, але компонент SDK веб-служби не придбано.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_YourInformationChanged" xml:space="preserve">
+    <value>Вашу інформацію змінено.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_YourLanguageChanged" xml:space="preserve">
+    <value>Вашу пріоритетну мову змінено.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_YourModeChanged" xml:space="preserve">
+    <value>Ваш метод змінено.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_YourOathTokenSaved" xml:space="preserve">
+    <value>Ваш маркер OATH збережено.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_YourOneTimeBypassIssued" xml:space="preserve">
+    <value>Надано дозвіл на одноразовий обхід перевірки. Під час вашого наступного входу процедуру Multi-Factor Authentication буде пропущено.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_YourPhoneChanged" xml:space="preserve">
+    <value>Ваш телефон змінено.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_YourPinChanged" xml:space="preserve">
+    <value>Ваш PIN-код змінено.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_YourSecurityQuestionsChanged" xml:space="preserve">
+    <value>Ваші контрольні запитання й відповіді змінено.</value>
+    <comment>change_security_questions page</comment>
+  </data>
+  <data name="Message_YourStaticTokenChanged" xml:space="preserve">
+    <value>Ваш статичний маркер змінено.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_YourVoiceprintReset" xml:space="preserve">
+    <value>Голосовий відбиток успішно скинуто. Під час наступного входу вам буде запропоновано зареєструвати новий голосовий відбиток.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Reason_InitiatedByAdmin" xml:space="preserve">
+    <value>Ініційовано адміністратором на порталі користувача</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Reason_InitiatedByUser" xml:space="preserve">
+    <value>Ініційовано користувачем на порталі користувача</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Subtitle_DeactivatePhoneApp" xml:space="preserve">
+    <value>Вимкнути мобільну програму</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Subtitle_Enable" xml:space="preserve">
+    <value>Увімкнути</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Subtitle_UnblockUser" xml:space="preserve">
+    <value>Розблокувати користувача</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Title_PhoneFactorUserPortal" xml:space="preserve">
+    <value>Multi-Factor Authentication™ | Портал користувача</value>
+    <comment>Title on all pages</comment>
+  </data>
+  <data name="Value_All" xml:space="preserve">
+    <value>Усе</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Value_Masked" xml:space="preserve">
+    <value>За маскою</value>
+    <comment>add_user, change_pin, and oath_token pages</comment>
+  </data>
+</root>

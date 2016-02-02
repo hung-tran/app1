@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"utf-8\"?><cki><ck fm=\"!\" to=\"anschluss\"/><ck fm=\"anschlusses\" to=\"dauerhaft\"/><ck fm=\"dazu\" to=\"erfolgreich\"/><ck fm=\"erfolgreichem\" to=\"kanada\"/><ck fm=\"kann\" to=\"registrieren\"/><ck fm=\"regulären\" to=\"unvollständigen\"/><ck fm=\"url\" to=\"„überprüfen“\"/></cki>";

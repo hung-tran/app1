@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName_UserPortal" xml:space="preserve">
+    <value>Portal Pengguna</value>
+    <comment>Application name for Multi-Factor Authentications</comment>
+  </data>
+  <data name="Button_AuthenticateMeNow" xml:space="preserve">
+    <value>Sahkan Saya Sekarang</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_CallMeNowToAuthenticate" xml:space="preserve">
+    <value>Hubungi Saya Sekarang untuk Mengesahkan</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_Next" xml:space="preserve">
+    <value>Berikut</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_TextMeNowToAuthenticate" xml:space="preserve">
+    <value>Hantar Teks Kepada Saya Sekarang untuk Pengesahan</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_VerifyOathToken" xml:space="preserve">
+    <value>Tentu sahkan Token OATH</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Help_File" xml:space="preserve">
+    <value>help/PhoneFactor_User_Portal.htm</value>
+    <comment>Localize as help/xx/PhoneFactor_User_Portal.htm where xx is langauge code (e.g. de for German, zh-hans for Simplified Chinese)</comment>
+  </data>
+  <data name="Label_AlternatePhoneOathToken" xml:space="preserve">
+    <value>Apl mudah alih Multi-Factor Authentication tidak perlu bersambung kepada rangkaian mudah alih atau WiFi untuk memaparkan kod pengesahan.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_AlternatePhonePhoneApp" xml:space="preserve">
+    <value>Apl mudah alih Multi-Factor Authentication boleh berfungsi dengan baik melalui WiFi.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneSms" xml:space="preserve">
+    <value>Anda boleh menukar akaun anda supaya menggunakan nombor telefon yang lain dengan memilih pilihan Tukar Telefon Nombor.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneVoice" xml:space="preserve">
+    <value>Anda boleh menukar akaun anda supaya menggunakan nombor telefon yang lain, seperti talian tetap, dengan memilih pilihan Tukar Telefon Nombor.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_CannotChangeModeToPhoneApp" xml:space="preserve">
+    <value>Selepas mengaktifkan apl mudah alih Multi-Factor Authentication pada peranti anda, kaedah akaun anda mesti ditukar kepada Apl Mudah Alih sebelum anda boleh mula menggunakan apl tersebut.  Hubungi meja bantuan untuk menukar kaedah anda kepada Apl Mudah Alih.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_Disable" xml:space="preserve">
+    <value>Nyah Daya</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>Dayakan</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_FraudAlertPhoneApp" xml:space="preserve">
+    <value>Untuk melaporkan insiden, tekan butang Tolak dan Laporkan Penipuan dalam apl mudah alih Multi-Factor Authentication. Ini akan memberitahu pasukan keselamatan IT syarikat anda.  Cubaan pengesahan selanjutnya akan disekat sehingga isu ini diselesaikan.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertSms" xml:space="preserve">
+    <value>Untuk melaporkan insiden, masukkan kod penipuan dalam balasan anda. Ini akan memberitahu pasukan keselamatan IT syarikat anda. Cubaan pengesahan selanjutnya akan disekat sehingga isu ini diselesaikan.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertVoice" xml:space="preserve">
+    <value>Untuk melaporkan insiden, pilih pilihan Amaran Penipuan daripada menu telefon semasa panggilan pengesahan. Ini akan memberitahu pasukan keselamatan IT syarikat anda. Cubaan pengesahan selanjutnya akan disekat sehingga isu ini diselesaikan.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_GenerateActivationCode" xml:space="preserve">
+    <value>Jana Kod Pengaktifan</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateActivationLink" xml:space="preserve">
+    <value>Jana Pautan Pengaktifan</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationCode" xml:space="preserve">
+    <value>Jana Kod Pengaktifan Baharu</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationLink" xml:space="preserve">
+    <value>Jana Pautan Pengaktifan Baharu</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication berfungsi dengan meminta kod pengesahan semasa log masuk.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionPhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication berfungsi dengan menghantar pemberitahuan kepada apl mudah alih Multi-Factor Authentication anda semasa log masuk.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionSms" xml:space="preserve">
+    <value>Multi-Factor Authentication berfungsi dengan menghantar mesej teks kepada telefon anda semasa log masuk.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionVoice" xml:space="preserve">
+    <value>Multi-Factor Authentication berfungsi dengan membuat panggilan pengesahan kepada telefon anda semasa log masuk.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsAdministrator" xml:space="preserve">
+    <value>Urus akaun pengguna dengan memilih Cari Pengguna daripada menu.  Urus akaun anda dengan memilih pilihan yang sesuai. Pilih Ikon Bantuan (kanan atas) untuk bantuan.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeOathToken" xml:space="preserve">
+    <value>Pilih kaedah &lt;b&gt;Token OATH&lt;/b&gt; untuk mengesahkan dengan menggunakan kod pengesahan dari apl mudah alih Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModePhoneApp" xml:space="preserve">
+    <value>Pilih kaedah &lt;b&gt;Apl Mudah Alih&lt;/b&gt; untuk mengesahkan dengan menggunakan apl mudah alih Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeSmsText" xml:space="preserve">
+    <value>Pilih kaedah &lt;b&gt;Mesej Teks&lt;/b&gt; untuk menerima mesej teks untuk membuat pengesahan.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeVoiceCall" xml:space="preserve">
+    <value>Pilih kaedah &lt;b&gt;Panggilan Telefon&lt;/b&gt; untuk menerima panggilan telefon untuk membuat pengesahan.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtp" xml:space="preserve">
+    <value>Untuk melengkapkan pengesahan anda, masukkan kod laluan sekali guna yang anda terima melalui pesanan teks.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtpPlusPin" xml:space="preserve">
+    <value>Untuk melengkapkan pengesahan anda, masukkan kod laluan sekali guna yang anda terima melalui pesanan teks termasuk PIN anda.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsFindUser" xml:space="preserve">
+    <value>Masukkan beberapa aksara pertama daripada nama pengguna dan klik butang Cari.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsOathToken" xml:space="preserve">
+    <value>Uji pengesahan token OATH pengguna ini.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneApp" xml:space="preserve">
+    <value>Uji pengesahan apl mudah alih pengguna ini.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationIpWhitelist" xml:space="preserve">
+    <value>Selepas pengaktifan selesai, klik Berikut untuk meneruskan proses persediaan.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationOathToken" xml:space="preserve">
+    <value>Selepas pengaktifan selesai, klik butang berikut untuk menguji pengesahan dan meneruskan proses persediaan.  Apabila diminta, masukkan kod pengesahan yang sedang dipaparkan dalam apl mudah alih.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsSelectUser" xml:space="preserve">
+    <value>Pilih pengguna daripada senarai atau pilih Ke Belakang untuk mencari pengguna lain.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsSmsText" xml:space="preserve">
+    <value>Uji pengesahan mesej teks pengguna ini.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUnblockUser" xml:space="preserve">
+    <value>Masukkan sebab nyah sekat dan sahkan untuk menyah sekat pengguna.  Pengguna tidak lagi disekat pengesahannya.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Label_InstructionsUserActivatePhoneApp" xml:space="preserve">
+    <value>Pengguna mesti terlebih dahulu memasang apl mudah alih Multi-Factor Authentication pada telefon mereka.  Klik butang Jana untuk menerima kod pengesahan.  Kod pengaktifan akan dimasukkan ke dalam apl mudah alih untuk melengkapkan proses pengaktifan.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserDeactivatePhoneApp" xml:space="preserve">
+    <value>Untuk menyahaktifkan peranti bagi pengguna, klik pautan Nyah Aktifkan bagi peranti.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserEnable" xml:space="preserve">
+    <value>Sahkan untuk mendayakan pengguna supaya mereka mula menerima panggilan Multi-Factor Authentication apabila mendaftar masuk.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_InstructionsUserInformation" xml:space="preserve">
+    <value>Nyatakan maklumat baharu untuk pengguna ini.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Label_InstructionsUserLanguage" xml:space="preserve">
+    <value>Nyatakan pilihan bahasa untuk pengguna ini.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Label_InstructionsUserMode" xml:space="preserve">
+    <value>Pilih kaedah untuk pengguna ini.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathCode" xml:space="preserve">
+    <value>Untuk melengkapkan pengesahan, masukkan kod pengesahan yang sedang dipaparkan dalam apl mudah alih atau token Multi-Factor Authentication pengguna.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathToken" xml:space="preserve">
+    <value>Masukkan nombor siri token OATH dan kod yang sedang dipaparkan pada token untuk mengaitkan token dengan pengguna.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Label_InstructionsUserOneTimeBypass" xml:space="preserve">
+    <value>Sahkan pintasan sekali guna untuk melangkau Multi-Factor Authentication semasa daftar masuk berikut pengguna ini.  Pintasan ini hanya sementara.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtp" xml:space="preserve">
+    <value>Untuk melengkapkan pengesahan, masukkan kod laluan sekali guna yang diterima oleh pengguna ini dalam SMS.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtpPlusPin" xml:space="preserve">
+    <value>Untuk melengkapkan pengesahan, masukkan kod laluan sekali guna yang diterima oleh pengguna ini dalam SMS termasuk PIN pengguna.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserPhone" xml:space="preserve">
+    <value>Nyatakan nombor telefon baharu untuk pengguna ini.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Label_InstructionsUserPin" xml:space="preserve">
+    <value>Nyatakan nombor PIN baharu untuk pengguna ini.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Label_InstructionsUserResetVoiceprint" xml:space="preserve">
+    <value>Sahkan set semula cetak suara pengguna.  Pengguna mestilah mendaftar cetak suara semasa panggilan pengesahan mereka yang berikut.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathToken" xml:space="preserve">
+    <value>Untuk mendayakan Multi-Factor Authentication bagi akaun anda menggunakan kaedah Token OATH, masukkan nombor siri yang tercetak di belakang token OATH dan kod yang sedang dipaparkan pada token untuk mengaitkan token itu dengan akaun anda.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathTokenPhoneApp" xml:space="preserve">
+    <value>Untuk mendayakan Multi-Factor Authentication bagi akaun anda menggunakan kaedah Token OATH, anda mestilah memasang apl Multi-Factor Authentication pada telefon anda terlebih dahulu, kemudian klik butang Jana di bawah untuk menerima kod pengaktifan.  Kod pengaktifan akan dimasukkan ke dalam apl mudah alih untuk melengkapkan proses pengaktifan.  Kod pengaktifan hanya sah selama 10 minit.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPhoneApp" xml:space="preserve">
+    <value>Untuk mendayakan Multi-Factor Authentication bagi akaun anda menggunakan apl mudah alih, anda mestilah memasang apl Multi-Factor Authentication pada telefon anda terlebih dahulu, kemudian klik butang Jana di bawah untuk menerima kod pengaktifan.  Kod pengaktifan akan dimasukkan ke dalam apl mudah alih untuk melengkapkan proses pengaktifan.  Kod pengaktifan hanya sah selama 10 minit.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPin" xml:space="preserve">
+    <value>Untuk mendayakan Multi-Factor Authentication bagi akaun anda, sila nyatakan nombor telefon yang akan anda gunakan untuk membuat pengesahan dan PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtp" xml:space="preserve">
+    <value>Untuk mendayakan Multi-Factor Authentication bagi akaun anda, sila nyatakan nombor telefon yang akan anda gunakan untuk membuat pengesahan.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Untuk mendayakan Multi-Factor Authentication bagi akaun anda, sila nyatakan nombor telefon yang akan anda gunakan untuk membuat pengesahan dan PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtp" xml:space="preserve">
+    <value>Untuk mendayakan Multi-Factor Authentication bagi akaun anda, sila nyatakan nombor telefon yang akan anda gunakan untuk membuat pengesahan.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Untuk mendayakan Multi-Factor Authentication bagi akaun anda, sila nyatakan nombor telefon yang akan anda gunakan untuk membuat pengesahan dan PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupStandard" xml:space="preserve">
+    <value>Untuk mendayakan Multi-Factor Authentication bagi akaun anda, sila nyatakan nombor telefon yang akan anda gunakan untuk membuat pengesahan.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteOathToken" xml:space="preserve">
+    <value>Ikut arahan di bawah untuk mengaktifkan apl Multi-Factor Authentication pada telefon anda dan uji pengesahan menggunakan kod pengesahan yang diberikan oleh apl mudah alih tersebut.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePhoneApp" xml:space="preserve">
+    <value>Ikut arahan di bawah untuk mengaktifkan apl Multi-Factor Authentication pada telefon anda dan uji pengesahan menggunakan apl mudah alih tersebut.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePin" xml:space="preserve">
+    <value>Untuk melengkapkan langkah ini, Multi-Factor Authentication akan menghubungi nombor yang anda masukkan. Masukkan PIN anda diikuti dengan # untuk membuat pengesahan.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtp" xml:space="preserve">
+    <value>Untuk melengkapkan langkah ini, Multi-Factor Authentication akan menghantar kod laluan sekali guna dalam mesej teks ke nombor yang anda masukkan.  Apabila diminta, masukkan kod laluan sekali guna untuk membuat pengesahan.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Untuk melengkapkan langkah ini, Multi-Factor Authentication akan menghantar kod laluan sekali guna dalam mesej teks ke nombor yang anda masukkan.  Apabila diminta, masukkan kod laluan sekali guna dan PIN anda untuk membuat pengesahan.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtp" xml:space="preserve">
+    <value>Untuk melengkapkan langkah ini, Multi-Factor Authentication akan menghantar kod laluan sekali guna dalam mesej teks ke nombor yang anda masukkan.  Balas mesej teks dengan menyertakan kod laluan sekali guna untuk membuat pengesahan.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Untuk melengkapkan langkah ini, Multi-Factor Authentication akan menghantar kod laluan sekali guna dalam mesej teks ke nombor yang anda masukkan.  Balas mesej teks dengan menyertakan kod laluan sekali guna berserta PIN anda untuk membuat pengesahan.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteStandard" xml:space="preserve">
+    <value>Untuk melengkapkan langkah ini, Multi-Factor Authentication akan menghubungi nombor yang anda masukkan. Jawab dan tekan # untuk membuat pengesahan.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteVoiceprint" xml:space="preserve">
+    <value>Untuk melengkapkan langkah ini, Multi-Factor Authentication akan menghubungi nombor yang anda masukkan. Ikut arahan untuk mendaftar frasa laluan cetak suara.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupVoiceprint" xml:space="preserve">
+    <value>Untuk mendayakan Multi-Factor Authentication bagi akaun anda, sila nyatakan nombor telefon yang akan anda gunakan untuk membuat pengesahan.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserStaticToken" xml:space="preserve">
+    <value>Nyatakan token statik baharu untuk pengguna ini.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Label_MessageOathToken" xml:space="preserve">
+    <value>Akaun anda telah dikonfigurasi untuk menggunakan Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Apabila anda mendaftar masuk, anda akan terus menggunakan nama pengguna dan kata laluan yang sama.  Sebelum pengesahan anda lengkap, anda akan diminta oleh aplikasi untuk memasukkan kod pengesahan semasa daripada apl mudah alih atau token Multi-Factor Authentication untuk melengkapkan daftar masuk anda.  Jika anda tidak memasukkan kod pengesahan yang betul, daftar masuk akan ditolak.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppPin" xml:space="preserve">
+    <value>Akaun anda telah dikonfigurasi untuk menggunakan Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Apabila anda mendaftar masuk, anda akan terus menggunakan nama pengguna dan kata laluan yang sama. Sebelum pengesahan anda lengkap,
+anda akan menerima pemberitahuan meminta anda melancarkan apl mudah alih Multi-Factor Authentication dan memasukkan PIN anda untuk mengesahkan daftar masuk. Jika anda tidak mengesahkan daftar masuk dengan memasukkan PIN dan menekan #, daftar masuk akan ditolak.&lt;br/&gt;&lt;br/&gt;
+Anda hendaklah hanya memasukkan PIN anda apabila anda menerima pemberitahuan apl mudah alih Multi-Factor Authentication jika anda sememangnya sedang daftar masuk pada aplikasi.  Jika tidak, orang lain mungkin sedang cuba daftar masuk menggunakan nama pengguna dan kata laluan anda dan anda hendaklah melaporkan penipuan yang berpotensi ini kepada pentadbir IT anda.&lt;br/&gt;&lt;br/&gt;Kembali ke portal Multi-Factor Authentication pada bila-bila masa untuk menukar PIN anda.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppStandard" xml:space="preserve">
+    <value>Akaun anda telah dikonfigurasi untuk menggunakan Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Apabila anda mendaftar masuk, anda akan terus menggunakan nama pengguna dan kata laluan yang sama.  Sebelum pengesahan anda lengkap,
+anda akan menerima pemberitahuan meminta anda melancarkan apl mudah alih Multi-Factor Authentication dan menekan butang Sahkan untuk melengkapkan daftar masuk anda.  Jika anda tidak mengesahkan dengan menekan Sahkan, daftar masuk akan ditolak.&lt;br/&gt;&lt;br/&gt;
+Anda hendaklah menekan butang Sahkan apabila anda menerima pemberitahuan apl mudah alih Multi-Factor Authentication jika anda sememangnya sedang daftar masuk pada aplikasi.  Jika tidak, orang lain mungkin sedang cuba daftar masuk menggunakan nama pengguna dan kata laluan anda dan anda hendaklah melaporkan penipuan yang berpotensi ini kepada pentadbir IT anda.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppVoiceprint" xml:space="preserve">
+    <value>Akaun anda telah dikonfigurasi untuk menggunakan Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Apabila anda mendaftar masuk, anda akan terus menggunakan nama pengguna dan kata laluan yang sama.  Sebelum pengesahan anda lengkap,
+anda akan menerima pemberitahuan meminta anda melancarkan apl mudah alih Multi-Factor Authentication, kemudian menyebut frasa laluan anda untuk mengesahkan daftar masuk.  Jika anda tidak mengesahkan dengan menyebut frasa laluan anda, daftar masuk akan ditolak.&lt;br/&gt;&lt;br/&gt;
+Anda hendaklah menyebut frasa laluan anda apabila anda menerima pemberitahuan apl mudah alih Multi-Factor Authentication jika anda sememangnya sedang daftar masuk pada aplikasi.  Jika tidak, orang lain mungkin sedang cuba daftar masuk menggunakan nama pengguna dan kata laluan anda dan anda hendaklah melaporkan penipuan yang berpotensi ini kepada pentadbir IT anda.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePin" xml:space="preserve">
+    <value>Akaun anda telah dikonfigurasi untuk menggunakan Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Apabila anda mendaftar masuk, anda akan terus menggunakan nama pengguna dan kata laluan yang sama.  Sebelum pengesahan anda lengkap,
+anda akan menerima panggilan telefon meminta anda memasukkan PIN anda diikuti dengan kekunci paun (#) untuk mengesahkan daftar masuk.  Jika anda
+tidak mengesahkan daftar masuk dengan memasukkan PIN dan menekan #, daftar masuk akan ditolak.&lt;br/&gt;&lt;br/&gt;
+Anda hendaklah memasukkan PIN anda hanya apabila menerima pemberitahuan apl mudah alih Multi-Factor Authentication jika anda sememangnya sedang daftar masuk pada aplikasi..
+Jika tidak, orang lain mungkin sedang cuba daftar masuk menggunakan nama pengguna dan kata laluan anda dan anda hendaklah melaporkan penipuan yang
+berpotensi ini kepada pentadbir IT anda.&lt;br/&gt;&lt;br/&gt;
+Kembali ke portal Multi-Factor Authentication pada bila-bila masa untuk menukar telefon nombor atau PIN anda.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtp" xml:space="preserve">
+    <value>Akaun anda telah dikonfigurasi untuk menggunakan Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Apabila anda mendaftar masuk, anda akan terus menggunakan nama pengguna dan kata laluan yang sama.  Sebelum pengesahan anda lengkap,
+anda akan menerima mesej teks yang mengandungi kod laluan sekali guna.  Masukkan kod laluan ini apabila diminta oleh aplikasi.
+Jika anda tidak memasukkan kod laluan yang betul, daftar masuk akan ditolak.&lt;br/&gt;&lt;br/&gt;
+Kembali ke portal Multi-Factor Authentication pada bila-bila masa untuk menukar nombor telefon anda.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Akaun anda telah dikonfigurasi untuk menggunakan Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Apabila anda mendaftar masuk, anda akan terus menggunakan nama pengguna dan kata laluan yang sama.  Sebelum pengesahan anda lengkap,
+anda akan menerima mesej teks yang mengandungi kod laluan sekali guna.  Masukkan kod laluan ini dan PIN anda apabila diminta oleh aplikasi.
+Jika anda tidak memasukkan kod laluan dan PIN yang betul, daftar masuk akan ditolak.&lt;br/&gt;&lt;br/&gt;
+Kembali ke portal Multi-Factor Authentication pada bila-bila masa untuk menukar nombor telefon atau PIN anda.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtp" xml:space="preserve">
+    <value>Akaun anda telah dikonfigurasi untuk menggunakan Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Apabila anda mendaftar masuk, anda akan terus menggunakan nama pengguna dan kata laluan yang sama.  Sebelum pengesahan anda lengkap,
+anda akan menerima mesej teks yang mengandungi kod laluan sekali guna.  Balas mesej teks itu dengan menyertakan kod laluan ini.
+Jika anda membalas dengan kod laluan yang salah, daftar masuk akan ditolak.&lt;br/&gt;&lt;br/&gt;
+Anda hendaklah membalas mesej teks hanya apabila anda menerima mesej teks Multi-Factor Authentication jika anda sememangnya sedang daftar masuk pada aplikasi.
+Jika tidak, orang lain mungkin sedang cuba daftar masuk menggunakan nama pengguna dan kata laluan anda dan anda hendaklah melaporkan penipuan yang
+berpotensi ini kepada pentadbir IT anda.&lt;br/&gt;&lt;br/&gt;
+Kembali ke portal Multi-Factor Authentication pada bila-bila masa untuk menukar telefon nombor anda.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Akaun anda telah dikonfigurasi untuk menggunakan Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Apabila anda mendaftar masuk, anda akan terus menggunakan nama pengguna dan kata laluan yang sama.  Sebelum pengesahan anda lengkap,
+anda akan menerima mesej teks yang mengandungi kod laluan sekali guna.  Balas mesej teks dengan menyertakan kod laluan ini dan PIN anda.
+Jika anda membalas dengan kod laluan dan PIN yang salah, daftar masuk akan ditolak.&lt;br/&gt;&lt;br/&gt;
+Anda hendaklah membalas hanya apabila anda menerima mesej teks Multi-Factor Authentication jika anda sememangnya sedang daftar masuk pada aplikasi.
+Jika tidak, orang lain mungkin sedang cuba daftar masuk menggunakan nama pengguna dan kata laluan anda dan anda hendaklah melaporkan penipuan yang
+berpotensi ini kepada pentadbir IT anda.&lt;br/&gt;&lt;br/&gt;
+Kembali ke portal Multi-Factor Authentication pada bila-bila masa untuk menukar nombor telefon atau PIN anda.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageStandard" xml:space="preserve">
+    <value>Akaun anda telah dikonfigurasi untuk menggunakan Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Apabila anda mendaftar masuk, anda akan terus menggunakan nama pengguna dan kata laluan yang sama.  Sebelum pengesahan anda lengkap,
+anda akan menerima panggilan telefon yang meminta anda menekan kekunci paun (#) untuk mengesahkan daftar masuk.  Jika anda tidak mengesahkan daftar
+masuk dengan menekan #, daftar masuk akan ditolak.&lt;br/&gt;&lt;br/&gt;
+Anda hendaklah memasukkan # hanya apabila anda menerima panggilan Multi-Factor Authentication jika anda sememangnya sedang daftar masuk pada aplikasi.
+Jika tidak, orang lain mungkin sedang cuba daftar masuk menggunakan nama pengguna dan kata laluan anda dan anda hendaklah melaporkan penipuan yang
+berpotensi ini kepada pentadbir IT anda.&lt;br/&gt;&lt;br/&gt;
+Kembali ke portal Multi-Factor Authentication pada bila-bila masa untuk menukar nombor telefon anda.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageVoiceprint" xml:space="preserve">
+    <value>Akaun anda telah dikonfigurasi untuk menggunakan Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Apabila anda mendaftar masuk, anda akan terus menggunakan nama pengguna dan kata laluan yang sama.  Sebelum pengesahan anda lengkap,
+anda akan menerima panggilan telefon meminta anda menyebut frasa laluan anda untuk mengesahkan daftar masuk.  Jika anda tidak mengesahkan
+daftar masuk dengan menyebut frasa laluan, daftar masuk akan ditolak.&lt;br/&gt;&lt;br/&gt;
+Anda hendaklah menyebut frasa laluan anda hanya apabila anda menerima panggilan Multi-Factor Authentication jika anda sememangnya sedang daftar masuk pada aplikasi.
+Jika tidak, orang lain mungkin sedang cuba daftar masuk menggunakan nama pengguna dan kata laluan anda dan anda hendaklah melaporkan penipuan yang
+berpotensi ini kepada pentadbir IT anda.&lt;br/&gt;&lt;br/&gt;
+Kembali ke portal Multi-Factor Authentication pada bila-bila masa untuk menukar nombor telefon anda.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MustChangeModeToPhoneApp" xml:space="preserve">
+    <value>Selepas mengaktifkan apl mudah alih Multi-Factor Authentication pada peranti anda, anda perlu menukar kaedah kepada Apl Mudah Alih.  Klik pada pautan Tukar Kaedah dalam menu navigasi dan nyatakan kaedah Apl Mudah Alih untuk mula menggunakan apl tersebut.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_MustChangeUserToPhoneAppMode" xml:space="preserve">
+    <value>Selepas pengguna mengaktifkan apl mudah alih Multi-Factor Authentication pada peranti mereka, anda perlu menukar kaedah mereka kepada Apl Mudah Alih supaya mereka dapat menggunakan apl tersebut.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerPhoneApp" xml:space="preserve">
+    <value>Ini hanya akan terjadi jika orang lain cuba melog masuk ke akaun anda dan mereka sudah mengetahui kata laluan anda. Ingat, apl mudah alih Multi-Factor Authentication hanya dihantar selepas nama pengguna dan kata laluan ditentu sahkan. Oleh hal itu, jika perkara ini, terjadi Multi-Factor Authentication baru sahaja menyelamatkan akaun anda daripada akses tidak sah!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerSms" xml:space="preserve">
+    <value>Ini hanya akan terjadi jika orang lain cuba melog masuk ke akaun anda dan mereka sudah mengetahui kata laluan anda. Ingat, mesej teks hanya dihantar selepas nama pengguna dan kata laluan ditentu sahkan. Oleh hal itu, jika perkara ini, terjadi Multi-Factor Authentication baru sahaja menyelamatkan akaun anda daripada akses tidak sah!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerVoice" xml:space="preserve">
+    <value>Ini hanya akan terjadi jika orang lain cuba melog masuk ke akaun anda dan mereka sudah mengetahui kata laluan anda. Ingat, panggilan telefon hanya dibuat selepas nama pengguna dan kata laluan ditentu sahkan. Oleh hal itu, jika perkara ini terjadi Multi-Factor Authentication baru sahaja menyelamatkan akaun anda daripada akses tidak sah!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionPhoneApp" xml:space="preserve">
+    <value>Bagaimana jika saya menerima pemberitahuan apl mudah alih Multi-Factor Authentication sedangkan saya tidak cuba mendaftar masuk?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionSms" xml:space="preserve">
+    <value>Bagaimana jika saya menerima mesej teks daripada Multi-Factor Authentication sedangkan saya tidak cuba mendaftar masuk?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionVoice" xml:space="preserve">
+    <value>Bagaimana jika saya menerima panggilan telefon daripada Multi-Factor Authentication sedangkan saya tidak cuba mendaftar masuk?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassOathToken" xml:space="preserve">
+    <value>Selain itu, syarikat anda menyediakan pilihan Pintasan Sekali Guna yang membenarkan anda melog masuk sekali tanpa meminta kod pengesahan. Pilih pilihan Pintasan Sekali Guna untuk mengakses ciri ini. Atau hubungi meja bantuan sokongan daripada mana-mana telefon untuk bantuan.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_OneTimeBypassPhoneApp" xml:space="preserve">
+    <value>Selain itu, syarikat anda menyediakan pilihan Pintasan Sekali Guna yang membenarkan anda melog masuk sekali tanpa pemberitahuan apl mudah alih Multi-Factor Authentication. Pilih pilihan Pintasan Sekali Guna untuk mengakses ciri ini. Atau hubungi meja bantuan sokongan daripada mana-mana telefon untuk bantuan.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassSms" xml:space="preserve">
+    <value>Syarikat anda menyediakan pilihan Pintasan Sekali Guna yang membenarkan anda melog masuk sekali tanpa mesej teks. Pilih pilihan Pintasan Sekali Guna untuk mengakses ciri ini. Atau hubungi meja bantuan sokongan daripada mana-mana telefon untuk bantuan.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassVoice" xml:space="preserve">
+    <value>Syarikat anda menyediakan pilihan Pintasan Sekali Guna yang membenarkan anda melog masuk sekali panggilan telefon. Pilih pilihan Pintasan Sekali Guna untuk mengakses ciri ini. Atau hubungi meja bantuan sokongan daripada mana-mana telefon untuk bantuan.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtp" xml:space="preserve">
+    <value>Kod Laluan Sekali Guna</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtpPlusPin" xml:space="preserve">
+    <value>Kod Laluan Sekali Guna + PIN</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_SimpleProcessOathToken" xml:space="preserve">
+    <value>Proses mudah ini menyediakan dua faktor pengesahan yang berasingan dengan pengesahan kedua yang disediakan oleh sesuatu yang anda miliki (telefon pintar atau token anda).</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_SimpleProcessPhoneApp" xml:space="preserve">
+    <value>Proses mudah ini menyediakan dua faktor pengesahan yang berasingan melalui dua saluran berasingan (komputer anda dan telefon pintar anda).</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessSms" xml:space="preserve">
+    <value>Proses mudah ini menyediakan dua faktor pengesahan yang berasingan melalui dua saluran berasingan (komputer anda dan perkhidmatan telefon anda). Proses ini berfungsi dengan mana-mana telefon yang mempunyai fungsi mesej teks.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessVoice" xml:space="preserve">
+    <value>Proses mudah ini menyediakan dua faktor pengesahan yang berasingan melalui dua saluran berasingan (komputer anda dan perkhidmatan telefon anda). Proses ini berfungsi dengan mana-mana telefon biasa atau telefon mudah alih.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionOathToken" xml:space="preserve">
+    <value>Anda akan diminta memberikan kod pengesahan dengan serta-merta.  Masukkan kod pengesahan yang sedang dipaparkan oleh apl mudah alih atau token Multi-Factor Authentication.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppPin" xml:space="preserve">
+    <value>Anda akan menerima pemberitahuan apl mudah alih Multi-Factor Authentication dengan serta-merta.  Lancarkan apl, masukkan PIN anda dan tekan butang Sahkan.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppStandard" xml:space="preserve">
+    <value>Anda akan menerima pemberitahuan apl mudah alih Multi-Factor Authentication dengan serta-merta. Lancarkan apl dan tekan butang Sahkan.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppVoiceprint" xml:space="preserve">
+    <value>Anda akan menerima pemberitahuan apl mudah alih Multi-Factor Authentication dengan serta-merta. Lancarkan apl dan sebut frasa laluan anda apabila diminta.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPin" xml:space="preserve">
+    <value>Anda akan menerima panggilan telefon dengan serta-merta. Jawab, masukkan PIN anda dan tekan #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtp" xml:space="preserve">
+    <value>Anda akan menerima mesej teks yang mengandungi kod laluan sekali guna dengan serta-merta. Masukkan kod laluan ini apabila diminta oleh aplikasi.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Anda akan menerima mesej teks yang mengandungi kod laluan sekali guna dengan serta-merta. Masukkan kod laluan ini dan PIN anda apabila diminta oleh aplikasi.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtp" xml:space="preserve">
+    <value>Anda akan menerima mesej teks yang mengandungi kod laluan sekali guna dengan serta-merta. Balas mesej teks dengan menyertakan kod laluan ini.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Anda akan menerima mesej teks yang mengandungi kod laluan sekali guna dengan serta-merta. Balas mesej teks dengan menyertakan kod laluan dan PIN anda.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionStandard" xml:space="preserve">
+    <value>Anda akan menerima panggilan telefon dengan serta-merta. Jawab dan tekan #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionVoiceprint" xml:space="preserve">
+    <value>Anda akan menerima panggilan telefon dengan serta-merta. Jawab dan sebut frasa laluan anda selepas bunyi nada.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_TitleWithColon" xml:space="preserve">
+    <value>{0}:</value>
+    <comment>Page header on most pages</comment>
+  </data>
+  <data name="Label_UnblockReason" xml:space="preserve">
+    <value>Sebab Nyah Sekat</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_AccountConfigurationComplete" xml:space="preserve">
+    <value>Konfigurasi Akaun Selesai</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Message_AnswerRequired" xml:space="preserve">
+    <value>Anda mesti menjawab sekurang-kurangnya satu soalan keselamatan.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AnswerSecurityQuestions" xml:space="preserve">
+    <value>Sila jawab soalan keselamatan anda untuk log masuk.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AnswersIncorrect" xml:space="preserve">
+    <value>Satu atau lebih jawapan tidak betul.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AuthenticationDenied" xml:space="preserve">
+    <value>Multi-Factor Authentication ditolak.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedAnswerSecurityQuestions" xml:space="preserve">
+    <value>Multi-Factor Authentication ditolak.  Sila jawab soalan keselamatan anda untuk log masuk.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedCallResult" xml:space="preserve">
+    <value>Multi-Factor Authentication ditolak: {0}</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_AuthenticationSuccessful" xml:space="preserve">
+    <value>Multi-Factor Authentication berjaya.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_BypassSecondsNumeric" xml:space="preserve">
+    <value>Saat Pintasan mestilah nombor.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRange" xml:space="preserve">
+    <value>Saat Pintasan mestilah di antara 5 dengan 1800 (30 minit).</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRequired" xml:space="preserve">
+    <value>Saat Pintasan diperlukan.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_CannotActivateDevice" xml:space="preserve">
+    <value>Akaun anda mesti dikaitkan dengan apl mudah alih Multi-Factor Authentication yang telah diaktifkan pada peranti sebelum anda boleh menukar kaedah kepada Apl Mudah Alih.  Hubungi meja bantuan untuk bantuan mengaktifkan apl mudah alih Multi-Factor Authentication pada peranti anda.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotEstablishWebServiceSdkConnection" xml:space="preserve">
+    <value>Portal Pengguna Multi-Factor Authentication tidak dapat membuat sambungan selamat dengan Web Service SDK: {0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_CannotGetOathToken" xml:space="preserve">
+    <value>Akaun anda mesti dikaitkan dengan apl mudah alih Multi-Factor Authentication yang telah diaktifkan pada peranti atau dikaitkan dengan token OATH sebelum anda boleh menukar kaedah kepada Token OATH.  Hubungi meja bantuan untuk bantuan mengaktifkan apl mudah alih Multi-Factor Authentication pada peranti anda atau mendapatkan token OATH yang diberi.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Anda mesti menetapkan nombor telefon kepada akaun anda sebelum anda dapat menukar kaedah anda kepada Mesej Teks.  Hubungi meja bantuan anda untuk menetapkan nombor telefon kepada akaun anda.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Anda mesti menetapkan nombor telefon kepada akaun anda sebelum anda dapat menukar kaedah anda kepada Panggilan Telefon.  Hubungi meja bantuan untuk menetapkan nombor telefon kepada akaun anda.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeOathTokenIncomplete" xml:space="preserve">
+    <value>Nota: Pengguna belum mengaktifkan apl mudah alih Multi-Factor Authentication pada peranti mereka atau diberi token OATH pihak ketiga dan dianggap tidak lengkap untuk kaedah Token OATH.  Pengesahan untuk melindungi aplikasi akan gagal bagi pengguna ini dan log masuk ke Portal Pengguna akan memerlukan mereka mendaftar semula.  Anda disyorkan sama ada menghubungi pengguna bagi membantu mereka mengaktifkan apl mudah alih Multi-Factor Authentication atau menetapkan dan mengagihkan token OATH pihak ketiga.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModePhoneAppIncomplete" xml:space="preserve">
+    <value>Nota: Pengguna belum mengaktifkan apl mudah alih Multi-Factor Authentication pada peranti mereka dan dianggap tidak lengkap untuk kaedah Apl Mudah Alih.  Pengesahan untuk melindungi aplikasi akan gagal bagi pengguna ini dan log masuk ke Portal Pengguna akan memerlukan mereka mendaftar semula.  Anda disyorkan untuk menghubungi pengguna bagi membantu mereka mengaktifkan apl mudah alih Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeSmsTextIncomplete" xml:space="preserve">
+    <value>Nota: Pengguna tidak menyatakan nombor telefon dan dianggap tidak lengkap untuk kaedah Mesej Teks.  Pengesahan untuk melindungi aplikasi akan gagal bagi pengguna ini dan log masuk ke Portal Pengguna akan memerlukan mereka mendaftar semula.  Anda disyorkan untuk menyatakan nombor telefon untuk pengguna supaya mereka dapat meneruskan aplikasi terlindung tanpa perlu mendaftar semula.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeVoiceCallIncomplete" xml:space="preserve">
+    <value>Nota: Pengguna tidak menyatakan nombor telefon dan dianggap tidak lengkap untuk kaedah Panggilan Telefon.  Pengesahan untuk melindungi aplikasi akan gagal bagi pengguna ini dan log masuk ke Portal Pengguna akan memerlukan mereka mendaftar semula.  Anda disyorkan untuk menyatakan nombor telefon untuk pengguna supaya mereka dapat meneruskan aplikasi terlindung tanpa perlu mendaftar semula.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CodeRequired" xml:space="preserve">
+    <value>Kod diperlukan.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_CodeRequiredCross" xml:space="preserve">
+    <value>Kod diperlukan apabila nombor siri dinyatakan.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ConfirmDeactivate" xml:space="preserve">
+    <value>Adakah anda pasti mahu menyahaktifkan peranti ini selama-lamanya?</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceDeactivated" xml:space="preserve">
+    <value>Peranti dinyah aktifkan.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceLimit" xml:space="preserve">
+    <value>Akaun anda telah mencecah had {0} peranti.  Anda mesti menyahaktifkan peranti sedia ada sebelum mengaktifkan yang baharu.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DuplicateAnswer" xml:space="preserve">
+    <value>Jawapan pendua tidak dibenarkan.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateQuestion" xml:space="preserve">
+    <value>Soalan pendua tidak dibenarkan.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateUsername" xml:space="preserve">
+    <value>Nama pengguna berpendua.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUser" xml:space="preserve">
+    <value>Ralat menambah pengguna.&lt;br/&gt;{0}</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUserForPassedSession" xml:space="preserve">
+    <value>Ralat menambah pengguna untuk sesi lepas.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithLocal" xml:space="preserve">
+    <value>Ralat berkomunikasi dengan perkhidmatan Multi-Factor Authentication setempat.  Sila hubungi pentadbir anda.</value>
+    <comment>Most pages when connection to local server is lost</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithMaster" xml:space="preserve">
+    <value>Ralat berkomunikasi dengan perkhidmatan Multi-Factor Authentication induk.  Sila hubungi pentadbir anda.</value>
+    <comment>Most pages when connection to master server is lost</comment>
+  </data>
+  <data name="Message_ErrorDeactivatingDevice" xml:space="preserve">
+    <value>Ralat menyahaktifkan peranti.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorDisablingUser" xml:space="preserve">
+    <value>Ralat menyahdayakan pengguna.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorEnablingUser" xml:space="preserve">
+    <value>Ralat mendayakan pengguna.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorFindingUsers" xml:space="preserve">
+    <value>Ralat mencari pengguna.&lt;br/&gt;{0}</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_ErrorGeneratingActivationCode" xml:space="preserve">
+    <value>Ralat menjana kod pengaktifan.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorIssuingOneTimeBypass" xml:space="preserve">
+    <value>Ralat mengeluarkan pintasan sekali guna.  Sila hubungi pentadbir anda.&lt;br/&gt;{0}</value>
+    <comment>one_time_bypass and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorRemovingUser" xml:space="preserve">
+    <value>Ralat mengalih keluar pengguna.&lt;br/&gt;{0}</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_ErrorResettingMode" xml:space="preserve">
+    <value>Ralat mengeset semula kaedah.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPhone" xml:space="preserve">
+    <value>Ralat mengeset semula telefon.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPin" xml:space="preserve">
+    <value>Ralat mengeset semula PIN.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingVoiceprint" xml:space="preserve">
+    <value>Ralat mengeset semula cetak suara.  Sila hubungi pentadbir anda.&lt;br/&gt;{0}</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingLanguage" xml:space="preserve">
+    <value>Ralat mengemas kini bahasa.&lt;br/&gt;{0}</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingMode" xml:space="preserve">
+    <value>Ralat mengemas kini kaedah.&lt;br/&gt;{0}</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhone" xml:space="preserve">
+    <value>Ralat mengemas kini telefon.&lt;br/&gt;{0}</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhoneAppMode" xml:space="preserve">
+    <value>Ralat mengemas kini mod apl mudah alih.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPin" xml:space="preserve">
+    <value>Ralat mengemas kini PIN.&lt;br/&gt;{0}</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSecurityQuestions" xml:space="preserve">
+    <value>Ralat mengemas kini soalan keselamatan.&lt;br/&gt;{0}</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSmsTextMode" xml:space="preserve">
+    <value>Ralat mengemas kini mod mesej teks.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingStaticToken" xml:space="preserve">
+    <value>Ralat mengemas kini token statik.&lt;br/&gt;{0}</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserForSecurityQuestionSetup" xml:space="preserve">
+    <value>Ralat mengemas kini pengguna untuk persediaan soalan keselamatan.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserInformation" xml:space="preserve">
+    <value>Ralat mengemas kini maklumat pengguna.&lt;br/&gt;{0}</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingVoiceCallMode" xml:space="preserve">
+    <value>Ralat mengemas kini mod panggilan telefon.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ExpiredSession" xml:space="preserve">
+    <value>Sesi anda telah tamat tempoh.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_IncorrectAnswers" xml:space="preserve">
+    <value>Jawapan yang anda berikan tidak betul. Sila cuba lagi.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_IncorrectOathCode" xml:space="preserve">
+    <value>Kod pengesahan tidak betul.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscode" xml:space="preserve">
+    <value>Kod laluan sekali guna tidak betul.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscodePlusPin" xml:space="preserve">
+    <value>Kod laluan sekali guna + PIN tidak betul.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_InvalidExtension" xml:space="preserve">
+    <value>Sambungan tidak sah.  Hanya angka, koma, *, dan # dibenarkan.  Guna koma untuk jeda satu saat.  Letakkan awalan @ pada sambungan untuk menyatakan angka sambungan bagi pindahan manual.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_InvalidSerialNumber" xml:space="preserve">
+    <value>Nombor siri tidak sah.  Token OATH dengan nombor siri ini mesti ditakrifkan dalam antara muka Pelayan Multi-Factor Authentication sebelum mengaitkannya dengan pengguna.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_LineBreak" xml:space="preserve">
+    <value>&lt;br/&gt;{0}</value>
+    <comment>add_user, change_phone, change_pin, change_mode, change_language and enable_disable pages</comment>
+  </data>
+  <data name="Message_LoginFailed" xml:space="preserve">
+    <value>Log masuk gagal.</value>
+    <comment>login and secondary_authentication pages</comment>
+  </data>
+  <data name="Message_MustActivateDevice" xml:space="preserve">
+    <value>Anda mesti mengaktifkan apl mudah alih Multi-Factor Authentication pada peranti sebelum anda boleh menukar kaedah anda kepada Apl Mudah Alih.  Klik pautan Aktifkan Apl Mudah Alih dalam menu navigasi untuk memulakan pengaktifan anda.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustActivateDeviceOathToken" xml:space="preserve">
+    <value>Anda mesti mengaktifkan apl mudah alih Multi-Factor Authentication pada peranti sebelum anda boleh menukar kaedah anda kepada Token OATH.  Klik pautan Aktifkan Apl Mudah Alih dalam menu navigasi untuk memulakan pengaktifan anda.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustAnswerAllQuestions" xml:space="preserve">
+    <value>Anda mesti menjawab semua soalan keselamatan.</value>
+    <comment>create_security_questions, change_security_questions, and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_MustEnrollOathToken" xml:space="preserve">
+    <value>Anda mesti mengaitkan token OATH dengan akaun anda sebelum anda boleh menukar kaedah anda kepada Token OATH.  Klik pautan Token OATH untuk mengaitkan token OATH.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustHaveOathToken" xml:space="preserve">
+    <value>Anda mesti mengaktifkan apl mudah alih Multi-Factor Authentication pada peranti atau mengaitkan token OATH dengan akaun anda sebelum anda boleh menukar kaedah anda kepada Token OATH.  Klik pautan Aktifkan Apl Mudah Alih dalam menu navigasi untuk memulakan pengaktifan anda atau klik pautan Token OATH untuk mengaitkan token OATH.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Anda mesti menyatakan nombor telefon untuk akaun anda sebelum anda boleh menukar kaedah anda kepada Mesej Teks.  Klik pautan Tukar Telefon dalam menu navigasi untuk menyatakan nombor telefon.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Anda mesti menyatakan nombor telefon untuk akaun anda sebelum anda boleh menukar kaedah anda kepada Panggilan Telefon.  Klik pautan Tukar Telefon dalam menu navigasi untuk menyatakan nombor telefon.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifySearchField" xml:space="preserve">
+    <value>Mesti menyatakan sekurang-kurangnya satu medan carian.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoActivatedDevices" xml:space="preserve">
+    <value>Tiada peranti yang diaktifkan untuk pengguna ini.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_NoMatchingUsersFound" xml:space="preserve">
+    <value>Tiada pengguna sepadan ditemui.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoSsl" xml:space="preserve">
+    <value>Portal Pengguna Multi-Factor Authentication tidak selamat dengan SSL, tetapi SSL diperlukan untuk kuki sesi dalam Web.config.  Portal Pengguna tidak berfungsi kerana keadaan sesi tidak dapat dikekalkan.  Portal Pengguna disarankan untuk dilindungi dengan SSL.  Bagi tujuan pengujian, anda boleh menukar requireSSL kepada "palsu" dalam tag &lt;httpCookies&gt; dalam Web.config untuk sementara waktu.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailed" xml:space="preserve">
+    <value>Penyegerakan token OATH gagal.  Kod yang dimasukkan tidak betul atau nombor siri token OATH itu tidak sah.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailedUser" xml:space="preserve">
+    <value>Penyegerakan token OATH gagal.  Kod yang dimasukkan tidak betul.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OnlyFirstMatchesDisplayed" xml:space="preserve">
+    <value>Hanya {0} padanan yang pertama dipaparkan.  Jika anda tidak menemui pengguna dalam senarai, masukkan kriteria carian yang lebih spesifik.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_PassedSessionFailed" xml:space="preserve">
+    <value>Sesi lepas gagal.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_PhoneRequired" xml:space="preserve">
+    <value>Telefon diperlukan.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMatch" xml:space="preserve">
+    <value>PIN dan Sahkan PIN mesti sepadan.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMinimumLength" xml:space="preserve">
+    <value>PIN mestilah sekurang-kurangnya {0} angka.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinNumeric" xml:space="preserve">
+    <value>PIN mestilah nombor.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinRecentlyUsed" xml:space="preserve">
+    <value>PIN tidak boleh sama dengan PIN yang anda gunakan baru-baru ini.  Sila pilih PIN yang lain.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_SamlDisabled" xml:space="preserve">
+    <value>Daftar masuk tunggal ke aplikasi luaran menggunakan SAML dinyahdayakan.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotDefined" xml:space="preserve">
+    <value>Soalan keselamatan tidak ditakrifkan untuk pengguna ini.&lt;br/&gt;</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotSetUp" xml:space="preserve">
+    <value>Anda tidak boleh log masuk tanpa telefon anda kerana anda belum menetapkan soalan keselamatan.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsVerified" xml:space="preserve">
+    <value>Soalan keselamatan ditentu sahkan.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityWarningNoSsl" xml:space="preserve">
+    <value>AMARAN KESELAMATAN: Portal Pengguna Multi-Factor Authentication tidak selamat dengan SSL.  Kata laluan dibenarkan dalam teks biasa.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SerialNumberAlreadyAssociated" xml:space="preserve">
+    <value>Nombor siri sudah dikaitkan dengan {0}.  Anda mesti mengalih keluar nombor siri daripada pengguna itu sebelum mengaitkannya dengan pengguna ini.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_SerialNumberRequired" xml:space="preserve">
+    <value>Nombor siri diperlukan.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_SerialNumberRequiredCross" xml:space="preserve">
+    <value>Nombor Siri diperlukan apabila kod dinyatakan.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ShortAnswer" xml:space="preserve">
+    <value>Jawapan mestilah sekurang-kurangnya 4 aksara.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_StaticTokenMatch" xml:space="preserve">
+    <value>Token Statik dan Sahkan Token Statik mesti sepadan.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenMinimumLength" xml:space="preserve">
+    <value>Token Statik mestilah sekurang-kurangnya {0} angka.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenNumeric" xml:space="preserve">
+    <value>Token Statik mestilah nombor.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserAdded" xml:space="preserve">
+    <value>Pengguna ditambah.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_UserAlreadyBlocked" xml:space="preserve">
+    <value>Sekatan gagal.  Pengguna telah pun disekat.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlocked" xml:space="preserve">
+    <value>Pengguna telah berjaya disekat.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlockFailed" xml:space="preserve">
+    <value>Sekatan gagal.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserDeviceLimit" xml:space="preserve">
+    <value>Pengguna telah mencecah had {0} peranti.  Anda mesti menyahaktifkan peranti sedia ada untuk pengguna ini sebelum mereka dapat mengaktifkan yang baharu.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_UserDisabled" xml:space="preserve">
+    <value>Pengguna berjaya dinyahdayakan.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserEnabled" xml:space="preserve">
+    <value>Pengguna berjaya didayakan.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserInformationChanged" xml:space="preserve">
+    <value>Maklumat pengguna telah diubah.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_UserLanguageChanged" xml:space="preserve">
+    <value>Pilihan bahasa pengguna telah diubah.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_UserModeChanged" xml:space="preserve">
+    <value>Kaedah pengguna telah diubah.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_UsernameRequired" xml:space="preserve">
+    <value>Nama pengguna diperlukan.</value>
+    <comment>login and add_user pages</comment>
+  </data>
+  <data name="Message_UserNotBlocked" xml:space="preserve">
+    <value>Nyah sekat gagal.  Pengguna tidak disekat.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserOathTokenSaved" xml:space="preserve">
+    <value>Token OATH pengguna telah disimpan.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_UserOneTimeBypassIssued" xml:space="preserve">
+    <value>Pintasan sekali guna telah dikeluarkan.  Multi-Factor Authentication akan dilangkau apabila pengguna mendaftar masuk pada kali yang berikut.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_UserPhoneChanged" xml:space="preserve">
+    <value>Telefon pengguna telah diubah.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_UserPinChanged" xml:space="preserve">
+    <value>PIN pengguna telah diubah.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_UserPortalDisabled" xml:space="preserve">
+    <value>Log masuk terus ke Portal Pengguna dinyahdayakan.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserPortalNotPurchased" xml:space="preserve">
+    <value>Portal Pengguna Multi-Factor Authentication tidak berfungsi kerana ciri ini tidak dibeli.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserRemoved" xml:space="preserve">
+    <value>pengguna dialih keluar.</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_UserStaticTokenChanged" xml:space="preserve">
+    <value>Token statik pengguna telah diubah.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserSubmodeChanged" xml:space="preserve">
+    <value>Mod pengguna telah diubah.</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_UserUnblocked" xml:space="preserve">
+    <value>Pengguna telah berjaya dinyah sekat.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserUnblockFailed" xml:space="preserve">
+    <value>Nyah sekat gagal.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserVoiceprintReset" xml:space="preserve">
+    <value>Cetak suara berjaya diset semula.  Pengguna akan diminta mendaftar cetak suara baharu apabila mereka mendaftar masuk pada kali yang berikut.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_WeakPinNotAllowed" xml:space="preserve">
+    <value>PIN yang lemah tidak dibenarkan.  Tidak boleh mengandungi 4 atau lebih subset angka nombor telefon, 3 atau lebih angka berulang atau 3 atau lebih angka berjujukan.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_WeakStaticTokenNotAllowed" xml:space="preserve">
+    <value>Token Statik lemah tidak dibenarkan.  Tidak boleh mengandungi 4 atau lebih subset angka nombor telefon, 3 atau lebih angka berulang atau 3 atau lebih angka berjujukan.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_WebServiceSdkError" xml:space="preserve">
+    <value>Portal Pengguna Multi-Factor Authentication dikonfigurasi untuk berkomunikasi dengan Perkhidmatan Web SDK yang mengembalikan ralat berikut:&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_WebServiceSdkNotPurchased" xml:space="preserve">
+    <value>Portal Pengguna Multi-Factor Authentication dikonfigurasi untuk berkomunikasi dengan Perkhidmatan Web SDK dan ciri Perkhidmatan Web belum dibeli.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_YourInformationChanged" xml:space="preserve">
+    <value>Maklumat anda telah diubah.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_YourLanguageChanged" xml:space="preserve">
+    <value>Pilihan bahasa anda telah diubah.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_YourModeChanged" xml:space="preserve">
+    <value>Kaedah anda telah diubah.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_YourOathTokenSaved" xml:space="preserve">
+    <value>Token OATH telah disimpan.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_YourOneTimeBypassIssued" xml:space="preserve">
+    <value>Pintasan sekali guna telah dikeluarkan.  Multi-Factor Authentication akan dilangkau apabila anda daftar masuk pada kali yang berikut.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_YourPhoneChanged" xml:space="preserve">
+    <value>Telefon anda telah diubah.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_YourPinChanged" xml:space="preserve">
+    <value>PIN anda telah diubah.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_YourSecurityQuestionsChanged" xml:space="preserve">
+    <value>Soalan dan jawapan keselamatan anda telah diubah.</value>
+    <comment>change_security_questions page</comment>
+  </data>
+  <data name="Message_YourStaticTokenChanged" xml:space="preserve">
+    <value>Token statik anda telah diubah.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_YourVoiceprintReset" xml:space="preserve">
+    <value>Cetak suara berjaya diset semula.  Anda akan diminta mendaftar cetak suara baharu apabila anda mendaftar masuk pada kali yang berikut.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Reason_InitiatedByAdmin" xml:space="preserve">
+    <value>Dimulakan oleh pentadbir dalam Portal Pengguna</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Reason_InitiatedByUser" xml:space="preserve">
+    <value>Dimulakan oleh pengguna dalam Portal Pengguna</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Subtitle_DeactivatePhoneApp" xml:space="preserve">
+    <value>Nyah Aktif Apl Mudah Alih</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Subtitle_Enable" xml:space="preserve">
+    <value>Dayakan</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Subtitle_UnblockUser" xml:space="preserve">
+    <value>Nyah Sekat Pengguna</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Title_PhoneFactorUserPortal" xml:space="preserve">
+    <value>Multi-Factor Authentication™ | Portal Pengguna</value>
+    <comment>Title on all pages</comment>
+  </data>
+  <data name="Value_All" xml:space="preserve">
+    <value>Semua</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Value_Masked" xml:space="preserve">
+    <value>Disembunyikan</value>
+    <comment>add_user, change_pin, and oath_token pages</comment>
+  </data>
+</root>

@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName_UserPortal" xml:space="preserve">
+    <value>User Portal</value>
+    <comment>Application name for Multi-Factor Authentications</comment>
+  </data>
+  <data name="Button_AuthenticateMeNow" xml:space="preserve">
+    <value>Authenticate Me Now</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_CallMeNowToAuthenticate" xml:space="preserve">
+    <value>Call Me Now to Authenticate</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_Next" xml:space="preserve">
+    <value>Next</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_TextMeNowToAuthenticate" xml:space="preserve">
+    <value>Text Me Now to Authenticate</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_VerifyOathToken" xml:space="preserve">
+    <value>Verify OATH Token</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Help_File" xml:space="preserve">
+    <value>help/PhoneFactor_User_Portal.htm</value>
+    <comment>Localize as help/xx/PhoneFactor_User_Portal.htm where xx is langauge code (e.g. de for German, zh-hans for Simplified Chinese)</comment>
+  </data>
+  <data name="Label_AlternatePhoneOathToken" xml:space="preserve">
+    <value>The Multi-Factor Authentication mobile app does not need to be connected to the mobile network or WiFi in order to display authentication codes.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_AlternatePhonePhoneApp" xml:space="preserve">
+    <value>The Multi-Factor Authentication mobile app works equally well over WiFi.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneSms" xml:space="preserve">
+    <value>You can change your account to point to an alternate phone number, by selecting the Change Phone Number option.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneVoice" xml:space="preserve">
+    <value>You can change your account to point to an alternate phone number, such as a land line, by selecting the Change Phone Number option.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_CannotChangeModeToPhoneApp" xml:space="preserve">
+    <value>After activating the Multi-Factor Authentication mobile app on your device, your account must have its method changed to Mobile App before you cant start using the app.  Contact the help desk to change your method to Mobile App.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_Disable" xml:space="preserve">
+    <value>Disable</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>Enable</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_FraudAlertPhoneApp" xml:space="preserve">
+    <value>To report the incident, press the Deny and Report Fraud button in the Multi-Factor Authentication mobile app. This will alert your company's IT security team. Future authentication attempts will be blocked until the issue has been resolved.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertSms" xml:space="preserve">
+    <value>To report the incident, enter the fraud code in your reply. This will alert your company's IT security team. Future authentication attempts will be blocked until the issue has been resolved.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertVoice" xml:space="preserve">
+    <value>To report the incident, select the Fraud Alert option from the phone menu during the authentication call. This will alert your company's IT security team. Future authentication attempts will be blocked until the issue has been resolved.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_GenerateActivationCode" xml:space="preserve">
+    <value>Generate Activation Code</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateActivationLink" xml:space="preserve">
+    <value>Generate Activation Link</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationCode" xml:space="preserve">
+    <value>Generate New Activation Code</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationLink" xml:space="preserve">
+    <value>Generate New Activation Link</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication works by prompting for an authentication code during login.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionPhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication works by sending a notification to your Multi-Factor Authentication mobile app during login.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionSms" xml:space="preserve">
+    <value>Multi-Factor Authentication works by sending a text message to your phone during login.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionVoice" xml:space="preserve">
+    <value>Multi-Factor Authentication works by placing a confirmation call to your phone during login.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsAdministrator" xml:space="preserve">
+    <value>Manage user accounts by selecting Find Users from the menu.  Manage your account by selecting the appropriate option.  Select the Help Icon (top right) for assistance.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeOathToken" xml:space="preserve">
+    <value>Select &lt;b&gt;OATH Token&lt;/b&gt; method to authenticate using an authentication code from the Multi-Factor Authentication mobile app.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModePhoneApp" xml:space="preserve">
+    <value>Select &lt;b&gt;Mobile App&lt;/b&gt; method to authenticate using the Multi-Factor Authentication mobile app.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeSmsText" xml:space="preserve">
+    <value>Select &lt;b&gt;Text Message&lt;/b&gt; method to receive a text message to authenticate.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeVoiceCall" xml:space="preserve">
+    <value>Select &lt;b&gt;Phone Call&lt;/b&gt; method to receive a phone call to authenticate.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtp" xml:space="preserve">
+    <value>To complete your verification, enter the one-time passcode you receive via text message.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtpPlusPin" xml:space="preserve">
+    <value>To complete your verification, enter the one-time passcode you receive via text message plus your PIN.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsFindUser" xml:space="preserve">
+    <value>Enter the first few characters of the username and click the Find button.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsOathToken" xml:space="preserve">
+    <value>Test this user's OATH token authentication.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneApp" xml:space="preserve">
+    <value>Test this user's mobile app authentication.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationIpWhitelist" xml:space="preserve">
+    <value>After activation is complete, click Next to continue the setup process.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationOathToken" xml:space="preserve">
+    <value>After activation is complete, click the following button to test authentication and continue the setup process.  When prompted, enter the current authentication code displayed in the mobile app.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsSelectUser" xml:space="preserve">
+    <value>Select a user from the list or select Back to find a different user.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsSmsText" xml:space="preserve">
+    <value>Test this user's text message authentication.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUnblockUser" xml:space="preserve">
+    <value>Enter an unblock reason and confirm unblocking the user.  The user will no longer have authentications blocked.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Label_InstructionsUserActivatePhoneApp" xml:space="preserve">
+    <value>The user must first install the Multi-Factor Authentication mobile app on their phone.  Click the Generate button to receive an activation code.  The activation code will be entered in the user's mobile app to complete the activation process.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserDeactivatePhoneApp" xml:space="preserve">
+    <value>To deactivate a device for the user, click the Deactivate link for the device.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserEnable" xml:space="preserve">
+    <value>Confirm enabling the user so that they will begin receiving Multi-Factor Authentication calls when signing on.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_InstructionsUserInformation" xml:space="preserve">
+    <value>Specify new information for this user.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Label_InstructionsUserLanguage" xml:space="preserve">
+    <value>Specify the language preference for this user.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Label_InstructionsUserMode" xml:space="preserve">
+    <value>Select the method for this user.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathCode" xml:space="preserve">
+    <value>To complete the authentication, enter the current authentication code displayed in the user's Multi-Factor Authentication mobile app or token.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathToken" xml:space="preserve">
+    <value>Enter the OATH token serial number and the code currently displayed on the token to associate the token with the user.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Label_InstructionsUserOneTimeBypass" xml:space="preserve">
+    <value>Confirm one-time bypass to skip Multi-Factor Authentication during this user's next sign on.  The bypass is temporary.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtp" xml:space="preserve">
+    <value>To complete the authentication, enter the one-time passcode the user received in the SMS message.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtpPlusPin" xml:space="preserve">
+    <value>To complete the authentication, enter the one-time passcode the user received in the SMS message plus the user's PIN.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserPhone" xml:space="preserve">
+    <value>Specify a new phone number for this user.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Label_InstructionsUserPin" xml:space="preserve">
+    <value>Specify a new PIN number for this user.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Label_InstructionsUserResetVoiceprint" xml:space="preserve">
+    <value>Confirm reset of the user's voiceprint.  The user will have to enroll a new voiceprint during their next authentication call.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathToken" xml:space="preserve">
+    <value>To enable Multi-Factor Authentication for your account using the OATH Token method, enter the serial number printed on the back of the OATH token and the code currently displayed on the token to associate the token with your account.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathTokenPhoneApp" xml:space="preserve">
+    <value>To enable Multi-Factor Authentication for your account using the OATH Token method, you'll first need to install the Multi-Factor Authentication app on your phone and then click the Generate button below to receive an activation code.  The activation code will be entered in the mobile app to complete the activation process.  The activation code expires in 10 minutes.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPhoneApp" xml:space="preserve">
+    <value>To enable Multi-Factor Authentication for your account using the mobile app, you'll first need to install the Multi-Factor Authentication app on your phone and then click the Generate button below to receive an activation code.  The activation code will be entered in the mobile app to complete the activation process.  The activation code expires in 10 minutes.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPin" xml:space="preserve">
+    <value>To enable Multi-Factor Authentication for your account, please specify the phone number you will use to authenticate and a PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtp" xml:space="preserve">
+    <value>To enable Multi-Factor Authentication for your account, please specify the phone number you will use to authenticate.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>To enable Multi-Factor Authentication for your account, please specify the phone number you will use to authenticate and a PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtp" xml:space="preserve">
+    <value>To enable Multi-Factor Authentication for your account, please specify the phone number you will use to authenticate.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>To enable Multi-Factor Authentication for your account, please specify the phone number you will use to authenticate and a PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupStandard" xml:space="preserve">
+    <value>To enable Multi-Factor Authentication for your account, please specify the phone number you will use to authenticate.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteOathToken" xml:space="preserve">
+    <value>Follow the instructions below to activate the Multi-Factor Authentication app on your phone and test an authentication using authentication codes provided by the mobile app.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePhoneApp" xml:space="preserve">
+    <value>Follow the instructions below to activate the Multi-Factor Authentication app on your phone and test an authentication using the mobile app.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePin" xml:space="preserve">
+    <value>To complete this step, Multi-Factor Authentication will call the number you entered. Enter your PIN followed by # to authenticate.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtp" xml:space="preserve">
+    <value>To complete this step, Multi-Factor Authentication will send a one-time passcode in a text message to the number you entered. When prompted, enter the one-time passcode to authenticate.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>To complete this step, Multi-Factor Authentication will send a one-time passcode in a text message to the number you entered. When prompted, enter the one-time passcode plus your PIN to authenticate.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtp" xml:space="preserve">
+    <value>To complete this step, Multi-Factor Authentication will send a one-time passcode in a text message to the number you entered. Reply to the text message with the one-time passcode to authenticate.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>To complete this step, Multi-Factor Authentication will send a one-time passcode in a text message to the number you entered. Reply to the text message with the one-time passcode plus your PIN to authenticate.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteStandard" xml:space="preserve">
+    <value>To complete this step, Multi-Factor Authentication will call the number you entered. Answer and press # to authenticate.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteVoiceprint" xml:space="preserve">
+    <value>To complete this step, Multi-Factor Authentication will call the number you entered. Follow the instructions to enroll a voiceprint passphrase.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupVoiceprint" xml:space="preserve">
+    <value>To enable Multi-Factor Authentication for your account, please specify the phone number you will use to authenticate.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserStaticToken" xml:space="preserve">
+    <value>Specify a new static token for this user.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Label_MessageOathToken" xml:space="preserve">
+    <value>Your account has been configured to use Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+When you sign on, you will continue to use the same username and password.  Before your verification is complete, you will be prompted by the application to enter the current authentication code from the Multi-Factor Authentication mobile app or token to complete your sign on.  If you don't enter the correct authentication code, the sign on will be denied.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppPin" xml:space="preserve">
+    <value>Your account has been configured to use Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+When you sign on, you will continue to use the same username and password.  Before your verification is complete,
+you will receive a notification asking you to launch the Multi-Factor Authentication mobile app and enter your PIN to confirm your sign on.  If you don't confirm the sign on by entering your PIN and pressing #, the sign on will be denied.&lt;br/&gt;&lt;br/&gt;
+You should only enter your PIN when you receive the Multi-Factor Authentication mobile app notification if you are actually signing on to the application.  Otherwise, someone may be trying to sign on with your username and password and you should report this potential fraud to your IT administrator.&lt;br/&gt;&lt;br/&gt;Return to the Multi-Factor Authentication portal at any time to change your PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppStandard" xml:space="preserve">
+    <value>Your account has been configured to use Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+When you sign on, you will continue to use the same username and password.  Before your verification is complete,
+you will receive a notification asking you to launch the Multi-Factor Authentication mobile app and press the Authenticate button to complete your sign on.  If you don't confirm the sign on by pressing Authenticate, the sign on will be denied.&lt;br/&gt;&lt;br/&gt;
+You should only press the Authenticate button when you receive the Multi-Factor Authentication mobile app notification if you are actually signing on to the application.  Otherwise, someone may be trying to sign on with your username and password and you should report this potential fraud to your IT administrator.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppVoiceprint" xml:space="preserve">
+    <value>Your account has been configured to use Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+When you sign on, you will continue to use the same username and password.  Before your verification is complete,
+you will receive a notification asking you to launch the Multi-Factor Authentication mobile app and then say your passphrase to confirm your sign on.  If you don't confirm the sign on by saying your passphrase, the sign on will be denied.&lt;br/&gt;&lt;br/&gt;
+You should only say your passphrase when you receive the Multi-Factor Authentication mobile app notification if you are actually signing on to the application.  Otherwise, someone may be trying to sign on with your username and password and you should report this potential fraud to your IT administrator.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePin" xml:space="preserve">
+    <value>Your account has been configured to use Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+When you sign on, you will continue to use the same username and password.  Before your verification is complete,
+you will receive a phone call asking you to enter your PIN followed by the pound (#) key to confirm your sign on.  If you
+don't confirm the sign on by entering your PIN and pressing #, the sign on will be denied.&lt;br/&gt;&lt;br/&gt;
+You should only enter your PIN when you receive the Multi-Factor Authentication call if you are actually signing on to the application.
+Otherwise, someone may be trying to sign on with your username and password and you should report this potential
+fraud to your IT administrator.&lt;br/&gt;&lt;br/&gt;
+Return to the Multi-Factor Authentication portal at any time to change your phone number or PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtp" xml:space="preserve">
+    <value>Your account has been configured to use Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+When you sign on, you will continue to use the same username and password.  Before your verification is complete,
+you will receive a text message with a one-time passcode.  Enter this passcode when prompted by the application.
+If you don't enter the correct passcode, the sign on will be denied.&lt;br/&gt;&lt;br/&gt;
+Return to the Multi-Factor Authentication portal at any time to change your phone number.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Your account has been configured to use Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+When you sign on, you will continue to use the same username and password.  Before your verification is complete,
+you will receive a text message with a one-time passcode.  Enter this passcode and your PIN when prompted by the application.
+If you don't enter the correct passcode and PIN, the sign on will be denied.&lt;br/&gt;&lt;br/&gt;
+Return to the Multi-Factor Authentication portal at any time to change your phone number or PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtp" xml:space="preserve">
+    <value>Your account has been configured to use Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+When you sign on, you will continue to use the same username and password.  Before your verification is complete,
+you will receive a text message with a one-time passcode.  Reply to the text message with this passcode.
+If you don't reply with the correct passcode, the sign on will be denied.&lt;br/&gt;&lt;br/&gt;
+You should only reply when you receive the Multi-Factor Authentication text message if you are actually signing on to the application.
+Otherwise, someone may be trying to sign on with your username and password and you should report this potential
+fraud to your IT administrator.&lt;br/&gt;&lt;br/&gt;
+Return to the Multi-Factor Authentication portal at any time to change your phone number.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Your account has been configured to use Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+When you sign on, you will continue to use the same username and password.  Before your verification is complete,
+you will receive a text message with a one-time passcode.  Reply to the text message with this passcode and your PIN.
+If you don't reply with the correct passcode and PIN, the sign on will be denied.&lt;br/&gt;&lt;br/&gt;
+You should only reply when you receive the Multi-Factor Authentication text message if you are actually signing on to the application.
+Otherwise, someone may be trying to sign on with your username and password and you should report this potential
+fraud to your IT administrator.&lt;br/&gt;&lt;br/&gt;
+Return to the Multi-Factor Authentication portal at any time to change your phone number or PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageStandard" xml:space="preserve">
+    <value>Your account has been configured to use Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+When you sign on, you will continue to use the same username and password.  Before your verification is complete,
+you will receive a phone call asking you to press the pound (#) key to confirm your sign on.  If you don't confirm the sign
+on by pressing #, the sign on will be denied.&lt;br/&gt;&lt;br/&gt;
+You should only enter # when you receive the Multi-Factor Authentication call if you are actually signing on to the application.
+Otherwise, someone may be trying to sign on with your username and password and you should report this potential
+fraud to your IT administrator.&lt;br/&gt;&lt;br/&gt;
+Return to the Multi-Factor Authentication portal at any time to change your phone number.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageVoiceprint" xml:space="preserve">
+    <value>Your account has been configured to use Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+When you sign on, you will continue to use the same username and password.  Before your verification is complete,
+you will receive a phone call asking you to say your passphrase to confirm your sign on.  If you don't confirm the
+sign on by saying your passphrase, the sign on will be denied.&lt;br/&gt;&lt;br/&gt;
+You should only say your passphrase when you receive the Multi-Factor Authentication call if you are actually signing on to the application.
+Otherwise, someone may be trying to sign on with your username and password and you should report this potential
+fraud to your IT administrator.&lt;br/&gt;&lt;br/&gt;
+Return to the Multi-Factor Authentication portal at any time to change your phone number.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MustChangeModeToPhoneApp" xml:space="preserve">
+    <value>After activating the Multi-Factor Authentication mobile app on your device, you'll need to change your method to Mobile App.  Click the Change Method link in the navigation menu and specify the Mobile App method to start using the app.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_MustChangeUserToPhoneAppMode" xml:space="preserve">
+    <value>After the user activates the Multi-Factor Authentication mobile app on their device, you'll need to change their method to Mobile App in order for them to use the app.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerPhoneApp" xml:space="preserve">
+    <value>This would only happen if someone else were trying to log into your account, and they already knew your password. Remember, Multi-Factor Authentication mobile app notifications are only sent after the username and password are verified. So, if this happens, Multi-Factor Authentication has just saved your account from illicit access!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerSms" xml:space="preserve">
+    <value>This would only happen if someone else were trying to log into your account, and they already knew your password. Remember, text messages are only sent after the username and password are verified. So, if this happens, Multi-Factor Authentication has just saved your account from illicit access!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerVoice" xml:space="preserve">
+    <value>This would only happen if someone else were trying to log into your account, and they already knew your password. Remember, phone calls are only made after the username and password are verified. So, if this happens, Multi-Factor Authentication has just saved your account from illicit access!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionPhoneApp" xml:space="preserve">
+    <value>What if I receive a Multi-Factor Authentication mobile app notification when I'm not trying to log in?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionSms" xml:space="preserve">
+    <value>What if I get a text message from Multi-Factor Authentication when I'm not trying to log in?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionVoice" xml:space="preserve">
+    <value>What if I get a phone call from Multi-Factor Authentication when I'm not trying to log in?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassOathToken" xml:space="preserve">
+    <value>Also, your company provides a One-Time Bypass option which allows you to log in one time without being prompted for an authentication code. Select the One-Time Bypass option to access this feature. Or call the support help desk from any phone for assistance.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_OneTimeBypassPhoneApp" xml:space="preserve">
+    <value>Also, your company provides a One-Time Bypass option which allows you to log in one time without a Multi-Factor Authentication mobile app notification. Select the One-Time Bypass option to access this feature. Or call the support help desk from any phone for assistance.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassSms" xml:space="preserve">
+    <value>Your company provides a One-Time Bypass option which allows you to log in one time without a text message. Select the One-Time Bypass option to access this feature. Or call the support help desk from any phone for assistance.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassVoice" xml:space="preserve">
+    <value>Your company provides a One-Time Bypass option which allows you to log in one time without a phone call. Select the One-Time Bypass option to access this feature. Or call the support help desk from any phone for assistance.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtp" xml:space="preserve">
+    <value>One-Time Passcode</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtpPlusPin" xml:space="preserve">
+    <value>One-Time Passcode + PIN</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_SimpleProcessOathToken" xml:space="preserve">
+    <value>This simple process provides two separate factors of authentication with the secondary authentication provided by something you have (your smart phone or token).</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_SimpleProcessPhoneApp" xml:space="preserve">
+    <value>This simple process provides two separate factors of authentication through two separate channels (your computer and your smart phone).</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessSms" xml:space="preserve">
+    <value>This simple process provides two separate factors of authentication through two separate channels (your computer and your phone service). It works with any phone with text message capabilities.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessVoice" xml:space="preserve">
+    <value>This simple process provides two separate factors of authentication through two separate channels (your computer and your phone service). It works with any regular or mobile phone.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionOathToken" xml:space="preserve">
+    <value>Instantly, you are prompted for an authentication code.  Enter the current authentication code displayed by the Multi-Factor Authentication mobile app or token.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppPin" xml:space="preserve">
+    <value>Instantly, you receive a Multi-Factor Authentication mobile app notification.  Launch the app, enter your PIN, and press the Authenticate button.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppStandard" xml:space="preserve">
+    <value>Instantly, you receive a Multi-Factor Authentication mobile app notification. Launch the app and press the Authenticate button.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppVoiceprint" xml:space="preserve">
+    <value>Instantly, you receive a Multi-Factor Authentication mobile app notification. Launch the app and say your passphrase when prompted.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPin" xml:space="preserve">
+    <value>Instantly, you receive a phone call. Answer, enter your PIN, and press #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtp" xml:space="preserve">
+    <value>Instantly, you receive a text message with a one-time passcode. Enter this passcode when prompted by the application.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Instantly, you receive a text message with a one-time passcode. Enter this passcode and your PIN when prompted by the application.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtp" xml:space="preserve">
+    <value>Instantly, you receive a text message with a one-time passcode. Reply to the text message with this passcode.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Instantly, you receive a text message with a one-time passcode. Reply to the text message with this passcode and your PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionStandard" xml:space="preserve">
+    <value>Instantly, you receive a phone call. Answer and press #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionVoiceprint" xml:space="preserve">
+    <value>Instantly, you receive a phone call. Answer and say your passphrase at the tone.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_TitleWithColon" xml:space="preserve">
+    <value>{0}:</value>
+    <comment>Page header on most pages</comment>
+  </data>
+  <data name="Label_UnblockReason" xml:space="preserve">
+    <value>Unblock Reason</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_AccountConfigurationComplete" xml:space="preserve">
+    <value>Account Configuration Complete</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Message_AnswerRequired" xml:space="preserve">
+    <value>You must answer at least one security question.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AnswerSecurityQuestions" xml:space="preserve">
+    <value>Please answer your security questions to log on.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AnswersIncorrect" xml:space="preserve">
+    <value>One or more answers is incorrect.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AuthenticationDenied" xml:space="preserve">
+    <value>Multi-Factor Authentication denied.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedAnswerSecurityQuestions" xml:space="preserve">
+    <value>Multi-Factor Authentication denied.  Please answer your security questions to log on.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedCallResult" xml:space="preserve">
+    <value>Multi-Factor Authentication denied: {0}</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_AuthenticationSuccessful" xml:space="preserve">
+    <value>Multi-Factor Authentication successful.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_BypassSecondsNumeric" xml:space="preserve">
+    <value>Bypass Seconds must be numeric.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRange" xml:space="preserve">
+    <value>Bypass Seconds must be between 5 and 1800 (30 minutes).</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRequired" xml:space="preserve">
+    <value>Bypass Seconds required.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_CannotActivateDevice" xml:space="preserve">
+    <value>Your account must be associated with an activated Multi-Factor Authentication mobile app on a device before you can change your method to Mobile App.  Contact the help desk for assistance with activating the Multi-Factor Authentication mobile app on your device.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotEstablishWebServiceSdkConnection" xml:space="preserve">
+    <value>Multi-Factor Authentication User Portal cannot establish a secure connection to the Web Service SDK: {0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_CannotGetOathToken" xml:space="preserve">
+    <value>Your account must be associated with an activated Multi-Factor Authentication mobile app on a device or associated with an OATH token before you can change your method to OATH Token.  Contact the help desk for assistance with activating the Multi-Factor Authentication mobile app on your device or getting an OATH token assigned.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Your account must have a phone number assigned before you can change your method to Text Message.  Contact your help desk to assign a phone number to your account.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Your account must have a phone number assigned before you can change your method to Phone Call.  Contact the help desk to assign a phone number to your account.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeOathTokenIncomplete" xml:space="preserve">
+    <value>Note: The user has not activated the Multi-Factor Authentication mobile app on their device or been assigned a third-party OATH token and is considered incomplete for the OATH Token method.  Authentications to protected applications will fail for this user and log ins to the User Portal will require them to enroll again.  It is recommended that you either contact the user to assist them with activating the Multi-Factor Authentication mobile app or assign and distribute a third-party OATH token.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModePhoneAppIncomplete" xml:space="preserve">
+    <value>Note: The user has not activated the Multi-Factor Authentication mobile app on their device and is considered incomplete for the Mobile App method.  Authentications to protected applications will fail for this user and log ins to the User Portal will require them to enroll again.  It is recommended that you contact the user to assist them with activating the Multi-Factor Authentication mobile app.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeSmsTextIncomplete" xml:space="preserve">
+    <value>Note: The user does not have a phone number specified and is considered incomplete for the Text Message method.  Authentications to protected applications will fail for this user and log ins to the User Portal will require them to enroll again.  It is recommended that you specify a phone number for the user so that they may continue to use protected applications without having to reenroll.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeVoiceCallIncomplete" xml:space="preserve">
+    <value>Note: The user does not have a phone number specified and is considered incomplete for the Phone Call method.  Authentications to protected applications will fail for this user and log ins to the User Portal will require them to enroll again.  It is recommended that you specify a phone number for the user so that they may continue to use protected applications without having to reenroll.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CodeRequired" xml:space="preserve">
+    <value>Code required.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_CodeRequiredCross" xml:space="preserve">
+    <value>Code required when serial number is specified.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ConfirmDeactivate" xml:space="preserve">
+    <value>Are you sure you want to permanently deactivate this device?</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceDeactivated" xml:space="preserve">
+    <value>Device deactivated.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceLimit" xml:space="preserve">
+    <value>Your account is at the limit of {0} devices.  You must deactivate an existing device before activating a new one.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DuplicateAnswer" xml:space="preserve">
+    <value>Duplicate answer not allowed.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateQuestion" xml:space="preserve">
+    <value>Duplicate question not allowed.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateUsername" xml:space="preserve">
+    <value>Duplicate username.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUser" xml:space="preserve">
+    <value>Error adding user.&lt;br/&gt;{0}</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUserForPassedSession" xml:space="preserve">
+    <value>Error adding user for passed session.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithLocal" xml:space="preserve">
+    <value>Error communicating with the local Multi-Factor Authentication service.  Please contact your administrator.</value>
+    <comment>Most pages when connection to local server is lost</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithMaster" xml:space="preserve">
+    <value>Error communicating with the master Multi-Factor Authentication service.  Please contact your administrator.</value>
+    <comment>Most pages when connection to master server is lost</comment>
+  </data>
+  <data name="Message_ErrorDeactivatingDevice" xml:space="preserve">
+    <value>Error deactivating device.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorDisablingUser" xml:space="preserve">
+    <value>Error disabling user.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorEnablingUser" xml:space="preserve">
+    <value>Error enabling user.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorFindingUsers" xml:space="preserve">
+    <value>Error finding users.&lt;br/&gt;{0}</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_ErrorGeneratingActivationCode" xml:space="preserve">
+    <value>Error generating activation code.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorIssuingOneTimeBypass" xml:space="preserve">
+    <value>Error issuing one-time bypass.  Please contact your administrator.&lt;br/&gt;{0}</value>
+    <comment>one_time_bypass and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorRemovingUser" xml:space="preserve">
+    <value>Error removing user.&lt;br/&gt;{0}</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_ErrorResettingMode" xml:space="preserve">
+    <value>Error resetting method.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPhone" xml:space="preserve">
+    <value>Error resetting phone.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPin" xml:space="preserve">
+    <value>Error resetting PIN.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingVoiceprint" xml:space="preserve">
+    <value>Error resetting voiceprint.  Please contact your administrator.&lt;br/&gt;{0}</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingLanguage" xml:space="preserve">
+    <value>Error updating language.&lt;br/&gt;{0}</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingMode" xml:space="preserve">
+    <value>Error updating method.&lt;br/&gt;{0}</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhone" xml:space="preserve">
+    <value>Error updating phone.&lt;br/&gt;{0}</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhoneAppMode" xml:space="preserve">
+    <value>Error updating mobile app mode.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPin" xml:space="preserve">
+    <value>Error updating PIN.&lt;br/&gt;{0}</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSecurityQuestions" xml:space="preserve">
+    <value>Error updating security questions.&lt;br/&gt;{0}</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSmsTextMode" xml:space="preserve">
+    <value>Error updating text message mode.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingStaticToken" xml:space="preserve">
+    <value>Error updating static token.&lt;br/&gt;{0}</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserForSecurityQuestionSetup" xml:space="preserve">
+    <value>Error updating user for security question setup.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserInformation" xml:space="preserve">
+    <value>Error updating user information.&lt;br/&gt;{0}</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingVoiceCallMode" xml:space="preserve">
+    <value>Error updating phone call mode.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ExpiredSession" xml:space="preserve">
+    <value>Your session has expired.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_IncorrectAnswers" xml:space="preserve">
+    <value>The answers you provided are incorrect, please try again.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_IncorrectOathCode" xml:space="preserve">
+    <value>Incorrect authentication code.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscode" xml:space="preserve">
+    <value>Incorrect one-time passcode.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscodePlusPin" xml:space="preserve">
+    <value>Incorrect one-time passcode + PIN.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_InvalidExtension" xml:space="preserve">
+    <value>Invalid extension.  Only digits, commas, *, and # are allowed.  Use comma for a one second pause.  Prefix the extension with @ to say extension digits for manual transfer.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_InvalidSerialNumber" xml:space="preserve">
+    <value>Invalid serial number.  The OATH Token with this serial number must be defined in the Multi-Factor Authentication Server user interface prior to associating it with a user.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_LineBreak" xml:space="preserve">
+    <value>&lt;br/&gt;{0}</value>
+    <comment>add_user, change_phone, change_pin, change_mode, change_language and enable_disable pages</comment>
+  </data>
+  <data name="Message_LoginFailed" xml:space="preserve">
+    <value>Login failed.</value>
+    <comment>login and secondary_authentication pages</comment>
+  </data>
+  <data name="Message_MustActivateDevice" xml:space="preserve">
+    <value>You must activate the Multi-Factor Authentication mobile app on a device before you can change your method to Mobile App.  Click the Activate Mobile App link in the navigation menu to begin your activation.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustActivateDeviceOathToken" xml:space="preserve">
+    <value>You must activate the Multi-Factor Authentication mobile app on a device before you can change your method to OATH Token.  Click the Activate Mobile App link in the navigation menu to begin your activation.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustAnswerAllQuestions" xml:space="preserve">
+    <value>You must answer all security questions.</value>
+    <comment>create_security_questions, change_security_questions, and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_MustEnrollOathToken" xml:space="preserve">
+    <value>You must associate an OATH token with your account before you can change your method to OATH Token.  Click the OATH Token link to associate an OATH token.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustHaveOathToken" xml:space="preserve">
+    <value>You must either activate the Multi-Factor Authentication mobile app on a device or associate an OATH token with your account before you can change your method to OATH Token.  Click the Activate Mobile App link in the navigation menu to begin your activation or click the OATH Token link to associate an OATH token.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneSmsText" xml:space="preserve">
+    <value>You must specify a phone number for your account before you can change your method to Text Message.  Click the Change Phone link in the navigation menu to specify a phone number.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>You must specify a phone number for your account before you can change your method to Phone Call.  Click the Change Phone link in the navigation menu to specify a phone number.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifySearchField" xml:space="preserve">
+    <value>Must specify at least one search field.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoActivatedDevices" xml:space="preserve">
+    <value>No activated devices for this user.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_NoMatchingUsersFound" xml:space="preserve">
+    <value>No matching users found.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoSsl" xml:space="preserve">
+    <value>Multi-Factor Authentication User Portal is not secured with SSL, but SSL is required for session cookies in Web.config.  User Portal is not functional since session state can't be maintained.  It is recommended that User Portal be secured with SSL.  For testing purposes, you may temporarily change requireSSL to "false" in the &lt;httpCookies&gt; tag in Web.config.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailed" xml:space="preserve">
+    <value>OATH token synchronization failed.  Either the code entered is not correct or the OATH token serial number is not valid.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailedUser" xml:space="preserve">
+    <value>OATH token synchronization failed.  The code entered is not correct.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OnlyFirstMatchesDisplayed" xml:space="preserve">
+    <value>Only the first {0} matches are displayed.  If you can't find the user in the list, enter more specific search criteria.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_PassedSessionFailed" xml:space="preserve">
+    <value>Passed session failed.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_PhoneRequired" xml:space="preserve">
+    <value>Phone required.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMatch" xml:space="preserve">
+    <value>PIN and Confirm PIN must match.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMinimumLength" xml:space="preserve">
+    <value>PIN must be at least {0} digits.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinNumeric" xml:space="preserve">
+    <value>PIN must be numeric.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinRecentlyUsed" xml:space="preserve">
+    <value>PIN cannot be the same as one of your recently used PINs.  Please choose a different PIN.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_SamlDisabled" xml:space="preserve">
+    <value>Single sign-ons to external applications using SAML are disabled.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotDefined" xml:space="preserve">
+    <value>Security questions are not defined for this user.&lt;br/&gt;</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotSetUp" xml:space="preserve">
+    <value>You may not log in without your phone since you have not set up security questions.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsVerified" xml:space="preserve">
+    <value>Security questions verified.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityWarningNoSsl" xml:space="preserve">
+    <value>SECURITY WARNING: Multi-Factor Authentication User Portal is not secured with SSL.  Passwords will be passed in plain text.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SerialNumberAlreadyAssociated" xml:space="preserve">
+    <value>Serial number already associated with {0}.  You must remove the serial number from that user before associating it with this user.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_SerialNumberRequired" xml:space="preserve">
+    <value>Serial number required.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_SerialNumberRequiredCross" xml:space="preserve">
+    <value>Serial Number required when code is specified.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ShortAnswer" xml:space="preserve">
+    <value>Answer must be at least 4 characters.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_StaticTokenMatch" xml:space="preserve">
+    <value>Static Token and Confirm Static Token must match.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenMinimumLength" xml:space="preserve">
+    <value>Static Token must be at least {0} digits.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenNumeric" xml:space="preserve">
+    <value>Static Token must be numeric.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserAdded" xml:space="preserve">
+    <value>User added.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_UserAlreadyBlocked" xml:space="preserve">
+    <value>Block failed.  The user is already blocked.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlocked" xml:space="preserve">
+    <value>The user was successfully blocked.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlockFailed" xml:space="preserve">
+    <value>Block failed.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserDeviceLimit" xml:space="preserve">
+    <value>The user is at the limit of {0} devices.  You must deactivate an existing device for this user before they can activate a new one.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_UserDisabled" xml:space="preserve">
+    <value>The user was succesfully disabled.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserEnabled" xml:space="preserve">
+    <value>The user was succesfully enabled.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserInformationChanged" xml:space="preserve">
+    <value>The user's information has been changed.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_UserLanguageChanged" xml:space="preserve">
+    <value>The user's language preference has been changed.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_UserModeChanged" xml:space="preserve">
+    <value>The user's method has been changed.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_UsernameRequired" xml:space="preserve">
+    <value>Username required.</value>
+    <comment>login and add_user pages</comment>
+  </data>
+  <data name="Message_UserNotBlocked" xml:space="preserve">
+    <value>Unblock failed.  The user is not currently blocked.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserOathTokenSaved" xml:space="preserve">
+    <value>The user's OATH token has been saved.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_UserOneTimeBypassIssued" xml:space="preserve">
+    <value>One-time bypass issued.  Multi-Factor Authentication will be skipped during the user's next sign on.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_UserPhoneChanged" xml:space="preserve">
+    <value>The user's phone has been changed.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_UserPinChanged" xml:space="preserve">
+    <value>The user's PIN has been changed.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_UserPortalDisabled" xml:space="preserve">
+    <value>Direct logins to User Portal are disabled.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserPortalNotPurchased" xml:space="preserve">
+    <value>Multi-Factor Authentication User Portal is not functional since this feature has not been purchased.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserRemoved" xml:space="preserve">
+    <value>User removed.</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_UserStaticTokenChanged" xml:space="preserve">
+    <value>The user's static token has been changed.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserSubmodeChanged" xml:space="preserve">
+    <value>The user's mode(s) have been changed.</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_UserUnblocked" xml:space="preserve">
+    <value>The user was successfully unblocked.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserUnblockFailed" xml:space="preserve">
+    <value>Unblock failed.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserVoiceprintReset" xml:space="preserve">
+    <value>Voiceprint successfully reset.  The user will be prompted to enroll a new voiceprint during their next sign on.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_WeakPinNotAllowed" xml:space="preserve">
+    <value>Weak PIN not allowed.  Cannot contain a 4 or more digit subset of the phone number, 3 or more repeating digits, or 3 or more sequential digits.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_WeakStaticTokenNotAllowed" xml:space="preserve">
+    <value>Weak Static Token not allowed.  Cannot contain a 4 or more digit subset of the phone number, 3 or more repeating digits, or 3 or more sequential digits.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_WebServiceSdkError" xml:space="preserve">
+    <value>Multi-Factor Authentication User Portal is configured to communicate with the Web Service SDK which returned the following error:&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_WebServiceSdkNotPurchased" xml:space="preserve">
+    <value>Multi-Factor Authentication User Portal is configured to communicate with the Web Service SDK and the Web Service SDK feature has not been purchased.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_YourInformationChanged" xml:space="preserve">
+    <value>Your information has been changed.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_YourLanguageChanged" xml:space="preserve">
+    <value>Your language preference has been changed.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_YourModeChanged" xml:space="preserve">
+    <value>Your method has been changed.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_YourOathTokenSaved" xml:space="preserve">
+    <value>Your OATH token has been saved.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_YourOneTimeBypassIssued" xml:space="preserve">
+    <value>One-time bypass issued.  Multi-Factor Authentication will be skipped during your next sign on.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_YourPhoneChanged" xml:space="preserve">
+    <value>Your phone has been changed.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_YourPinChanged" xml:space="preserve">
+    <value>Your PIN has been changed.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_YourSecurityQuestionsChanged" xml:space="preserve">
+    <value>Your security questions and answers have been changed.</value>
+    <comment>change_security_questions page</comment>
+  </data>
+  <data name="Message_YourStaticTokenChanged" xml:space="preserve">
+    <value>Your static token has been changed.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_YourVoiceprintReset" xml:space="preserve">
+    <value>Voiceprint successfully reset.  You will be prompted to enroll a new voiceprint during your next sign on.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Reason_InitiatedByAdmin" xml:space="preserve">
+    <value>Initiated by admin in User Portal</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Reason_InitiatedByUser" xml:space="preserve">
+    <value>Initiated by user in User Portal</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Subtitle_DeactivatePhoneApp" xml:space="preserve">
+    <value>Deactivate Mobile App</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Subtitle_Enable" xml:space="preserve">
+    <value>Enable</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Subtitle_UnblockUser" xml:space="preserve">
+    <value>Unblock User</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Title_PhoneFactorUserPortal" xml:space="preserve">
+    <value>Multi-Factor Authentication™ | User Portal</value>
+    <comment>Title on all pages</comment>
+  </data>
+  <data name="Value_All" xml:space="preserve">
+    <value>All</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Value_Masked" xml:space="preserve">
+    <value>Masked</value>
+    <comment>add_user, change_pin, and oath_token pages</comment>
+  </data>
+</root>

@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName_UserPortal" xml:space="preserve">
+    <value>用户门户</value>
+    <comment>Application name for Multi-Factor Authentications</comment>
+  </data>
+  <data name="Button_AuthenticateMeNow" xml:space="preserve">
+    <value>立即对我进行身份验证</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_CallMeNowToAuthenticate" xml:space="preserve">
+    <value>立即呼叫我以进行身份验证</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_Next" xml:space="preserve">
+    <value>下一步</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_TextMeNowToAuthenticate" xml:space="preserve">
+    <value>立即向我发送短信以进行身份验证</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_VerifyOathToken" xml:space="preserve">
+    <value>验证 OATH 令牌</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Help_File" xml:space="preserve">
+    <value>help/zh-hans/PhoneFactor_User_Portal.htm</value>
+    <comment>Localize as help/xx/PhoneFactor_User_Portal.htm where xx is langauge code (e.g. de for German, zh-hans for Simplified Chinese)</comment>
+  </data>
+  <data name="Label_AlternatePhoneOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication 移动应用无需连接到移动网络或 WiFi 便能显示身份验证代码。</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_AlternatePhonePhoneApp" xml:space="preserve">
+    <value>在使用 WiFi 时，Multi-Factor Authentication 移动应用同样能正常工作。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneSms" xml:space="preserve">
+    <value>通过选择“更改电话号码”选项，您可以将帐户更改为指向备用电话号码。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneVoice" xml:space="preserve">
+    <value>通过选择“更改电话号码”选项，您可以将帐户更改为指向备用电话号码(如固定电话)。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_CannotChangeModeToPhoneApp" xml:space="preserve">
+    <value>在设备上激活 Multi-Factor Authentication 移动应用后，必须先将帐户的方法更改为“移动应用”，才能开始使用该应用。若要将方法更改为“移动应用”，请与技术支持人员联系。</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_Disable" xml:space="preserve">
+    <value>禁用</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>启用</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_FraudAlertPhoneApp" xml:space="preserve">
+    <value>若要举报该事件，请按下 Multi-Factor Authentication 移动应用中的“拒绝并举报欺诈行为”按钮。通过执行此操作，系统将向公司的 IT 安全团队发出警报。此后尝试进行身份验证的操作将会受到阻止，直到该问题得到解决。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertSms" xml:space="preserve">
+    <value>要举报该事件，请在回复中输入欺诈行为代码。通过执行此操作，系统将会向公司的 IT 安全团队发出警报。此后尝试进行身份验证的操作将会被阻止，直到该问题得到解决。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertVoice" xml:space="preserve">
+    <value>要举报该事件，请在身份验证呼叫中选择手机菜单中的“欺诈行为警告”选项。通过执行此操作，系统将会向公司的 IT 安全团队发出警报。此后尝试进行身份验证的操作将会被阻止，直到该问题得到解决。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_GenerateActivationCode" xml:space="preserve">
+    <value>生成激活代码</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateActivationLink" xml:space="preserve">
+    <value>生成激活链接</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationCode" xml:space="preserve">
+    <value>生成新的激活代码</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationLink" xml:space="preserve">
+    <value>生成新的激活链接</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionOathToken" xml:space="preserve">
+    <value>在登录时，Multi-Factor Authentication 会提示您输入身份验证代码。</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionPhoneApp" xml:space="preserve">
+    <value>在登录时，Multi-Factor Authentication 会向您的 Multi-Factor Authentication 移动应用发送一条通知。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionSms" xml:space="preserve">
+    <value>在登录时，Multi-Factor Authentication 会向您的手机发送一条短信。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionVoice" xml:space="preserve">
+    <value>在登录时，Multi-Factor Authentication 会对您的手机发出确认呼叫。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsAdministrator" xml:space="preserve">
+    <value>从菜单中选择“查找用户”来管理用户帐户。通过选择适当的选项来管理您的帐户。选择“帮助图标”(右上方)以寻求帮助。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeOathToken" xml:space="preserve">
+    <value>选择“OATH 令牌”&lt;b&gt;&lt;/b&gt;方法可通过 Multi-Factor Authentication 移动应用提供的身份验证代码进行身份验证。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModePhoneApp" xml:space="preserve">
+    <value>选择“移动应用”&lt;b&gt;&lt;/b&gt;方法可通过 Multi-Factor Authentication 移动应用进行身份验证。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeSmsText" xml:space="preserve">
+    <value>选择“短信”&lt;b&gt;&lt;/b&gt;方法可通过接收短信进行身份验证。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeVoiceCall" xml:space="preserve">
+    <value>选择“电话呼叫”&lt;b&gt;&lt;/b&gt;方法可通过接听电话进行身份验证。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtp" xml:space="preserve">
+    <value>要完成身份验证，请输入您通过短信接收到的一次性密码。</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtpPlusPin" xml:space="preserve">
+    <value>要完成身份验证，请输入您通过短信接收到的一次性密码以及您的 PIN。</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsFindUser" xml:space="preserve">
+    <value>输入用户名的头几个字符并单击“查找”按钮。</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsOathToken" xml:space="preserve">
+    <value>测试该用户的 OATH 令牌身份验证。</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneApp" xml:space="preserve">
+    <value>测试该用户的移动应用身份验证。</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationIpWhitelist" xml:space="preserve">
+    <value>激活完成后，单击“下一步”以继续执行设置流程。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationOathToken" xml:space="preserve">
+    <value>激活完成后，单击下面的按钮以测试身份验证并继续执行设置流程。当出现提示时，输入该移动应用中显示的当前身份验证代码。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsSelectUser" xml:space="preserve">
+    <value>从列表中选择某个用户，或选择“上一步”以查找其他用户。</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsSmsText" xml:space="preserve">
+    <value>测试该用户的短信身份验证。</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUnblockUser" xml:space="preserve">
+    <value>输入解除阻止原因并确认为该用户解除阻止。该用户的身份验证将不再受到阻止。</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Label_InstructionsUserActivatePhoneApp" xml:space="preserve">
+    <value>用户必须首先在其手机上安装 Multi-Factor Authentication 移动应用。单击“生成”按钮以接收激活代码。在用户的移动应用中输入该激活代码以完成激活流程。</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserDeactivatePhoneApp" xml:space="preserve">
+    <value>要为用户停用某个设备，请单击该设备的“停用”链接。</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserEnable" xml:space="preserve">
+    <value>确认已启用用户，以使他们在登录时能够开始接听 Multi-Factor Authentication 呼叫。</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_InstructionsUserInformation" xml:space="preserve">
+    <value>为该用户指定新信息。</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Label_InstructionsUserLanguage" xml:space="preserve">
+    <value>为该用户指定语言首选项。</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Label_InstructionsUserMode" xml:space="preserve">
+    <value>为该用户选择方法。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathCode" xml:space="preserve">
+    <value>若要完成身份验证，请输入该用户的 Multi-Factor Authentication 移动应用或令牌中显示的当前身份验证代码。</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathToken" xml:space="preserve">
+    <value>输入 OATH 令牌序列号和该令牌上当前显示的代码，以将该令牌与用户进行关联。</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Label_InstructionsUserOneTimeBypass" xml:space="preserve">
+    <value>确认免验证一次，这样该用户在下一次登录时可跳过 Multi-Factor Authentication。免验证是临时性的。</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtp" xml:space="preserve">
+    <value>要完成身份验证，请输入该用户通过短信接收到的一次性密码。</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtpPlusPin" xml:space="preserve">
+    <value>要完成身份验证，请输入该用户通过短信接收到的一次性密码以及该用户的 PIN。</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserPhone" xml:space="preserve">
+    <value>为该用户指定新的电话号码。</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Label_InstructionsUserPin" xml:space="preserve">
+    <value>为该用户指定新的 PIN 号码。</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Label_InstructionsUserResetVoiceprint" xml:space="preserve">
+    <value>确认重置该用户的音纹。该用户在下一次身份验证呼叫期间将需要注册新的音纹。</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathToken" xml:space="preserve">
+    <value>若要使用 OATH 令牌方法为您的帐户启用 Multi-Factor Authentication 应用，请输入印在 OATH 令牌背面的序列号和令牌上当前显示的代码，以将该令牌与您的帐户进行关联。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathTokenPhoneApp" xml:space="preserve">
+    <value>若要使用 OATH 令牌方法为您的帐户启用 Multi-Factor Authentication，首先需要在您的电话上安装 Multi-Factor Authentication 应用，然后单击下方的“生成”按钮以接收激活代码。在移动应用中输入该激活代码以完成激活流程。该激活代码将于 10 分钟后过期。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPhoneApp" xml:space="preserve">
+    <value>若要使用移动应用为您的帐户启用 Multi-Factor Authentication，首先需要在您的电话上安装 Multi-Factor Authentication 应用，然后单击下方的“生成”按钮以接收激活代码。在移动应用中输入该激活代码以完成激活流程。该激活代码将于 10 分钟后过期。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPin" xml:space="preserve">
+    <value>若要为您的帐户启用 Multi-Factor Authentication，请指定将用于进行身份验证的电话号码和一个 PIN。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtp" xml:space="preserve">
+    <value>若要为您的帐户启用 Multi-Factor Authentication，请指定将用于进行身份验证的电话号码。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>若要为您的帐户启用 Multi-Factor Authentication，请指定将用于进行身份验证的电话号码和一个 PIN。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtp" xml:space="preserve">
+    <value>若要为您的帐户启用 Multi-Factor Authentication，请指定将用于进行身份验证的电话号码。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>若要为您的帐户启用 Multi-Factor Authentication，请指定将用于进行身份验证的电话号码和一个 PIN。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupStandard" xml:space="preserve">
+    <value>若要为您的帐户启用 Multi-Factor Authentication，请指定将用于进行身份验证的电话号码。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteOathToken" xml:space="preserve">
+    <value>按照下面的说明在您的电话上激活 Multi-Factor Authentication 应用，然后使用该移动应用提供的身份验证代码测试身份验证。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePhoneApp" xml:space="preserve">
+    <value>按照下面的说明在您的电话上激活 Multi-Factor Authentication 应用，然后使用该移动应用测试身份验证。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePin" xml:space="preserve">
+    <value>为完成此步骤，Multi-Factor Authentication 将会呼叫您输入的电话号码。请输入您的 PIN 并按 #，以进行身份验证。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtp" xml:space="preserve">
+    <value>为完成此步骤，Multi-Factor Authentication 将会通过短信向您输入的电话号码发送一次性密码。出现提示时，输入该一次性密码，以进行身份验证。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>为完成此步骤，Multi-Factor Authentication 将会通过短信向您输入的电话号码发送一次性密码。出现提示时，输入该一次性密码和您的 PIN，以进行身份验证。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtp" xml:space="preserve">
+    <value>为完成此步骤，Multi-Factor Authentication 将通过短信向您输入的电话号码发送一次性密码。请在短信中回复该一次性密码，以进行身份验证。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>为完成此步骤，Multi-Factor Authentication 将会通过短信向您输入的电话号码发送一次性密码。请在短信中回复该一次性密码和您的 PIN，以进行身份验证。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteStandard" xml:space="preserve">
+    <value>为完成此步骤，Multi-Factor Authentication 将会呼叫您输入的电话号码。请接听电话并按 #，以进行身份验证。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteVoiceprint" xml:space="preserve">
+    <value>为完成此步骤，Multi-Factor Authentication 将会呼叫您输入的电话号码。请按照说明注册声纹密码。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupVoiceprint" xml:space="preserve">
+    <value>若要为您的帐户启用 Multi-Factor Authentication，请指定将用于进行身份验证的电话号码。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserStaticToken" xml:space="preserve">
+    <value>为该用户指定新的静态令牌。</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Label_MessageOathToken" xml:space="preserve">
+    <value>您的帐户已配置为使用 Multi-Factor Authentication。&lt;br/&gt;&lt;br/&gt;
+在登录时，您将继续使用同一个用户名和密码。在身份验证完成之前，应用程序会提示您输入 Multi-Factor Authentication 移动应用或令牌提供的当前身份验证代码，以完成您的登录。如果您输入的身份验证代码不正确，登录将会被拒绝。</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppPin" xml:space="preserve">
+    <value>您的帐户已配置为使用 Multi-Factor Authentication。&lt;br/&gt;&lt;br/&gt;
+在登录时，您将继续使用同一个用户名和密码。在身份验证完成之前，
+您将会接收到一条通知，要求您启动 Multi-Factor Authentication 移动应用并输入您的 PIN 来确认登录。如果您不通过输入您的 PIN 并按下 # 来确认登录，则登录将会被拒绝。&lt;br/&gt;&lt;br/&gt;
+只有在您自己实际登录应用程序时收到该 Multi-Factor Authentication 移动应用通知的情况下，才应该输入您的 PIN。否则，可能是其他人在尝试使用您的用户名和密码登录，而您应该向您的 IT 管理员举报这种潜在欺诈行为。&lt;br/&gt;&lt;br/&gt;您可以随时返回到 Multi-Factor Authentication 门户来更改您的 PIN。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppStandard" xml:space="preserve">
+    <value>您的帐户已配置为使用 Multi-Factor Authentication。&lt;br/&gt;&lt;br/&gt;
+在登录时，您将继续使用同一个用户名和密码。在身份验证完成之前，
+您将会接收到一条通知，要求您启动 Multi-Factor Authentication 移动应用并按下“身份验证”按钮来完成登录。如果您不通过按下“身份验证”来确认登录，登录将会被拒绝。&lt;br/&gt;&lt;br/&gt;
+只有在您自己实际登录应用程序时收到该 Multi-Factor Authentication 移动应用通知的情况下，才应该按下“身份验证”按钮。否则，可能是其他人在尝试使用您的用户名和密码登录，而您应该向您的 IT 管理员举报这种潜在欺诈行为。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppVoiceprint" xml:space="preserve">
+    <value>您的帐户已配置为使用 Multi-Factor Authentication。&lt;br/&gt;&lt;br/&gt;
+在登录时，您将继续使用同一个用户名和密码。在身份验证完成之前，
+您将会接收到一条通知，要求您启动 Multi-Factor Authentication 移动应用，然后报出您的密码来确认登录。如果您不通过报出您的密码来确认登录，登录将会被拒绝。&lt;br/&gt;&lt;br/&gt;
+只有在您自己实际登录应用程序时收到该 Multi-Factor Authentication 移动应用通知的情况下，才应该报出您的密码。否则，可能是其他人在尝试使用您的用户名和密码登录，而您应该向您的 IT 管理员举报这种潜在欺诈行为。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePin" xml:space="preserve">
+    <value>您的帐户已配置为使用 Multi-Factor Authentication。&lt;br/&gt;&lt;br/&gt;
+在登录时，您将继续使用同一个用户名和密码。在身份验证完成之前，
+您将会接到一个电话，要求您输入您的 PIN 并按井号 (#) 键来确认登录，如果您
+不通过输入您的 PIN 并按 # 来确认登录，登录将会被拒绝。&lt;br/&gt;&lt;br/&gt;
+只有在您自己实际登录应用程序时收到该 Multi-Factor Authentication 移动应用通知的情况下，才应该输入您的 PIN。
+否则，可能是其他人在尝试使用您的用户名和密码登录，而您应该向您的 IT 管理员举报这种潜在
+欺诈行为。&lt;br/&gt;&lt;br/&gt;
+您可以随时返回到 Multi-Factor Authentication 门户来更改您的电话号码或 PIN。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtp" xml:space="preserve">
+    <value>您的帐户已配置为使用 Multi-Factor Authentication。&lt;br/&gt;&lt;br/&gt;
+在登录时，您将继续使用同一个用户名和密码。在身份验证完成之前，
+您将会通过短信收到一次性密码。当应用程序提示时，请输入该密码。
+如果您输入的密码不正确，登录将会被拒绝。&lt;br/&gt;&lt;br/&gt;
+您可以随时返回到 Multi-Factor Authentication 门户来更改您的电话号码。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>您的帐户已配置为使用 Multi-Factor Authentication。&lt;br/&gt;&lt;br/&gt;
+在登录时，您将继续使用同一个用户名和密码。在身份验证完成之前，
+您将会通过短信收到一次性密码。当应用程序提示时，请输入该密码以及您的 PIN。
+如果您输入的密码和 PIN 不正确，登录将会被拒绝。&lt;br/&gt;&lt;br/&gt;
+您可以随时返回到 Multi-Factor Authentication 门户来更改您的电话号码或 PIN。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtp" xml:space="preserve">
+    <value>您的帐户已配置为使用 Multi-Factor Authentication。&lt;br/&gt;&lt;br/&gt;
+在登录时，您将继续使用同一个用户名和密码。在身份验证完成之前，
+您将会通过短信接收到一次性密码。在短信中回复该密码。
+如果您回复的密码不正确，登录将会被拒绝。&lt;br/&gt;&lt;br/&gt;
+只有在您自己实际登录应用程序时收到该 Multi-Factor Authentication 移动应用通知的情况下，才应该进行回复。
+否则，可能是其他人在尝试使用您的用户名和密码登录，而您应该向您的 IT 管理员举报这种潜在
+欺诈行为。&lt;br/&gt;&lt;br/&gt;
+您可以随时返回到 Multi-Factor Authentication 门户来更改您的电话号码。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>您的帐户已配置为使用 Multi-Factor Authentication。&lt;br/&gt;&lt;br/&gt;
+在登录时，您将继续使用同一个用户名和密码。在身份验证完成之前，
+您将会通过短信接收到一次性密码。在短信中回复该密码以及您的 PIN。
+如果您回复的密码和 PIN 不正确，登录将会被拒绝。&lt;br/&gt;&lt;br/&gt;
+只有在您自己实际登录应用程序时收到该 Multi-Factor Authentication 移动应用通知的情况下，才应该进行回复。
+否则，可能是其他人在尝试使用您的用户名和密码登录，而您应该向您的 IT 管理员举报这种潜在
+欺诈行为。&lt;br/&gt;&lt;br/&gt;
+您可以随时返回到 Multi-Factor Authentication 门户来更改您的电话号码或 PIN。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageStandard" xml:space="preserve">
+    <value>您的帐户已配置为使用 Multi-Factor Authentication。&lt;br/&gt;&lt;br/&gt;
+在登录时，您将继续使用同一个用户名和密码。在身份验证完成之前，
+您将会接到一个电话，要求您按井号 (#) 键来确认登录，如果您不通过按 # 来
+确认登录，登录将会被拒绝。&lt;br/&gt;&lt;br/&gt;
+只有在您自己实际登录应用程序时收到该 Multi-Factor Authentication 移动应用通知的情况下，才应该输入 #。
+否则，可能是其他人在尝试使用您的用户名和密码登录，而您应该向您的 IT 管理员举报这种潜在
+欺诈行为。&lt;br/&gt;&lt;br/&gt;
+您可以随时返回到 Multi-Factor Authentication 门户来更改您的电话号码。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageVoiceprint" xml:space="preserve">
+    <value>您的帐户已配置为使用 Multi-Factor Authentication。&lt;br/&gt;&lt;br/&gt;
+在登录时，您将继续使用同一个用户名和密码。在身份验证完成之前，
+您将会接到一个电话，要求您报出您的密码来确认登录。如果您不通过报出您的密码来
+确认登录，登录将会被拒绝。&lt;br/&gt;&lt;br/&gt;
+只有在您自己实际登录应用程序时收到该 Multi-Factor Authentication 移动应用通知的情况下，才应该报出您的密码。
+否则，可能是其他人在尝试使用您的用户名和密码登录，而您应该向您的 IT 管理员举报这种潜在
+欺诈行为。&lt;br/&gt;&lt;br/&gt;
+您可以随时返回到 Multi-Factor Authentication 门户来更改您的电话号码。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MustChangeModeToPhoneApp" xml:space="preserve">
+    <value>在设备上激活 Multi-Factor Authentication 移动应用后，您需要将方法更改为“移动应用”。单击导航菜单中的“更改方法”链接，然后指定“移动应用”方法以开始使用该应用。</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_MustChangeUserToPhoneAppMode" xml:space="preserve">
+    <value>用户在自己的设备上激活 Multi-Factor Authentication 移动应用后，需要将方法更改为“移动应用”以便于他们使用该应用。</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerPhoneApp" xml:space="preserve">
+    <value>只有在其他人尝试登录您的帐户并且他们已经获悉了您的密码时才会出现这种情况。请记住，只有在完成用户名和密码验证后才会发送 Multi-Factor Authentication 移动应用通知。因此，如果出现这种情况，则意味着 Multi-Factor Authentication 刚刚阻止了其他人非法访问您的帐户!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerSms" xml:space="preserve">
+    <value>只有在其他人尝试登录您的帐户并且他们已经获悉了您的密码时才会出现这种情况。请记住，只有在完成用户名和密码验证后才会发送短信。因此，如果出现这种情况，则意味着 Multi-Factor Authentication 刚刚阻止了其他人非法访问您的帐户!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerVoice" xml:space="preserve">
+    <value>只有在其他人尝试登录您的帐户并且他们已经获悉了您的密码时才会出现这种情况。请记住，只有在完成用户名和密码验证后才会进行电话呼叫。因此，如果出现这种情况，则意味着 Multi-Factor Authentication 刚刚阻止了其他人非法访问您的帐户!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionPhoneApp" xml:space="preserve">
+    <value>如果我并未尝试登录，但却收到了 Multi-Factor Authentication 移动应用通知，该怎么办?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionSms" xml:space="preserve">
+    <value>如果我并未尝试登录，但却收到了 Multi-Factor Authentication 发来的短信，该怎么办?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionVoice" xml:space="preserve">
+    <value>如果我并未尝试登录，但却接到了 Multi-Factor Authentication 的电话，该怎么办?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassOathToken" xml:space="preserve">
+    <value>此外，您的公司会提供“免验证一次”选项，该选项允许您在无需按提示输入身份验证代码的情况下登录一次。选择“免验证一次”选项可访问此功能。或者使用任何电话呼叫技术支持人员以获得帮助。</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_OneTimeBypassPhoneApp" xml:space="preserve">
+    <value>此外，您的公司会提供“免验证一次”选项，该选项允许您在无需接收 Multi-Factor Authentication 移动应用通知的情况下登录一次。选择“免验证一次”选项可访问此功能。也可以使用任何电话致电技术支持人员以获得帮助。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassSms" xml:space="preserve">
+    <value>您的公司会提供“免验证一次”选项，该选项允许您在无需接收短信的情况下登录一次。选择“免验证一次”选项可访问此功能。也可以使用任何电话致电技术支持人员以获得帮助。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassVoice" xml:space="preserve">
+    <value>您的公司会提供“免验证一次”选项，该选项允许您在无需接听电话的情况下登录一次。选择“免验证一次”选项可访问此功能。或者使用任何电话呼叫技术支持人员以获得帮助。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtp" xml:space="preserve">
+    <value>一次性密码</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtpPlusPin" xml:space="preserve">
+    <value>一次性密码 + PIN</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_SimpleProcessOathToken" xml:space="preserve">
+    <value>该简单流程可为身份验证的两个单独因素提供辅助身份验证，该辅助身份验证由您所拥有的设备(您的智能手机或令牌)提供。</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_SimpleProcessPhoneApp" xml:space="preserve">
+    <value>该简单流程可通过两个单独的渠道(您的计算机和智能手机)提供身份验证的两个单独因素。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessSms" xml:space="preserve">
+    <value>该简单流程可通过两个单独的渠道(您的计算机和手机服务)提供身份验证的两个单独因素。适用于所有具有短信功能的手机。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessVoice" xml:space="preserve">
+    <value>该简单流程可通过两个单独的渠道(您的计算机和手机服务)提供身份验证的两个单独因素。适用于所有固定电话或移动电话。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionOathToken" xml:space="preserve">
+    <value>此时会提示您输入身份验证代码。输入 Multi-Factor Authentication 移动应用或令牌显示的当前身份验证代码。</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppPin" xml:space="preserve">
+    <value>此时您会收到 Multi-Factor Authentication 移动应用通知。启动应用，输入您的 PIN，然后按“身份验证”按钮。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppStandard" xml:space="preserve">
+    <value>此时您会收到 Multi-Factor Authentication 移动应用通知。启动应用，然后按“身份验证”按钮。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppVoiceprint" xml:space="preserve">
+    <value>此时您会收到 Multi-Factor Authentication 移动应用通知。启动应用，然后按提示报出您的密码。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPin" xml:space="preserve">
+    <value>此时，您会接到一个电话。接听并输入您的 PIN，然后按下 #。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtp" xml:space="preserve">
+    <value>此时，您会通过短信收到一次性密码。在应用程序的提示下输入该密码。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>此时，您会通过短信收到一次性密码。在应用程序的提示下输入该密码以及您的 PIN。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtp" xml:space="preserve">
+    <value>此时，您会通过短信收到一次性密码。通过短信回复该密码。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>此时，您会通过短信收到一次性密码。通过短信回复该密码以及您的 PIN。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionStandard" xml:space="preserve">
+    <value>此时，您会接到一个电话。接听并按下 #。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionVoiceprint" xml:space="preserve">
+    <value>此时，您会接到一个电话。接听并在提示音后报出您的密码。</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_TitleWithColon" xml:space="preserve">
+    <value>{0}:</value>
+    <comment>Page header on most pages</comment>
+  </data>
+  <data name="Label_UnblockReason" xml:space="preserve">
+    <value>解除阻止原因</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_AccountConfigurationComplete" xml:space="preserve">
+    <value>帐户配置完成</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Message_AnswerRequired" xml:space="preserve">
+    <value>您必须至少回答一个安全问题。</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AnswerSecurityQuestions" xml:space="preserve">
+    <value>请回答安全问题进行登录。</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AnswersIncorrect" xml:space="preserve">
+    <value>一个或多个答案不正确。</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AuthenticationDenied" xml:space="preserve">
+    <value>已拒绝 Multi-Factor Authentication。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedAnswerSecurityQuestions" xml:space="preserve">
+    <value>已拒绝 Multi-Factor Authentication。请回答安全问题，以进行登录。</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedCallResult" xml:space="preserve">
+    <value>已拒绝 Multi-Factor Authentication: {0}</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_AuthenticationSuccessful" xml:space="preserve">
+    <value>Multi-Factor Authentication 已成功。</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_BypassSecondsNumeric" xml:space="preserve">
+    <value>“免验证秒数”必须是数字。</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRange" xml:space="preserve">
+    <value>“免验证秒数”必须介于 5 到 1800 (30 分钟)之间。</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRequired" xml:space="preserve">
+    <value>“免验证秒数”是必填项。</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_CannotActivateDevice" xml:space="preserve">
+    <value>您必须先将帐户与设备上已激活的 Multi-Factor Authentication 移动应用建立关联，才能将方法更改为“移动应用”。若要激活设备上的 Multi-Factor Authentication 移动应用，请联系技术支持人员以获取帮助。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotEstablishWebServiceSdkConnection" xml:space="preserve">
+    <value>Multi-Factor Authentication 用户门户无法与 Web 服务 SDK 建立安全连接: {0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_CannotGetOathToken" xml:space="preserve">
+    <value>您必须先将帐户与设备上已激活的 Multi-Factor Authentication 移动应用或 OATH 令牌建立关联，才能将方法更改为“OATH 令牌”。若要激活设备上的 Multi-Factor Authentication 移动应用或请求分配一个 OATH 令牌，请联系技术支持人员以获取帮助。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneSmsText" xml:space="preserve">
+    <value>您的帐户必须先分配到一个电话号码，您才能将方法更改为“短信”。若要为您的帐户分配手机号码，请联系技术支持人员。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>您必须先为您的帐户分配一个电话号码，才能将您的方法更改为“电话呼叫”。若要为您的帐户分配手机号码，请联系技术支持人员。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeOathTokenIncomplete" xml:space="preserve">
+    <value>注意: 该用户尚未激活设备上的 Multi-Factor Authentication 移动应用，也没有分配第三方 OATH 令牌，因而视为未完成“OATH 令牌”方法。该用户将无法通过受保护应用程序的身份验证，而且在登录用户门户时，系统会要求该用户重新注册。建议您联系用户帮助他们激活 Multi-Factor Authentication 移动应用，或者分配和分发第三方 OATH 令牌。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModePhoneAppIncomplete" xml:space="preserve">
+    <value>注意: 该用户尚未激活设备上的 Multi-Factor Authentication 移动应用，因而视为未完成“移动应用”方法。该用户将无法通过受保护应用程序的身份验证，而且在登录用户门户时，系统会要求该用户重新注册。建议您联系用户以帮助他们激活 Multi-Factor Authentication 移动应用。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeSmsTextIncomplete" xml:space="preserve">
+    <value>注意: 该用户尚无指定的电话号码，因而视为未完成“短信”方法。该用户将无法通过受保护应用程序的身份验证，而且在登录用户门户时，系统会要求该用户重新注册。建议您为该用户指定一个电话号码，使他们无需重新注册，便可继续使用受保护的应用程序。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeVoiceCallIncomplete" xml:space="preserve">
+    <value>注意: 该用户尚无指定的电话号码，因而视为未完成“电话呼叫”方法。该用户将无法通过受保护应用程序的身份验证，而且在登录用户门户时，系统会要求该用户重新注册。建议您为该用户指定一个电话号码，使他们无需重新注册，便可继续使用受保护的应用程序。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CodeRequired" xml:space="preserve">
+    <value>“代码”是必填项。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_CodeRequiredCross" xml:space="preserve">
+    <value>指定序列号后“代码”是必填项。</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ConfirmDeactivate" xml:space="preserve">
+    <value>是否确定要永久停用该设备?</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceDeactivated" xml:space="preserve">
+    <value>设备已停用。</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceLimit" xml:space="preserve">
+    <value>您的帐户已经达到 {0} 台设备的上限。您必须先停用一台现有设备，才能激活新设备。</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DuplicateAnswer" xml:space="preserve">
+    <value>不允许出现重复答案。</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateQuestion" xml:space="preserve">
+    <value>不允许出现重复问题。</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateUsername" xml:space="preserve">
+    <value>用户名重复。</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUser" xml:space="preserve">
+    <value>添加用户时出错。&lt;br/&gt;{0}</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUserForPassedSession" xml:space="preserve">
+    <value>为已传递的会话添加用户时出错。&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithLocal" xml:space="preserve">
+    <value>与本地 Multi-Factor Authentication 服务通信时出错。请联系您的管理员。</value>
+    <comment>Most pages when connection to local server is lost</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithMaster" xml:space="preserve">
+    <value>与主要 Multi-Factor Authentication 服务通信时出错。请联系您的管理员。</value>
+    <comment>Most pages when connection to master server is lost</comment>
+  </data>
+  <data name="Message_ErrorDeactivatingDevice" xml:space="preserve">
+    <value>停用设备时出错。&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorDisablingUser" xml:space="preserve">
+    <value>禁用用户时出错。&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorEnablingUser" xml:space="preserve">
+    <value>启用用户时出错。&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorFindingUsers" xml:space="preserve">
+    <value>查找用户时出错。&lt;br/&gt;{0}</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_ErrorGeneratingActivationCode" xml:space="preserve">
+    <value>生成激活代码时出错。&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorIssuingOneTimeBypass" xml:space="preserve">
+    <value>颁发免验证一次时出错。请联系您的管理员。&lt;br/&gt;{0}</value>
+    <comment>one_time_bypass and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorRemovingUser" xml:space="preserve">
+    <value>删除用户时出错。&lt;br/&gt;{0}</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_ErrorResettingMode" xml:space="preserve">
+    <value>重置方法时出错。&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPhone" xml:space="preserve">
+    <value>重置手机时出错。&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPin" xml:space="preserve">
+    <value>重置 PIN 时出错。&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingVoiceprint" xml:space="preserve">
+    <value>重置音纹时出错。请联系您的管理员。&lt;br/&gt;{0}</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingLanguage" xml:space="preserve">
+    <value>更新语言时出错。&lt;br/&gt;{0}</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingMode" xml:space="preserve">
+    <value>更新方法时出错。&lt;br/&gt;{0}</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhone" xml:space="preserve">
+    <value>更新电话时出错。&lt;br/&gt;{0}</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhoneAppMode" xml:space="preserve">
+    <value>更新移动应用模式时出错。&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPin" xml:space="preserve">
+    <value>更新 PIN 时出错。&lt;br/&gt;{0}</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSecurityQuestions" xml:space="preserve">
+    <value>更新安全问题时出错。&lt;br/&gt;{0}</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSmsTextMode" xml:space="preserve">
+    <value>更新短信模式时出错。&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingStaticToken" xml:space="preserve">
+    <value>更新静态令牌时出错。&lt;br/&gt;{0}</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserForSecurityQuestionSetup" xml:space="preserve">
+    <value>更新用户的安全问题设置时出错。&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserInformation" xml:space="preserve">
+    <value>更新用户信息时出错。&lt;br/&gt;{0}</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingVoiceCallMode" xml:space="preserve">
+    <value>更新电话呼叫模式时出错。&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ExpiredSession" xml:space="preserve">
+    <value>您的会话已过期。</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_IncorrectAnswers" xml:space="preserve">
+    <value>您提供的答案不正确，请重试。</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_IncorrectOathCode" xml:space="preserve">
+    <value>身份验证代码不正确。</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscode" xml:space="preserve">
+    <value>一次性密码不正确。</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscodePlusPin" xml:space="preserve">
+    <value>一次性密码 + PIN 不正确。</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_InvalidExtension" xml:space="preserve">
+    <value>分机号码无效。允许的字元仅限数字、逗号、* 及 ＃。使用逗号可加入一秒钟的暂停。在分机号码前加上 @ 可说出分机号码的数字以进行手动转接。</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_InvalidSerialNumber" xml:space="preserve">
+    <value>序列号无效。必须先在 Multi-Factor Authentication 服务器用户界面中定义使用此序列号的 OATH 令牌，然后才能将该令牌与用户关联。</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_LineBreak" xml:space="preserve">
+    <value>&lt;br/&gt;{0}</value>
+    <comment>add_user, change_phone, change_pin, change_mode, change_language and enable_disable pages</comment>
+  </data>
+  <data name="Message_LoginFailed" xml:space="preserve">
+    <value>登录失败。</value>
+    <comment>login and secondary_authentication pages</comment>
+  </data>
+  <data name="Message_MustActivateDevice" xml:space="preserve">
+    <value>您必须先激活设备上的 Multi-Factor Authentication 移动应用，才能将方法更改为“移动应用”。单击导航菜单中的“激活移动应用”链接以开始进行激活。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustActivateDeviceOathToken" xml:space="preserve">
+    <value>您必须先激活设备上的 Multi-Factor Authentication 移动应用，才能将方法更改为“OATH 令牌”。单击导航菜单中的“激活移动应用”链接以开始进行激活。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustAnswerAllQuestions" xml:space="preserve">
+    <value>您必须回答所有安全问题。</value>
+    <comment>create_security_questions, change_security_questions, and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_MustEnrollOathToken" xml:space="preserve">
+    <value>您必须先将某个 OATH 令牌与您的帐户关联，才能将方法更改为“OATH 令牌”。单击“OATH 令牌”链接来关联某个 OATH 令牌。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustHaveOathToken" xml:space="preserve">
+    <value>您必须先激活设备上的 Multi-Factor Authentication 移动应用或将某个 OATH 令牌与您的帐户关联，才能将方法更改为“OATH 令牌”。单击导航菜单中的“激活移动应用”链接以开始进行激活，或者单击“OATH 令牌”链接来关联某个 OATH 令牌。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneSmsText" xml:space="preserve">
+    <value>您必须先为帐户指定一个电话号码，才能将方法更改为“短信”。单击导航菜单中的“更改电话”链接来指定电话号码。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>您必须先为帐户指定一个电话号码，才能将方法更改为“电话呼叫”。单击导航菜单中的“更改电话”链接来指定电话号码。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifySearchField" xml:space="preserve">
+    <value>必须至少指定一个搜索字段。</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoActivatedDevices" xml:space="preserve">
+    <value>该用户尚无已激活的设备。</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_NoMatchingUsersFound" xml:space="preserve">
+    <value>找不到匹配的用户。</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoSsl" xml:space="preserve">
+    <value>Multi-Factor Authentication 用户门户未使用 SSL 加密，但 Web.config 中的会话 Cookie 要求使用 SSL。由于会话状态无法维持，因而用户门户不能正常运作。建议为用户门户使用 SSL 加密。出于测试目的，您可以将 Web.config 的 &lt;httpCookies&gt; 标记中的 requireSSL 临时更改为“false”。</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailed" xml:space="preserve">
+    <value>OATH 令牌同步失败。输入的代码不正确，或者 OATH 令牌序列号无效。</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailedUser" xml:space="preserve">
+    <value>OATH 令牌同步失败。输入的代码不正确。</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OnlyFirstMatchesDisplayed" xml:space="preserve">
+    <value>仅显示前 {0} 个匹配结果。如果您在列表中找不到该用户，请输入更具体的搜索条件。</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_PassedSessionFailed" xml:space="preserve">
+    <value>已传递的会话失败。</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_PhoneRequired" xml:space="preserve">
+    <value>“电话”是必填项。</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMatch" xml:space="preserve">
+    <value>PIN 与确认 PIN 必须匹配。</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMinimumLength" xml:space="preserve">
+    <value>PIN 必须至少为 {0} 位数。</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinNumeric" xml:space="preserve">
+    <value>PIN 必须为数字。</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinRecentlyUsed" xml:space="preserve">
+    <value>PIN 不能与您最近使用的某个 PIN 相同。请选择不同的 PIN。</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_SamlDisabled" xml:space="preserve">
+    <value>使用 SAML 以单一登录方式访问外部应用程序的功能已禁用。</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotDefined" xml:space="preserve">
+    <value>该用户尚未定义安全问题。&lt;br/&gt;</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotSetUp" xml:space="preserve">
+    <value>由于您尚未设置安全问题，因而只能通过您的手机登录。</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsVerified" xml:space="preserve">
+    <value>安全问题已验证。</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityWarningNoSsl" xml:space="preserve">
+    <value>安全警告: Multi-Factor Authentication 用户门户未使用 SSL 加密。密码将通过纯文本传递。</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SerialNumberAlreadyAssociated" xml:space="preserve">
+    <value>序列号已与 {0} 关联。必须先从关联用户删除该序列号，才能将其与此用户关联。</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_SerialNumberRequired" xml:space="preserve">
+    <value>需要序列号。</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_SerialNumberRequiredCross" xml:space="preserve">
+    <value>指定代码后“序列号”是必填项。</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ShortAnswer" xml:space="preserve">
+    <value>答案必须至少包含 4 个字符。</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_StaticTokenMatch" xml:space="preserve">
+    <value>“静态令牌”和“确认静态令牌”必须一致。</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenMinimumLength" xml:space="preserve">
+    <value>“静态令牌”必须至少为 {0} 位数。</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenNumeric" xml:space="preserve">
+    <value>“静态令牌”必须是数字。</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserAdded" xml:space="preserve">
+    <value>已添加该用户。</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_UserAlreadyBlocked" xml:space="preserve">
+    <value>阻止失败。该用户已被阻止。</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlocked" xml:space="preserve">
+    <value>已成功阻止该用户。</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlockFailed" xml:space="preserve">
+    <value>阻止失败。</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserDeviceLimit" xml:space="preserve">
+    <value>该用户已经达到 {0} 台设备的上限。您必须先为该用户停用一台现有设备，才能激活新设备。</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_UserDisabled" xml:space="preserve">
+    <value>已成功禁用该用户。</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserEnabled" xml:space="preserve">
+    <value>已成功启用该用户。</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserInformationChanged" xml:space="preserve">
+    <value>用户的信息已更改。</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_UserLanguageChanged" xml:space="preserve">
+    <value>用户的语言首选项已更改。</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_UserModeChanged" xml:space="preserve">
+    <value>用户的方法已更改。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_UsernameRequired" xml:space="preserve">
+    <value>“用户名”是必填项。</value>
+    <comment>login and add_user pages</comment>
+  </data>
+  <data name="Message_UserNotBlocked" xml:space="preserve">
+    <value>解除阻止失败。该用户目前未被阻止。</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserOathTokenSaved" xml:space="preserve">
+    <value>用户的 OATH 令牌已保存。</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_UserOneTimeBypassIssued" xml:space="preserve">
+    <value>免验证一次已发出。用户在下次登录时将跳过 Multi-Factor Authentication。</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_UserPhoneChanged" xml:space="preserve">
+    <value>用户的电话已更改。</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_UserPinChanged" xml:space="preserve">
+    <value>用户的 PIN 已更改。</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_UserPortalDisabled" xml:space="preserve">
+    <value>已禁用直接登录用户门户的操作。</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserPortalNotPurchased" xml:space="preserve">
+    <value>由于尚未购买此功能，因而无法正常使用 Multi-Factor Authentication 用户门户。</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserRemoved" xml:space="preserve">
+    <value>用户已删除。</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_UserStaticTokenChanged" xml:space="preserve">
+    <value>用户的静态令牌已更改。</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserSubmodeChanged" xml:space="preserve">
+    <value>用户的模式已更改。</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_UserUnblocked" xml:space="preserve">
+    <value>已成功解除阻止该用户。</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserUnblockFailed" xml:space="preserve">
+    <value>解除阻止失败。</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserVoiceprintReset" xml:space="preserve">
+    <value>音纹已成功重置。系统将提示用户在下次登录时注册新的音纹。</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_WeakPinNotAllowed" xml:space="preserve">
+    <value>不允许使用弱 PIN。不能包含手机号码中的 4 个或更多数字、3 个或更多重复数字，或者 3 个或更多连续数字。</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_WeakStaticTokenNotAllowed" xml:space="preserve">
+    <value>不允许使用弱静态令牌。不能包含手机号码中的 4 个或更多数字、3 个或更多重复数字，或者 3 个或更多连续数字。</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_WebServiceSdkError" xml:space="preserve">
+    <value>Multi-Factor Authentication 用户门户已配置为与 Web 服务 SDK 通信，返回以下错误:&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_WebServiceSdkNotPurchased" xml:space="preserve">
+    <value> Multi-Factor Authentication 用户门户已配置为与 Web 服务 SDK 通信，但是您尚未购买 Web 服务 SDK 功能。</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_YourInformationChanged" xml:space="preserve">
+    <value>您的信息已更改。</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_YourLanguageChanged" xml:space="preserve">
+    <value>您的语言首选项已更改。</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_YourModeChanged" xml:space="preserve">
+    <value>您的方法已更改。</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_YourOathTokenSaved" xml:space="preserve">
+    <value>您的 OATH 令牌已保存。</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_YourOneTimeBypassIssued" xml:space="preserve">
+    <value>免验证一次已发出。您在下次登录时将跳过 Multi-Factor Authentication。</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_YourPhoneChanged" xml:space="preserve">
+    <value>您的电话已更改。</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_YourPinChanged" xml:space="preserve">
+    <value>您的 PIN 已更改。</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_YourSecurityQuestionsChanged" xml:space="preserve">
+    <value>您的安全问题和答案已更改。</value>
+    <comment>change_security_questions page</comment>
+  </data>
+  <data name="Message_YourStaticTokenChanged" xml:space="preserve">
+    <value>您的静态令牌已更改。</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_YourVoiceprintReset" xml:space="preserve">
+    <value>音纹已成功重置。系统将提示您在下次登录时注册新的音纹。</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Reason_InitiatedByAdmin" xml:space="preserve">
+    <value>在用户门户中由管理员发起</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Reason_InitiatedByUser" xml:space="preserve">
+    <value>在用户门户中由用户发起</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Subtitle_DeactivatePhoneApp" xml:space="preserve">
+    <value>停用移动应用</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Subtitle_Enable" xml:space="preserve">
+    <value>启用</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Subtitle_UnblockUser" xml:space="preserve">
+    <value>解除阻止用户</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Title_PhoneFactorUserPortal" xml:space="preserve">
+    <value>Multi-Factor Authentication™ | 用户门户</value>
+    <comment>Title on all pages</comment>
+  </data>
+  <data name="Value_All" xml:space="preserve">
+    <value>所有</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Value_Masked" xml:space="preserve">
+    <value>已掩码</value>
+    <comment>add_user, change_pin, and oath_token pages</comment>
+  </data>
+</root>

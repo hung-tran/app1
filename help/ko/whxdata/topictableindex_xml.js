@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"UTF-8\"?><cki><ck fm=\"모바일 앱 활성화\" to=\"사용자 설정\" num=\"33\"/></cki>";

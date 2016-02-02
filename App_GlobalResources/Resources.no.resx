@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName_UserPortal" xml:space="preserve">
+    <value>Brukerportal</value>
+    <comment>Application name for Multi-Factor Authentications</comment>
+  </data>
+  <data name="Button_AuthenticateMeNow" xml:space="preserve">
+    <value>Godkjenn meg nå</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_CallMeNowToAuthenticate" xml:space="preserve">
+    <value>Ring meg nå for å godkjenne</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_Next" xml:space="preserve">
+    <value>Neste</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_TextMeNowToAuthenticate" xml:space="preserve">
+    <value>Tekst meg nå for å godkjenne</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_VerifyOathToken" xml:space="preserve">
+    <value>Bekreft OATH-token</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Help_File" xml:space="preserve">
+    <value>help/PhoneFactor_User_Portal.htm</value>
+    <comment>Localize as help/xx/PhoneFactor_User_Portal.htm where xx is langauge code (e.g. de for German, zh-hans for Simplified Chinese)</comment>
+  </data>
+  <data name="Label_AlternatePhoneOathToken" xml:space="preserve">
+    <value>Mobilappen Multi-Factor Authentication trenger ikke å være koblet til mobilnettverket eller Wi-Fi for å kunne vise godkjenningskoder.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_AlternatePhonePhoneApp" xml:space="preserve">
+    <value>Mobilappen Multi-Factor Authentication fungerer like bra via Wi-Fi.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneSms" xml:space="preserve">
+    <value>Du kan endre kontoen slik at den henviser til et alternativt telefonnummer, ved å velge alternativet Endre telefonnummer.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneVoice" xml:space="preserve">
+    <value>Du kan endre kontoen slik at den henviser til et alternativt telefonnummer, for eksempel et fasttelefonnummer, ved å velge alternativet Endre telefonnummer.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_CannotChangeModeToPhoneApp" xml:space="preserve">
+    <value>Etter at du har aktivert mobilappen Multi-Factor Authentication på enheten, må kontometoden endres til mobilapp før du kan bruke appen. Kontakt kundestøtte for å endre metoden til mobilapp.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_Disable" xml:space="preserve">
+    <value>Deaktiver</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>Aktiver</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_FraudAlertPhoneApp" xml:space="preserve">
+    <value>Hvis du vil rapportere hendelsen, trykker du Avslå og rapporter svindel i mobilappen Multi-Factor Authentication. Dermed varsles bedriftens IT-sikkerhetsteam. Fremtidige godkjenningsforsøk blir blokkert til problemet er løst.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertSms" xml:space="preserve">
+    <value>Hvis du vil rapportere hendelsen, skriver du inn svindelkoden i svaret. Dermed varsles bedriftens IT-sikkerhetsteam. Fremtidige godkjenningsforsøk blir blokkert til problemet er løst.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertVoice" xml:space="preserve">
+    <value>Hvis du vil rapportere hendelsen, velger du alternativet Varsel om svindel på telefonmenyen under godkjenningsanropet. Dermed varsles bedriftens IT-sikkerhetsteam. Fremtidige godkjenningsforsøk blir blokkert til problemet er løst.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_GenerateActivationCode" xml:space="preserve">
+    <value>Generer aktiveringskode</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateActivationLink" xml:space="preserve">
+    <value>Generer aktiveringskobling</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationCode" xml:space="preserve">
+    <value>Generer ny aktiveringskode</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationLink" xml:space="preserve">
+    <value>Generer ny aktiveringskobling</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication ber deg om en godkjenningskode under pålogging.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionPhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication sender et varsel til mobilappen Multi-Factor Authentication under pålogging.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionSms" xml:space="preserve">
+    <value>Multi-Factor Authentication sender en tekstmelding til telefonen under pålogging.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionVoice" xml:space="preserve">
+    <value>Multi-Factor Authentication starter et bekreftelsesanrop til telefonen under pålogging.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsAdministrator" xml:space="preserve">
+    <value>Administrer brukerkontoer ved å velge Søk etter brukere på menyen. Administrer kontoen ved å velge riktig alternativ. Velg Hjelp-ikonet (øverst til høyre) for å få hjelp.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeOathToken" xml:space="preserve">
+    <value>Velg metoden &lt;b&gt;OATH-token&lt;/b&gt; for å godkjenne ved hjelp av en godkjenningskode fra mobilappen Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModePhoneApp" xml:space="preserve">
+    <value>Velg metoden &lt;b&gt;Mobilapp&lt;/b&gt; for å godkjenne ved hjelp av mobilappen Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeSmsText" xml:space="preserve">
+    <value>Velg metoden &lt;b&gt;Tekstmelding&lt;/b&gt; for å motta en tekstmelding for å godkjenne.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeVoiceCall" xml:space="preserve">
+    <value>Velg metoden &lt;b&gt;Telefonanrop&lt;/b&gt; for å motta et telefonanrop for å godkjenne.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtp" xml:space="preserve">
+    <value>Hvis du vil fullføre bekreftelsen, skriver du inn engangspassordet som du mottar via tekstmelding.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtpPlusPin" xml:space="preserve">
+    <value>Hvis du vil fullføre bekreftelsen, skriver du inn engangspassordet som du mottar via tekstmelding, og PIN-koden din.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsFindUser" xml:space="preserve">
+    <value>Skriv inn de første tegnene i brukernavnet, og klikk Søk etter.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsOathToken" xml:space="preserve">
+    <value>Test denne brukerens godkjenning med OATH-token.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneApp" xml:space="preserve">
+    <value>Test denne brukerens godkjenning med mobilapp.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationIpWhitelist" xml:space="preserve">
+    <value>Etter at aktiveringen er fullført, klikker du Neste for å fortsette installasjonen.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationOathToken" xml:space="preserve">
+    <value>Etter at aktiveringen er fullført, klikker du følgende knapp for å teste godkjenningen og fortsette installasjonen. Når du blir bedt om det, skriver du inn den gjeldende godkjenningskoden som vises i mobilappen.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsSelectUser" xml:space="preserve">
+    <value>Velg en bruker fra listen, eller velg Tilbake for å finne en annen bruker.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsSmsText" xml:space="preserve">
+    <value>Test denne brukerens godkjenning med tekstmelding.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUnblockUser" xml:space="preserve">
+    <value>Angi en opplåsingsårsak og bekreft opplåsing av brukeren. Brukerens godkjenninger blir ikke lenger blokkert.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Label_InstructionsUserActivatePhoneApp" xml:space="preserve">
+    <value>Brukeren må først installere mobilappen Multi-Factor Authentication på telefonen sin. Klikk Generer for å motta en aktiveringskode. Aktiveringskoden blir registrert i brukerens mobilapp for å fullføre aktiveringen.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserDeactivatePhoneApp" xml:space="preserve">
+    <value>Hvis du vil deaktivere en enhet for brukeren, klikker du Deaktiver-koblingen for enheten.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserEnable" xml:space="preserve">
+    <value>Bekreft aktivering av brukeren slik at han/hun kan begynne å motta Multi-Factor Authentication-anrop etter å ha logget på.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_InstructionsUserInformation" xml:space="preserve">
+    <value>Angi ny informasjon for denne brukeren.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Label_InstructionsUserLanguage" xml:space="preserve">
+    <value>Angi språkinnstillingene for denne brukeren.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Label_InstructionsUserMode" xml:space="preserve">
+    <value>Velg metoden for denne brukeren.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathCode" xml:space="preserve">
+    <value>Hvis du vil fullføre godkjenningen, skriver du inn godkjenningskoden som vises i mobilappen Multi-Factor Authentication til brukeren eller i brukerens token.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathToken" xml:space="preserve">
+    <value>Skriv inn serienummeret for OATH-tokenet og koden som for øyeblikket vises på tokenet, for å knytte tokenet til brukeren.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Label_InstructionsUserOneTimeBypass" xml:space="preserve">
+    <value>Bekreft engangstilgang for å hoppe over Multi-Factor Authentication under denne brukerens neste pålogging. Omgåelsen er midlertidig.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtp" xml:space="preserve">
+    <value>Hvis du vil fullføre godkjenningen, skriver du inn engangspassordet brukeren mottok i tekstmeldingen.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtpPlusPin" xml:space="preserve">
+    <value>Hvis du vil fullføre godkjenningen, skriver du inn engangspassordet brukeren mottok i tekstmeldingen, og i tillegg PIN-koden.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserPhone" xml:space="preserve">
+    <value>Angi et nytt telefonnummer for denne brukeren.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Label_InstructionsUserPin" xml:space="preserve">
+    <value>Angi en ny PIN-kode for denne brukeren.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Label_InstructionsUserResetVoiceprint" xml:space="preserve">
+    <value>Bekreft tilbakestilling av brukerens stemmeavtrykk. Brukeren må registrere et nytt stemmeavtrykk under neste godkjenningsanrop.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathToken" xml:space="preserve">
+    <value>Hvis du vil aktivere Multi-Factor Authentication for kontoen din ved hjelp av metoden OATH-token, skriver du inn serienummeret som er trykt på baksiden av OATH-tokenet, og i tillegg skriver du inn koden som for øyeblikket vises på tokenet, for å knytte tokenet til kontoen din.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathTokenPhoneApp" xml:space="preserve">
+    <value>Hvis du vil aktivere Multi-Factor Authentication for kontoen din ved hjelp av metoden OATH-token, må du først installere appen Multi-Factor Authentication på telefonen og deretter klikke Generer nedenfor for å motta en aktiveringskode. Aktiveringskoden registreres i mobilappen for å fullføre aktiveringen. Aktiveringskoden utløper etter ti minutter.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPhoneApp" xml:space="preserve">
+    <value>Hvis du vil aktivere Multi-Factor Authentication for kontoen din ved hjelp av mobilappen, må du først installere appen Multi-Factor Authentication på telefonen og deretter klikke Generer nedenfor for å motta en aktiveringskode. Aktiveringskoden registreres i mobilappen for å fullføre aktiveringen. Aktiveringskoden utløper etter ti minutter.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPin" xml:space="preserve">
+    <value>Hvis du vil aktivere Multi-Factor Authentication for kontoen, skriver du inn telefonnummeret du vil bruke til å godkjenne, og i tillegg en PIN-kode.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtp" xml:space="preserve">
+    <value>Hvis du vil aktivere Multi-Factor Authentication for kontoen, skriver du inn telefonnummeret du vil bruke til å godkjenne.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Hvis du vil aktivere Multi-Factor Authentication for kontoen, skriver du inn telefonnummeret du vil bruke til å godkjenne, og i tillegg en PIN-kode.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtp" xml:space="preserve">
+    <value>Hvis du vil aktivere Multi-Factor Authentication for kontoen, skriver du inn telefonnummeret du vil bruke til å godkjenne.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Hvis du vil aktivere Multi-Factor Authentication for kontoen, skriver du inn telefonnummeret du vil bruke til å godkjenne, og i tillegg en PIN-kode.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupStandard" xml:space="preserve">
+    <value>Hvis du vil aktivere Multi-Factor Authentication for kontoen, skriver du inn telefonnummeret du vil bruke til å godkjenne.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteOathToken" xml:space="preserve">
+    <value>Følg instruksjonene nedenfor for å aktivere appen Multi-Factor Authentication på telefonen og teste en godkjenning ved hjelp av godkjenningskoder fra mobilappen.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePhoneApp" xml:space="preserve">
+    <value>Følg instruksjonene nedenfor for å aktivere appen Multi-Factor Authentication på telefonen og teste en godkjenning ved hjelp av mobilappen.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePin" xml:space="preserve">
+    <value>Multi-Factor Authentication fullfører dette trinnet ved å ringe nummeret du oppgav. Skriv inn PIN-koden etterfulgt av # for å godkjenne.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtp" xml:space="preserve">
+    <value>Multi-Factor Authentication fullfører dette trinnet ved å sende et engangspassord i en tekstmelding til nummeret du oppgav. Når du blir bedt om det, skriver du inn engangspassordet for å godkjenne.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Multi-Factor Authentication fullfører dette trinnet ved å sende et engangspassord i en tekstmelding til nummeret du oppgav. Når du blir bedt om det, skriver du inn engangspassordet pluss PIN-koden for å godkjenne.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtp" xml:space="preserve">
+    <value>Multi-Factor Authentication fullfører dette trinnet ved å sende et engangspassord i en tekstmelding til nummeret du oppgav. Svar på tekstmeldingen med engangspassordet for å godkjenne.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Multi-Factor Authentication fullfører dette trinnet ved å sende et engangspassord i en tekstmelding til nummeret du oppgav. Svar på tekstmeldingen med engangspassordet pluss PIN-koden for å godkjenne.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteStandard" xml:space="preserve">
+    <value>Multi-Factor Authentication fullfører dette trinnet ved å ringe nummeret du oppgav. Svar og trykk # for å godkjenne.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteVoiceprint" xml:space="preserve">
+    <value>Multi-Factor Authentication fullfører dette trinnet ved å ringe nummeret du oppgav. Følg instruksjonene for å registrere et stemmeavtrykkspassord.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupVoiceprint" xml:space="preserve">
+    <value>Hvis du vil aktivere Multi-Factor Authentication for kontoen, skriver du inn telefonnummeret du vil bruke til å godkjenne.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserStaticToken" xml:space="preserve">
+    <value>Angi et nytt statisk token for denne brukeren.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Label_MessageOathToken" xml:space="preserve">
+    <value>Kontoen har blitt konfigurert til å bruke Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Når du logger på, fortsetter du å bruke det samme brukernavnet og passordet. Før bekreftelsen er fullført, blir du bedt om å angi riktig godkjenningskode fra mobilappen Multi-Factor Authentication eller tokenet for å fullføre pålogging. Hvis du ikke angir riktig godkjenningskode, blir påloggingen avslått.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppPin" xml:space="preserve">
+    <value>Kontoen har blitt konfigurert til å bruke Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Når du logger på, fortsetter du å bruke det samme brukernavnet og passordet. Før bekreftelsen er fullført,
+mottar du et varsel der du blir bedt om å starte mobilappen Multi-Factor Authentication og skrive inn PIN-koden for å bekrefte påloggingen. Hvis du ikke bekrefter påloggingen ved å skrive inn PIN-koden og trykke #, blir påloggingen avslått.&lt;br/&gt;&lt;br/&gt;
+Du må bare skrive inn PIN-koden når du mottar varslet på mobilappen Multi-Factor Authentication hvis du faktisk logger på appen. Ellers er det kanskje en annen bruker som forsøker å logge på med ditt brukernavn og passord, og du må rapportere denne potensielle svindelen til IT-administratoren.&lt;br/&gt;&lt;br/&gt;Gå tilbake til Multi-Factor Authentication-portalen når som helst for å endre PIN-kode.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppStandard" xml:space="preserve">
+    <value>Kontoen har blitt konfigurert til å bruke Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Når du logger på, fortsetter du å bruke det samme brukernavnet og passordet. Før bekreftelsen er fullført,
+mottar du et varsel der du blir bedt om å starte mobilappen Multi-Factor Authentication og trykke Godkjenn-knappen for å fullføre påloggingen. Hvis du ikke bekrefter påloggingen ved å trykke Godkjenn, blir påloggingen avslått.&lt;br/&gt;&lt;br/&gt;
+Du må bare trykke Godkjenn når du mottar varslet på mobilappen Multi-Factor Authentication hvis du faktisk logger på appen. Ellers er det kanskje en annen bruker som forsøker å logge på med ditt brukernavn og passord, og du må rapportere denne potensielle svindelen til IT-administratoren.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppVoiceprint" xml:space="preserve">
+    <value>Kontoen har blitt konfigurert til å bruke Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Når du logger på, fortsetter du å bruke det samme brukernavnet og passordet. Før bekreftelsen er fullført,
+mottar du et varsel der du blir bedt om å starte mobilappen Multi-Factor Authentication og deretter si passfrasen for å bekrefte påloggingen. Hvis du ikke bekrefter påloggingen ved å si passfrasen, blir påloggingen avslått.&lt;br/&gt;&lt;br/&gt;
+Du må bare si passfrasen når du mottar varslet på mobilappen Multi-Factor Authentication hvis du faktisk logger på appen. Ellers er det kanskje en annen bruker som forsøker å logge på med ditt brukernavn og passord, og du må rapportere denne potensielle svindelen til IT-administratoren.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePin" xml:space="preserve">
+    <value>Kontoen har blitt konfigurert til å bruke Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Når du logger på, fortsetter du å bruke det samme brukernavnet og passordet. Før bekreftelsen er fullført,
+mottar du et anrop der du blir bedt om å skrive inn PIN-koden etterfulgt av pundtegnet (#) for å bekrefte påloggingen. Hvis du
+ikke bekrefter påloggingen ved å skrive inn PIN-koden og trykke #, blir påloggingen avslått.&lt;br/&gt;&lt;br/&gt;
+Du må bare skrive inn PIN-koden når du mottar et anrop i Multi-Factor Authentication hvis du faktisk logger på appen.
+Ellers er det kanskje en annen bruker som forsøker å logge på med ditt brukernavn og passord, og du må rapportere denne potensielle
+svindelen til IT-administratoren.&lt;br/&gt;&lt;br/&gt;
+Gå tilbake til Multi-Factor Authentication-portalen når som helst for å endre telefonnummer eller PIN-kode.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtp" xml:space="preserve">
+    <value>Kontoen har blitt konfigurert til å bruke Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Når du logger på, fortsetter du å bruke det samme brukernavnet og passordet. Før bekreftelsen er fullført,
+mottar du en tekstmelding med et engangspassord. Skriv inn dette passordet når du blir bedt om det av appen.
+Hvis du ikke skriver inn riktig passord, blir påloggingen avslått.&lt;br/&gt;&lt;br/&gt;
+Gå tilbake til Multi-Factor Authentication-portalen når som helst for å endre telefonnummer.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Kontoen har blitt konfigurert til å bruke Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Når du logger på, fortsetter du å bruke det samme brukernavnet og passordet. Før bekreftelsen er fullført,
+mottar du en tekstmelding med et engangspassord. Skriv inn dette passordet og PIN-koden når du blir bedt om det av appen.
+Hvis du ikke skriver inn riktig passord og PIN-kode, blir påloggingen avslått.&lt;br/&gt;&lt;br/&gt;
+Gå tilbake til Multi-Factor Authentication-portalen når som helst for å endre telefonnummer eller PIN-kode.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtp" xml:space="preserve">
+    <value>Kontoen har blitt konfigurert til å bruke Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Når du logger på, fortsetter du å bruke det samme brukernavnet og passordet. Før bekreftelsen er fullført,
+mottar du en tekstmelding med et engangspassord. Svar på denne tekstmeldingen med dette passordet.
+Hvis du ikke svarer med riktig passord, blir påloggingen avslått.&lt;br/&gt;&lt;br/&gt;
+Du må bare svare når du mottar tekstmeldingen i Multi-Factor Authentication hvis du faktisk logger på appen.
+Ellers er det kanskje en annen bruker som forsøker å logge på med ditt brukernavn og passord, og du må rapportere denne potensielle
+svindelen til IT-administratoren.&lt;br/&gt;&lt;br/&gt;
+Gå tilbake til Multi-Factor Authentication-portalen når som helst for å endre telefonnummer.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Kontoen har blitt konfigurert til å bruke Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Når du logger på, fortsetter du å bruke det samme brukernavnet og passordet. Før bekreftelsen er fullført,
+mottar du en tekstmelding med et engangspassord. Svar på denne tekstmeldingen med dette passordet og PIN-koden.
+Hvis du ikke svarer med riktig passord og PIN-kode, blir påloggingen avslått.&lt;br/&gt;&lt;br/&gt;
+Du må bare svare når du mottar tekstmeldingen i Multi-Factor Authentication hvis du faktisk logger på appen.
+Ellers er det kanskje en annen bruker som forsøker å logge på med ditt brukernavn og passord, og du må rapportere denne potensielle
+svindelen til IT-administratoren.&lt;br/&gt;&lt;br/&gt;
+Gå tilbake til Multi-Factor Authentication-portalen når som helst for å endre telefonnummer eller PIN-kode.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageStandard" xml:space="preserve">
+    <value>Kontoen har blitt konfigurert til å bruke Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Når du logger på, fortsetter du å bruke det samme brukernavnet og passordet. Før bekreftelsen er fullført,
+mottar du et anrop der du blir bedt om å trykke pundtegnet (#) for å bekrefte påloggingen. Hvis du ikke bekrefter påloggingen
+ved å trykke #, blir påloggingen avslått.&lt;br/&gt;&lt;br/&gt;
+Du må bare trykke # når du mottar anropet i Multi-Factor Authentication hvis du faktisk logger på appen.
+Ellers er det kanskje en annen bruker som forsøker å logge på med ditt brukernavn og passord, og du må rapportere denne potensielle
+svindelen til IT-administratoren.&lt;br/&gt;&lt;br/&gt;
+Gå tilbake til Multi-Factor Authentication-portalen når som helst for å endre telefonnummer.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageVoiceprint" xml:space="preserve">
+    <value>Kontoen har blitt konfigurert til å bruke Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Når du logger på, fortsetter du å bruke det samme brukernavnet og passordet. Før bekreftelsen er fullført,
+mottar du et anrop der du blir bedt om å si passfrasen for å bekrefte påloggingen. Hvis du ikke bekrefter
+påloggingen ved å si passfrasen, blir påloggingen avslått.&lt;br/&gt;&lt;br/&gt;
+Du må bare si passfrasen når du mottar et anrop i Multi-Factor Authentication hvis du faktisk logger på appen.
+Ellers er det kanskje en annen bruker som forsøker å logge på med ditt brukernavn og passord, og du må rapportere denne potensielle
+svindelen til IT-administratoren.&lt;br/&gt;&lt;br/&gt;
+Gå tilbake til Multi-Factor Authentication-portalen når som helst for å endre telefonnummer.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MustChangeModeToPhoneApp" xml:space="preserve">
+    <value>Etter at du har aktivert mobilappen Multi-Factor Authentication på enheten, må du endre metoden til Mobilapp. Klikk Endre metode-koblingen på navigasjonsmenyen, og angi metoden Mobilapp for å begynne å bruke appen.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_MustChangeUserToPhoneAppMode" xml:space="preserve">
+    <value>Etter at brukeren aktiverer mobilappen Multi-Factor Authentication på enheten, må du endre brukerens metode til Mobilapp for at brukeren skal kunne bruke appen.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerPhoneApp" xml:space="preserve">
+    <value>Dette skjer bare hvis noen andre forsøkte å logge på kontoen din med passordet ditt. Husk at varsler til mobilappen Multi-Factor Authentication bare sendes etter at brukernavnet og passordet er bekreftet. Hvis dette skjer, har Multi-Factor Authentication dermed hindret ulovlig bruk av kontoen!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerSms" xml:space="preserve">
+    <value>Dette skjer bare hvis noen andre forsøkte å logge på kontoen din med passordet ditt. Husk at tekstmeldinger bare sendes etter at brukernavnet og passordet er bekreftet. Hvis dette skjer, har Multi-Factor Authentication dermed hindret ulovlig bruk av kontoen!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerVoice" xml:space="preserve">
+    <value>Dette skjer bare hvis noen andre forsøkte å logge på kontoen din med passordet ditt. Husk at telefonanrop bare utføres etter at brukernavnet og passordet er bekreftet. Hvis dette skjer, har Multi-Factor Authentication dermed hindret ulovlig bruk av kontoen!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionPhoneApp" xml:space="preserve">
+    <value>Hva skjer hvis jeg mottar et varsel i mobilappen Multi-Factor Authentication når jeg ikke forsøker å logge på?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionSms" xml:space="preserve">
+    <value>Hva skjer hvis jeg mottar en tekstmelding fra Multi-Factor Authentication når jeg ikke forsøker å logge på?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionVoice" xml:space="preserve">
+    <value>Hva skjer hvis jeg mottar et telefonanrop fra Multi-Factor Authentication når jeg ikke forsøker å logge på?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassOathToken" xml:space="preserve">
+    <value>Bedriften gir deg også tilgang til alternativet Engangstilgang, slik at du kan logge på én gang uten å bli bedt om en godkjenningskode. Velg alternativet Engangstilgang for å få tilgang til denne funksjonen, eller ring kundestøtte for å få hjelp.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_OneTimeBypassPhoneApp" xml:space="preserve">
+    <value>Bedriften gir deg også tilgang til alternativet Engangstilgang, slik at du kan logge på én gang uten et varsel fra mobilappen Multi-Factor Authentication. Velg alternativet Engangstilgang for å få tilgang til denne funksjonen, eller ring kundestøtte for å få hjelp.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassSms" xml:space="preserve">
+    <value>Bedriften gir deg også tilgang til alternativet Engangstilgang, slik at du kan logge på én gang uten en tekstmelding. Velg alternativet Engangstilgang for å få tilgang til denne funksjonen, eller ring kundestøtte for å få hjelp.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassVoice" xml:space="preserve">
+    <value>Bedriften gir deg også tilgang til alternativet Engangstilgang, slik at du kan logge på én gang uten et telefonanrop. Velg alternativet Engangstilgang for å få tilgang til denne funksjonen, eller ring kundestøtte for å få hjelp.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtp" xml:space="preserve">
+    <value>Engangspassord</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtpPlusPin" xml:space="preserve">
+    <value>Engangspassord + PIN-kode</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_SimpleProcessOathToken" xml:space="preserve">
+    <value>Denne enkle prosessen formidler to atskilte godkjenningsfaktorer, der den sekundære godkjenningen blir formidlet av noe du har (smarttelefonen din eller tokenet ditt).</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_SimpleProcessPhoneApp" xml:space="preserve">
+    <value>Denne enkle prosessen formidler to atskilte godkjenningsfaktorer via to atskilte kanaler (datamaskinen og smarttelefonen din).</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessSms" xml:space="preserve">
+    <value>Denne enkle prosessen formidler to atskilte godkjenningsfaktorer via to atskilte kanaler (datamaskinen og smarttelefonen din). Prosessen fungerer med en hvilken som helst telefon med tekstmeldingsfunksjon.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessVoice" xml:space="preserve">
+    <value>Denne enkle prosessen formidler to atskilte godkjenningsfaktorer via to atskilte kanaler (datamaskinen og smarttelefonen din). Prosessen fungerer med en fasttelefon eller mobiltelefon.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionOathToken" xml:space="preserve">
+    <value>Du blir umiddelbart bedt om å oppgi en godkjenningskode. Skriv inn den gjeldende godkjenningskoden som vises av mobilappen Multi-Factor Authentication eller tokenet.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppPin" xml:space="preserve">
+    <value>Du mottar umiddelbart et varsel fra mobilappen Multi-Factor Authentication. Start appen, skriv inn PIN-koden og trykk Godkjenn.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppStandard" xml:space="preserve">
+    <value>Du mottar umiddelbart et varsel fra mobilappen Multi-Factor Authentication. Start appen og trykk Godkjenn.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppVoiceprint" xml:space="preserve">
+    <value>Du mottar umiddelbart et varsel fra mobilappen Multi-Factor Authentication. Start appen og si passfrasen når du blir bedt om det.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPin" xml:space="preserve">
+    <value>Du mottar umiddelbart et telefonanrop. Svar på anropet, skriv inn PIN-koden og trykk #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtp" xml:space="preserve">
+    <value>Du mottar umiddelbart en tekstmelding med et engangspassord. Skriv inn dette passordet når du blir bedt om det av appen.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Du mottar umiddelbart en tekstmelding med et engangspassord. Skriv inn dette passordet og PIN-koden når du blir bedt om det av appen.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtp" xml:space="preserve">
+    <value>Du mottar umiddelbart en tekstmelding med et engangspassord. Svar på tekstmeldingen med dette passordet.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Du mottar umiddelbart en tekstmelding med et engangspassord. Svar på tekstmeldingen med dette passordet og PIN-koden.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionStandard" xml:space="preserve">
+    <value>Du mottar umiddelbart et telefonanrop. Svar på anropet og trykk #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionVoiceprint" xml:space="preserve">
+    <value>Du mottar umiddelbart et telefonanrop. Svar på anropet og si passfrasen når du blir bedt om det.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_TitleWithColon" xml:space="preserve">
+    <value>{0}:</value>
+    <comment>Page header on most pages</comment>
+  </data>
+  <data name="Label_UnblockReason" xml:space="preserve">
+    <value>Opplåsingsårsak</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_AccountConfigurationComplete" xml:space="preserve">
+    <value>Konfigurasjon av konto fullført</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Message_AnswerRequired" xml:space="preserve">
+    <value>Du må svare på minst ett sikkerhetsspørsmål.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AnswerSecurityQuestions" xml:space="preserve">
+    <value>Svar på sikkerhetsspørsmålene for å logge på.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AnswersIncorrect" xml:space="preserve">
+    <value>Ett eller flere svar er ugyldige.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AuthenticationDenied" xml:space="preserve">
+    <value>Multi-Factor Authentication ble avslått.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedAnswerSecurityQuestions" xml:space="preserve">
+    <value>Multi-Factor Authentication ble avslått. Svar på sikkerhetsspørsmålene for å logge på.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedCallResult" xml:space="preserve">
+    <value>Multi-Factor Authentication ble avslått: {0}</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_AuthenticationSuccessful" xml:space="preserve">
+    <value>Multi-Factor Authentication startet.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_BypassSecondsNumeric" xml:space="preserve">
+    <value>Verdien for Tilgangssekunder må være numerisk.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRange" xml:space="preserve">
+    <value>Verdien for Tilgangssekunder må være mellom 5 og 1800 (30 minutter).</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRequired" xml:space="preserve">
+    <value>Tilgangssekunder må angis.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_CannotActivateDevice" xml:space="preserve">
+    <value>Kontoen må være knyttet til en aktivert versjon av mobilappen Multi-Factor Authentication på en enhet før du kan endre metoden til Mobilapp. Kontakt kundestøtte for å få hjelp med å aktivere mobilappen Multi-Factor Authentication på enheten.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotEstablishWebServiceSdkConnection" xml:space="preserve">
+    <value>Brukerportalen for Multi-Factor Authentication kan ikke opprette en sikker tilkobling til webtjenestens SDK: {0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_CannotGetOathToken" xml:space="preserve">
+    <value>Kontoen må være knyttet til en aktivert versjon av mobilappen Multi-Factor Authentication på en enhet, eller være knyttet til et OATH-token før du kan endre metoden til OATH-token. Kontakt kundestøtte for å få hjelp med å aktivere mobilappen Multi-Factor Authentication på enheten, eller for å knytte til et OATH-token.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Kontoen må ha et telefonnummer tilknyttet før du kan endre metoden til Tekstmelding. Kontakt kundestøtte for å knytte et telefonnummer til kontoen.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Kontoen må ha et telefonnummer tilknyttet før du kan endre metoden til Telefonanrop. Kontakt kundestøtte for å knytte et telefonnummer til kontoen.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeOathTokenIncomplete" xml:space="preserve">
+    <value>Obs! Brukeren har ikke aktivert mobilappen Multi-Factor Authentication på enheten, eller har fått tilordnet et OATH-token fra en tredjepart. Det tokenet anses som ufullstendig for metoden OATH-token. Godkjenninger til beskyttede apper mislykkes for denne brukeren, og brukeren må registrere seg på nytt for å kunne logge på brukerportalen. Det anbefales at du kontakter brukeren for å hjelpe ham/henne med å aktivere mobilappen Multi-Factor Authentication eller tilordne og distribuere et OATH-token fra en tredjepart.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModePhoneAppIncomplete" xml:space="preserve">
+    <value>Obs! Brukeren har ikke aktivert mobilappen Multi-Factor Authentication på enheten, og anses derfor som ufullstendig for Mobilapp-metoden. Godkjenninger til beskyttede apper mislykkes for denne brukeren, og brukeren må registrere seg på nytt for å kunne logge på brukerportalen. Det anbefales at du kontakter brukeren for å hjelpe ham/henne med å aktivere mobilappen Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeSmsTextIncomplete" xml:space="preserve">
+    <value>Obs! Brukeren har ikke et telefonnummer angitt, og anses derfor som ufullstendig for Tekstmelding-metoden. Godkjenninger til beskyttede apper mislykkes for denne brukeren, og brukeren må registrere seg på nytt for å kunne logge på brukerportalen. Det anbefales at du angir et telefonnummer for brukeren slik at han/hun kan fortsette å bruke beskyttede apper uten å måtte registrere seg på nytt.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeVoiceCallIncomplete" xml:space="preserve">
+    <value>Obs! Brukeren har ikke et telefonnummer angitt, og anses derfor som ufullstendig for Telefonanrop-metoden. Godkjenninger til beskyttede apper mislykkes for denne brukeren, og brukeren må registrere seg på nytt for å kunne logge på brukerportalen. Det anbefales at du angir et telefonnummer for brukeren slik at han/hun kan fortsette å bruke beskyttede apper uten å måtte registrere seg på nytt.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CodeRequired" xml:space="preserve">
+    <value>Kode kreves.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_CodeRequiredCross" xml:space="preserve">
+    <value>Kode kreves når serienummer er angitt.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ConfirmDeactivate" xml:space="preserve">
+    <value>Er du sikker på at du vil deaktivere denne enheten permanent?</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceDeactivated" xml:space="preserve">
+    <value>Enhet deaktivert.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceLimit" xml:space="preserve">
+    <value>Kontoen har nådd grensen på {0} enheter. Du må deaktivere en eksisterende enhet før du aktiverer en ny.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DuplicateAnswer" xml:space="preserve">
+    <value>Identisk svar er ikke tillatt.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateQuestion" xml:space="preserve">
+    <value>Identisk spørsmål er ikke tillatt.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateUsername" xml:space="preserve">
+    <value>Identisk brukernavn.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUser" xml:space="preserve">
+    <value>Feil under tillegging av bruker.&lt;br/&gt;{0}</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUserForPassedSession" xml:space="preserve">
+    <value>Feil under tillegging av bruker for sendt økt.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithLocal" xml:space="preserve">
+    <value>Feil under kommunikasjon med den lokale tjenesten for Multi-Factor Authentication. Kontakt administratoren.</value>
+    <comment>Most pages when connection to local server is lost</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithMaster" xml:space="preserve">
+    <value>Feil under kommunikasjon med hovedtjenesten for Multi-Factor Authentication. Kontakt administratoren.</value>
+    <comment>Most pages when connection to master server is lost</comment>
+  </data>
+  <data name="Message_ErrorDeactivatingDevice" xml:space="preserve">
+    <value>Feil under deaktivering av enhet.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorDisablingUser" xml:space="preserve">
+    <value>Feil under deaktivering av bruker.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorEnablingUser" xml:space="preserve">
+    <value>Feil under aktivering av bruker.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorFindingUsers" xml:space="preserve">
+    <value>Feil under søk etter brukere.&lt;br/&gt;{0}</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_ErrorGeneratingActivationCode" xml:space="preserve">
+    <value>Feil under generering av aktiveringskode.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorIssuingOneTimeBypass" xml:space="preserve">
+    <value>Feil under utstedelse av engangspassord. Kontakt administratoren.&lt;br/&gt;{0}</value>
+    <comment>one_time_bypass and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorRemovingUser" xml:space="preserve">
+    <value>Feil under fjerning av bruker.&lt;br/&gt;{0}</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_ErrorResettingMode" xml:space="preserve">
+    <value>Feil under tilbakestilling av metode.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPhone" xml:space="preserve">
+    <value>Feil under tilbakestilling av telefon.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPin" xml:space="preserve">
+    <value>Feil under tilbakestilling av PIN-kode.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingVoiceprint" xml:space="preserve">
+    <value>Feil under tilbakestilling av stemmeavtrykk. Kontakt administratoren.&lt;br/&gt;{0}</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingLanguage" xml:space="preserve">
+    <value>Feil under oppdatering av språk.&lt;br/&gt;{0}</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingMode" xml:space="preserve">
+    <value>Feil under oppdatering av metode.&lt;br/&gt;{0}</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhone" xml:space="preserve">
+    <value>Feil under oppdatering av telefon.&lt;br/&gt;{0}</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhoneAppMode" xml:space="preserve">
+    <value>Feil under oppdatering av mobilappmodus.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPin" xml:space="preserve">
+    <value>Feil under oppdatering av PIN-kode.&lt;br/&gt;{0}</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSecurityQuestions" xml:space="preserve">
+    <value>Feil under oppdatering av sikkerhetsspørsmål.&lt;br/&gt;{0}</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSmsTextMode" xml:space="preserve">
+    <value>Feil under oppdatering av tekstmeldingsmodus.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingStaticToken" xml:space="preserve">
+    <value>Feil under oppdatering av statisk token.&lt;br/&gt;{0}</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserForSecurityQuestionSetup" xml:space="preserve">
+    <value>Feil under oppdatering av bruker for oppsett av sikkerhetsspørsmål.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserInformation" xml:space="preserve">
+    <value>Feil under oppdatering av brukerinformasjon.&lt;br/&gt;{0}</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingVoiceCallMode" xml:space="preserve">
+    <value>Feil under oppdatering av telefonanropsmodus.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ExpiredSession" xml:space="preserve">
+    <value>Økten din har utløpt.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_IncorrectAnswers" xml:space="preserve">
+    <value>Svarene du oppgav, er feil. Prøv på nytt.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_IncorrectOathCode" xml:space="preserve">
+    <value>Ugyldig godkjenningskode.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscode" xml:space="preserve">
+    <value>Ugyldig engangspassord.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscodePlusPin" xml:space="preserve">
+    <value>Ugyldig engangspassord + PIN-kode.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_InvalidExtension" xml:space="preserve">
+    <value>Ugyldig internnummer. Bare sifre, komma, * og # er tillatt. Bruk komma for en pause på ett sekund. Sett tegnet @ foran internnummeret for å angi sifre i internnumre for manuell overføring.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_InvalidSerialNumber" xml:space="preserve">
+    <value>Ugyldig serienummer. OATH-tokenet med dette serienummeret må være definert på Multi-Factor Authentication Server før det kan knyttes til en bruker.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_LineBreak" xml:space="preserve">
+    <value>&lt;br/&gt;{0}</value>
+    <comment>add_user, change_phone, change_pin, change_mode, change_language and enable_disable pages</comment>
+  </data>
+  <data name="Message_LoginFailed" xml:space="preserve">
+    <value>Pålogging mislyktes.</value>
+    <comment>login and secondary_authentication pages</comment>
+  </data>
+  <data name="Message_MustActivateDevice" xml:space="preserve">
+    <value>Du må aktivere mobilappen Multi-Factor Authentication på en enhet før du kan endre metoden til Mobilapp. Klikk Aktiver Mobilapp-koblingen på navigasjonsmenyen for å begynne aktiveringen.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustActivateDeviceOathToken" xml:space="preserve">
+    <value>Du må aktivere mobilappen Multi-Factor Authentication på en enhet før du kan endre metoden til OATH-token. Klikk Aktiver Mobilapp-koblingen på navigasjonsmenyen for å begynne aktiveringen.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustAnswerAllQuestions" xml:space="preserve">
+    <value>Du må svare på alle sikkerhetsspørsmålene.</value>
+    <comment>create_security_questions, change_security_questions, and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_MustEnrollOathToken" xml:space="preserve">
+    <value>Du må knytte et OATH-token til kontoen før du kan endre metoden til OATH-token. Klikk OATH-token-koblingen for å knytte til et OATH-token.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustHaveOathToken" xml:space="preserve">
+    <value>Du må enten aktivere mobilappen Multi-Factor Authentication på en enhet eller knytte et OATH-token til kontoen før du kan endre metoden til OATH-token. Klikk Aktiver Mobilapp-koblingen på navigasjonsmenyen for å begynne aktiveringen, eller klikk OATH-token-koblingen for å knytte til et OATH-token.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Du må angi et telefonnummer for kontoen før du kan endre metoden til Tekstmelding. Klikk Endre telefonnummer-koblingen på navigasjonsmenyen for å angi et nytt telefonnummer.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Du må angi et telefonnummer for kontoen før du kan endre metoden til Telefonanrop. Klikk Endre telefonnummer-koblingen på navigasjonsmenyen for å angi et nytt telefonnummer.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifySearchField" xml:space="preserve">
+    <value>Må angi minst ett søkefelt.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoActivatedDevices" xml:space="preserve">
+    <value>Ingen aktiverte enheter for denne brukeren.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_NoMatchingUsersFound" xml:space="preserve">
+    <value>Finner ingen samsvarende brukere.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoSsl" xml:space="preserve">
+    <value>Brukerportalen for Multi-Factor Authentication er ikke sikret med SSL, men SSL kreves for øktinformasjonskapsler i Web.config. Brukerportalen fungerer ikke fordi økttilstanden ikke kan opprettholdes. Det anbefales at brukerportalen sikres med SSL. Av testhensyn kan du midlertidig sette requireSSL til "false" i &lt;httpCookies&gt;-koden i Web.config.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailed" xml:space="preserve">
+    <value>Synkronisering av OATH-token mislyktes. Den angitte koden eller serienummeret for OATH-tokenet er ugyldig.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailedUser" xml:space="preserve">
+    <value>Synkronisering av OATH-token mislyktes. Den angitte koden er ugyldig.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OnlyFirstMatchesDisplayed" xml:space="preserve">
+    <value>Bare de første {0} oppføringene vises. Hvis du ikke finner brukeren i listen, angir du mer spesifikke søkevilkår.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_PassedSessionFailed" xml:space="preserve">
+    <value>Sendt økt mislyktes.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_PhoneRequired" xml:space="preserve">
+    <value>Telefon kreves.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMatch" xml:space="preserve">
+    <value>Verdien for PIN-kode og Bekreft PIN-kode må samsvare.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMinimumLength" xml:space="preserve">
+    <value>PIN-koden må bestå av minst {0} sifre.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinNumeric" xml:space="preserve">
+    <value>PIN-koden må være numerisk.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinRecentlyUsed" xml:space="preserve">
+    <value>PIN-koden kan ikke være den samme som en kode du nylig har brukt. Velg en annen PIN-kode.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_SamlDisabled" xml:space="preserve">
+    <value>Enkel pålogging til eksterne apper ved hjelp av SAML er deaktivert.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotDefined" xml:space="preserve">
+    <value>Sikkerhetsspørsmål er ikke definert for denne brukeren.&lt;br/&gt;</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotSetUp" xml:space="preserve">
+    <value>Du kan kanskje ikke logge på uten telefonen fordi du ikke har konfigurert sikkerhetsspørsmål.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsVerified" xml:space="preserve">
+    <value>Sikkerhetsspørsmål bekreftet.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityWarningNoSsl" xml:space="preserve">
+    <value>SIKKERHETSADVARSEL! Brukerportalen for Multi-Factor Authentication er ikke sikret med SSL. Passord blir sendt i ren tekst.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SerialNumberAlreadyAssociated" xml:space="preserve">
+    <value>Serienummeret er allerede knyttet til {0}. Du må fjerne serienummeret fra den brukeren før du knytter det til denne brukeren.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_SerialNumberRequired" xml:space="preserve">
+    <value>Serienummer kreves.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_SerialNumberRequiredCross" xml:space="preserve">
+    <value>Serienummer kreves når kode er angitt.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ShortAnswer" xml:space="preserve">
+    <value>Svaret må bestå av minst fire tegn.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_StaticTokenMatch" xml:space="preserve">
+    <value>Verdien for Statisk token og Bekreft statisk token må samsvare.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenMinimumLength" xml:space="preserve">
+    <value>Statisk token må bestå av minst {0} sifre.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenNumeric" xml:space="preserve">
+    <value>Statisk token må være numerisk.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserAdded" xml:space="preserve">
+    <value>Bruker lagt til.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_UserAlreadyBlocked" xml:space="preserve">
+    <value>Blokkering mislyktes. Brukeren er allerede blokkert.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlocked" xml:space="preserve">
+    <value>Brukeren ble blokkert.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlockFailed" xml:space="preserve">
+    <value>Blokkering mislyktes.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserDeviceLimit" xml:space="preserve">
+    <value>Brukeren har nådd grensen på {0} enheter. Du må deaktivere en eksisterende enhet for denne brukeren før han/hun kan aktivere en ny.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_UserDisabled" xml:space="preserve">
+    <value>Brukeren ble deaktivert.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserEnabled" xml:space="preserve">
+    <value>Brukeren ble aktivert.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserInformationChanged" xml:space="preserve">
+    <value>Brukerens informasjon er endret.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_UserLanguageChanged" xml:space="preserve">
+    <value>Brukerens språkinnstilling er endret.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_UserModeChanged" xml:space="preserve">
+    <value>Brukerens metode er endret.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_UsernameRequired" xml:space="preserve">
+    <value>Brukernavn kreves.</value>
+    <comment>login and add_user pages</comment>
+  </data>
+  <data name="Message_UserNotBlocked" xml:space="preserve">
+    <value>Opplåsing mislyktes. Brukeren er ikke blokkert.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserOathTokenSaved" xml:space="preserve">
+    <value>Brukerens OATH-token er lagret.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_UserOneTimeBypassIssued" xml:space="preserve">
+    <value>Engangspassord er utstedt. Multi-Factor Authentication hoppes over under brukerens neste pålogging.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_UserPhoneChanged" xml:space="preserve">
+    <value>Brukerens telefon er endret.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_UserPinChanged" xml:space="preserve">
+    <value>Brukerens PIN-kode er endret.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_UserPortalDisabled" xml:space="preserve">
+    <value>Direktepålogginger til brukerportalen er deaktivert.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserPortalNotPurchased" xml:space="preserve">
+    <value>Brukerportalen for Multi-Factor Authentication fungerer ikke fordi denne funksjonen ikke er kjøpt.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserRemoved" xml:space="preserve">
+    <value>Bruker fjernet.</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_UserStaticTokenChanged" xml:space="preserve">
+    <value>Brukerens statiske token er endret.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserSubmodeChanged" xml:space="preserve">
+    <value>Brukerens metode(r) er endret.</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_UserUnblocked" xml:space="preserve">
+    <value>Brukeren ble låst opp.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserUnblockFailed" xml:space="preserve">
+    <value>Opplåsing mislyktes.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserVoiceprintReset" xml:space="preserve">
+    <value>Stemmeavtrykket ble tilbakestilt. Brukeren blir bedt om å registrere et nytt stemmeavtrykk under neste pålogging.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_WeakPinNotAllowed" xml:space="preserve">
+    <value>Svake PIN-koder er ikke tillatt. PIN-koden kan ikke inneholde et sifferdelsett som består av fire eller flere av sifrene i telefonnummeret, tre eller flere identiske sifre eller tre eller flere sekvensielle sifre.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_WeakStaticTokenNotAllowed" xml:space="preserve">
+    <value>Svak statisk token er ikke tillatt. Kan ikke inneholde et sifferdelsett som består av fire eller flere av sifrene i telefonnummeret, tre eller flere identiske sifre eller tre eller flere sekvensielle sifre.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_WebServiceSdkError" xml:space="preserve">
+    <value>Brukerportalen for Multi-Factor Authentication er konfigurert til å kommunisere med webtjenestens SDK, som returnerte følgende feil:&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_WebServiceSdkNotPurchased" xml:space="preserve">
+    <value>Brukerportalen for Multi-Factor Authentication er konfigurert til å kommunisere med webtjenestens SDK, og funksjonen for webtjenestens SDK er ikke kjøpt.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_YourInformationChanged" xml:space="preserve">
+    <value>Informasjonen din er endret.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_YourLanguageChanged" xml:space="preserve">
+    <value>Språkinnstillingen din er endret.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_YourModeChanged" xml:space="preserve">
+    <value>Metoden din er endret.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_YourOathTokenSaved" xml:space="preserve">
+    <value>OATH-tokenet ditt er lagret.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_YourOneTimeBypassIssued" xml:space="preserve">
+    <value>Engangspassord er utstedt. Multi-Factor Authentication hoppes over under neste pålogging.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_YourPhoneChanged" xml:space="preserve">
+    <value>Telefonen din er endret.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_YourPinChanged" xml:space="preserve">
+    <value>PIN-koden din er endret.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_YourSecurityQuestionsChanged" xml:space="preserve">
+    <value>Sikkerhetsspørsmålene og -svarene dine er endret.</value>
+    <comment>change_security_questions page</comment>
+  </data>
+  <data name="Message_YourStaticTokenChanged" xml:space="preserve">
+    <value>Det statiske tokenet ditt er endret.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_YourVoiceprintReset" xml:space="preserve">
+    <value>Stemmeavtrykket ble tilbakestilt. Du blir bedt om å registrere et nytt stemmeavtrykk under neste pålogging.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Reason_InitiatedByAdmin" xml:space="preserve">
+    <value>Startet av administratoren i brukerportalen</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Reason_InitiatedByUser" xml:space="preserve">
+    <value>Startet av brukeren i brukerportalen</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Subtitle_DeactivatePhoneApp" xml:space="preserve">
+    <value>Deaktiver Mobilapp</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Subtitle_Enable" xml:space="preserve">
+    <value>Aktiver</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Subtitle_UnblockUser" xml:space="preserve">
+    <value>Lås opp bruker</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Title_PhoneFactorUserPortal" xml:space="preserve">
+    <value>Multi-Factor Authentication™ | Brukerportal</value>
+    <comment>Title on all pages</comment>
+  </data>
+  <data name="Value_All" xml:space="preserve">
+    <value>Alle</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Value_Masked" xml:space="preserve">
+    <value>Maskert</value>
+    <comment>add_user, change_pin, and oath_token pages</comment>
+  </data>
+</root>

@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"utf-8\"?><cki><ck fm=\"!\" to=\"경우\"/><ck fm=\"경우가\" to=\"목록에서\"/><ck fm=\"목록이\" to=\"설정은\"/><ck fm=\"설정을\" to=\"입력합니다\"/><ck fm=\"입력해야\" to=\"폰에서\"/><ck fm=\"폰을\" to=\"휴대폰\"/></cki>";

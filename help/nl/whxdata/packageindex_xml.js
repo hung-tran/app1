@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"utf-8\"?><cki><ck fm=\"!\" to=\"beantwoord\"/><ck fm=\"beantwoorden\" to=\"en\"/><ck fm=\"er\" to=\"ingevuld\"/><ck fm=\"inhoud\" to=\"om\"/><ck fm=\"onbeantwoord\" to=\"telefoon\"/><ck fm=\"telefoongesprek\" to=\"weergegeven\"/><ck fm=\"weet\" to=\"één\"/></cki>";

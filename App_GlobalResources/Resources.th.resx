@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName_UserPortal" xml:space="preserve">
+    <value>พอร์ทัลผู้ใช้</value>
+    <comment>Application name for Multi-Factor Authentications</comment>
+  </data>
+  <data name="Button_AuthenticateMeNow" xml:space="preserve">
+    <value>รับรองความถูกต้องให้ฉันทันที</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_CallMeNowToAuthenticate" xml:space="preserve">
+    <value>โทรติดต่อฉันทันทีเพื่อรับรองความถูกต้อง</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_Next" xml:space="preserve">
+    <value>ถัดไป</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_TextMeNowToAuthenticate" xml:space="preserve">
+    <value>ส่งข้อความถึงฉันทันทีเพื่อรับรองความถูกต้อง</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_VerifyOathToken" xml:space="preserve">
+    <value>ตรวจสอบโทเค็น OATH</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Help_File" xml:space="preserve">
+    <value>help/PhoneFactor_User_Portal.htm</value>
+    <comment>Localize as help/xx/PhoneFactor_User_Portal.htm where xx is langauge code (e.g. de for German, zh-hans for Simplified Chinese)</comment>
+  </data>
+  <data name="Label_AlternatePhoneOathToken" xml:space="preserve">
+    <value>แอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ไม่จำเป็นต้องเชื่อมต่อกับเครือข่ายมือถือหรือ WiFi เพื่อแสดงรหัสการรับรองความถูกต้อง</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_AlternatePhonePhoneApp" xml:space="preserve">
+    <value>แอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ทำงานได้อย่างดีเท่าเทียมกันผ่าน WiFi</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneSms" xml:space="preserve">
+    <value>คุณสามารถเปลี่ยนให้บัญชีชี้ไปยังหมายเลขโทรศัพท์สำรอง โดยเลือกตัวเลือก "เปลี่ยนหมายเลขโทรศัพท์"</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneVoice" xml:space="preserve">
+    <value>คุณสามารถเปลี่ยนให้บัญชีชี้ไปยังหมายเลขโทรศัพท์สำรอง เช่น โทรศัพท์บ้าน โดยเลือกตัวเลือก "เปลี่ยนหมายเลขโทรศัพท์"</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_CannotChangeModeToPhoneApp" xml:space="preserve">
+    <value>หลังจากเปิดใช้งานแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่แล้ว บัญชีของคุณต้องเปลี่ยนเมธอดเป็นแอปสำหรับอุปกรณ์เคลื่อนที่ก่อนที่คุณจะสามารถเริ่มใช้แอป  ติดต่อเจ้าหน้าที่ให้ความช่วยเหลือเพื่อเปลี่ยนเมธอดเป็นแอปสำหรับอุปกรณ์เคลื่อนที่</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_Disable" xml:space="preserve">
+    <value>ปิดใช้งาน</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>เปิดใช้งาน</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_FraudAlertPhoneApp" xml:space="preserve">
+    <value>หากต้องการรายงานเหตุการณ์ ให้กดปุ่ม "ปฏิเสธและรายงานการฉ้อฉล" ในแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ การดำเนินการนี้จะแจ้งเตือนทีมงานความปลอดภัยด้านไอทีของบริษัทคุณ การพยายามรับรองความถูกต้องในอนาคตจะถูกบล็อกจนกว่าจะมีการแก้ปัญหา</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertSms" xml:space="preserve">
+    <value>หากต้องการรายงานเหตุการณ์ ให้ป้อนรหัสการฉ้อฉลในการตอบกลับของคุณ การดำเนินการนี้จะแจ้งเตือนทีมงานความปลอดภัยด้านไอทีของบริษัทคุณ การพยายามรับรองความถูกต้องในอนาคตจะถูกบล็อกจนกว่าจะมีการแก้ปัญหา</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertVoice" xml:space="preserve">
+    <value>หากต้องการรายงานเหตุการณ์ ให้เลือกตัวเลือก "การแจ้งเตือนการฉ้อฉล" จากเมนูของโทรศัพท์ระหว่างการโทรรับรองความถูกต้อง การดำเนินการนี้จะแจ้งเตือนทีมงานความปลอดภัยด้านไอทีของบริษัทคุณ การพยายามรับรองความถูกต้องในอนาคตจะถูกบล็อกจนกว่าจะมีการแก้ปัญหา</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_GenerateActivationCode" xml:space="preserve">
+    <value>สร้างรหัสการเปิดใช้งาน</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateActivationLink" xml:space="preserve">
+    <value>สร้างลิงก์การเปิดใช้งาน</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationCode" xml:space="preserve">
+    <value>สร้างรหัสการเปิดใช้งานใหม่</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationLink" xml:space="preserve">
+    <value>สร้างลิงก์การเปิดใช้งานใหม่</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication ทำงานโดยพร้อมท์ขอรหัสการรับรองความถูกต้องระหว่างการเข้าสู่ระบบ</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionPhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication ทำงานโดยการส่งการแจ้งเตือนไปยังแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ของคุณระหว่างการเข้าสู่ระบบ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionSms" xml:space="preserve">
+    <value>Multi-Factor Authentication ทำงานโดยการส่งข้อความไปยังโทรศัพท์ของคุณระหว่างการเข้าสู่ระบบ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionVoice" xml:space="preserve">
+    <value>Multi-Factor Authentication ทำงานโดยการโทรยืนยันไปยังโทรศัพท์ของคุณระหว่างการเข้าสู่ระบบ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsAdministrator" xml:space="preserve">
+    <value>จัดการบัญชีผู้ใช้โดยเลือก "ค้นหาผู้ใช้" จากเมนู  จัดการบัญชีโดยเลือกตัวเลือกที่เหมาะสม  เลือกไอคอน "ความช่วยเหลือ" (ขวาบน) สำหรับความช่วยเหลือ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeOathToken" xml:space="preserve">
+    <value>เลือกเมธอด &lt;b&gt;โทเค็น OATH&lt;/b&gt; เพื่อรับรองความถูกต้องโดยใช้รหัสการรับรองความถูกต้องจากแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModePhoneApp" xml:space="preserve">
+    <value>เลือกเมธอด &lt;b&gt;แอปสำหรับอุปกรณ์เคลื่อนที่&lt;/b&gt; เพื่อรับรองความถูกต้องโดยใช้แอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeSmsText" xml:space="preserve">
+    <value>เลือกเมธอด &lt;b&gt;ข้อความ&lt;/b&gt; เพื่อรับข้อความสำหรับรับรองความถูกต้อง</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeVoiceCall" xml:space="preserve">
+    <value>เลือกเมธอด &lt;b&gt;การโทรติดต่อ&lt;/b&gt; เพื่อรับการโทรติดต่อสำหรับรับรองความถูกต้อง</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtp" xml:space="preserve">
+    <value>เพื่อดำเนินการตรวจสอบความถูกต้องของคุณให้เสร็จสมบูรณ์ ให้ป้อนรหัสผ่านแบบใช้ครั้งเดียวที่คุณได้รับผ่านข้อความตัวอักษร</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtpPlusPin" xml:space="preserve">
+    <value>เพื่อดำเนินการตรวจสอบความถูกต้องของคุณให้เสร็จสมบูรณ์ ให้ป้อนรหัสผ่านแบบใช้ครั้งเดียวที่คุณได้รับผ่านข้อความตัวอักษร พร้อมกับ PIN ของคุณ</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsFindUser" xml:space="preserve">
+    <value>ป้อนอักขระสองสามตัวแรกของชื่อผู้ใช้และคลิกปุ่ม "ค้นหา"</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsOathToken" xml:space="preserve">
+    <value>ทดสอบการรับรองความถูกต้องโทเค็น OATH ของผู้ใช้รายนี้</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneApp" xml:space="preserve">
+    <value>ทดสอบการรับรองความถูกต้องของแอปสำหรับอุปกรณ์เคลื่อนที่ของผู้ใช้รายนี้</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationIpWhitelist" xml:space="preserve">
+    <value>หลังจากเปิดใช้งานเสร็จสมบูรณ์แล้ว ให้คลิก "ถัดไป" เพื่อดำเนินการกระบวนการตั้งค่าต่อไป</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationOathToken" xml:space="preserve">
+    <value>หลังจากเปิดใช้งานเสร็จสมบูรณ์แล้ว ให้คลิกปุ่มต่อไปนี้เพื่อทดสอบการรับรองความถูกต้อง และดำเนินการกระบวนการตั้งค่าต่อไป  เมื่อได้รับพร้อมท์ ให้ป้อนรหัสการรับรองความถูกต้องปัจจุบันที่แสดงในแอปสำหรับอุปกรณ์เคลื่อนที่</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsSelectUser" xml:space="preserve">
+    <value>เลือกผู้ใช้จากรายการหรือเลือก "ย้อนกลับ" เพื่อค้นหาผู้ใช้รายอื่น</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsSmsText" xml:space="preserve">
+    <value>ทดสอบการรับรองความถูกต้องข้อความของผู้ใช้รายนี้</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUnblockUser" xml:space="preserve">
+    <value>ป้อนเหตุผลในการยกเลิกการบล็อกและยืนยันผู้ใช้  ผู้ใช้จะไม่ถูกบล็อกการรับรองความถูกต้องอีกต่อไป</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Label_InstructionsUserActivatePhoneApp" xml:space="preserve">
+    <value>ก่อนอื่นผู้ใช้ต้องติดตั้งแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ในโทรศัพท์ของตน  คลิกปุ่ม "สร้าง" เพื่อรับรัหสการเปิดใช้งาน รหัสการเปิดใช้งานจะถูกป้อนลงในแอปสำหรับอุปกรณ์เคลื่อนที่ของผู้ใช้เพื่อดำเนินการกระบวนการเปิดใช้งานให้เสร็จสมบูรณ์</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserDeactivatePhoneApp" xml:space="preserve">
+    <value>ในการปิดใช้งานอุปกรณ์สำหรับผู้ใช้ ให้คลิกลิงก์ "ปิดใช้งาน" สำหรับอุปกรณ์</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserEnable" xml:space="preserve">
+    <value>ยืนยันการเปิดใช้งานผู้ใช้เพื่อให้ผู้ใช้สามารถเริ่มรับการโทรติดต่อของ Multi-Factor Authentication calls เมื่อลงชื่อเข้าใช้</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_InstructionsUserInformation" xml:space="preserve">
+    <value>ระบุข้อมูลใหม่สำหรับผู้ใช้รายนี้</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Label_InstructionsUserLanguage" xml:space="preserve">
+    <value>ระบุการกำหนดภาษาสำหรับผู้ใช้รายนี้</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Label_InstructionsUserMode" xml:space="preserve">
+    <value>เลือกเมธอดสำหรับผู้ใช้รายนี้</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathCode" xml:space="preserve">
+    <value>ในการดำเนินการรับรองความถูกต้องให้เสร็จสมบูรณ์ ให้ป้อนรหัสการรับรองความถูกต้องปัจจุบันที่แสดงอยู่ในแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ หรือโทเค็นของผู้ใช้</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathToken" xml:space="preserve">
+    <value>ป้อนหมายเลขลำดับประจำสินค้าของโทเค็น OATH และรหัสที่แสดงอยู่บนโทเค็นในขณะนี้เพื่อเชื่อมโยงโทเค็นกับผู้ใช้</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Label_InstructionsUserOneTimeBypass" xml:space="preserve">
+    <value>ยืนยันการบายพาสครั้งเดียวเพื่อข้าม Multi-Factor Authentication ระหว่างการลงชื่อเข้าใช้ครั้งถัดไปของผู้ใช้รายนี้  การบายพาสเป็นการดำเนินการชั่วคราวเท่านั้น</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtp" xml:space="preserve">
+    <value>ในการดำเนินการรับรองความถูกต้องให้เสร็จสมบูรณ์ ให้ป้อนรหัสผ่านแบบครั้งเดียวที่ผู้ใช้ได้รับในข้อความ SMS</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtpPlusPin" xml:space="preserve">
+    <value>ในการดำเนินการรับรองความถูกต้องให้เสร็จสมบูรณ์ ให้ป้อนรหัสผ่านแบบครั้งเดียวที่ผู้ใช้ได้รับในข้อความ SMS พร้อมด้วย PIN ของผู้ใช้</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserPhone" xml:space="preserve">
+    <value>ระบุหมายเลขโทรศัพท์ใหม่สำหรับผู้ใช้รายนี้</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Label_InstructionsUserPin" xml:space="preserve">
+    <value>ระบุหมายเลข PIN ใหม่สำหรับผู้ใช้รายนี้</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Label_InstructionsUserResetVoiceprint" xml:space="preserve">
+    <value>ยืนยันการรีเซ็ตกราฟแสดงลักษณะเสียงพูดของมนุษย์ของผู้ใช้ ผู้ใช้จะต้องลงทะเบียนกราฟแสดงลักษณะเสียงพูดของมนุษย์ใหม่ระหว่างการโทรรับรองความถูกต้องครั้งถัดไป</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathToken" xml:space="preserve">
+    <value>ในการเปิดใช้งาน Multi-Factor Authentication สำหรับบัญชีของคุณโดยใช้เมธอดโทเค็น OATH ให้ป้อนหมายเลขลำดับประจำสินค้าที่พิมพ์อยู่ที่ด้านหลังของโทเค็น OATH และรหัสที่ปรากฏอยู่บนโทเค็นในขณะนี้ เพื่อเชื่อมโยงโทเค็นกับบัญชีของคุณ</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathTokenPhoneApp" xml:space="preserve">
+    <value>ในการเปิดใช้งาน Multi-Factor Authentication สำหรับบัญชีของคุณโดยใช้เมธอดโทเค็น OATH ก่อนอื่นคุณต้องติดตั้งแอป Multi-Factor Authentication ในโทรศัพท์ของคุณ แล้วคลิกปุ่ม "สร้าง" ด้านล่างเพื่อรับรหัสการเปิดใช้งาน รหัสการเปิดใช้งานจะถูกป้อนลงในแอปสำหรับอุปกรณ์เคลื่อนที่เพื่อดำเนินการเปิดใช้งานให้เสร็จสมบูรณ์  รหัสการเปิดใช้งานจะหมดอายุใน 10 นาที</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPhoneApp" xml:space="preserve">
+    <value>ในการเปิดใช้งาน Multi-Factor Authentication สำหรับบัญชีของคุณโดยใช้แอปสำหรับอุปกรณ์เคลื่อนที่ ก่อนอื่นคุณต้องติดตั้งแอป Multi-Factor Authentication ในโทรศัพท์ของคุณ แล้วคลิกปุ่ม "สร้าง" ด้านล่างเพื่อรับรหัสการเปิดใช้งาน รหัสการเปิดใช้งานจะถูกป้อนลงในแอปสำหรับอุปกรณ์เคลื่อนที่เพื่อดำเนินการเปิดใช้งานให้เสร็จสมบูรณ์  รหัสการเปิดใช้งานจะหมดอายุใน 10 นาที</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPin" xml:space="preserve">
+    <value>ในการเปิดใช้งาน Multi-Factor Authentication สำหรับบัญชีของคุณ โปรดระบุหมายเลขโทรศัพท์ที่คุณจะใช้เพื่อรับรองความถูกต้องและ PIN</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtp" xml:space="preserve">
+    <value>ในการเปิดใช้งาน Multi-Factor Authentication สำหรับบัญชีของคุณ โปรดระบุหมายเลขโทรศัพท์ที่คุณจะใช้เพื่อรับรองความถูกต้อง</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>ในการเปิดใช้งาน Multi-Factor Authentication สำหรับบัญชีของคุณ โปรดระบุหมายเลขโทรศัพท์ที่คุณจะใช้เพื่อรับรองความถูกต้องและ PIN</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtp" xml:space="preserve">
+    <value>ในการเปิดใช้งาน Multi-Factor Authentication สำหรับบัญชีของคุณ โปรดระบุหมายเลขโทรศัพท์ที่คุณจะใช้เพื่อรับรองความถูกต้อง</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>ในการเปิดใช้งาน Multi-Factor Authentication สำหรับบัญชีของคุณ โปรดระบุหมายเลขโทรศัพท์ที่คุณจะใช้เพื่อรับรองความถูกต้องและ PIN</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupStandard" xml:space="preserve">
+    <value>ในการเปิดใช้งาน Multi-Factor Authentication สำหรับบัญชีของคุณ โปรดระบุหมายเลขโทรศัพท์ที่คุณจะใช้เพื่อรับรองความถูกต้อง</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteOathToken" xml:space="preserve">
+    <value>ทำตามคำแนะนำด้านล่างเพื่อเปิดใช้งานแอป Multi-Factor Authentication ในโทรศัพท์ของคุณและทดสอบการรับรองความถูกต้องโดยใช้รหัสการรับรองความถูกต้องที่แอปสำหรับอุปกรณ์เคลื่อนที่มอบให้</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePhoneApp" xml:space="preserve">
+    <value>ทำตามคำแนะนำด้านล่างเพื่อเปิดใช้งานแอป Multi-Factor Authentication ในโทรศัพท์ของคุณและทดสอบการรับรองความถูกต้องโดยใช้แอปสำหรับอุปกรณ์เคลื่อนที่</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePin" xml:space="preserve">
+    <value>ในการดำเนินการขั้นตอนนี้ให้เสร็จสมบูรณ์ Multi-Factor Authentication จะโทรไปที่หมายเลขที่คุณป้อน โปรดป้อน PIN ของคุณตามด้วยเครื่องหมาย # เพื่อรับรองความถูกต้อง</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtp" xml:space="preserve">
+    <value>ในการดำเนินการขั้นตอนนี้ให้เสร็จสมบูรณ์ Multi-Factor Authentication จะส่งข้อความที่มีรหัสผ่านแบบครั้งเดียวไปยังหมายเลขที่คุณป้อน เมื่อได้รับพร้อมท์ ให้ป้อนรหัสผ่านแบบครั้งเดียวดังกล่าวเพื่อรับรองความถูกต้อง</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>ในการดำเนินการขั้นตอนนี้ให้เสร็จสมบูรณ์ Multi-Factor Authentication จะส่งข้อความที่มีรหัสผ่านแบบครั้งเดียวไปยังหมายเลขที่คุณป้อน เมื่อได้รับพร้อมท์ ให้ป้อนรหัสผ่านแบบครั้งเดียวดังกล่าวพร้อมด้วย PIN ของคุณเพื่อรับรองความถูกต้อง</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtp" xml:space="preserve">
+    <value>ในการดำเนินการขั้นตอนนี้ให้เสร็จสมบูรณ์ Multi-Factor Authentication จะส่งข้อความที่มีรหัสผ่านแบบครั้งเดียวไปยังหมายเลขที่คุณป้อน โปรดตอบกลับข้อความด้วยรหัสผ่านแบบครั้งเดียวเพื่อรับรองความถูกต้อง</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>ในการดำเนินการขั้นตอนนี้ให้เสร็จสมบูรณ์ Multi-Factor Authentication จะส่งข้อความที่มีรหัสผ่านแบบครั้งเดียวไปยังหมายเลขที่คุณป้อน โปรดตอบกลับข้อความด้วยรหัสผ่านแบบครั้งเดียวพร้อมด้วย PIN ของคุณเพื่อรับรองความถูกต้อง</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteStandard" xml:space="preserve">
+    <value>ในการดำเนินการขั้นตอนนี้ให้เสร็จสมบูรณ์ Multi-Factor Authentication จะโทรไปที่หมายเลขที่คุณป้อน โปรดรับสายและกดเครื่องหมาย # เพื่อรับรองความถูกต้อง</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteVoiceprint" xml:space="preserve">
+    <value>ในการดำเนินการขั้นตอนนี้ให้เสร็จสมบูรณ์ Multi-Factor Authentication จะโทรไปที่หมายเลขที่คุณป้อน โปรดทำตามคำแนะนำเพื่อลงทะเบียนวลีรหัสผ่านกราฟแสดงลักษณะเสียงพูดของมนุษย์</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupVoiceprint" xml:space="preserve">
+    <value>ในการเปิดใช้งาน Multi-Factor Authentication สำหรับบัญชีของคุณ โปรดระบุหมายเลขโทรศัพท์ที่คุณจะใช้เพื่อรับรองความถูกต้อง</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserStaticToken" xml:space="preserve">
+    <value>ระบุโทเค็นคงที่ใหม่สำหรับผู้ใช้รายนี้</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Label_MessageOathToken" xml:space="preserve">
+    <value>บัญชีของคุณได้รับการตั้งค่าให้ใช้ Multi-Factor Authentication&lt;br/&gt;&lt;br/&gt;
+เมื่อคุณลงชื่อเข้าใช้ คุณจะยังคงใช้ชื่อผู้ใช้และรหัสผ่านเดิมต่อไป  ก่อนการตรวจสอบความถูกต้องของคุณจะเสร็จสมบูรณ์ คุณจะได้รับพร้อมท์จากแอปพลิเคชันให้ป้อนรหัสการรับรองความถูกต้องปัจจุบันจากแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ หรือโทเค็นเพื่อดำเนินการลงชื่อเข้าใช้ให้เสร็จสมบูรณ์  หากคุณไม่ป้อนรหัสการรับรองความถูกต้องที่ถูกต้อง การลงชื่อเข้าใช้จะถูกปฏิเสธ</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppPin" xml:space="preserve">
+    <value>บัญชีของคุณได้รับการตั้งค่าให้ใช้ Multi-Factor Authentication&lt;br/&gt;&lt;br/&gt;
+เมื่อคุณลงชื่อเข้าใช้ คุณจะยังคงใช้ชื่อผู้ใช้และรหัสผ่านเดิมต่อไป  ก่อนการตรวจสอบความถูกต้องของคุณจะเสร็จสมบูรณ์
+คุณจะได้รับการแจ้งเตือนที่ขอให้คุณเรียกใช้งานแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่และป้อน PIN ของคุณเพื่อยืนยันการลงชื่อเข้าใช้  หากคุณไม่ยืนยันการลงชื่อเข้าใช้โดยการป้อน PIN และกดเครื่องหมาย # การลงชื่อเข้าใช้จะถูกปฏิเสธ&lt;br/&gt;&lt;br/&gt;
+คุณควรป้อน PIN เมื่อได้รับการแจ้งเตือนจากแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ เฉพาะหากคุณกำลังลงชื่อเข้าใช้แอปพลิเคชันนั้นอยู่เท่านั้น  มิเช่นนั้น แสดงว่าอาจมีบุคคลอื่นกำลังพยายามลงชื่อเข้าใช้ด้วยชื่อผู้ใช้และรหัสผ่านของคุณ และคุณควรรายงานการฉ้อฉลที่มีความเป็นไปได้นี้ต่อผู้ดูแลระบบไอทีของคุณ&lt;br/&gt;&lt;br/&gt;กลับไปที่พอร์ทัล Multi-Factor Authentication เพื่อเปลี่ยน PIN ของคุณได้ทุกเมื่อ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppStandard" xml:space="preserve">
+    <value>บัญชีของคุณได้รับการตั้งค่าให้ใช้ Multi-Factor Authentication&lt;br/&gt;&lt;br/&gt;
+เมื่อคุณลงชื่อเข้าใช้ คุณจะยังคงใช้ชื่อผู้ใช้และรหัสผ่านเดิมต่อไป  ก่อนการตรวจสอบความถูกต้องของคุณจะเสร็จสมบูรณ์
+คุณจะได้รับการแจ้งเตือนที่ขอให้คุณเรียกใช้งานแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่และกดปุ่ม รับรองความถูกต้อง เพื่อดำเนินการลงชื่อเข้าใช้ให้เสร็จสมบูรณ์  หากคุณไม่ยืนยันการลงชื่อเข้าใช้โดยการกดปุ่ม รับรองความถูกต้อง การลงชื่อเข้าใช้จะถูกปฏิเสธ&lt;br/&gt;&lt;br/&gt;
+คุณควรกดปุ่ม รับรองความถูกต้อง เมื่อได้รับการแจ้งเตือนจากแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ เฉพาะหากคุณกำลังลงชื่อเข้าใช้แอปพลิเคชันนั้นอยู่เท่านั้น  มิเช่นนั้น แสดงว่าอาจมีบุคคลอื่นกำลังพยายามลงชื่อเข้าใช้ด้วยชื่อผู้ใช้และรหัสผ่านของคุณ และคุณควรรายงานการฉ้อฉลที่มีความเป็นไปได้นี้ต่อผู้ดูแลระบบไอทีของคุณ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppVoiceprint" xml:space="preserve">
+    <value>บัญชีของคุณได้รับการตั้งค่าให้ใช้ Multi-Factor Authentication&lt;br/&gt;&lt;br/&gt;
+เมื่อคุณลงชื่อเข้าใช้ คุณจะยังคงใช้ชื่อผู้ใช้และรหัสผ่านเดิมต่อไป  ก่อนการตรวจสอบความถูกต้องจะเสร็จสมบูรณ์
+คุณจะได้รับการแจ้งเตือนที่ขอให้คุณเรียกใช้งานแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ และจากนั้น พูดวลีรหัสผ่านของคุณเพื่อยืนยันการลงชื่อเข้าใช้  หากคุณไม่ยืนยันการลงชื่อเข้าใช้โดยการพูวลีรหัสผ่าน การลงชื่อเข้าใช้จะถูกปฏิเสธ&lt;br/&gt;&lt;br/&gt;
+คุณควรพูดวลีรหัสผ่าน เมื่อได้รับการแจ้งเตือนจากแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ เฉพาะหากคุณกำลังลงชื่อเข้าใช้แอปพลิเคชันนั้นอยู่ มิเช่นนั้น แสดงว่าอาจมีบุคคลอื่นกำลังพยายามลงชื่อเข้าใช้ด้วยชื่อผู้ใช้และรหัสผ่านของคุณ และคุณควรรายงานการฉ้อฉลที่มีความเป็นไปได้นี้ต่อผู้ดูแลระบบไอทีของคุณ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePin" xml:space="preserve">
+    <value>บัญชีของคุณได้รับการตั้งค่าให้ใช้ Multi-Factor Authentication&lt;br/&gt;&lt;br/&gt;
+เมื่อคุณลงชื่อเข้าใช้ คุณจะยังคงใช้ชื่อผู้ใช้และรหัสผ่านเดิมต่อไป  ก่อนการตรวจสอบความถูกต้องจะเสร็จสมบูรณ์
+คุณจะได้รับการโทรติดต่อขอให้คุณป้อน PIN ของคุณตามด้วยเครื่องหมายสี่เหลี่ยม (#) เพื่อยืนยันการลงชื่อเข้าใช้  หากคุณ
+ไม่ยืนยันการลงชื่อเข้าใช้โดยการป้อน PIN และกดเครื่องหมายสี่เหลี่ยม (#) การลงชื่อเข้าใช้จะถูกปฏิเสธ&lt;br/&gt;&lt;br/&gt;
+คุณควรป้อน PIN เมื่อได้รับการโทรติดต่อจาก Multi-Factor Authentication เฉพาะหากคุณกำลังลงชื่อเข้าใช้แอปพลิเคชันนั้นอยู่
+มิเช่นนั้น แสดงว่าอาจมีบุคคลอื่นกำลังพยายามลงชื่อเข้าใช้ด้วยชื่อผู้ใช้และรหัสผ่านของคุณ และคุณควรรายงานการฉ้อฉล
+ที่มีความเป็นไปได้นี้ต่อผู้ดูแลระบบไอทีของคุณ&lt;br/&gt;&lt;br/&gt;
+กลับไปที่พอร์ทัล Multi-Factor Authentication เพื่อเปลี่ยนหมายเลขโทรศัพท์หรือ PIN ของคุณได้ทุกเมื่อ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtp" xml:space="preserve">
+    <value>บัญชีของคุณได้รับการตั้งค่าให้ใช้ Multi-Factor Authentication&lt;br/&gt;&lt;br/&gt;
+เมื่อคุณลงชื่อเข้าใช้ คุณจะยังคงใช้ชื่อผู้ใช้และรหัสผ่านเดิมต่อไป  ก่อนการตรวจสอบความถูกต้องจะเสร็จสมบูรณ์
+คุณจะได้รับข้อความตัวอักษรพร้อมรหัสผ่านแบบใช้ครั้งเดียว  กรุณาป้อนรหัสผ่านนี้เมื่อได้รับพร้อมท์จากแอปพลิเคชัน
+หากคุณไม่ป้อนรหัสผ่านที่ถูกต้อง การลงชื่อเข้าใช้จะถูกปฏิเสธ&lt;br/&gt;&lt;br/&gt;
+กลับไปที่พอร์ทัล Multi-Factor Authentication เพื่อเปลี่ยนหมายเลขโทรศัพท์ของคุณได้ทุกเมื่อ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>บัญชีของคุณได้รับการตั้งค่าให้ใช้ Multi-Factor Authentication&lt;br/&gt;&lt;br/&gt;
+เมื่อคุณลงชื่อเข้าใช้ คุณจะยังคงใช้ชื่อผู้ใช้และรหัสผ่านเดิมต่อไป  ก่อนการตรวจสอบความถูกต้องจะเสร็จสมบูรณ์
+yคุณจะได้รับข้อความตัวอักษรพร้อมรหัสผ่านแบบใช้ครั้งเดียว  กรุณาป้อนรหัสผ่านและ PIN ของคุณเมื่อได้รับพร้อมท์จากแอปพลิเคชัน
+หากคุณไม่ป้อนรหัสผ่านและ PIN ที่ถูกต้อง การลงชื่อเข้าใช้จะถูกปฏิเสธ&lt;br/&gt;&lt;br/&gt;
+กลับไปที่พอร์ทัล Multi-Factor Authentication เพื่อเปลี่ยนหมายเลขโทรศัพท์และ PIN ของคุณได้ทุกเมื่อ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtp" xml:space="preserve">
+    <value>บัญชีของคุณได้รับการตั้งค่าให้ใช้ Multi-Factor Authentication&lt;br/&gt;&lt;br/&gt;
+เมื่อคุณลงชื่อเข้าใช้ คุณจะยังคงใช้ชื่อผู้ใช้และรหัสผ่านเดิมต่อไป  ก่อนการตรวจสอบความถูกต้องจะเสร็จสมบูรณ์
+คุณจะได้รับข้อความตัวอักษรที่มีรหัสผ่านแบบใช้ครั้งเดียว  กรุณาตอบกลับข้อความตัวอักษรดังกล่าวด้วยรหัสผ่านนี้
+หากคุณไม่ตอบกลับด้วยรหัสผ่านที่ถูกต้อง การลงชื่อเข้าใช้จะถูกปฏิเสธ&lt;br/&gt;&lt;br/&gt;
+คุณควรตอบกลับเมื่อได้รับข้อความตัวอักษรจาก Multi-Factor Authentication เฉพาะหากคุณกำลังลงชื่อเข้าใช้แอปพลิเคชันนั้นอยู่
+มิเช่นนั้น แสดงว่าอาจมีบุคคลอื่นกำลังพยายามลงชื่อเข้าใช้ด้วยชื่อผู้ใช้และรหัสผ่านของคุณ และคุณควรรายงานการฉ้อฉล
+ที่มีความเป็นไปได้นี้ต่อผู้ดูแลระบบไอทีของคุณ&lt;br/&gt;&lt;br/&gt;
+กลับไปที่พอร์ทัล Multi-Factor Authentication เพื่อเปลี่ยนหมายเลขโทรศัพท์ของคุณได้ทุกเมื่อ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>บัญชีของคุณได้รับการตั้งค่าให้ใช้ Multi-Factor Authentication&lt;br/&gt;&lt;br/&gt;
+เมื่อคุณลงชื่อเข้าใช้ คุณจะยังคงใช้ชื่อผู้ใช้และรหัสผ่านเดิมต่อไป  ก่อนการตรวจสอบความถูกต้องจะเสร็จสมบูรณ์
+คุณจะได้รับข้อความตัวอักษรที่มีรหัสผ่านแบบใช้ครั้งเดียว  กรุณาตอบกลับข้อความตัวอักษรดังกล่าวด้วยรหัสผ่านนี้และ PIN ของคุณ
+หากคุณไม่ตอบกลับด้วยรหัสผ่านและ PIN ที่ถูกต้อง การลงชื่อเข้าใช้จะถูกปฏิเสธ&lt;br/&gt;&lt;br/&gt;
+คุณควรตอบกลับเมื่อได้รับข้อความตัวอักษรจาก Multi-Factor Authentication เฉพาะหากคุณกำลังลงชื่อเข้าใช้แอปพลิเคชันนั้นอยู่
+มิเช่นนั้น แสดงว่าอาจมีบุคคลอื่นกำลังพยายามลงชื่อเข้าใช้ด้วยชื่อผู้ใช้และรหัสผ่านของคุณ และคุณควรรายงานการฉ้อฉล
+ที่มีความเป็นไปได้นี้ต่อผู้ดูแลระบบไอทีของคุณ&lt;br/&gt;&lt;br/&gt;
+กลับไปที่พอร์ทัล Multi-Factor Authentication เพื่อเปลี่ยนหมายเลขโทรศัพท์หรือ PIN ของคุณได้ทุกเมื่อ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageStandard" xml:space="preserve">
+    <value>บัญชีของคุณได้รับการตั้งค่าให้ใช้ Multi-Factor Authentication&lt;br/&gt;&lt;br/&gt;
+เมื่อคุณลงชื่อเข้าใช้ คุณจะยังคงใช้ชื่อผู้ใช้และรหัสผ่านเดิมต่อไป  ก่อนการตรวจสอบความถูกต้องจะเสร็จสมบูรณ์
+คุณจะได้รับการโทรติดต่อขอให้คุณกดแป้นเครื่องหมายสี่เหลี่ยม (#) เพื่อยืนยันการลงชื่อเข้าใช้ของคุณ  หากคุณไม่ยืนยันการลงชื่อเข้าใช้
+โดยกดเครื่องหมาย # การลงชื่อเข้าใช้จะถูกปฏิเสธ&lt;br/&gt;&lt;br/&gt;
+คุณควรกดแป้นเครื่องหมาย # เมื่อได้รับการโทรติดต่อจาก Multi-Factor Authentication เฉพาะหากคุณกำลังลงชื่อเข้าใช้แอปพลิเคชันนั้นอยู่
+มิเช่นนั้น แสดงว่าอาจมีบุคคลอื่นกำลังพยายามลงชื่อเข้าใช้ด้วยชื่อผู้ใช้และรหัสผ่านของคุณ และคุณควรรายงานการฉ้อฉล
+ที่มีความเป็นไปได้นี้ต่อผู้ดูแลระบบไอทีของคุณ&lt;br/&gt;&lt;br/&gt;
+กลับไปที่พอร์ทัล Multi-Factor Authentication เพื่อเปลี่ยนหมายเลขโทรศัพท์ของคุณได้ทุกเมื่อ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageVoiceprint" xml:space="preserve">
+    <value>บัญชีของคุณได้รับการตั้งค่าให้ใช้ Multi-Factor Authentication&lt;br/&gt;&lt;br/&gt;
+เมื่อคุณลงชื่อเข้าใช้ คุณจะยังคงใช้ชื่อผู้ใช้และรหัสผ่านเดิมต่อไป  ก่อนการตรวจสอบความถูกต้องจะเสร็จสมบูรณ์
+คุณจะได้รับการโทรติดต่อขอให้คุณพูดวลีรหัสผ่านของคุณเพื่อยืนยันการลงชื่อเข้าใช้  หากคุณไม่ยืนยัน
+การลงชื่อเข้าใช้โดยการพูดวลีรหัสผ่าน การลงชื่อเข้าใช้จะถูกปฏิเสธ&lt;br/&gt;&lt;br/&gt;
+คุณควรพูดวลีรหัสผ่านของคุณเมื่อได้รับการโทรติดต่อจาก Multi-Factor Authentication เฉพาะหากคุณกำลังลงชื่อเข้าใช้แอปพลิเคชันนั้นอยู่
+มิเช่นนั้น แสดงว่าอาจมีบุคคลอื่นกำลังพยายามลงชื่อเข้าใช้ด้วยชื่อผู้ใช้และรหัสผ่านของคุณ และคุณควรรายงานการฉ้อฉล
+ที่มีความเป็นไปได้นี้ต่อผู้ดูแลระบบไอทีของคุณ&lt;br/&gt;&lt;br/&gt;
+กลับไปที่พอร์ทัล Multi-Factor Authentication เพื่อเปลี่ยนหมายเลขโทรศัพท์ของคุณได้ทุกเมื่อ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MustChangeModeToPhoneApp" xml:space="preserve">
+    <value>หลังจากเปิดใช้งานแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ในอุปกรณ์แล้ว คุณจะต้องเปลี่ยนเมธอดเป็นแอปสำหรับอุปกรณ์เคลื่อนที่  คลิกที่ลิงก์ "เปลี่ยนเมธอด" ในเมนูการนำทางและระบุเมธอดแอปสำหรับอุปกรณ์เคลื่อนที่เพื่อเริ่มใช้แอป</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_MustChangeUserToPhoneAppMode" xml:space="preserve">
+    <value>หลังจากที่ผู้ใช้เปิดใช้งานแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ในอุปกรณ์ของพวกเขาแล้ว คุณจะต้องเปลี่ยนเมธอดของผู้ใช้เป็นแอปสำหรับอุปกรณ์เคลื่อนที่เพื่อให้ผู้ใช้สามารถใช้แอป</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerPhoneApp" xml:space="preserve">
+    <value>เหตุการณ์นี้จะเกิดขึ้นหากมีบุคคลอื่นพยายามเข้าสู่ระบบบัญชีของคุณ และทราบรหัสผ่านของคุณแล้วเท่านั้น อย่าลืมว่าจะมีการส่งการแจ้งเตือนของแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่หลังจากที่ชื่อผู้ใช้และรหัสผ่านได้รับการตรวจสอบแล้วเท่านั้น ดังนั้น หากเกิดเหตุการณ์นี้ขึ้นหมายความว่า Multi-Factor Authentication ได้ป้องกันบัญชีของคุณจากการเข้าถึงที่ผิดกฎหมาย!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerSms" xml:space="preserve">
+    <value>เหตุการณ์นี้จะเกิดขึ้นหากมีบุคคลอื่นพยายามเข้าสู่ระบบบัญชีของคุณ และทราบรหัสผ่านของคุณแล้วเท่านั้น อย่าลืมว่าจะมีการส่งข้อความหลังจากที่ชื่อผู้ใช้และรหัสผ่านได้รับการตรวจสอบแล้วเท่านั้น ดังนั้น หากเกิดเหตุการณ์นี้ขึ้นหมายความว่า Multi-Factor Authentication ได้ป้องกันบัญชีของคุณจากการเข้าถึงที่ผิดกฎหมาย!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerVoice" xml:space="preserve">
+    <value>เหตุการณ์นี้จะเกิดขึ้นหากมีบุคคลอื่นพยายามเข้าสู่ระบบบัญชีของคุณ และทราบรหัสผ่านของคุณแล้วเท่านั้น อย่าลืมว่าจะมีการโทรติดต่อหลังจากที่ชื่อผู้ใช้และรหัสผ่านได้รับการตรวจสอบแล้วเท่านั้น ดังนั้น หากเกิดเหตุการณ์นี้ขึ้นหมายความว่า Multi-Factor Authentication ได้ป้องกันบัญชีของคุณจากการเข้าถึงที่ผิดกฎหมาย!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionPhoneApp" xml:space="preserve">
+    <value>จะเกิดอะไรขึ้นในหากที่ฉันได้รับการแจ้งเตือนของแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่เมื่อฉันไม่ได้กำลังพยายามลงชื่อเข้าใช้</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionSms" xml:space="preserve">
+    <value>จะเกิดอะไรขึ้นในหากที่ฉันได้รับข้อความจาก Multi-Factor Authentication เมื่อฉันไม่ได้กำลังพยายามลงชื่อเข้าใช้</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionVoice" xml:space="preserve">
+    <value>จะเกิดอะไรขึ้นในหากที่ฉันได้รับการโทรติดต่อจาก Multi-Factor Authentication เมื่อฉันไม่ได้กำลังพยายามลงชื่อเข้าใช้</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassOathToken" xml:space="preserve">
+    <value>บริษัทของคุณยังให้ตัวเลือกการบายพาสครั้งเดียวซึ่งช่วยให้คุณสามารถลงชื่อเข้าใช้ครั้งเดียวโดยไม่ต้องได้รับพร้อมท์สำหรับรหัสการรับรองความถูกต้อง เลือกตัวเลือกการบายพาสครั้งเดียวเพื่อเข้าถึงคุณลักษณะนี้ หรือโทรหาเจ้าหน้าที่ให้ความช่วยเหลือโดยใช้โทรศัพท์ใดก็ได้ เพื่อขอความช่วยเหลือ</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_OneTimeBypassPhoneApp" xml:space="preserve">
+    <value>บริษัทของคุณยังให้ตัวเลือกการบายพาสครั้งเดียวซึ่งช่วยให้คุณสามารถลงชื่อเข้าใช้ครั้งเดียวโดยไม่ต้องมีการแจ้งเตือนจากแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ เลือกตัวเลือกการบายพาสครั้งเดียวเพื่อเข้าถึงคุณลักษณะนี้ หรือโทรหาเจ้าหน้าที่ให้ความช่วยเหลือโดยใช้โทรศัพท์ใดก็ได้ เพื่อขอความช่วยเหลือ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassSms" xml:space="preserve">
+    <value>บริษัทของคุณให้ตัวเลือกการบายพาสครั้งเดียวซึ่งช่วยให้คุณสามารถลงชื่อเข้าใช้ครั้งเดียวโดยไม่ต้องมีข้อความ เลือกตัวเลือกการบายพาสครั้งเดียวเพื่อเข้าถึงคุณลักษณะนี้ หรือโทรหาเจ้าหน้าที่ให้ความช่วยเหลือโดยใช้โทรศัพท์ใดก็ได้ เพื่อขอความช่วยเหลือ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassVoice" xml:space="preserve">
+    <value>บริษัทของคุณให้ตัวเลือกการบายพาสครั้งเดียวซึ่งช่วยให้คุณสามารถลงชื่อเข้าใช้ครั้งเดียวโดยไม่ต้องมีการโทรติดต่อ เลือกตัวเลือกการบายพาสครั้งเดียวเพื่อเข้าถึงคุณลักษณะนี้ หรือโทรหาเจ้าหน้าที่ให้ความช่วยเหลือโดยใช้โทรศัพท์ใดก็ได้ เพื่อขอความช่วยเหลือ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtp" xml:space="preserve">
+    <value>รหัสผ่านแบบครั้งเดียว</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtpPlusPin" xml:space="preserve">
+    <value>รหัสผ่านแบบครั้งเดียว + PIN</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_SimpleProcessOathToken" xml:space="preserve">
+    <value>กระบวนการที่ง่ายดายนี้มอบปัจจัยในการรับรองความถูกต้องสองอย่างแยกกัน พร้อมกับการรับรองความถูกต้องรองโดยสิ่งที่คุณมี (สมาร์ทโฟนหรือโทเค็นของคุณ)</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_SimpleProcessPhoneApp" xml:space="preserve">
+    <value>กระบวนการที่ง่ายดายนี้มอบปัจจัยในการรับรองความถูกต้องสองอย่างแยกกันผ่านช่องทางที่แยกกันสองช่องทาง (คอมพิวเตอร์และสมาร์ทโฟนของคุณ)</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessSms" xml:space="preserve">
+    <value>กระบวนการที่ง่ายดายนี้มอบปัจจัยในการรับรองความถูกต้องสองอย่างแยกกันผ่านช่องทางที่แยกกันสองช่องทาง (คอมพิวเตอร์และสมาร์ทโฟนของคุณ) โดยสามารถใช้งานได้กับโทรศัพท์ทุกเครื่องที่สามารถรับส่งข้อความได้</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessVoice" xml:space="preserve">
+    <value>กระบวนการที่ง่ายดายนี้มอบปัจจัยในการรับรองความถูกต้องสองอย่างแยกกันผ่านช่องทางที่แยกกันสองช่องทาง (คอมพิวเตอร์และสมาร์ทโฟนของคุณ) โดยสามารถใช้งานได้กับโทรศัพท์ทั่วไปหรือโทรศัพท์มือถือทุกเครื่อง</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionOathToken" xml:space="preserve">
+    <value>คุณจะได้รับพร้อมท์สำหรับรหัสการรับรองความถูกต้องทันที  โปรดป้อนรหัสการรับรองความถูกต้องปัจจุบันที่แอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่หรือโทเค็นแสดง</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppPin" xml:space="preserve">
+    <value>คุณจะได้รับการแจ้งเตือนของแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ทันที  โปรดเรียกใช้งานแอป ป้อน PIN และกดปุ่ม "รับรองความถูกต้อง"</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppStandard" xml:space="preserve">
+    <value>คุณจะได้รับการแจ้งเตือนของแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ทันที  โปรดเรียกใช้งานแอปและกดปุ่ม "รับรองความถูกต้อง"</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppVoiceprint" xml:space="preserve">
+    <value>คุณจะได้รับการแจ้งเตือนของแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ทันที  โปรดเรียกใช้งานแอปและพูดวลีรหัสผ่านของคุณเมื่อได้รับพร้อมท์</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPin" xml:space="preserve">
+    <value>คุณจะได้รับการโทรติดต่อทันที โปรดรับสาย ป้อน PIN และกดเครื่องหมาย #</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtp" xml:space="preserve">
+    <value>คุณจะได้รับข้อความที่มีรหัสผ่านแบบครั้งเดียวทันที โปรดป้อนรหัสผ่านนี้เมื่อได้รับพร้อมท์จากโปรแกรมประยุกต์</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>คุณจะได้รับข้อความที่มีรหัสผ่านแบบครั้งเดียวทันที โปรดป้อนรหัสผ่านนี้พร้อมด้วย PIN ของคุณเมื่อได้รับพร้อมท์จากโปรแกรมประยุกต์</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtp" xml:space="preserve">
+    <value>คุณจะได้รับข้อความที่มีรหัสผ่านแบบครั้งเดียวทันที โปรดตอบกลับข้อความด้วยรหัสผ่านนี้</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>คุณจะได้รับข้อความที่มีรหัสผ่านแบบครั้งเดียวทันที โปรดตอบกลับข้อความด้วยรหัสผ่านนี้พร้อมด้วย PIN ของคุณ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionStandard" xml:space="preserve">
+    <value>คุณจะได้รับการโทรติดต่อทันที โปรดรับสายและกดเครื่องหมาย #</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionVoiceprint" xml:space="preserve">
+    <value>คุณจะได้รับการโทรติดต่อทันที โปรดรับสายและพูดวลีรหัสผ่านหลังเสียงสัญญาณ</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_TitleWithColon" xml:space="preserve">
+    <value>{0}:</value>
+    <comment>Page header on most pages</comment>
+  </data>
+  <data name="Label_UnblockReason" xml:space="preserve">
+    <value>เหตุผลในการยกเลิกการบล็อก</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_AccountConfigurationComplete" xml:space="preserve">
+    <value>ดำเนินการกำหนดค่าบัญชีเสร็จสมบูรณ์</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Message_AnswerRequired" xml:space="preserve">
+    <value>คุณต้องตอบอย่างน้อยหนึ่งคำถามรักษาความปลอดภัย</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AnswerSecurityQuestions" xml:space="preserve">
+    <value>โปรดตอบคำถามรักษาความปลอดภัยของคุณเพื่อเข้าสู่ระบบ</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AnswersIncorrect" xml:space="preserve">
+    <value>คำตอบอย่างน้อยหนึ่งคำตอบไม่ถูกต้อง</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AuthenticationDenied" xml:space="preserve">
+    <value>Multi-Factor Authentication ถูกปฏิเสธ</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedAnswerSecurityQuestions" xml:space="preserve">
+    <value>Multi-Factor Authentication ถูกปฏิเสธ โปรดตอบคำถามรักษาความปลอดภัยของคุณเพื่อเข้าสู่ระบบ</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedCallResult" xml:space="preserve">
+    <value>Multi-Factor Authentication ถูกปฏิเสธ: {0}</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_AuthenticationSuccessful" xml:space="preserve">
+    <value>Multi-Factor Authentication สำเร็จ</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_BypassSecondsNumeric" xml:space="preserve">
+    <value>วินาทีการบายพาสต้องเป็นตัวเลข</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRange" xml:space="preserve">
+    <value>วินาทีการบายพาสต้องอยู่ระหว่าง 5 และ 1800 (30 นาที)</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRequired" xml:space="preserve">
+    <value>จำเป็นต้องมีวินาทีการบายพาส</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_CannotActivateDevice" xml:space="preserve">
+    <value>บัญชีของคุณต้องมีการเชื่อมโยงกับแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ที่เปิดใช้งานแล้วในอุปกรณ์ก่อนที่จะสามารถเปลี่ยนเมธอดเป็นแอปสำหรับอุปกรณ์เคลื่อนที่  ติดต่อเจ้าหน้าที่ให้ความช่วยเหลือสำหรับความช่วยเหลือในการเปิดใช้งานแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ในอุปกรณ์ของคุณ</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotEstablishWebServiceSdkConnection" xml:space="preserve">
+    <value>พอร์ทัลผู้ใช้ Multi-Factor Authentication ไม่สามารถสร้างการเชื่อมต่อที่ปลอดภัยกับ SDK บริการบนเว็บ: {0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_CannotGetOathToken" xml:space="preserve">
+    <value>บัญชีของคุณต้องเชื่อมโยงกับแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ที่เปิดใช้งานแล้ว หรือเชื่อมโยงกับโทเค็น OATH ก่อนที่จะสามารถเปลี่ยนเมธอดเป็นโทเค็น OATH  โปรดติดต่อเจ้าหน้าที่ให้ความช่วยเหลือสำหรับความช่วยเหลือในการเปิดใช้งานแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่บนอุปกรณ์ของคุณหรือการกำหนดโทเค็น OATH</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneSmsText" xml:space="preserve">
+    <value>บัญชีของคุณต้องมีการกำหนดหมายเลขโทรศัพท์ก่อนที่จะสามารถเปลี่ยนเมธอดเป็นข้อความ  โปรดติดต่อเจ้าหน้าที่ให้ความช่วยเหลือเพื่อกำหนดหมายเลขโทรศัพท์ให้กับบัญชีของคุณ</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>บัญชีของคุณต้องมีการกำหนดหมายเลขโทรศัพท์ก่อนที่จะสามารถเปลี่ยนเมธอดเป็นการโทรติดต่อ  โปรดติดต่อเจ้าหน้าที่ให้ความช่วยเหลือเพื่อกำหนดหมายเลขโทรศัพท์ให้กับบัญชีของคุณ</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeOathTokenIncomplete" xml:space="preserve">
+    <value>หมายเหตุ: ผู้ใช้ยังไม่ได้เปิดใช้งานแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ในอุปกรณ์ของพวกเขาหรือยังไม่ได้รับการกำหนดโทเค็น OATH ของบุคคลที่สาม และถือว่ายังไม่เสร็จสมบูรณ์สำหรับเมธอดโทเค็น OATH  การรับรองความถูกต้องโปรแกรมประยุกต์ที่มีการป้องกันจะล้มเหลวสำหรับผู้ใช้รายนี้และการเข้าสู่ระบบพอร์ทัลผู้ใช้จะกำหนดให้ผู้ใช้ลงทะเบียนอีกครั้ง  ขอแนะนำให้คุณติดต่อผู้ใช้ดังกล่าวเพื่อช่วยเหลือในการเปิดใช้งานแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ หรือกำหนดและแจกจ่ายโทเค็น OATH ของบุคคลที่สาม</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModePhoneAppIncomplete" xml:space="preserve">
+    <value>หมายเหตุ: ผู้ใช้ยังไม่ได้เปิดใช้งานแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ในอุปกรณ์ของพวกเขาและถือว่ายังไม่เสร็จสมบูรณ์สำหรับเมธอดแอปสำหรับอุปกรณ์เคลื่อนที่  การรับรองความถูกต้องโปรแกรมประยุกต์ที่มีการป้องกันจะล้มเหลวสำหรับผู้ใช้รายนี้และการเข้าสู่ระบบพอร์ทัลผู้ใช้จะกำหนดให้ผู้ใช้ลงทะเบียนอีกครั้ง  ขอแนะนำให้คุณติดต่อผู้ใช้ดังกล่าวเพื่อช่วยเหลือในการเปิดใช้งานแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeSmsTextIncomplete" xml:space="preserve">
+    <value>หมายเหตุ: ผู้ใช้ไม่ได้ระบุหมายเลขโทรศัพท์และถือว่ายังไม่เสร็จสมบูรณ์สำหรับเมธอดข้อความ  การรับรองความถูกต้องโปรแกรมประยุกต์ที่มีการป้องกันจะล้มเหลวสำหรับผู้ใช้รายนี้และการเข้าสู่ระบบพอร์ทัลผู้ใช้จะกำหนดให้ผู้ใช้ลงทะเบียนอีกครั้ง  ขอแนะนำให้คุณระบุหมายเลขโทรศัพท์สำหรับผู้ใช้เพื่อให้ผู้ใช้สามารถใช้โปรแกรมประยุกต์ที่มีการป้องกันต่อไปได้โดยไม่ต้องลงทะเบียนใหม่</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeVoiceCallIncomplete" xml:space="preserve">
+    <value>หมายเหตุ: ผู้ใช้ไม่ได้ระบุหมายเลขโทรศัพท์และถือว่ายังไม่เสร็จสมบูรณ์สำหรับเมธอดการโทรติดต่อ  การรับรองความถูกต้องโปรแกรมประยุกต์ที่มีการป้องกันจะล้มเหลวสำหรับผู้ใช้รายนี้และการเข้าสู่ระบบพอร์ทัลผู้ใช้จะกำหนดให้ผู้ใช้ลงทะเบียนอีกครั้ง ขอแนะนำให้คุณระบุหมายเลขโทรศัพท์สำหรับผู้ใช้เพื่อให้ผู้ใช้สามารถใช้โปรแกรมประยุกต์ที่มีการป้องกันต่อไปได้โดยไม่ต้องลงทะเบียนใหม่</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CodeRequired" xml:space="preserve">
+    <value>จำเป็นต้องมีรหัส</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_CodeRequiredCross" xml:space="preserve">
+    <value>จำเป็นต้องมีรหัสเมื่อมีการระบุหมายเลขลำดับประจำสินค้า</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ConfirmDeactivate" xml:space="preserve">
+    <value>คุณแน่ใจหรือไม่ว่าต้องการปิดใช้งานอุปกรณ์นี้โดยถาวร</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceDeactivated" xml:space="preserve">
+    <value>ปิดใช้งานอุปกรณ์แล้ว</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceLimit" xml:space="preserve">
+    <value>บัญชีของคุณถึงขีดจำกัด {0} อุปกรณ์แล้ว  คุณต้องปิดใช้งานอุปกรณ์ที่มีอยู่ก่อนเปิดใช้งานอุปกรณ์ใหม่</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DuplicateAnswer" xml:space="preserve">
+    <value>ไม่อนุญาตคำตอบที่ซ้ำกัน</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateQuestion" xml:space="preserve">
+    <value>ไม่อนุญาตคำถามที่ซ้ำกัน</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateUsername" xml:space="preserve">
+    <value>ชื่อผู้ใช้ซ้ำกัน</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUser" xml:space="preserve">
+    <value>ข้อผิดพลาดในการเพิ่มผู้ใช้&lt;br/&gt;{0}</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUserForPassedSession" xml:space="preserve">
+    <value>ข้อผิดพลาดในการเพิ่มผู้ใช้สำหรับเซสชันที่ผ่าน&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithLocal" xml:space="preserve">
+    <value>ข้อผิดพลาดในการสื่อสารกับบริการ Multi-Factor Authentication ในท้องถิ่น  โปรดติดต่อผู้ดูแลระบบ</value>
+    <comment>Most pages when connection to local server is lost</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithMaster" xml:space="preserve">
+    <value>ข้อผิดพลาดในการสื่อสารกับบริการ Multi-Factor Authentication หลัก โปรดติดต่อผู้ดูแลระบบ</value>
+    <comment>Most pages when connection to master server is lost</comment>
+  </data>
+  <data name="Message_ErrorDeactivatingDevice" xml:space="preserve">
+    <value>ข้อผิดพลาดในการปิดใช้งานอุปกรณ์&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorDisablingUser" xml:space="preserve">
+    <value>ข้อผิดพลาดในการปิดใช้งานผู้ใช้&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorEnablingUser" xml:space="preserve">
+    <value>ข้อผิดพลาดในการเปิดใช้งานผู้ใช้&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorFindingUsers" xml:space="preserve">
+    <value>ข้อผิดพลาดในการค้นหาผู้ใช้&lt;br/&gt;{0}</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_ErrorGeneratingActivationCode" xml:space="preserve">
+    <value>ข้อผิดพลาดในการสร้างรหัสการเปิดใช้งาน&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorIssuingOneTimeBypass" xml:space="preserve">
+    <value>ข้อผิดพลาดในการออกการบายพาสครั้งเดียว โปรดติดต่อผู้ดูแลระบบของคุณ&lt;br/&gt;{0}</value>
+    <comment>one_time_bypass and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorRemovingUser" xml:space="preserve">
+    <value>ข้อผิดพลาดในการนำผู้ใช้ออก&lt;br/&gt;{0}</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_ErrorResettingMode" xml:space="preserve">
+    <value>ข้อผิดพลาดในการรีเซ็ตเมธอด&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPhone" xml:space="preserve">
+    <value>ข้อผิดพลาดในการรีเซ็ตโทรศัพท์&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPin" xml:space="preserve">
+    <value>ข้อผิดพลาดในการรีเซ็ต PIN&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingVoiceprint" xml:space="preserve">
+    <value>ข้อผิดพลาดในการรีเซ็ตกราฟแสดงลักษณะเสียงพูดของมนุษย์  โปรดติดต่อผู้ดูแลระบบ&lt;br/&gt;{0}</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingLanguage" xml:space="preserve">
+    <value>ข้อผิดพลาดในการปรับปรุงภาษา&lt;br/&gt;{0}</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingMode" xml:space="preserve">
+    <value>ข้อผิดพลาดในการอัปเดตเมธอด&lt;br/&gt;{0}</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhone" xml:space="preserve">
+    <value>ข้อปิดพลาดในการอัปเดตโทรศัพท์&lt;br/&gt;{0}</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhoneAppMode" xml:space="preserve">
+    <value>ข้อผิดพลาดในการอัปเดตโหมดแอปสำหรับอุปกรณ์เคลื่อนที่&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPin" xml:space="preserve">
+    <value>ข้อผิดพลาดในการอัปเดต PIN&lt;br/&gt;{0}</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSecurityQuestions" xml:space="preserve">
+    <value>ข้อผิดพลาดในการอัปเดตคำถามรักษาความปลอดภัย&lt;br/&gt;{0}</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSmsTextMode" xml:space="preserve">
+    <value>ข้อผิดพลาดในการอัปเดตโหมดข้อความ&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingStaticToken" xml:space="preserve">
+    <value>ข้อผิดพลาดในการอัปเดตโทเค็นคงที่&lt;br/&gt;{0}</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserForSecurityQuestionSetup" xml:space="preserve">
+    <value>ข้อผิดพลาดในการอัปเดตผู้ใช้สำหรับการตั้งค่าคำถามรักษาความปลอดภัย&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserInformation" xml:space="preserve">
+    <value>ข้อผิดพลาดในการอัปเดตข้อมูลผู้ใช้&lt;br/&gt;{0}</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingVoiceCallMode" xml:space="preserve">
+    <value>ข้อผิดพลาดในการอัปเดตโหมดโทรติดต่อ&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ExpiredSession" xml:space="preserve">
+    <value>เซสชันของคุณหมดอายุแล้ว</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_IncorrectAnswers" xml:space="preserve">
+    <value>คำตอบที่คุณระบุไม่ถูกต้อง โปรดลองอีกครั้ง</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_IncorrectOathCode" xml:space="preserve">
+    <value>รหัสการรับรองความถูกต้องไม่ถูกต้อง</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscode" xml:space="preserve">
+    <value>รหัสผ่านแบบครั้งเดียวไม่ถูกต้อง</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscodePlusPin" xml:space="preserve">
+    <value>รหัสผ่านแบบครั้งเดียว + PIN ไม่ถูกต้อง</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_InvalidExtension" xml:space="preserve">
+    <value>ส่วนขยายไม่ถูกต้อง  อนุญาตให้มีเพียงตัวเลข, เครื่องหมายจุลภาค, เครื่องหมาย * และ # เท่านั้น  ใช้เครื่องหมายจุลภาคสำหรับการหยุดชั่วคราวหนึ่งวินาที  นำหน้าส่วนขยายด้วยเครื่องหมาย @ เพื่อพูดตัวเลขส่วนขยายสำหรับการโอนสายด้วยตัวเอง</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_InvalidSerialNumber" xml:space="preserve">
+    <value>หมายเลขลำดับประจำสินค้าไม่ถูกต้อง  ต้องมีการกำหนดโทเค็น OATH ที่มีหมายเลขลำดับประจำสินค้านี้ในส่วนติดต่อผู้ใช้เซิร์ฟเวอร์ Multi-Factor Authentication ก่อนเชื่อมโยงกับผู้ใช้</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_LineBreak" xml:space="preserve">
+    <value>&lt;br/&gt;{0}</value>
+    <comment>add_user, change_phone, change_pin, change_mode, change_language and enable_disable pages</comment>
+  </data>
+  <data name="Message_LoginFailed" xml:space="preserve">
+    <value>การเข้าสู่ระบบล้มเหลว</value>
+    <comment>login and secondary_authentication pages</comment>
+  </data>
+  <data name="Message_MustActivateDevice" xml:space="preserve">
+    <value>คุณต้องเปิดใช้งานแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ในอุปกรณ์ก่อนที่จะสามารถเปลี่ยนเมธอดเป็นแอปสำหรับอุปกรณ์เคลื่อนที่  คลิกลิงก์ "แอปสำหรับอุปกรณ์เคลื่อนที่" ในเมนูการนำทางเพื่อเริ่มการเปิดใช้งาน</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustActivateDeviceOathToken" xml:space="preserve">
+    <value>คุณต้องเปิดใช้งานแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ในอุปกรณ์ก่อนที่จะสามารถเปลี่ยนเมธอดเป็นโทเค็น OATH  คลิกลิงก์ "แอปสำหรับอุปกรณ์เคลื่อนที่" ในเมนูการนำทางเพื่อเริ่มการเปิดใช้งาน</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustAnswerAllQuestions" xml:space="preserve">
+    <value>คุณต้องตอบคำถามรักษาความปลอดภัยทั้งหมด</value>
+    <comment>create_security_questions, change_security_questions, and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_MustEnrollOathToken" xml:space="preserve">
+    <value>คุณต้องเชื่อมโยงโทเค็น OATH กับบัญชีของคุณก่อนที่จะสามารถเปลี่ยนเมธอดเป็นโทเค็น OATH  คลิกลิงก์ "โทเค็น OATH" เพื่อเชื่อมโยงโทเค็น OATH</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustHaveOathToken" xml:space="preserve">
+    <value>คุณต้องเปิดใช้งานแอป Multi-Factor Authentication สำหรับอุปกรณ์เคลื่อนที่ในอุปกรณ์ หรือเชื่อมโยงโทเค็น OATH กับบัญชีของคุณก่อนที่จะสามารถเปลี่ยนเมธอดเป็นโทเค็น OATH  คลิกลิงก์ "โทเค็น OATH" เพื่อเชื่อมโยงโทเค็น OATH</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneSmsText" xml:space="preserve">
+    <value>คุณต้องระบุหมายเลขโทรศัพท์สำหรับบัญชีของคุณก่อนที่จะสามารถเปลี่ยนเมธอดเป็นข้อความ  คลิกลิงก์ "เปลี่ยนโทรศัพท์" ในเมนูการนำทางเพื่อระบุหมายเลขโทรศัพท์</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>คุณต้องระบุหมายเลขโทรศัพท์สำหรับบัญชีก่อนที่จะสามารถเปลี่ยนเมธอดเป็นการโทรติดต่อ  คลิกลิงก์ "เปลี่ยนโทรศัพท์" ในเมนูการนำทางเพื่อระบุหมายเลขโทรศัพท์</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifySearchField" xml:space="preserve">
+    <value>ต้องระบุอย่างน้อยหนึ่งฟิลด์ค้นหา</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoActivatedDevices" xml:space="preserve">
+    <value>ไม่มีอุปกรณ์ที่เปิดใช้งานสำหรับผู้ใช้รายนี้</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_NoMatchingUsersFound" xml:space="preserve">
+    <value>ไม่พบผู้ใช้ที่ตรงกัน</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoSsl" xml:space="preserve">
+    <value>พอร์ทัลผู้ใช้ Multi-Factor Authentication ไม่ได้รับการรักษาความปลอดภัยด้วย SSL แต่จำเป็นต้องมี SSL สำหรับคุกกี้เซสชันใน Web.config  พอร์ทัลผู้ใช้ไม่ทำงานเนื่องจากไม่สามารถคงรักษาสถานะเซสชันได้  ขอแนะนำให้รักษาความปลอดภัยพอร์ทัลผู้ใช้ด้วย SSL  คุณสามารถเปลี่ยน requireSSL เป็น "false" ชั่วคราวในแท็ก &lt;httpCookies&gt; ใน Web.config เพื่อทดสอบ</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailed" xml:space="preserve">
+    <value>การซิงโครไนซ์โทเค็น OATH ล้มเหลว  รหัสที่ป้อนไม่ถูกต้องหรือหมายเลขลำดับประจำสินค้าของโทเค็น OATH ใช้งานไม่ได้</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailedUser" xml:space="preserve">
+    <value>การซิงโครไนซ์โทเค็น OATH ล้มเหลว  รหัสที่ป้อนไม่ถูกต้อง</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OnlyFirstMatchesDisplayed" xml:space="preserve">
+    <value>แสดงเฉพาะ {0} รายการแรกที่ตรงกัน  หากคุณไม่พบผู้ใช้ในรายการ ให้ป้อนเกณฑ์การค้นหาที่เฉพาะเจาะจงมากขึ้น</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_PassedSessionFailed" xml:space="preserve">
+    <value>เซสชันที่ผ่านล้มเหลว</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_PhoneRequired" xml:space="preserve">
+    <value>ต้องระบุโทรศัพท์</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMatch" xml:space="preserve">
+    <value>PIN และยืนยัน PIN ต้องตรงกัน</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMinimumLength" xml:space="preserve">
+    <value>PIN ต้องมีอย่างน้อย {0} หลัก</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinNumeric" xml:space="preserve">
+    <value>PIN ต้องเป็นตัวเลข</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinRecentlyUsed" xml:space="preserve">
+    <value>PIN ต้องไม่เหมือนกับ PIN ที่เพิ่มใช้เมื่อเร็วๆ นี้  โปรดเลือก PIN อื่น</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_SamlDisabled" xml:space="preserve">
+    <value>การลงชื่อเข้าระบบครั้งเดียวไปยังโปรแกรมประยุกต์ภายนอกโดยใช้ SAML ถูกปิดใช้งาน</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotDefined" xml:space="preserve">
+    <value>ไม่มีการกำหนดคำถามรักษาความปลอดภัยสำหรับผู้ใช้นี้&lt;br/&gt;</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotSetUp" xml:space="preserve">
+    <value>คุณไม่สามารถเข้าสู่ระบบด้วยโทรศัพท์ได้ เนื่องจากคุณไม่ได้ตั้งค่าคำถามรักษาความปลอดภัย</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsVerified" xml:space="preserve">
+    <value>ตรวจสอบคำถามรักษาความปลอดภัยแล้ว</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityWarningNoSsl" xml:space="preserve">
+    <value>คำเตือนเกี่ยวกับความปลอดภัย: พอร์ทัลผู้ใช้ Multi-Factor Authentication ไม่ได้รับการรักษาความปลอดภัยด้วย SSL  รหัสผ่านจะถูกส่งเป็นข้อความธรรมดา</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SerialNumberAlreadyAssociated" xml:space="preserve">
+    <value>หมายเลขลำดับประจำสินค้ามีการเชื่อมโยงกับ {0} แล้ว  คุณต้องนำหมายเลขลำดับประจำสินค้าออกจากผู้ใช้ดังกล่าวก่อนเชื่อมโยงกับผู้ใช้รายนี้</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_SerialNumberRequired" xml:space="preserve">
+    <value>จำเป็นต้องมีหมายเลขลำดับประจำสินค้า</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_SerialNumberRequiredCross" xml:space="preserve">
+    <value>จำเป็นต้องมีหมายเลขลำดับประจำสินค้าเมื่อมีการระบุรหัส</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ShortAnswer" xml:space="preserve">
+    <value>คำตอบต้องมีความยาวอย่างน้อย 4 อักขระ</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_StaticTokenMatch" xml:space="preserve">
+    <value>โทเค็นคงที่และยืนยันโทเค็นคงที่ต้องตรงกัน</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenMinimumLength" xml:space="preserve">
+    <value>โทเค็นคงที่ต้องมีอย่างน้อย {0} หลัก</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenNumeric" xml:space="preserve">
+    <value>โทเค็นคงที่ต้องเป็นตัวเลข</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserAdded" xml:space="preserve">
+    <value>เพิ่มผู้ใช้แล้ว</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_UserAlreadyBlocked" xml:space="preserve">
+    <value>การบล็อกล้มเหลว ผู้ใช้ถูกบล็อกแล้ว</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlocked" xml:space="preserve">
+    <value>บล็อกผู้ใช้สำเร็จ</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlockFailed" xml:space="preserve">
+    <value>การบล็อกล้มเหลว</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserDeviceLimit" xml:space="preserve">
+    <value>ผู้ใช้ถึงขีดจำกัด {0} อุปกรณ์แล้ว  คุณต้องปิดใช้งานอุปกรณ์ที่มีอยู่สำหรับผู้ใช้รายนี้ก่อนที่ผู้ให้จะสามารถเปิดใช้งานอุปกรณ์ใหม่</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_UserDisabled" xml:space="preserve">
+    <value>ปิดใช้งานผู้ใช้สำเร็จแล้ว</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserEnabled" xml:space="preserve">
+    <value>เปิดใช้งานผู้ใช้สำเร็จแล้ว</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserInformationChanged" xml:space="preserve">
+    <value>เปลี่ยนข้อมูลของผู้ใช้แล้ว</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_UserLanguageChanged" xml:space="preserve">
+    <value>เปลี่ยนการกำหนดภาษาของผู้ใช้แล้ว</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_UserModeChanged" xml:space="preserve">
+    <value>เปลี่ยนเมธอดของผู้ใช้แล้ว</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_UsernameRequired" xml:space="preserve">
+    <value>ต้องระบุชื่อผู้ใช้</value>
+    <comment>login and add_user pages</comment>
+  </data>
+  <data name="Message_UserNotBlocked" xml:space="preserve">
+    <value>การยกเลิกการบล็อกล้มเหลว ผู้ใช้ไม่ถูกบล็อกอยู่ในขณะนี้</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserOathTokenSaved" xml:space="preserve">
+    <value>บันทึกโทเค็น OATH ของผู้ใช้แล้ว</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_UserOneTimeBypassIssued" xml:space="preserve">
+    <value>ออกการบายพาสครั้งเดียวแล้ว  Multi-Factor Authentication จะถูกข้ามระหว่างการลงชื่อเข้าใช้ครั้งถัดไปของผู้ใช้</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_UserPhoneChanged" xml:space="preserve">
+    <value>เปลี่ยนโทรศัพท์ของผู้ใช้แล้ว</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_UserPinChanged" xml:space="preserve">
+    <value>เปลี่ยน PIN ของผู้ใช้แล้ว</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_UserPortalDisabled" xml:space="preserve">
+    <value>การเข้าสู่ระบบพอร์ทัลผู้ใช้โดยตรงถูกปิดใช้งาน</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserPortalNotPurchased" xml:space="preserve">
+    <value>พอร์ทัลผู้ใช้ Multi-Factor Authentication ไม่ทำงานเนื่องจากยังไม่ได้ซื้อคุณลักษณะนี้</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserRemoved" xml:space="preserve">
+    <value>นำผู้ใช้ออกแล้ว</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_UserStaticTokenChanged" xml:space="preserve">
+    <value>เปลี่ยนโทเค็นคงที่ของผู้ใช้แล้ว</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserSubmodeChanged" xml:space="preserve">
+    <value>เปลี่ยนโหมดของผู้ใช้แล้ว</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_UserUnblocked" xml:space="preserve">
+    <value>ยกเลิกการบล็อกผู้ใช้สำเร็จ</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserUnblockFailed" xml:space="preserve">
+    <value>การยกเลิกการบล็อกล้มเหลว</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserVoiceprintReset" xml:space="preserve">
+    <value>รีเซ็ตกราฟแสดงลักษณะเสียงพูดของมนุษย์สำเร็จ ผู้ใช้ดังกล่าวจะได้รับพร้อมท์ให้ลงทะเบียนกราฟแสดงลักษณะเสียงพูดของมนุษย์ใหม่ระหว่างการลงชื่อเข้าใช้ครั้งถัดไป</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_WeakPinNotAllowed" xml:space="preserve">
+    <value>ไม่อนุญาตให้มี PIN ที่คาดเดาได้ง่าย  ไม่สามารถมีเซตย่อยของหมายเลขโทรศัพท์ตั้งแต่ 4 หลักขึ้นไป, เลขซ้ำกัน 3 หลักขึ้นไป หรือเลขเรียงกัน 3 หลักขึ้นไป</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_WeakStaticTokenNotAllowed" xml:space="preserve">
+    <value>ไม่อนุญาตโทเค็นคงที่ที่คาดเดาง่าย  ไม่สามารถมีเซตย่อยของหมายเลขโทรศัพท์ตั้งแต่ 4 หลักขึ้นไป, เลขซ้ำกัน 3 หลักขึ้นไป หรือเลขเรียงกัน 3 หลักขึ้นไป</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_WebServiceSdkError" xml:space="preserve">
+    <value>พอร์ทัลผู้ใช้ Multi-Factor Authentication ได้รับการกำหนดค่าให้สื่อสารกับ SDK บริการบนเว็บ ซึ่งแสดงข้อผิดพลาดต่อไปนี้:&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_WebServiceSdkNotPurchased" xml:space="preserve">
+    <value>พอร์ทัลผู้ใช้ Multi-Factor Authentication ได้รับการกำหนดค่าให้สื่อสารกับ SDK บริการบนเว็บ และยังไม่ได้ซื้อคุณลักษณะ SDK บริการบนเว็บ</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_YourInformationChanged" xml:space="preserve">
+    <value>เปลี่ยนข้อมูลของคุณแล้ว</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_YourLanguageChanged" xml:space="preserve">
+    <value>เปลี่ยนการกำหนดภาษาของคุณแล้ว</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_YourModeChanged" xml:space="preserve">
+    <value>เปลี่ยนเมธอดของคุณแล้ว</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_YourOathTokenSaved" xml:space="preserve">
+    <value>บันทึกโทเค็น OATH ของคุณแล้ว</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_YourOneTimeBypassIssued" xml:space="preserve">
+    <value>ออกการบายพาสครั้งเดียวแล้ว  Multi-Factor Authentication จะถูกข้ามระหว่างการลงชื่อเข้าใช้ครั้งถัดไปของคุณ</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_YourPhoneChanged" xml:space="preserve">
+    <value>เปลี่ยนโทรศัพท์ของคุณแล้ว</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_YourPinChanged" xml:space="preserve">
+    <value>เปลี่ยน PIN ของคุณแล้ว</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_YourSecurityQuestionsChanged" xml:space="preserve">
+    <value>เปลี่ยนคำถามรักษาความปลอดภัยและคำตอบของคุณแล้ว</value>
+    <comment>change_security_questions page</comment>
+  </data>
+  <data name="Message_YourStaticTokenChanged" xml:space="preserve">
+    <value>เปลี่ยนโทเค็นคงที่ของคุณแล้ว</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_YourVoiceprintReset" xml:space="preserve">
+    <value>รีเซ็ตกราฟแสดงลักษณะเสียงพูดของมนุษย์สำเร็จ  คุณจะได้รับพร้อมท์ให้ลงทะเบียนกราฟแสดงลักษณะเสียงพูดของมนุษย์ใหม่ระหว่างการลงชื่อเข้าใช้ครั้งถัดไป</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Reason_InitiatedByAdmin" xml:space="preserve">
+    <value>เริ่มต้นโดยผู้ดูแลระบบในพอร์ทัลผู้ใช้</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Reason_InitiatedByUser" xml:space="preserve">
+    <value>เริ่มต้นโดยผู้ใช้ในพอร์ทัลผู้ใช้</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Subtitle_DeactivatePhoneApp" xml:space="preserve">
+    <value>ปิดใช้งานแอปสำหรับอุปกรณ์เคลื่อนที่</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Subtitle_Enable" xml:space="preserve">
+    <value>เปิดใช้งาน</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Subtitle_UnblockUser" xml:space="preserve">
+    <value>ยกเลิกการบล็อกผู้ใช้</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Title_PhoneFactorUserPortal" xml:space="preserve">
+    <value>Multi-Factor Authentication™ | พอร์ทัลผู้ใช้</value>
+    <comment>Title on all pages</comment>
+  </data>
+  <data name="Value_All" xml:space="preserve">
+    <value>ทั้งหมด</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Value_Masked" xml:space="preserve">
+    <value>กำหนดมาสก์</value>
+    <comment>add_user, change_pin, and oath_token pages</comment>
+  </data>
+</root>

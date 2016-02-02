@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version='1.0' encoding='utf-8' ?>  <index>  <chunkinfo url=\"whidata0.xml\" first=\"Multi-Factor Authentication ユーザー ポータル\" last=\"電話番号の変更\" num=\"26\" />    </index>";

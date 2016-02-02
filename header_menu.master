@@ -1,0 +1,47 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="pfup.header_menu" Codebehind="header_menu.master.cs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+  <title id="pageTitle" runat="server"></title>
+  <script src="javascripts/RoboHelp_CSH.js" type="text/javascript"></script>
+  <script src="javascripts/common.js" type="text/javascript"></script>
+</head>
+<body>
+  <form id="form1" runat="server" method="post" autocomplete="off">
+	<table id='layoutTable' cellspacing='0' cellpadding='0'>
+		<tr>
+			<td valign='top'>
+			<div id="leftCol">
+				<div id="pfLogo"><a href="main.aspx"><img src="images/spacer.gif" alt="PhoneFactor" width="220" height="140" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></a></div>
+				<!-- start left navigation -->
+                <asp:contentplaceholder id="navigationMenu" runat="server">
+                </asp:contentplaceholder>
+				<!-- end left navigation -->
+			</div>
+			</td>
+
+			<td valign='top'>
+			<div id="rightCol">
+				<div id="navBar" class="navBar">
+                    <asp:contentplaceholder id="topMenu" runat="server">
+                    </asp:contentplaceholder>
+				</div>					
+        <div id="subHdr">
+                    <asp:contentplaceholder id="helpLink" runat="server">
+                    </asp:contentplaceholder>
+        </div>
+				<div>
+				<!-- start content -->
+                <asp:contentplaceholder id="pageContent" runat="server">
+                </asp:contentplaceholder>
+				<!-- end content -->
+				</div>
+			</div>
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <meta name="generator" content="Adobe RoboHelp 10" />
+<title>Настройка пользователя</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.href = strUrl.substring(0, n);
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Вход пользователя\nНастройка пользователя");
+addButton("show",BTN_TEXT,"Показать","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("PhoneFactor_User_Portal.htm", "", ">", "Домашний", "PhoneFactor_User_Portal_1.htm");
+document.write("<a href=\"Log_In.htm\">Вход пользователя<\/a> > Настройка пользователя<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('PhoneFactor_User_Portal.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Настройка пользователя</h1>
+<p>Если настройка учетной записи не завершена, то необходимо указать номер телефона (если применимо) и/или ПИН-код (если применимо), которые необходимо использовать для учетной записи, или может быть выдан запрос на создание кода активации, который служит для активации приложения Multi-Factor Authentication. &#160;Если компания разрешает это, можно выбрать один из следующих способов: телефонный вызов, SMS, мобильное приложение и OATH-токен. &#160;Сервер Multi-Factor Authentication сделает телефонный вызов или отправит SMS на указанный номер телефона, чтобы подтвердить его действительность, направит уведомление в мобильное приложение или выдаст запрос на ввод кода проверки подлинности. &#160;Если выбран способ, связанный с использованием телефонного вызова, пользователя попросят нажать кнопку #, ввести свой ПИН-код или зарегистрировать свой голосовой отпечаток (в зависимости от режима телефонного вызова). &#160;Если выбран способ, связанный с использованием SMS, пользователю будет направлен одноразовый секретный код (OTP), требующий ответа в виде аналогичного кода OTP или кода OTP с указанием ПИН-кода. &#160;Если выбран способ, связанный с использованием мобильного приложения, то на мобильное приложение будет отправлено уведомление с запросом на проверку подлинности, которое может требовать от пользователя ввода ПИН-кода (в зависимости от действующего режима мобильного приложения). &#160;Если выбран способ, связанный с использованием OATH-токена, то пользовательский портал выдаст пользователю запрос на ввод кода проверки подлинности. &#160;В случае успешного завершения для пользователя может отобразиться запрос на <a href="Create_Security_Questions.htm">создание контрольных вопросов</a>.</p>
+<p>&#160;</p>
+<p>Чтобы завершить настройку способа телефонного вызова для пользователя, выполните следующие действия.</p>
+<ol style="list-style: decimal;">
+	<li class="p"><p style="background-color: Transparent;">Введите код страны и номер телефона. &#160;Можно также ввести резервный телефонный номер (если применимо).</p></li>
+	<li class="p"><p style="background-color: Transparent;">Введите ПИН-код (если применимо).</p></li>
+	<li class="p"><p style="background-color: Transparent;">Нажмите кнопку <span  	 style="font-weight: bold;">Позвонить для проверки подлинности</span>.</p></li>
+</ol>
+<p style="background-color: Transparent;">&#160;</p>
+<p>Чтобы завершить настройку отправки текстовых сообщений пользователю, выполните следующие действия.</p>
+<ol style="list-style: decimal;">
+	<li class="p"><p style="background-color: Transparent;">Введите код страны и номер телефона.</p></li>
+	<li class="p"><p style="background-color: Transparent;">Введите ПИН-код (если применимо).</p></li>
+	<li class="p"><p style="background-color: Transparent;">Нажмите кнопку <span  	 style="font-weight: bold;">Отправить текстовое сообщение для проверки подлинности</span>.</p></li>
+</ol>
+<p style="background-color: Transparent;">&#160;</p>
+<p style="background-color: Transparent;">Чтобы завершить для пользователя настройку способа проверки подлинности на основе мобильного приложения, выполните следующие действия.</p>
+<ol style="list-style: decimal;">
+	<li class="p"><p style="background-color: Transparent;">Установите мобильное приложение на телефон.</p></li>
+	<li class="p"><p style="background-color: Transparent;">Нажмите кнопку <span  	 style="font-weight: bold;">Создать код активации</span>.</p></li>
+	<li class="p"><p style="background-color: Transparent;">Введите в мобильное приложение код активации и URL-адрес, чтобы завершить активацию.</p></li>
+	<li class="p"><p style="background-color: Transparent;">Введите ПИН-код (если применимо).</p></li>
+	<li class="p"><p style="background-color: Transparent;">Нажмите кнопку <span  	 style="font-weight: bold;">Проверить подлинность пользователя</span>.</p></li>
+</ol>
+<p style="background-color: Transparent;">&#160;</p>
+<p style="background-color: Transparent;"><span style="background-color: Transparent;">Чтобы завершить для пользователя настройку способа проверки подлинности на основе токена OATH, выполните следующие действия.</span></p>
+<ol style="list-style: decimal;">
+	<li class="p"><p style="background-color: Transparent;">Установите мобильное приложение на телефон.</p></li>
+	<li class="p"><p style="background-color: Transparent;">Нажмите кнопку <span  	 style="font-weight: bold;">Создать код активации</span>.</p></li>
+	<li class="p"><p style="background-color: Transparent;">Введите в мобильное приложение код активации и URL-адрес, чтобы завершить активацию.</p></li>
+	<li class="p"><p style="background-color: Transparent;">Нажмите кнопку <span  	 style="font-weight: bold;">Проверить подлинность пользователя</span>.</p></li>
+</ol>
+<p style="margin-left: 40px;">ИЛИ</p>
+<ol style="list-style: decimal;">
+	<li class="p"><p style="margin-left: 0px;">Введите серийный номер, напечатанный на тыльной стороне токена OATH.</p></li>
+	<li class="p"><p style="margin-left: 0px;">Введите код, отображаемый на токене OATH.</p></li>
+	<li class="p"><p style="margin-left: 0px;">Нажмите кнопку <span style="font-weight: bold;">Проверить токен OATH</span>.<span></span></p></li>
+</ol>
+<p style="background-color: Transparent;">&#160;</p>
+<p>&#160;</p>
+<table style="vertical-align: top;" cellspacing="0" width="100%">
+	<col style="width: 33.828%;" />
+	<col style="width: 66.172%;" />
+	<tr style="vertical-align: top;">
+		<td style="border: Solid 1px #000000; width: 33.828%; padding-right: 10px; 
+			 padding-left: 10px;" bgcolor="#C0C0C0"><p style="font-weight: bold; 
+														 background-color: Transparent;">Компонент</p></td>
+		<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 66.172%; padding-right: 10px; 
+			 padding-left: 10px;" bgcolor="#C0C0C0"><p style="font-weight: bold; 
+														 background-color: Transparent;">Описание</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 33.828%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Метод</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 66.172%; padding-right: 10px; padding-left: 10px;"><p>Выберите один из следующих методов: телефонный вызов, текстовое сообщение, мобильное приложение или токен OATH. &#160;Если выбран способ, связанный с использованием телефонного вызова, пользователь получает телефонный вызов от сервера Multi-Factor Authentication с просьбой нажать кнопку #, ввести свой ПИН-год или зарегистрировать голосовой отпечаток. &#160;Если выбран способ, связанный с использованием SMS, пользователю будет направлено текстовое сообщение с одноразовым секретным кодом (OTP), требующее ответа в виде аналогичного кода OTP или кода OTP с указанием ПИН-кода. &#160;Если выбран способ, связанный с использованием мобильного приложения, то на мобильное приложение будет отправлено уведомление с запросом на проверку подлинности, которое может требовать от пользователя ввода ПИН-кода. &#160;Если выбран способ, связанный с использованием OATH-токена, то пользовательский портал выдаст пользователю запрос на ввод кода проверки подлинности.</p>
+		<p>&#160;</p>
+		<p><span style="font-weight: bold;">Примечание.</span> &#160;  Выбранный метод будет использоваться для доступа к приложениям, защищенным сервером Multi-Factor Authentication. &#160;Этот метод можно изменить в любой момент на странице <a href="Change_Mode.htm">Change Method</a> (Изменение метода).</p>
+		<p>&#160;</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 33.828%; padding-right: 10px; 
+			 padding-left: 10px;"><p>Код страны</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 66.172%; padding-right: 10px; padding-left: 10px;"><p>В раскрывающемся списке выберите код соответствующей страны. Если для учетной записи уже настроен номер телефона, то по умолчанию используется код страны для этого номера телефона. &#160;По умолчанию для США и Канады установлен код +1.</p>
+		<p>&#160;</p>
+		<p style="font-weight: bold;">Примечание. <span style="font-weight: normal;">Некоторые международные вызовы тарифицируются. &#160;Если системный администратор не реализовал поддержку этого варианта, то телефонные вызовы не будут совершаться на некоторые коды стран.</span></p>
+		<p style="font-weight: bold;">&#160;</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 33.828%; padding-right: 10px; 
+			 padding-left: 10px;"><p style="background-color: Transparent;">Телефон</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 66.172%; padding-right: 10px; padding-left: 10px;"><p>Введите номер телефона, на который сервер Multi-Factor Authentication сделает вызов или направит текстовое сообщение в ходе проверки подлинности. Этот номер может принадлежать мобильному телефону, настольному телефону или иному переговорному устройству. &#160;Это устройство должно представлять собой телефон с поддержкой приема и отправки SMS в режиме работы с SMS. &#160;Формат телефонного номера должен совпадать с форматом, выбранным в поле Country Code (Код страны).</p>
+		<p>&#160;</p>
+		<p><span style="font-weight: bold;">Пример</span>. Для телефонных номеров в США и Канаде необходимо ввести 10-значный номер телефона (например, 555-123-4567).</p>
+		<p style="background-color: Transparent;">&#160;</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 33.828%; padding-right: 10px; 
+			 padding-left: 10px;"><p style="background-color: Transparent;">Добавочный номер</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 66.172%; padding-right: 10px; padding-left: 10px;"><p 
+			 style="background-color: Transparent;">Введите добавочный номер, который будет набираться после ответа на звонок. &#160;Разрешены цифры, запятые, знаки "*" и "#". &#160;Запятые могут использоваться для секундной паузы при переходе по системным меню телефона. &#160;Это поле является необязательным.</p>
+		<p style="background-color: Transparent;">&#160;</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 33.828%; padding-right: 10px; 
+			 padding-left: 10px;"><p style="background-color: Transparent;">Код страны для резервного номера телефона</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 66.172%; padding-right: 10px; padding-left: 10px;"><p 
+			 style="background-color: Transparent;">Выберите код соответствующей страны для резервного номера телефона.</p>
+		<p style="background-color: Transparent;">&#160;</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 33.828%; padding-right: 10px; 
+			 padding-left: 10px;"><p style="background-color: Transparent;">Резервный номер телефона</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 66.172%; padding-right: 10px; padding-left: 10px;"><p 
+			 style="background-color: Transparent;">Введите номер телефона, на который Multi-Factor Authentication сделает вызов в случае, если по основному номеру телефона не будет получен ответ.</p>
+		<p style="background-color: Transparent;">&#160;</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 33.828%; padding-right: 10px; 
+			 padding-left: 10px;"><p style="background-color: Transparent;">Добавочный номер резервного телефона</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 66.172%; padding-right: 10px; padding-left: 10px;"><p 
+			 style="background-color: Transparent;">Введите добавочный номер для резервного телефона.</p>
+		<p style="background-color: Transparent;">&#160;</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 33.828%; padding-right: 10px; 
+			 padding-left: 10px;"><p style="background-color: Transparent;">ПИН-код</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 66.172%; padding-right: 10px; padding-left: 10px;"><p 
+			 style="background-color: Transparent;">Введите ПИН-код. &#160;Чтобы завершить проверку подлинности, этот ПИН-код необходимо будет вводить в мобильном приложении или в ходе каждого телефонного вызова для проверки подлинности совместно с одноразовым секретным кодом (OTP) в ответ на каждое SMS. &#160;Системный администратор мог настроить правила использования ПИН-кода, в частности, его минимальную длину.</p>
+		<p style="background-color: Transparent;">&#160;</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 33.828%; padding-right: 10px; 
+			 padding-left: 10px;"><p style="background-color: Transparent;">Серийный номер</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 66.172%; padding-right: 10px; padding-left: 10px;"><p 
+			 style="background-color: Transparent;">Введите серийный номер, напечатанный на тыльной стороне токена OATH.</p>
+		<p style="background-color: Transparent;">&#160;</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; 
+			 border-bottom: Solid 1px #000000; width: 33.828%; padding-right: 10px; 
+			 padding-left: 10px;"><p style="background-color: Transparent;">Код</p></td>
+		<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; 
+			 width: 66.172%; padding-right: 10px; padding-left: 10px;"><p 
+			 style="background-color: Transparent;">Введите код, отображаемый на токене OATH.</p>
+		<p style="background-color: Transparent;">&#160;</p></td>
+	</tr>
+</table>
+<p>&#160;</p>
+<p>Чтобы вернуться на страницу <a href="Log_In.htm">Вход</a>, нажмите кнопку <span  	 style="font-weight: bold;">Отмена</span>.</p>
+<p>&#160;</p>
+<hr style="color: #000000; background-color: #000000;" size="1" align="center" />
+<p style="font-size: 8pt; background-color: Transparent;">Портал пользователей Multi-Factor Authentication™</p>
+<p style="font-size: 8pt; background-color: Transparent;">Изменен: &#160;2014-06-23</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>
