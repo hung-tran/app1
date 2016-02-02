@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"utf-8\"?><cki><ck fm=\"#\" to=\"一\"/><ck fm=\"三\" to=\"功\"/><ck fm=\"加\" to=\"已\"/><ck fm=\"帳\" to=\"更\"/><ck fm=\"會\" to=\"目\"/><ck fm=\"相\" to=\"要\"/><ck fm=\"覆\" to=\"電\"/><ck fm=\"需\" to=\"？\"/></cki>";

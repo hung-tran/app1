@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName_UserPortal" xml:space="preserve">
+    <value>Kullanıcı Portalı</value>
+    <comment>Application name for Multi-Factor Authentications</comment>
+  </data>
+  <data name="Button_AuthenticateMeNow" xml:space="preserve">
+    <value>Kimliğimi Şimdi Doğrula</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_CallMeNowToAuthenticate" xml:space="preserve">
+    <value>Kimlik Doğrulaması İçin Beni Şimdi Ara</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_Next" xml:space="preserve">
+    <value>İleri</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_TextMeNowToAuthenticate" xml:space="preserve">
+    <value>Kimlik Doğrulamak İçin Bana Şimdi SMS Mesajı Gönder</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_VerifyOathToken" xml:space="preserve">
+    <value>OATH Belirtecini Doğrula</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Help_File" xml:space="preserve">
+    <value>help/tr/PhoneFactor_User_Portal.htm</value>
+    <comment>Localize as help/xx/PhoneFactor_User_Portal.htm where xx is langauge code (e.g. de for German, zh-hans for Simplified Chinese)</comment>
+  </data>
+  <data name="Label_AlternatePhoneOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication mobil uygulamasının kimlik doğrulaması kodlarını görüntülemek için mobil ağa veya WiFi'ye bağlı olması gerekmez.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_AlternatePhonePhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication mobil uygulaması WiFi üzerinden aynı derecede düzgün çalışır.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneSms" xml:space="preserve">
+    <value>Alternatif bir telefon numarası belirtmek için Telefon Numarasını Değiştir seçeneğini belirleyerek hesabınızda değişiklik yapabilirsiniz.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneVoice" xml:space="preserve">
+    <value>Sabit bir hat gibi alternatif bir telefon numarası belirtmek için Telefon Numarasını Değiştir seçeneğini belirleyerek hesabınızda değişiklik yapabilirsiniz.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_CannotChangeModeToPhoneApp" xml:space="preserve">
+    <value>Cihazınızda Multi-Factor Authentication mobil uygulamasını etkinleştirdikten sonra, uygulamayı kullanabilmeniz için yönteminin hesabınızda Mobil Uygulama olarak değişmesi gerekir.  Yönteminizi Mobil Uygulama olarak değiştirmek için yardım masasına başvurun.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_Disable" xml:space="preserve">
+    <value>Devre Dışı Bırak</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>Etkinleştir</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_FraudAlertPhoneApp" xml:space="preserve">
+    <value>Olayı bildirmek için, Multi-Factor Authentication mobil uygulamasında Reddet ve Sahtekarlık Bildir'e basın. Bu, şirketinizin BT güvenlik ekibine uyarı gönderir. Sorun çözümlenene kadar gelecekteki olası kimlik doğrulama girişimleri engellenir.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertSms" xml:space="preserve">
+    <value>Olayı bildirmek için, yanıtınıza sahtekarlık kodunu girin. Bu, şirketinizin BT güvenlik ekibinize uyarı gönderir. Sorun çözümlenene kadar gelecekteki olası kimlik doğrulama girişimleri engellenir.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertVoice" xml:space="preserve">
+    <value>Olayı bildirmek için, kimlik doğrulaması araması sırasında telefon menüsünden Sahtekarlık Uyarısı'nı seçin. Bu, şirketinizin BT güvenlik ekibinize uyarı gönderir. Sorun çözümlenene kadar gelecekteki olası kimlik doğrulama girişimleri engellenir.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_GenerateActivationCode" xml:space="preserve">
+    <value>Etkinleştirme Kodu Oluştur</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateActivationLink" xml:space="preserve">
+    <value>Etkinleştirme Bağlantısı Oluştur</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationCode" xml:space="preserve">
+    <value>Yeni Etkinleştirme Kodu Oluştur</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationLink" xml:space="preserve">
+    <value>Yeni Etkinleştirme Bağlantısı Oluştur</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication, oturum açma sırasında bir kimlik doğrulaması kodu isteyerek çalışır.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionPhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication, oturum açma sırasında Multi-Factor Authentication mobil uygulamanıza bir bildirim göndererek çalışır.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionSms" xml:space="preserve">
+    <value>Multi-Factor Authentication, oturum açma sırasında telefonunuza bir metin mesajı göndererek çalışır.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionVoice" xml:space="preserve">
+    <value>Multi-Factor Authentication, oturum açma sırasında telefonla bir onay araması yaparak çalışır.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsAdministrator" xml:space="preserve">
+    <value>Menüden Kullanıcı Bul'u seçerek kullanıcı hesaplarını yönetin.  Uygun seçeneği belirleyerek hesabınızı yönetin.  Yardım için Yardım Simgesini (sağ üstte) seçin.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication mobil uygulamasındaki bir kimlik doğrulama kodunu kullanarak kimlik doğrulaması gerçekleştirmek için &lt;b&gt;OATH Belirteci&lt;/b&gt; yöntemini seçin.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModePhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication mobil uygulamasını kullanarak kimlik doğrulaması gerçekleştirmek için &lt;b&gt;Mobil uygulama&lt;/b&gt; yöntemini seçin.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeSmsText" xml:space="preserve">
+    <value>Kimlik doğrulaması için bir mesaj almak üzere &lt;b&gt;Metin Mesajı&lt;/b&gt; yöntemini seçin.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeVoiceCall" xml:space="preserve">
+    <value>Kimlik doğrulaması için bir telefon almak üzere &lt;b&gt;Telefon Araması&lt;/b&gt; yöntemini seçin.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtp" xml:space="preserve">
+    <value>Doğrulamanızı tamamlamak için, kısa mesajla aldığınız bir kerelik geçiş kodunu girin.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtpPlusPin" xml:space="preserve">
+    <value>Doğrulamanızı tamamlamak için, PIN kodunuzun yanı sıra kısa mesajla aldığınız bir kerelik geçiş kodunu girin.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsFindUser" xml:space="preserve">
+    <value>Kullanıcı adının ilk birkaç karakterini girin ve Bul düğmesine tıklayın.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsOathToken" xml:space="preserve">
+    <value>Bu kullanıcının OATH belirteci kimlik doğrulamasını sınayın.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneApp" xml:space="preserve">
+    <value>Bu kullanıcının mobil uygulama kimlik doğrulamasını sınayın.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationIpWhitelist" xml:space="preserve">
+    <value>Etkinleştirme tamamlandıktan sonra, kurulum işlemine devam etmek için İleri'ye tıklayın.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationOathToken" xml:space="preserve">
+    <value>Etkinleştirme tamamlandıktan sonra, kimlik doğrulamasını sınamak için aşağıdaki düğmeye tıklayın ve kurulum işlemine devam edin.  Sorulduğunda, mobil uygulamada gösterilen geçerli kimlik doğrulaması kodunu girin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsSelectUser" xml:space="preserve">
+    <value>Listeden bir kullanıcı seçin veya farklı bir kullanıcı bulmak için Geri'yi seçin.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsSmsText" xml:space="preserve">
+    <value>Bu kullanıcının kısa mesaj kimlik doğrulamasını sınayın.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUnblockUser" xml:space="preserve">
+    <value>Engellemeyi kaldırma nedenini girin ve kullanıcının engelinin kaldırılmasını onaylayın.  Kullanıcının kimlik doğrulamaları artık engellenmeyecektir.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Label_InstructionsUserActivatePhoneApp" xml:space="preserve">
+    <value>Kullanıcının ilk olarak telefonuna Multi-Factor Authentication mobil uygulamasını yüklemesi gerekir.  Bir etkinleştirme kodu almak için Oluştur düğmesine tıklayın.  Etkinleştirme işlemini tamamlamak için kullanıcının mobil uygulamasında etkinleştirme kodu girilecektir.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserDeactivatePhoneApp" xml:space="preserve">
+    <value>Kullanıcı için cihazı devre dışı bırakmak için cihazın Devre dışı bırak bağlantısına tıklayın.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserEnable" xml:space="preserve">
+    <value>Kullanıcının etkinleştirmesini onaylayın, böylece oturum açtığında Multi-Factor Authentication aramaları almaya başlayabilir.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_InstructionsUserInformation" xml:space="preserve">
+    <value>Bu kullanıcı için yeni bilgiler belirtin.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Label_InstructionsUserLanguage" xml:space="preserve">
+    <value>Bu kullanıcının dil tercihini belirtin.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Label_InstructionsUserMode" xml:space="preserve">
+    <value>Bu kullanıcın yöntemini seçin.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathCode" xml:space="preserve">
+    <value>Kimlik doğrulamasını tamamlamak için, kullanıcının Multi-Factor Authentication mobil uygulamasında veya belirtecinde görünen geçerli etkinleştirme kodunu girin.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathToken" xml:space="preserve">
+    <value>Belirteci kullanıcıyla ilişkilendirmek için OATH belirteci seri numarasını ve belirteçte o anda görünen kodu girin.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Label_InstructionsUserOneTimeBypass" xml:space="preserve">
+    <value>Bu kullanıcının bir sonraki oturum açışında Multi-Factor Authentication'ı atlamak için bir kerelik geçişi onaylayın.  Geçiş geçicidir.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtp" xml:space="preserve">
+    <value>Kimlik doğrulamasını tamamlamak için, kullanıcının SMS mesajıyla aldığı bir kerelik geçiş kodunu girin.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtpPlusPin" xml:space="preserve">
+    <value>Kimlik doğrulamasını tamamlamak için, kullanıcının PIN kodunun yanı sıra SMS mesajıyla aldığı bir kerelik geçiş kodunu girin.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserPhone" xml:space="preserve">
+    <value>Bu kullanıcı için yeni bir telefon numarası belirtin.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Label_InstructionsUserPin" xml:space="preserve">
+    <value>Bu kullanıcı için yeni bir PIN kodu belirtin.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Label_InstructionsUserResetVoiceprint" xml:space="preserve">
+    <value>Kullanıcının ses izinin sıfırlanmasını onaylayın.  Kullanıcının bir sonraki kimlik doğrulaması aramasında yeni bir ses izi kaydetmesi gerekecektir.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathToken" xml:space="preserve">
+    <value>Hesabınızın Multi-Factor Authentication'ını OATH Belirteci yöntemini kullanarak etkinleştirmek için, belirteci hesabınızla ilişkilendirmek üzere OATH belirtecinin arkasındaki seri numarasını ve belirteç üzerinde gösterilen geçerli kodu girin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathTokenPhoneApp" xml:space="preserve">
+    <value>Hesabınızın Multi-Factor Authentication'ını OATH belirteci yöntemini kullanarak etkinleştirmek için, önce telefonunuza Multi-Factor Authentication uygulamasını yüklemeniz, sonra bir etkinleştirme kodu almak için aşağıdaki Oluştur düğmesine tıklamanız gerekir.  Etkinleştirme kodu, etkinleştirme işlemini tamamlamak için mobil uygulamaya girilir.  Etkinleştirme kodunun süresi 10 dakika içinde dolar.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPhoneApp" xml:space="preserve">
+    <value>Hesabınızın Multi-Factor Authentication'ını mobil uygulamayı kullanarak etkinleştirmek için önce Multi-Factor Authentication uygulamasını telefonunuza yüklemeniz, sonra bir etkinleştirme kodu almak için aşağıdaki Oluştur düğmesine tıklamanız gerekir.  Etkinleştirme kodu, etkinleştirme işlemini tamamlamak için mobil uygulamaya girilir.  Etkinleştirme kodunun süresi 10 dakika içinde dolar.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPin" xml:space="preserve">
+    <value>Hesabınız için Multi-Factor Authentication'ı etkinleştirmek üzere, lütfen kimlik doğrulaması için kullanacağınız telefon numarasını ve bir PIN kodu belirtin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtp" xml:space="preserve">
+    <value>Hesabınız için Multi-Factor Authentication'ı etkinleştirmek üzere, lütfen kimlik doğrulaması için kullanacağınız telefon numarasını belirtin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Hesabınız için Multi-Factor Authentication'ı etkinleştirmek üzere, lütfen kimlik doğrulaması için kullanacağınız telefon numarasını ve bir PIN kodu belirtin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtp" xml:space="preserve">
+    <value>Hesabınız için Multi-Factor Authentication'ı etkinleştirmek üzere, lütfen kimlik doğrulaması için kullanacağınız telefon numarasını belirtin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Hesabınız için Multi-Factor Authentication'ı etkinleştirmek üzere, lütfen kimlik doğrulaması için kullanacağınız telefon numarasını ve bir PIN kodu belirtin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupStandard" xml:space="preserve">
+    <value>Hesabınız için Multi-Factor Authentication'ı etkinleştirmek üzere, lütfen kimlik doğrulaması için kullanacağınız telefon numarasını belirtin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication uygulamasını telefonunuzda etkinleştirmek ve mobil uygulamanın sağladığı kimlik doğrulaması kodlarını kullanarak bir kimlik doğrulamasını sınamak için aşağıdaki yönergeleri izleyin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication uygulamasını telefonunuzda etkinleştirmek ve mobil uygulamayı kullanarak bir kimlik doğrulamasını sınamak için aşağıdaki yönergeleri izleyin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePin" xml:space="preserve">
+    <value>Bu adımı tamamlamak için, Multi-Factor Authentication girdiğiniz numarayı arar. Kimlik doğrulaması yapmak için, PIN kodunuzu girin ve ardından # tuşuna basın.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtp" xml:space="preserve">
+    <value>Bu adımı tamamlamak için, Multi-Factor Authentication girdiğiniz numaraya metin mesajı şeklinde bir kerelik bir geçiş kodu gönderir. Kimlik doğrulaması yapmak için, istendiğinde bir kerelik geçiş kodunu girin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Bu adımı tamamlamak için, Multi-Factor Authentication girdiğiniz numaraya metin mesajı şeklinde bir kerelik bir geçiş kodu gönderir. Kimlik doğrulaması yapmak için, PIN kodunuzun yanı sıra istendiğinde bu bir kerelik geçiş kodunu girin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtp" xml:space="preserve">
+    <value>Bu adımı tamamlamak için, Multi-Factor Authentication, girdiğiniz numaraya bir kerelik bir geçiş kodu gönderecektir. Kimlik doğrulaması yapmak için metin mesajına bir kerelik geçiş koduyla yanıt verin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Bu adımı tamamlamak için, Multi-Factor Authentication, girdiğiniz numaraya bir kerelik bir geçiş kodu gönderecektir. Kimlik doğrulaması yapmak için metin mesajına PIN kodunuzun yanı sıra bir kerelik geçiş koduyla yanıt verin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteStandard" xml:space="preserve">
+    <value>Bu adımı tamamlamak için, Multi-Factor Authentication girdiğiniz numarayı arayacaktır. Telefonu yanıtlayın ve kimlik doğrulaması yapmak için # tuşuna basın.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteVoiceprint" xml:space="preserve">
+    <value>Bu adımı tamamlamak için, Multi-Factor Authentication girdiğiniz numarayı arayacaktır. Bir ses izi parolası kaydetmek için yönergeleri izleyin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupVoiceprint" xml:space="preserve">
+    <value>Hesabınız için Multi-Factor Authentication'ı etkinleştirmek üzere, lütfen kimlik doğrulaması için kullanacağınız telefon numarasını belirtin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserStaticToken" xml:space="preserve">
+    <value>Bu kullanıcı için yeni bir statik belirteç girin.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Label_MessageOathToken" xml:space="preserve">
+    <value>Hesabınız Multi-Factor Authentication'ı kullanacak şekilde yapılandırıldı.&lt;br/&gt;&lt;br/&gt;
+Oturum açtığınızda, aynı kullanıcı adı ve parolayı kullanmaya devam edeceksiniz.  Doğrulamanız tamamlanmadan önce, oturum açma işleminizi tamamlamanız için uygulama tarafından Multi-Factor Authentication mobil uygulamasındaki veya belirteçteki geçerli kimlik doğrulama kodunu girmeniz istenir. Geçerli kimlik doğrulama kodunu girmezseniz, oturum açma isteği reddedilecektir.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppPin" xml:space="preserve">
+    <value>Hesabınız Multi-Factor Authentication'ı kullanacak şekilde yapılandırıldı.&lt;br/&gt;&lt;br/&gt;
+Oturum açtığınızda, aynı kullanıcı adı ve parolayı kullanmaya devam edeceksiniz.  Doğrulamanız tamamlanmadan önce,
+oturum açmanızı onaylamanız için Multi-Factor Authentication mobil uygulamasını başlatmanızı ve PIN kodunuzu girmenizi isteyen bir bildirim alacaksınız.  PIN kodunuzu girip # tuşuna basarak oturum açmanızı onaylamazsanız, oturum açma isteğiniz reddedilecektir.&lt;br/&gt;&lt;br/&gt;
+O anda uygulamada oturum açıyorsanız, yalnızca Multi-Factor Authentication mobil uygulaması bildirimini aldığınız zaman PIN kodunuzu girmeniz gerekir.  Aksi halde, bir başkası kullanıcı adı ve parolanızı kullanarak oturum açmayı deniyor olabilir; bu olası sahtekarlığı BT yöneticinize bildirmelisiniz.&lt;br/&gt;&lt;br/&gt;PIN kodunuzu değiştirmek için istediğiniz zaman Multi-Factor Authentication portalına geri dönebilirsiniz.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppStandard" xml:space="preserve">
+    <value>Hesabınız Multi-Factor Authentication'ı kullanacak şekilde yapılandırıldı.&lt;br/&gt;&lt;br/&gt;
+Oturum açtığınızda, aynı kullanıcı adı ve parolayı kullanmaya devam edeceksiniz.  Doğrulamanız tamamlanmadan önce,
+oturum açmanızı onaylamanız için Multi-Factor Authentication mobil uygulamasını başlatmanızı ve Kimlik Doğrulaması Yap düğmesine basmanızı isteyen bir bildirim alacaksınız.  Kimlik Doğrulaması Yap düğmesine basarak oturum açmanızı onaylamazsanız, oturum açma isteği reddedilir.&lt;br/&gt;&lt;br/&gt;
+O anda uygulamada oturum açıyorsanız, yalnızca Multi-Factor Authentication mobil uygulaması bildirimini aldığınız zaman Kimlik Doğrulaması Yap düğmesine basmanız gerekir.  Aksi halde, bir başkası kullanıcı adı ve parolanızı kullanarak oturum açmayı deniyor olabilir; bu olası sahtekarlığı BT yöneticinize bildirmelisiniz.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppVoiceprint" xml:space="preserve">
+    <value>Hesabınız Multi-Factor Authentication'ı kullanacak şekilde yapılandırıldı.&lt;br/&gt;&lt;br/&gt;
+Oturum açtığınızda, aynı kullanıcı adı ve parolayı kullanmaya devam edeceksiniz.  Doğrulamanız tamamlanmadan önce,
+oturum açmanızı onaylamanız için Multi-Factor Authentication mobil uygulamasını başlatmanızı ve ardından parolanızı söylemenizi isteyen bir bildirim alacaksınız.  Parolanızı söyleyerek oturum açmanızı onaylamazsanız, oturum açma isteği reddedilir.&lt;br/&gt;&lt;br/&gt;
+O anda uygulamada oturum açıyorsanız, yalnızca Multi-Factor Authentication mobil uygulaması bildirimini aldığınız zaman parolanızı söylemeniz gerekir.  Aksi halde, bir başkası kullanıcı adı ve parolanızı kullanarak oturum açmayı deniyor olabilir; bu olası sahtekarlığı BT yöneticinize bildirmelisiniz.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePin" xml:space="preserve">
+    <value>Hesabınız Multi-Factor Authentication'ı kullanacak şekilde yapılandırıldı.&lt;br/&gt;&lt;br/&gt;
+Oturum açtığınızda, aynı kullanıcı adı ve parolayı kullanmaya devam edeceksiniz.  Doğrulamanız tamamlanmadan önce,
+oturum açmanızı onaylamanız için PIN kodunuzu girip ardından kare tuşuna (#) basmanızı isteyen bir telefon araması alacaksınız.  PIN kodunuzu girip # tuşuna basmazsanız,
+oturum açma isteği reddedilir.&lt;br/&gt;&lt;br/&gt;
+O anda uygulamada oturum açıyorsanız, yalnızca Multi-Factor Authentication araması gerçekleştiğinde PIN kodunuzu girmeniz gerekir.
+Aksi halde, bir başkası kullanıcı adı ve parolanızı kullanarak oturum açmayı deniyor olabilir; bu
+olası sahtekarlığı BT yöneticinize bildirmelisiniz.&lt;br/&gt;&lt;br/&gt;
+Telefon numaranızı veya PIN kodunuzu değiştirmek için istediğiniz zaman Multi-Factor Authentication portalına geri dönebilirsiniz.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtp" xml:space="preserve">
+    <value>Hesabınız Multi-Factor Authentication'ı kullanacak şekilde yapılandırıldı.&lt;br/&gt;&lt;br/&gt;
+Oturum açtığınızda, aynı kullanıcı adı ve parolayı kullanmaya devam edeceksiniz.  Doğrulamanız tamamlanmadan önce,
+bir kerelik geçiş kodu içeren bir metin mesajı alacaksınız.  Uygulama tarafından istendiğinde bu geçiş kodunu girin.
+Doğru geçiş kodunu girmezseniz, oturum açma isteği reddedilir.&lt;br/&gt;&lt;br/&gt;
+Telefon numaranızı değiştirmek için istediğiniz zaman Multi-Factor Authentication portalına geri dönebilirsiniz.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Hesabınız Multi-Factor Authentication'ı kullanacak şekilde yapılandırıldı.&lt;br/&gt;&lt;br/&gt;
+Oturum açtığınızda, aynı kullanıcı adı ve parolayı kullanmaya devam edeceksiniz.  Doğrulamanız tamamlanmadan önce,
+bir kerelik geçiş kodu içeren bir metin mesajı alacaksınız.  Uygulama tarafından istendiğinde bu geçiş kodunu ve PIN kodunuzu girin.
+Doğru geçiş kodunu ve PIN kodunu girmezseniz, oturum açma isteği reddedilir.&lt;br/&gt;&lt;br/&gt;
+Telefon numaranızı veya PIN kodunuzu değiştirmek için istediğiniz zaman Multi-Factor Authentication portalına geri dönebilirsiniz.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtp" xml:space="preserve">
+    <value>Hesabınız Multi-Factor Authentication'ı kullanacak şekilde yapılandırıldı.&lt;br/&gt;&lt;br/&gt;
+Oturum açtığınızda, aynı kullanıcı adı ve parolayı kullanmaya devam edeceksiniz.  Doğrulamanız tamamlanmadan önce,
+bir kerelik geçiş kodu içeren bir metin mesajı alacaksınız.  Metin mesajına bu geçiş koduyla yanıt verin.
+Doğru geçiş koduyla yanıt vermezseniz, oturum açma isteği reddedilir.&lt;br/&gt;&lt;br/&gt;
+O anda uygulamada oturum açıyorsanız, yalnızca Multi-Factor Authentication metin mesajını aldığınızda mesaja yanıt vermeniz gerekir.
+Aksi halde, bir başkası kullanıcı adı ve parolanızı kullanarak oturum açmayı deniyor olabilir; bu
+olası sahtekarlığı BT yöneticinize bildirmelisiniz.&lt;br/&gt;&lt;br/&gt;
+Telefon numaranızı veya PIN kodunuzu değiştirmek için istediğiniz zaman Multi-Factor Authentication portalına geri dönebilirsiniz.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Hesabınız Multi-Factor Authentication'ı kullanacak şekilde yapılandırıldı.&lt;br/&gt;&lt;br/&gt;
+Oturum açtığınızda, aynı kullanıcı adı ve parolayı kullanmaya devam edeceksiniz.  Doğrulamanız tamamlanmadan önce,
+bir kerelik geçiş kodu içeren bir metin mesajı alacaksınız.  Metin mesajına bu geçiş kodu ve PIN kodunuzla yanıt verin.
+Doğru geçiş kodu ve PIN koduyla yanıt vermezseniz, oturum açma isteği reddedilir.&lt;br/&gt;&lt;br/&gt;
+O anda uygulamada oturum açıyorsanız, yalnızca Multi-Factor Authentication metin mesajını aldığınızda mesaja yanıt vermeniz gerekir.
+Aksi halde, bir başkası kullanıcı adı ve parolanızı kullanarak oturum açmayı deniyor olabilir; bu
+olası sahtekarlığı BT yöneticinize bildirmelisiniz.&lt;br/&gt;&lt;br/&gt;
+Telefon numaranızı veya PIN kodunuzu değiştirmek için istediğiniz zaman Multi-Factor Authentication portalına geri dönebilirsiniz.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageStandard" xml:space="preserve">
+    <value>Hesabınız Multi-Factor Authentication'ı kullanacak şekilde yapılandırıldı.&lt;br/&gt;&lt;br/&gt;
+Oturum açtığınızda, aynı kullanıcı adı ve parolayı kullanmaya devam edeceksiniz.  Doğrulamanız tamamlanmadan önce,
+oturum açmanızı onaylamak için kare tuşuna (#) basmanızı isteyen bir telefon araması alacaksınız.  # tuşuna basarak oturum açmanızı onaylamazsanız,
+oturum açma isteği reddedilir.&lt;br/&gt;&lt;br/&gt;
+O anda uygulamada oturum açıyorsanız, yalnızca Multi-Factor Authentication araması gerçekleştiğinde # tuşuna basmanız gerekir.
+Aksi halde, bir başkası kullanıcı adı ve parolanızı kullanarak oturum açmayı deniyor olabilir; bu
+olası sahtekarlığı BT yöneticinize bildirmelisiniz.&lt;br/&gt;&lt;br/&gt;
+Telefon numaranızı değiştirmek için istediğiniz zaman Multi-Factor Authentication portalına geri dönebilirsiniz.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageVoiceprint" xml:space="preserve">
+    <value>Hesabınız Multi-Factor Authentication'ı kullanacak şekilde yapılandırıldı.&lt;br/&gt;&lt;br/&gt;
+Oturum açtığınızda, aynı kullanıcı adı ve parolayı kullanmaya devam edeceksiniz.  Doğrulamanız tamamlanmadan önce,
+oturum açmanızı onaylamak için parolanızı söylemenizi isteyen bir telefon araması alacaksınız.  Parolanızı söyleyerek oturum açmanızı onaylamazsanız,
+oturum açma isteği reddedilir.&lt;br/&gt;&lt;br/&gt;
+O anda uygulamada oturum açıyorsanız, yalnızca Multi-Factor Authentication araması gerçekleştiğinde parolanızı söylemeniz gerekir.
+Aksi halde, bir başkası kullanıcı adı ve parolanızı kullanarak oturum açmayı deniyor olabilir; bu
+olası sahtekarlığı BT yöneticinize bildirmelisiniz.&lt;br/&gt;&lt;br/&gt;
+Telefon numaranızı değiştirmek için istediğiniz zaman Multi-Factor Authentication portalına geri dönebilirsiniz.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MustChangeModeToPhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication mobil uygulamasını cihazınızda etkinleştirdikten sonra, yönteminizi Mobil Uygulama olarak değiştirmeniz gerekir.  Uygulamayı kullanmaya başlamak için gezinti menüsünde Yöntemi Değiştir'e tıklayın ve Mobil Uygulama yöntemini belirtin.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_MustChangeUserToPhoneAppMode" xml:space="preserve">
+    <value>Kullanıcılar Multi-Factor Authentication mobil uygulamasını cihazlarında etkinleştirdikten sonra, uygulamayı kullanabilmeleri için yöntemlerini Mobil Uygulama olarak değiştirmeniz gerekir.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerPhoneApp" xml:space="preserve">
+    <value>Bu yalnızca birisi hesabınızda oturum açmaya çalışıyorsa ve parolanızı biliyorsa gerçekleşir. Unutmayın, Multi-Factor Authentication mobil uygulamasının bildirimleri yalnızca kullanıcı adı ve parola doğrulandıktan sonra gönderilir. Bu nedenle, bu gerçekleşiyorsa Multi-Factor Authentication hesabınızı yetki dışı erişim nedeniyle kayıt altına almıştır!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerSms" xml:space="preserve">
+    <value>Bu yalnızca birisi hesabınızda oturum açmaya çalışıyorsa ve parolanızı biliyorsa gerçekleşir. Unutmayın, metin mesajları yalnızca kullanıcı adı ve parola doğrulandıktan sonra gönderilir. Bu nedenle, bu gerçekleşiyorsa Multi-Factor Authentication hesabınızı yetki dışı erişim nedeniyle kayıt altına almıştır!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerVoice" xml:space="preserve">
+    <value>Bu yalnızca birisi hesabınızda oturum açmaya çalışıyorsa ve parolanızı biliyorsa gerçekleşir. Unutmayın, telefon aramaları yalnızca kullanıcı adı ve parola doğrulandıktan sonra gönderilir. Bu nedenle, bu gerçekleşiyorsa Multi-Factor Authentication hesabınızı yetki dışı erişim nedeniyle kayıt altına almıştır!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionPhoneApp" xml:space="preserve">
+    <value>Oturum açmaya çalışmazken bir Multi-Factor Authentication mobil uygulaması bildirimi alırsam ne olur?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionSms" xml:space="preserve">
+    <value>Oturum açmaya çalışmazken Multi-Factor Authentication'dan bir metin mesajı alırsam ne olur?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionVoice" xml:space="preserve">
+    <value>Oturum açmaya çalışmazken Multi-Factor Authentication'dan bir telefon araması alırsam ne olur?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassOathToken" xml:space="preserve">
+    <value>Ayrıca, şirketiniz de bir kimlik doğrulama kodu istenmeden bir kerelik oturum açmanızı sağlayan Bir Kerelik Geçiş seçeneği sağlar. Bu özelliğe erişmek için Bir Kerelik Geçiş seçeneğini belirleyin. İsterseniz, yardım için herhangi bir telefondan destek yardım masasını arayın.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_OneTimeBypassPhoneApp" xml:space="preserve">
+    <value>Ayrıca, şirketiniz de Multi-Factor Authentication mobil uygulamasının bildirimleri olmaksızın bir kerelik oturum açmanızı sağlayan Bir Kerelik Geçiş seçeneği sağlar. Bu özelliğe erişmek için Bir Kerelik Geçiş seçeneğini belirleyin. İsterseniz, yardım için herhangi bir telefondan destek yardım masasını arayın.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassSms" xml:space="preserve">
+    <value>Şirketiniz bir metin mesajı olmaksızın bir kerelik oturum açmanızı sağlayan Bir Kerelik Geçiş seçeneği sağlar. Bu özelliğe erişmek için Bir Kerelik Geçiş seçeneğini belirleyin. İsterseniz, yardım için herhangi bir telefondan destek yardım masasını arayın.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassVoice" xml:space="preserve">
+    <value>Şirketiniz bir telefon araması olmaksızın bir kerelik oturum açmanızı sağlayan Bir Kerelik Geçiş seçeneği sağlar. Bu özelliğe erişmek için Bir Kerelik Geçiş seçeneğini belirleyin. İsterseniz, yardım için herhangi bir telefondan destek yardım masasını arayın.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtp" xml:space="preserve">
+    <value>Bir kerelik geçiş kodu</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtpPlusPin" xml:space="preserve">
+    <value>bir kerelik geçiş kodu + PIN</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_SimpleProcessOathToken" xml:space="preserve">
+    <value>Bu basit işlem, sahip olduğunuz başka bir cihaz tarafından (akıllı telefonunuz veya bir belirteç) tarafından sağlanan ikincil bir kimlik doğrulamasıyla iki öğeli bir kimlik doğrulama sunar.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_SimpleProcessPhoneApp" xml:space="preserve">
+    <value>Bu basit işlem, iki farklı kanal (bilgisayarınız veya akıllı telefonunuz) üzerinden iki öğeli bir kimlik doğrulama sunar.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessSms" xml:space="preserve">
+    <value>Bu basit işlem, iki farklı kanal (bilgisayarınız veya telefon servisiniz) üzerinden iki öğeli bir kimlik doğrulama sunar. Mesaj alabilen tüm telefonlarla çalışır.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessVoice" xml:space="preserve">
+    <value>Bu basit işlem, iki farklı kanal (bilgisayarınız veya telefon servisiniz) üzerinden iki öğeli bir kimlik doğrulama sunar. Tüm sabit telefonlarla veya cep telefonlarıyla çalışır.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionOathToken" xml:space="preserve">
+    <value>Hemen bir kimlik doğrulaması yapmanız isteniyor.  Multi-Factor Authentication mobil uygulamasında veya belirteçte o anda görüntülenen kimlik doğrulama kodunu girin.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppPin" xml:space="preserve">
+    <value>Hemen bir Multi-Factor Authentication mobil uygulaması bildirimi alıyorsunuz.  Uygulamayı başlatın, PIN kodunuzu girin ve Kimlik Doğrulaması Yap düğmesine basın.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppStandard" xml:space="preserve">
+    <value>Hemen bir Multi-Factor Authentication mobil uygulaması bildirimi alıyorsunuz.  Uygulamayı başlatın ve ardından Kimlik Doğrulaması Yap düğmesine basın.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppVoiceprint" xml:space="preserve">
+    <value>Hemen bir Multi-Factor Authentication mobil uygulaması bildirimi alıyorsunuz.  Uygulamayı başlatın ve ardından istendiğinde parolanızı söyleyin.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPin" xml:space="preserve">
+    <value>Hemen bir telefon araması alıyorsunuz. Yanıtlayın, PIN kodunuzu girin ve # tuşuna basın.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtp" xml:space="preserve">
+    <value>Hemen bir kerelik geçiş kodu içeren bir metin mesajı alıyorsunuz. Uygulama tarafından istendiğinde bu geçiş kodunu girin.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Hemen bir kerelik geçiş kodu içeren bir metin mesajı alıyorsunuz. Uygulama tarafından istendiğinde bu geçiş kodunu ve PIN kodunuzu girin.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtp" xml:space="preserve">
+    <value>Hemen bir kerelik geçiş kodu içeren bir metin mesajı alıyorsunuz. Mesaja bu geçiş koduyla yanıt verin.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Hemen bir kerelik geçiş kodu içeren bir metin mesajı alıyorsunuz. Mesaja bu geçiş kodu ve PIN kodunuzla yanıt verin.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionStandard" xml:space="preserve">
+    <value>Hemen bir telefon araması alıyorsunuz. Yanıtlayın ve  # tuşuna basın.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionVoiceprint" xml:space="preserve">
+    <value>Hemen bir telefon araması alıyorsunuz. Yanıtlayın ve sinyal sesiyle birlikte parolanızı söyleyin.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_TitleWithColon" xml:space="preserve">
+    <value>{0}:</value>
+    <comment>Page header on most pages</comment>
+  </data>
+  <data name="Label_UnblockReason" xml:space="preserve">
+    <value>Engellemenin Kaldırılma Nedeni</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_AccountConfigurationComplete" xml:space="preserve">
+    <value>Hesap Yapılandırması Tamamlandı</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Message_AnswerRequired" xml:space="preserve">
+    <value>En az bir güvenlik sorusuna yanıt vermeniz gerekir.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AnswerSecurityQuestions" xml:space="preserve">
+    <value>Oturum açmak için lütfen güvenlik sorunuza yanıt verin.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AnswersIncorrect" xml:space="preserve">
+    <value>Bir veya daha fazla yanıtınız yanlış.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AuthenticationDenied" xml:space="preserve">
+    <value>Multi-Factor Authentication reddedildi.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedAnswerSecurityQuestions" xml:space="preserve">
+    <value>Multi-Factor Authentication reddedildi.  Oturum açmak için lütfen güvenlik sorularınızı yanıtlayın.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedCallResult" xml:space="preserve">
+    <value>Multi-Factor Authentication reddedildi: {0}</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_AuthenticationSuccessful" xml:space="preserve">
+    <value>Multi-Factor Authentication başarılı.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_BypassSecondsNumeric" xml:space="preserve">
+    <value>Geçiş Süresi (sn) sayısal olmalıdır.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRange" xml:space="preserve">
+    <value>Geçiş Süresi (sn), 5 ila 1800 (30 dakika) arasında olmalıdır.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRequired" xml:space="preserve">
+    <value>Geçiş Süresi (sn) gerekli.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_CannotActivateDevice" xml:space="preserve">
+    <value>Yönteminizi Mobil Uygulama olarak değiştirebilmeniz için hesabınızın bir cihazda etkinleştirilmiş Multi-Factor Authentication mobil uygulamasıyla ilişkilendirilmesi gerekiyor.  Multi-Factor Authentication mobil uygulamasını cihazınızda etkinleştirmeyle ilgili yardım için yardım masasına başvurun.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotEstablishWebServiceSdkConnection" xml:space="preserve">
+    <value>Multi-Factor Authentication Kullanıcı Portalı, Web Hizmeti SDK: {0} ile güvenli bir bağlantı kuramıyor</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_CannotGetOathToken" xml:space="preserve">
+    <value>Yönteminizi OATH Belirteci olarak değiştirebilmeniz için hesabınızın bir cihazda etkinleştirilmiş Multi-Factor Authentication mobil uygulamasıyla veya bir OATH belirteciyle ilişkilendirilmesi gerekiyor.  Multi-Factor Authentication mobil uygulamasını cihazınızda etkinleştirmeyle veya atanmış bir OATH belirteci almayla ilgili yardım için yardım masasına başvurun.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Yönteminizi Metin Mesajı olarak değiştirebilmeniz için hesabınızda atanmış bir telefon numarası olması gerekir.  Hesabınıza bir telefon numarası atamayla ilgili yardım için yardım masanıza başvurun.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Yönteminizi Telefon Araması olarak değiştirebilmeniz için hesabınızda atanmış bir telefon numarası olması gerekir.  Hesabınıza bir telefon numarası atamayla ilgili yardım için yardım masanıza başvurun.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeOathTokenIncomplete" xml:space="preserve">
+    <value>Not: Kullanıcı Multi-Factor Authentication mobil uygulamasını cihazında etkinleştirmemiş veya üçüncü taraf bir OATH belirtecine atanmış ancak OATH Belirteci yöntemi için tamamlanmamış görülüyor.  Korumalı uygulamalara yapılan kimlik doğrulamaları bu kullanıcı için başarısız olacak ve Kullanıcı Portalı'nda gerçekleşen oturum açmalar yeniden kaydedilmesini gerektirecek.  Kullanıcıyla iletişim kurarak Multi-Factor Authentication mobil uygulamasını etkinleştirmesinde yardımcı olmanız ya da üçüncü parti bir OATH belirteci atamanız veya dağıtmanız önerilir.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModePhoneAppIncomplete" xml:space="preserve">
+    <value>Not: Kullanıcı Multi-Factor Authentication mobil uygulamasını cihazında etkinleştirmemiş ve Mobil Uygulama yöntemi için tamamlanmamış olarak görülüyor.  Korumalı uygulamalara yapılan kimlik doğrulamaları bu kullanıcı için başarısız olacak ve Kullanıcı Portalı'nda gerçekleşen oturum açmalar yeniden kaydedilmesini gerektirecek.  Kullanıcıyla iletişim kurarak Multi-Factor Authentication mobil uygulamasını etkinleştirmesinde yardımcı olmanız önerilir.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeSmsTextIncomplete" xml:space="preserve">
+    <value>Not: Kullanıcının belirtilmiş bir telefon numarası yok ve Metin Mesajı yöntemi için tamamlanmamış olarak görülüyor.  Korumalı uygulamalara yapılan kimlik doğrulamaları bu kullanıcı için başarısız olacak ve Kullanıcı Portalı'nda gerçekleşen oturum açmalar yeniden kaydedilmesini gerektirecek.  Kullanıcının yeniden kaydolmadan korumalı uygulamaları kullanmaya devam edebilmesi için kullanıcı için bir telefon numarası belirtmeniz önerilir.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeVoiceCallIncomplete" xml:space="preserve">
+    <value>Not: Kullanıcının belirtilmiş bir telefon numarası yok ve Telefon Araması yöntemi için tamamlanmamış olarak görülüyor.  Korumalı uygulamalara yapılan kimlik doğrulamaları bu kullanıcı için başarısız olacak ve Kullanıcı Portalı'nda gerçekleşen oturum açmalar yeniden kaydedilmesini gerektirecek.  Kullanıcının yeniden kaydolmadan korumalı uygulamaları kullanmaya devam edebilmesi için kullanıcı için bir telefon numarası belirtmeniz önerilir.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CodeRequired" xml:space="preserve">
+    <value>Kod gereklidir.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_CodeRequiredCross" xml:space="preserve">
+    <value>Seri numarası belirtildiğinde kod gerekir.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ConfirmDeactivate" xml:space="preserve">
+    <value>Bu cihazı kalıcı olarak devre dışı bırakmak istediğinizden emin misiniz?</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceDeactivated" xml:space="preserve">
+    <value>Cihaz devre dışı bırakıldı.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceLimit" xml:space="preserve">
+    <value>Hesabınız {0} cihaz sınırında.  Yeni bir cihaz etkinleştirmeden önce mevcut birini devre dışı bırakmanız gerekiyor.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DuplicateAnswer" xml:space="preserve">
+    <value>Yinelenen yanıt kullanılamaz.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateQuestion" xml:space="preserve">
+    <value>Yinelenen soru kullanılamaz.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateUsername" xml:space="preserve">
+    <value>Yinelenen kullanıcı adı.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUser" xml:space="preserve">
+    <value>Kullanıcı eklenirken hata.&lt;br/&gt;{0}</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUserForPassedSession" xml:space="preserve">
+    <value>Geçilen oturum için kullanıcı eklenirken hata.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithLocal" xml:space="preserve">
+    <value>Yerel Multi-Factor Authentication hizmetiyle iletişi kurulurken hata.  Lütfen yöneticinize başvurun.</value>
+    <comment>Most pages when connection to local server is lost</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithMaster" xml:space="preserve">
+    <value>Ana Multi-Factor Authentication hizmetiyle iletişim kurulurken hata.  Lütfen yöneticinize başvurun.</value>
+    <comment>Most pages when connection to master server is lost</comment>
+  </data>
+  <data name="Message_ErrorDeactivatingDevice" xml:space="preserve">
+    <value>Cihaz devre dışı bırakılırken hata.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorDisablingUser" xml:space="preserve">
+    <value>Kullanıcı devre dışı bırakılırken hata.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorEnablingUser" xml:space="preserve">
+    <value>Kullanıcı etkinleştirilirken hata.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorFindingUsers" xml:space="preserve">
+    <value>Kullanıcı bulunurken hata.&lt;br/&gt;{0}</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_ErrorGeneratingActivationCode" xml:space="preserve">
+    <value>Etkinleştirme kodu oluşturulurken hata.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorIssuingOneTimeBypass" xml:space="preserve">
+    <value>Bir kerelik geçiş verilirken hata.  Lütfen yöneticinize başvurun .&lt;br/&gt;{0}</value>
+    <comment>one_time_bypass and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorRemovingUser" xml:space="preserve">
+    <value>Kullanıcı kaldırılırken hata.&lt;br/&gt;{0}</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_ErrorResettingMode" xml:space="preserve">
+    <value>Yöntem sıfırlanırken hata.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPhone" xml:space="preserve">
+    <value>Telefon sıfırlanırken hata.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPin" xml:space="preserve">
+    <value>PIN kodu sıfırlanırken hata.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingVoiceprint" xml:space="preserve">
+    <value>Ses izi sıfırlanırken hata.  Lütfen yöneticinize başvurun.&lt;br/&gt;{0}</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingLanguage" xml:space="preserve">
+    <value>Dil güncelleştirilirken hata.&lt;br/&gt;{0}</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingMode" xml:space="preserve">
+    <value>Yöntem güncelleştirilirken hata.&lt;br/&gt;{0}</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhone" xml:space="preserve">
+    <value>Telefon güncelleştirilirken hata.&lt;br/&gt;{0}</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhoneAppMode" xml:space="preserve">
+    <value>Mobil uygulama modu güncelleştirilirken hata.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPin" xml:space="preserve">
+    <value>PIN kodu güncelleştirilirken hata.&lt;br/&gt;{0}</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSecurityQuestions" xml:space="preserve">
+    <value>Güvenlik soruları güncelleştirilirken hata.&lt;br/&gt;{0}</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSmsTextMode" xml:space="preserve">
+    <value>Metin mesajı modu güncelleştirilirken hata.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingStaticToken" xml:space="preserve">
+    <value>Statik belirteç güncelleştirilirken hata.&lt;br/&gt;{0}</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserForSecurityQuestionSetup" xml:space="preserve">
+    <value>Güvenlik sorusu kurulumu için kullanıcı güncelleştirilirken hata.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserInformation" xml:space="preserve">
+    <value>Kullanıcı bilgileri güncelleştirilirken hata.&lt;br/&gt;{0}</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingVoiceCallMode" xml:space="preserve">
+    <value>Telefon araması modu güncelleştirilirken hata.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ExpiredSession" xml:space="preserve">
+    <value>Oturumunuzun süresi sona erdi.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_IncorrectAnswers" xml:space="preserve">
+    <value>Verdiğiniz yanıtlar yanlış, lütfen yeniden deneyin.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_IncorrectOathCode" xml:space="preserve">
+    <value>Yanlış kimlik doğrulaması kodu.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscode" xml:space="preserve">
+    <value>Yanlış bir kerelik geçiş kodu.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscodePlusPin" xml:space="preserve">
+    <value>Yanlış bir kerelik geçiş kodu + PIN.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_InvalidExtension" xml:space="preserve">
+    <value>Geçersiz dahili hat.  Yalnızca rakamlar, virgüller, * ve # kullanılabilir.  Bir saniyelik duraklama için virgül kullanın.  El ile aktarılacak dahili hattın rakamları olduğunu belirtmek için dahili hattın önüne @ ekleyin.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_InvalidSerialNumber" xml:space="preserve">
+    <value>Geçersiz seri numarası.  Bu seri numarasına sahip OATH Belirteci'nin bir kullanıcıyla ilişkilendirebilmesi için Multi-Factor Authentication Server kullanıcı arabiriminde tanımlanması gerekir.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_LineBreak" xml:space="preserve">
+    <value>&lt;br/&gt;{0}</value>
+    <comment>add_user, change_phone, change_pin, change_mode, change_language and enable_disable pages</comment>
+  </data>
+  <data name="Message_LoginFailed" xml:space="preserve">
+    <value>Oturum açma başarısız.</value>
+    <comment>login and secondary_authentication pages</comment>
+  </data>
+  <data name="Message_MustActivateDevice" xml:space="preserve">
+    <value>Yönteminizi Mobil Uygulama olarak değiştirebilmeniz için Multi-Factor Authentication mobil uygulamasını bir cihazda etkinleştirmeniz gerekir.  Etkinleştirmenizi başlatmak için gezinti menüsünde Mobil Uygulamayı Etkinleştir bağlantısına tıklayın.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustActivateDeviceOathToken" xml:space="preserve">
+    <value>Yönteminizi OATH Belirteci olarak değiştirebilmeniz için Multi-Factor Authentication mobil uygulamasını bir cihazda etkinleştirmeniz gerekir.  Etkinleştirmenizi başlatmak için gezinti menüsünde Mobil Uygulamayı Etkinleştir bağlantısına tıklayın.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustAnswerAllQuestions" xml:space="preserve">
+    <value>Tüm güvenlik sorularını yanıtlamalısınız.</value>
+    <comment>create_security_questions, change_security_questions, and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_MustEnrollOathToken" xml:space="preserve">
+    <value>Yönteminizi değiştirebilmeniz için bir OATH belirtecini hesabınızla ilişkilendirmeniz gerekir.  Bir OATH belirtecini ilişkilendirmek için OATH belirtecine tıklayın.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustHaveOathToken" xml:space="preserve">
+    <value>Yönteminizi OATH Belirteci olarak değiştirebilmek için Multi-Factor Authentication mobil uygulamasını bir cihazda etkinleştirmeniz ya da bir OATH belirtecini hesabınızla ilişkilendirmeniz gerekir.  Etkinleştirmenize başlamak için gezinti menüsünde Mobil Uygulamayı Etkinleştir bağlantısına tıklayın veya bir OATH belirtecini ilişkilendirmek için OATH Belirteci'ne tıklayın.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Yönteminizi Metin Mesajı olarak değiştirebilmeniz için hesabınız için bir telefon numarası belirtmeniz gerekir.  Bir telefon numarası belirtmek için gezinti menüsünde Telefonu Değiştir bağlantısına tıklayın.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Yönteminizi Telefon Araması olarak değiştirebilmeniz için hesabınız için bir telefon numarası belirtmeniz gerekir.  Bir telefon numarası belirtmek için gezinti menüsünde Telefonu Değiştir bağlantısına tıklayın.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifySearchField" xml:space="preserve">
+    <value>En az bir arama alanı belirtilmesi gerekiyor.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoActivatedDevices" xml:space="preserve">
+    <value>Bu kullanıcı için etkinleştirilmiş cihaz yok.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_NoMatchingUsersFound" xml:space="preserve">
+    <value>Eşleşen kullanıcı bulunamadı.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoSsl" xml:space="preserve">
+    <value>Multi-Factor Authentication Kullanıcı Portalı SSL ile güvenli hale getirilmemiş ancak Web.config'deki oturum tanımlama bilgileri SSL gerektiriyor.  Oturum durumu sağlanamadığından Kullanıcı Portalı işlevsel değil.  Kullanıcı Portalı'nın SSL ile güvenli hale getirilmesi önerilir.  Sınama amacıyla, &lt;httpCookies&gt; tag in Web.config içindeki requireSSL öğesini geçici olarak "false" olarak değiştirebilirsiniz.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailed" xml:space="preserve">
+    <value>OATH belirteç eşitlemesi başarısız.  Girilen kod doğru değil veya OATH belirteci seri numarası geçerli değil.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailedUser" xml:space="preserve">
+    <value>OATH belirteci eşitlemesi başarısız.  Girilen kod yanlış.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OnlyFirstMatchesDisplayed" xml:space="preserve">
+    <value>Yalnızca ilk {0} eşleşme gösteriliyor.  Kullanıcıyı listede bulamazsanız, daha belirgin bir arama ölçütü girin.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_PassedSessionFailed" xml:space="preserve">
+    <value>Geçilen oturum başarısız.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_PhoneRequired" xml:space="preserve">
+    <value>Telefon gerekiyor.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMatch" xml:space="preserve">
+    <value>PIN ve PIN'i Onayla eşleşmelidir.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMinimumLength" xml:space="preserve">
+    <value>PIN en az {0} rakam olmalıdır.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinNumeric" xml:space="preserve">
+    <value>PIN sayısal olmalıdır.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinRecentlyUsed" xml:space="preserve">
+    <value>PIN yakın zamanda kullandığınız PIN kodlarıyla aynı olamaz.  Lütfen farklı bir PIN seçin.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_SamlDisabled" xml:space="preserve">
+    <value>SAML kullanarak harici uygulamalarda çoklu oturum açma devre dışı bırakılmış.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotDefined" xml:space="preserve">
+    <value>Bu kullanıcı için güvenlik soruları tanımlanmamış.&lt;br/&gt;</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotSetUp" xml:space="preserve">
+    <value>Güvenlik sorusu ayarlamadığınızdan, telefonunuz olmadan oturum açamayabilirsiniz.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsVerified" xml:space="preserve">
+    <value>Güvenlik soruları doğrulandı.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityWarningNoSsl" xml:space="preserve">
+    <value>GÜVENLİK UYARISI: Multi-Factor Authentication Kullanıcı Portalı, SSL ile güvenli hale getirilmemiş.  Parolalar düz metinde geçilecek.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SerialNumberAlreadyAssociated" xml:space="preserve">
+    <value>Seri numarası zaten {0} ile ilişkilendirilmiş. Bu kullanıcıyla, ilişkilendirebilmek için seri numarasını diğer kullanıcıdan kaldırmanız gerekir.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_SerialNumberRequired" xml:space="preserve">
+    <value>Seri Numarası gereklidir.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_SerialNumberRequiredCross" xml:space="preserve">
+    <value>Kod belirtildiğinde Seri Numarası gereklidir.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ShortAnswer" xml:space="preserve">
+    <value>Yanıt en az 4 karakterden oluşmalıdır.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_StaticTokenMatch" xml:space="preserve">
+    <value>Statik Belirteç ve Statik Belirteci Onayla eşleşmelidir.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenMinimumLength" xml:space="preserve">
+    <value>Statik Belirteç en az {0} rakam olmalıdır.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenNumeric" xml:space="preserve">
+    <value>Statik Belirteç sayısal olmalıdır.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserAdded" xml:space="preserve">
+    <value>Kullanıcı eklendi.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_UserAlreadyBlocked" xml:space="preserve">
+    <value>Engelleme başarısız.  Kullanıcı zaten engellenmiş.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlocked" xml:space="preserve">
+    <value>Kullanıcı başarıyla engellendi.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlockFailed" xml:space="preserve">
+    <value>Engelleme başarısız.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserDeviceLimit" xml:space="preserve">
+    <value>Kullanıcı {0} cihaz sınırında.  Bu kullanıcının yeni bir cihazı etkinleştirebilmesi için mevcut olanlardan birini devre dışı bırakmanız gerekir.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_UserDisabled" xml:space="preserve">
+    <value>Kullanıcı başarıyla devre dışı bırakıldı.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserEnabled" xml:space="preserve">
+    <value>Kullanıcı başarıyla etkinleştirildi.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserInformationChanged" xml:space="preserve">
+    <value>Kullanıcının bilgileri değiştirildi.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_UserLanguageChanged" xml:space="preserve">
+    <value>Kullanıcının dil tercihi değiştirildi.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_UserModeChanged" xml:space="preserve">
+    <value>Kullanıcının yöntemi değiştirildi.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_UsernameRequired" xml:space="preserve">
+    <value>Kullanıcı adı gerekiyor.</value>
+    <comment>login and add_user pages</comment>
+  </data>
+  <data name="Message_UserNotBlocked" xml:space="preserve">
+    <value>Engellemenin kaldırılması başarısız.  Kullanıcı şu anda engellenmiş değil.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserOathTokenSaved" xml:space="preserve">
+    <value>Kullanıcının OATH belirteci kaydedildi.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_UserOneTimeBypassIssued" xml:space="preserve">
+    <value>Bir kerelik geçiş verildi.  Kullanıcının bir sonraki oturum açışında Multi-Factor Authentication atlanacak.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_UserPhoneChanged" xml:space="preserve">
+    <value>Kullanıcının telefonu değiştirildi.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_UserPinChanged" xml:space="preserve">
+    <value>Kullanıcının PIN kodu değiştirildi.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_UserPortalDisabled" xml:space="preserve">
+    <value>Kullanıcı Portalı'na doğrudan oturum açmalar devre dışı.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserPortalNotPurchased" xml:space="preserve">
+    <value>Bu özellik satın alınmadığından, Multi-Factor Authentication Kullanıcı Portalı işlevsel değil.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserRemoved" xml:space="preserve">
+    <value>Kullanıcı kaldırıldı.</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_UserStaticTokenChanged" xml:space="preserve">
+    <value>Kullanıcının statik belirteci değiştirildi.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserSubmodeChanged" xml:space="preserve">
+    <value>Kullanıcının modları değiştirildi.</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_UserUnblocked" xml:space="preserve">
+    <value>Kullanıcının engellemesi başarıyla kaldırıldı.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserUnblockFailed" xml:space="preserve">
+    <value>Engellemenin kaldırılması başarısız.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserVoiceprintReset" xml:space="preserve">
+    <value>Ses izi başarıyla sıfırlandı.  Kullanıcıdan bir sonraki oturum açışında yeni bir ses izi kaydetmesi istenecek.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_WeakPinNotAllowed" xml:space="preserve">
+    <value>Zayıf PIN kullanılamaz.  Telefon numarasının 4 ve daha fazla rakamlı bir alt kümesini, 3 veya daha fazla tekrarlanan rakamı veya 3 veya daha fazla ardışık rakamı içeremez.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_WeakStaticTokenNotAllowed" xml:space="preserve">
+    <value>Zayıf Statik Belirteç kullanılamaz.  Belirteç telefon numarasının 4 veya daha fazla rakamlık bir alt kümesini, 3 veya daha fazla tekrarlanan rakamı veya 3 veya daha fazla ardışık rakamı içeremez.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_WebServiceSdkError" xml:space="preserve">
+    <value>Multi-Factor Authentication Kullanıcı Portalı, şu hatayı döndüren Web Service SDK'sıyla iletişim kuracak şekilde yapılandırılmış:&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_WebServiceSdkNotPurchased" xml:space="preserve">
+    <value>Multi-Factor Authentication Kullanıcı Portalı, Web Service SDK'sıyla iletişim kuracak şekilde yapılandırılmış ve Web Hizmeti SDK özelliği satın alınmamış.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_YourInformationChanged" xml:space="preserve">
+    <value>Bilgileriniz değiştirildi.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_YourLanguageChanged" xml:space="preserve">
+    <value>Dil tercihiniz değiştirildi.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_YourModeChanged" xml:space="preserve">
+    <value>Yönteminiz değiştirildi.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_YourOathTokenSaved" xml:space="preserve">
+    <value>OATH belirteciniz kaydedildi.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_YourOneTimeBypassIssued" xml:space="preserve">
+    <value>Bir kerelik geçiş verildi.  Bir sonraki oturum açışınızda Multi-Factor Authentication, atlanacak.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_YourPhoneChanged" xml:space="preserve">
+    <value>Telefonunuz değiştirildi.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_YourPinChanged" xml:space="preserve">
+    <value>PIN kodunuz değiştirildi.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_YourSecurityQuestionsChanged" xml:space="preserve">
+    <value>Güvenlik sorularınız ve yanıtlarınız değiştirildi.</value>
+    <comment>change_security_questions page</comment>
+  </data>
+  <data name="Message_YourStaticTokenChanged" xml:space="preserve">
+    <value>Statik belirteciniz değiştirildi.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_YourVoiceprintReset" xml:space="preserve">
+    <value>Ses iziniz başarıyla değiştirildi.  Bir sonraki oturum açışınızda yeni bir ses izi kaydetmeniz istenecek.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Reason_InitiatedByAdmin" xml:space="preserve">
+    <value>Kullanıcı Portalı'nda yönetici tarafından başlatıldı</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Reason_InitiatedByUser" xml:space="preserve">
+    <value>Kullanıcı Portalı'nda kullanıcı tarafından başlatıldı</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Subtitle_DeactivatePhoneApp" xml:space="preserve">
+    <value>Mobil Uygulamayı Devre Dışı Bırak</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Subtitle_Enable" xml:space="preserve">
+    <value>Etkinleştir</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Subtitle_UnblockUser" xml:space="preserve">
+    <value>Kullanıcının Engellemesini Kaldır</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Title_PhoneFactorUserPortal" xml:space="preserve">
+    <value>Multi-Factor Authentication™ | Kullanıcı Portalı</value>
+    <comment>Title on all pages</comment>
+  </data>
+  <data name="Value_All" xml:space="preserve">
+    <value>Tümü</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Value_Masked" xml:space="preserve">
+    <value>Maskelenmiş</value>
+    <comment>add_user, change_pin, and oath_token pages</comment>
+  </data>
+</root>

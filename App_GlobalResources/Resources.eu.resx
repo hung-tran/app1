@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName_UserPortal" xml:space="preserve">
+    <value>Erabiltzaile-ataria</value>
+    <comment>Application name for Multi-Factor Authentications</comment>
+  </data>
+  <data name="Button_AuthenticateMeNow" xml:space="preserve">
+    <value>Autentifikatu ni orain</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_CallMeNowToAuthenticate" xml:space="preserve">
+    <value>Deitu niri orain autentifikatzeko</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_Next" xml:space="preserve">
+    <value>Hurrengoa</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_TextMeNowToAuthenticate" xml:space="preserve">
+    <value>Bidali testu-mezu bat orain autentifikatzeko</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_VerifyOathToken" xml:space="preserve">
+    <value>Egiaztatu OATH tokena</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Help_File" xml:space="preserve">
+    <value>help/PhoneFactor_User_Portal.htm</value>
+    <comment>Localize as help/xx/PhoneFactor_User_Portal.htm where xx is langauge code (e.g. de for German, zh-hans for Simplified Chinese)</comment>
+  </data>
+  <data name="Label_AlternatePhoneOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication mugikorreko aplikazioak ez du mugikorraren sarera edo WiFi sarera konektatuta egon behar autentifikazio-kodeak erakusteko.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_AlternatePhonePhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication mugikorreko aplikazioa WiFi bidez ere erabil daiteke.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneSms" xml:space="preserve">
+    <value>Kontua alda dezakezu telefono-zenbaki alternatibo bat adierazteko, horretarako hautatu Aldatu telefono-zenbakia aukera.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneVoice" xml:space="preserve">
+    <value>Kontua alda dezakezu telefono-zenbaki alternatibo bat adierazteko, adibidez telefono finko bat, horretarako hautatu Aldatu telefono-zenbakia aukera.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_CannotChangeModeToPhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication mugikorreko aplikazioa aktibatu ondoren, zure kontuaren metodoa Mugikorreko aplikazioa ezarpenera aldatu behar duzu aplikazioa erabiltzen hasteko. Jar zaitez harremanetan laguntza-zerbitzuarekin zure metodoa Mugikorreko aplikazioa aukerara aldatzeko.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_Disable" xml:space="preserve">
+    <value>Desgaitu</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>Gaitu</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_FraudAlertPhoneApp" xml:space="preserve">
+    <value>Arazo baten berri emateko, sakatu 'Ukatu eta eman iruzur baten berri' Multi-Factor Authentication mugikorreko aplikazioan. Zure enpresako segurtasun teknikoko langileek alerta bat jasoko dute. Ezingo dira autentifikazio-saio gehiago egin arazoa ebatzi arte.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertSms" xml:space="preserve">
+    <value>Arazo baten berri emateko, sartu erantzunean iruzur-kodea. Zure enpresako segurtasun teknikoko langileek alerta bat jasoko dute. Ezingo dira autentifikazio-saio gehiago egin arazoa ebatzi arte.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertVoice" xml:space="preserve">
+    <value>Arazoaren berri emateko, hautatu Iruzur-alerta aukera telefonoaren menuan autentifikazio-deia egiten duzun bitartean. Zure enpresako segurtasun teknikoko langileek alerta bat jasoko dute. Ezingo dira autentifikazio-saio gehiago egin arazoa ebatzi arte.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_GenerateActivationCode" xml:space="preserve">
+    <value>Sortu aktibazio-kodea</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateActivationLink" xml:space="preserve">
+    <value>Sortu aktibazio-esteka</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationCode" xml:space="preserve">
+    <value>Sortu aktibazio-kode berria</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationLink" xml:space="preserve">
+    <value>Sortu aktibazio-esteka berria</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication aplikazioak autentifikazio-kode bat eskatzen du saio-hasieran.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionPhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication aplikazioak jakinarazpen bat bidaltzen du Multi-Factor Authentication mugikorreko aplikaziora saio-hasieran.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionSms" xml:space="preserve">
+    <value>Multi-Factor Authentication aplikazioak testu-mezu bat bidaltzen du zure telefonora saio-hasieran.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionVoice" xml:space="preserve">
+    <value>Multi-Factor Authentication aplikazioak berrespen-dei bat egiten du zure telefonora saio-hasieran.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsAdministrator" xml:space="preserve">
+    <value>Erabiltzaile-kontuak kudeatzeko, hautatu menuan Bilatu erabiltzaileak. Zure kontua kudeatzeko, hautatu aukera egokia. Hautatu Laguntza ikonoa (goi-eskuina) laguntza eskuratzeko.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeOathToken" xml:space="preserve">
+    <value>Hautatu &lt;b&gt;OATH tokena&lt;/b&gt; metodoa Multi-Factor Authentication mugikorreko aplikazioko autentifikazio-kode bat erabiltzeko autentifikatzeko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModePhoneApp" xml:space="preserve">
+    <value>Hautatu &lt;b&gt;Mugikorreko aplikazioa&lt;/b&gt; metodoa Multi-Factor Authentication mugikorreko aplikazioa erabiltzeko autentifikatzeko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeSmsText" xml:space="preserve">
+    <value>Hautatu &lt;b&gt;Testu-mezua&lt;/b&gt; metodoa testu-mezu bat jasotzeko autentifikatzeko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeVoiceCall" xml:space="preserve">
+    <value>Hautatu &lt;b&gt;Telefono-deia&lt;/b&gt; metodoa telefono-dei bat jasotzeko autentifikatzeko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtp" xml:space="preserve">
+    <value>Egiaztapena osatzeko, sartu SMS mezu bidez jasoko duzun erabilera bakarreko pasakodea.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtpPlusPin" xml:space="preserve">
+    <value>Egiaztapena osatzeko, sartu SMS mezu bidez jasoko duzun erabilera bakarreko pasakodea eta PINa.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsFindUser" xml:space="preserve">
+    <value>Sartu erabiltzaile-izenaren aurreneko karaktereak eta egin klik Aurkitu botoian.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsOathToken" xml:space="preserve">
+    <value>Probatu erabiltzaile honen OATH token bidezko autentifikazioa.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneApp" xml:space="preserve">
+    <value>Probatu erabiltzaile honen mugikorreko aplikazio bidezko autentifikazioa.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationIpWhitelist" xml:space="preserve">
+    <value>Aktibazioa osatu ondoren, egin klik Hurrengoa aukeran instalazio-prozesuan.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationOathToken" xml:space="preserve">
+    <value>Aktibazioa osatu ondoren, egin klik ondorengo botoian autentifikazioa probatzeko eta konfigurazio-prozesuarekin jarraitzeko. Eskatutakoan, sartu mugikorreko aplikazioan azaltzen den autentifikazio-kodea.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsSelectUser" xml:space="preserve">
+    <value>Hautatu zerrendako erabiltzaile bat edo hautatu Atzera beste erabiltzaile bat bilatzeko.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsSmsText" xml:space="preserve">
+    <value>Probatu erabiltzaile honen testu-mezu bidezko autentifikazioa.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUnblockUser" xml:space="preserve">
+    <value>Sartu desblokeatzeko arrazoia eta berretsi erabiltzailea desblokeatzeko. Erabiltzailearen autentifikazioak desblokeatuko dira aurrerantzean.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Label_InstructionsUserActivatePhoneApp" xml:space="preserve">
+    <value>Erabiltzaileak aurrena Multi-Factor Authentication mugikorreko aplikazioa instalatu behar du bere telefonoan. Egin klik Sortu botoian aktibazio-kodea jasotzeko. Aktibazio-kodea erabiltzailearen mugikorreko aplikazioan sartu behar da aktibazio-prozesua osatzeko.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserDeactivatePhoneApp" xml:space="preserve">
+    <value>Erabiltzailearen gailu bat desaktibatzeko, egin klik gailuaren Desaktibatu estekan.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserEnable" xml:space="preserve">
+    <value>Berretsi erabiltzailearen gaitzea Multi-Factor Authentication deiak jasotzen has daitezen saioa hasitakoan.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_InstructionsUserInformation" xml:space="preserve">
+    <value>Zehaztu erabiltzaile honen informazio gehiago.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Label_InstructionsUserLanguage" xml:space="preserve">
+    <value>Zehaztu erabiltzaile honen hizkuntza-lehentasunak.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Label_InstructionsUserMode" xml:space="preserve">
+    <value>Hautatu erabiltzaile honen metodoa.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathCode" xml:space="preserve">
+    <value>Autentifikazioa osatzeko, sartu unean erabiltzailearen Multi-Factor Authentication mugikorreko aplikazioan edo tokenean azaltzen den autentifikazio-kodea.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathToken" xml:space="preserve">
+    <value>Sartu OATH tokenaren serie-zenbakia eta unean tokenean azaltzen den kodea tokena erabiltzailearekin erlazionatzeko.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Label_InstructionsUserOneTimeBypass" xml:space="preserve">
+    <value>Berretsi aldi bakarreko sarbidea Multi-Factor Authentication saltatzeko erabiltzaile honen hurrengo saio-hasieran. Sarbide hau aldi baterako bakarrik da.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtp" xml:space="preserve">
+    <value>Autentifikazioa osatzeko, sartu erabiltzaileak SMS mezuan jasotako erabilera bakarreko pasakodea.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtpPlusPin" xml:space="preserve">
+    <value>Autentifikazioa osatzeko, sartu erabiltzaileak SMS mezuan jasotako erabilera bakarreko pasakodea eta erabiltzailearen PINa.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserPhone" xml:space="preserve">
+    <value>Adierazi telefono-zenbaki berri bat erabiltzaile honentzat.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Label_InstructionsUserPin" xml:space="preserve">
+    <value>Adierazi PIN zenbaki berri bat erabiltzaile honentzat.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Label_InstructionsUserResetVoiceprint" xml:space="preserve">
+    <value>Berretsi erabiltzailearen ahots-aztarna berrezarpena. Erabiltzaileak ahots-aztarna berri bat erregistratu beharko du bere hurrengo autentifikazio-deian.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication zure kontuan OATH tokena metodoaren bidez gaitzeko, sartu OATH tokenaren atzealdean inprimatutako serie-zenbakia eta tokenean unean azaltzen den kodea tokena kontuarekin erlazionatzeko.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathTokenPhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication zure kontuan OATH tokenaren metodoaren bidez gaitzeko, aurrena Multi-Factor Authentication aplikazioa instalatu behar duzu mugikorrean,eta  ondoren Sortu botoian klik egin behar duzu aktibazio-kodea jasotzeko. Aktibazio-kodea mugikorreko aplikazioan sartu behar da aktibazio-prozesua osatzeko. Aktibazio-kodea 10 minututan iraungitzen da.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication zure kontuan mugikorreko aplikazioaren bidez gaitzeko, aurrena Multi-Factor Authentication aplikazioa instalatu behar duzu zure mugikorrean, eta ondoren Sortu botoian klik egin behar duzu aktibazio-kodea jasotzeko. Aktibazio-kodea mugikorreko aplikazioan sartu behar da aktibazio-prozesua osatzeko. Aktibazio-kodea 10 minutuan iraungitzen da.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPin" xml:space="preserve">
+    <value>Multi-Factor Authentication zure kontuan gaitzeko, zehaztu autentifikatzeko erabiliko duzun telefono-zenbakia eta PIN zenbaki bat.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtp" xml:space="preserve">
+    <value>Multi-Factor Authentication zure kontuan gaitzeko, zehaztu autentifikatzeko erabiliko duzun telefono-zenbakia.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Multi-Factor Authentication zure kontuan gaitzeko, zehaztu autentifikatzeko erabiliko duzun telefono-zenbakia eta PIN zenbaki bat.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtp" xml:space="preserve">
+    <value>Multi-Factor Authentication zure kontuan gaitzeko, zehaztu autentifikatzeko erabiliko duzun telefono-zenbakia.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Multi-Factor Authentication zure kontuan gaitzeko, zehaztu autentifikatzeko erabiliko duzun telefono-zenbakia eta PIN zenbaki bat.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupStandard" xml:space="preserve">
+    <value>Multi-Factor Authentication zure kontuan gaitzeko, zehaztu autentifikatzeko erabiliko duzun telefono-zenbakia.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteOathToken" xml:space="preserve">
+    <value>Jarraitu instrukzio hauek Multi-Factor Authentication aplikazioa aktibatzeko zure mugikorrean, eta probatu autentifikazio bat mugikorreko aplikazioak emandako autentifikazio-kodeen bidez.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePhoneApp" xml:space="preserve">
+    <value>Jarraitu ondorengo instrukzioak Multi-Factor Authentication aplikazioa aktibatzeko zure mugikorrean eta probatu autentifikazio bat mugikorreko aplikazioaren bidez.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePin" xml:space="preserve">
+    <value>Urrats hau osatzeko, Multi-Factor Authentication aplikazioak zure telefono zenbakira deituko du. Sartu PIN zenbakia eta # ikurra autentifikatzeko.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtp" xml:space="preserve">
+    <value>Urrats hau osatzeko, Multi-Factor Authentication aplikazioak erabilera bakarreko pasakode bat bidaliko du testu-mezu batean sartu duzun zenbakira. Eskatutakoan, sartu erabilera bakarreko pasakodea autentifikatzeko.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Urrats hau osatzeko, Multi-Factor Authentication aplikazioak erabilera bakarreko pasakode bat bidaliko du testu-mezu batean sartu duzun zenbakira. Eskatutakoan, sartu erabilera bakarreko pasakodea eta PINa autentifikatzeko.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtp" xml:space="preserve">
+    <value>Urrats hau osatzeko, Multi-Factor Authentication aplikazioak erabilera bakarreko pasakode bat bidaliko du testu-mezu batean sartu duzun zenbakira. Autentifikatzeko, erantzun testu-mezuari erabilera bakarreko pasakodearekin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Urrats hau osatzeko, Multi-Factor Authentication aplikazioak erabilera bakarreko pasakode bat bidaliko du testu-mezu batean sartu duzun zenbakira. Autentifikatzeko, erantzun testu-mezuari erabilera bakarreko pasakodearekin eta PIN zenbakiarekin.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteStandard" xml:space="preserve">
+    <value>Urrats hau osatzeko, Multi-Factor Authentication aplikazioak zure telefono zenbakira deituko du. Erantzun eta sakatu # autentifikatzeko.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteVoiceprint" xml:space="preserve">
+    <value>Urrats hau osatzeko, Multi-Factor Authentication aplikazioak zure telefono zenbakira deituko du. Jarraitu instrukzioak ahots-aztarna bidezko pasaesaldi bat erregistratzeko.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupVoiceprint" xml:space="preserve">
+    <value>Multi-Factor Authentication zure kontuan gaitzeko, zehaztu autentifikatzeko erabiliko duzun telefono-zenbakia.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserStaticToken" xml:space="preserve">
+    <value>Zehaztu token estatiko berri bat erabiltzaile honentzat.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Label_MessageOathToken" xml:space="preserve">
+    <value>Zure kontua Multi-Factor Authentication aplikazioa erabiltzeko konfiguratu da.&lt;br/&gt;&lt;br/&gt;
+Saioa hasteko, erabiltzaile-izen eta pasahitz berdinak erabiltzen jarraituko duzu. Egiaztapena osatzeko, Multi-Factor Authentication mugikorreko aplikazioko edo tokeneko uneko autentifikazio-kodea sartzeko eskatuko dizu aplikazioak. Autentifikazio-kode zuzena sartzen ez baduzu, saio-hasiera ukatuko da.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppPin" xml:space="preserve">
+    <value>Zure kontua Multi-Factor Authentication aplikazioa erabiltzeko konfiguratu da.&lt;br/&gt;&lt;br/&gt;
+Saioa hasteko, erabiltzaile-izen eta pasahitz berdinak erabiltzen jarraituko duzu. Egiaztapena osatzeko,
+jakinarazpen bat jasoko duzu eskatuz Multi-Factor Authentication mugikorreko aplikazioa abiarazteko eta saio-hasiera berresteko PINa sartzeko. Saio-hasiera berresteko, PINa sartu eta # sakatu behar duzu, bestela saio-hasiera ukatuko zaizu.&lt;br/&gt;&lt;br/&gt;
+Multi-Factor Authentication mugikorreko aplikazioaren jakinarazpena jaso ondoren, benetan aplikazioan saioa hasten ari zarenean bakarrik sartu behar duzu PINa. Bestela, baliteke beste norbait aritzea zure pasahitza eta erabiltzaile-izena erabiltzen saioa hasteko. Ustezko iruzur honen berri eman behar diozu laguntza teknikoari.&lt;br/&gt;&lt;br/&gt;PINa aldatzeko, itzuli edonoiz Multi-Factor Authentication atarira.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppStandard" xml:space="preserve">
+    <value>Zure kontua Multi-Factor Authentication aplikazioa erabiltzeko konfiguratu da.&lt;br/&gt;&lt;br/&gt;
+Saioa hasteko erabiltzaile-izen eta pasahitza berdinak erabiltzen jarraituko duzu. Egiaztapena osatzeko,
+jakinarazpen bat jasoko duzu Multi-Factor Authentication mugikorreko aplikazioa abiarazteko, ondoren Autentifikatu botoia sakatu behar duzu saio-hasiera osatzeko. Saio-hasiera berresteko Autentifikatu sakatu behar duzu, bestela saio-hasiera ukatuko da.&lt;br/&gt;&lt;br/&gt;
+Multi-Factor Authentication mugikorreko aplikazioaren jakinarazpena jaso ondoren sakatu behar duzu Autentifikazio botoia, benetan saioa hasten ari zarenean bakarrik. Bestela, baliteke beste norbait zure pasahitza eta erabiltzaile-izena erabiltzen egotea saioa hasteko, ustezko iruzur honen berri eman behar diozu laguntza teknikoari.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppVoiceprint" xml:space="preserve">
+    <value>Zure kontua Multi-Factor Authentication aplikazioa erabiltzeko konfiguratu da.&lt;br/&gt;&lt;br/&gt;
+Saioa hasteko erabiltzaile-izen eta pasahitz berdinak erabiltzen jarraituko duzu. Egiaztapena osatzeko,
+jakinarazpen bat jasoko duzu eskatuz Multi-Factor Authentication mugikorreko aplikazioa abiarazteko, eta saio-hasiera berresteko pasaesaldia esateko. Saio-hasiera berresteko pasaesaldia esan behar duzu, bestela saio-hasiera ukatuko da.&lt;br/&gt;&lt;br/&gt;
+Multi-Factor Authentication mugikorreko aplikazioaren jakinarazpena jaso ondoren, benetan aplikazioan saioa hasten ari zarenean bakarrik esan behar duzu pasaesaldia. Bestela, baliteke beste norbait aritzea zure pasahitza eta erabiltzaile-izena erabiltzen saioa hasteko. Ustezko iruzur honen berri eman behar diozu laguntza teknikoari.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePin" xml:space="preserve">
+    <value>Zure kontua Multi-Factor Authentication aplikazioa erabiltzeko konfiguratu da.&lt;br/&gt;&lt;br/&gt;
+Saioa hasteko, erabiltzaile-izen eta pasahitz berdinak erabiltzen jarraituko duzu. Egiaztapena osatzeko,
+telefono-dei bat jasoko duzu eskatuz PINa sartzeko eta traola (#) sakatzeko saio-hasiera berresteko.
+Saio-hasiera berresteko PINa sartu eta # sakatu behar duzu, bestela saio-hasiera ukatuko zaizu.&lt;br/&gt;&lt;br/&gt;
+Multi-Factor Authentication mugikorreko aplikazioaren deia jaso ondoren, benetan aplikazioan saioa hasten ari bazara sartu behar duzu PINa.
+Bestela, baliteke beste norbait aritzea zure pasahitza eta erabiltzaile-izena erabiltzen saioa hasteko.
+Iruzur honen berri eman behar diozu laguntza teknikoari.&lt;br/&gt;&lt;br/&gt;
+Telefono-zenbakia edo PINa aldatzeko, itzuli edonoiz Multi-Factor Authentication atarira.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtp" xml:space="preserve">
+    <value>Zure kontua Multi-Factor Authentication aplikazioa erabiltzeko konfiguratu da.&lt;br/&gt;&lt;br/&gt;
+Saioa haste,ko erabiltzaile-izen eta pasahitz berdinak erabiltzen jarraituko duzu. Egiaztapena osatzeko,
+testu-mezu bat jasoko duzu aldi baterako pasakode batekin. Sartu pasakode hori aplikazioak eskatutakoan.
+Pasakode zuzena sartzen ez baduzu, saio-hasiera ukatuko da.&lt;br/&gt;&lt;br/&gt;
+Telefono-zenbakia aldatzeko, itzuli edonoiz Multi-Factor Authentication atarira.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Zure kontua Multi-Factor Authentication aplikazioa erabiltzeko konfiguratu da.&lt;br/&gt;&lt;br/&gt;
+Saioa hasteko, erabiltzaile-izen eta pasahitz berdinak erabiltzen jarraituko duzu. Egiaztapena osatzeko,
+testu-mezu bat jasoko duzu aldi baterako pasakode batekin. Sartu pasakode hori eta PINa aplikazioak eskatutakoan.
+Pasakode eta PIN zuzenak sartzen ez badituzu, saio-hasiera ukatuko da.&lt;br/&gt;&lt;br/&gt;
+Telefono-zenbakia edo PINa aldatzeko, itzuli edonoiz Multi-Factor Authentication atarira.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtp" xml:space="preserve">
+    <value>Zure kontua Multi-Factor Authentication aplikazioa erabiltzeko konfiguratu da.&lt;br/&gt;&lt;br/&gt;
+Saioa hasteko erabiltzaile-izen eta pasahitz berdinak erabiltzen jarraituko duzu. Egiaztapena osatzeko,
+testu-mezu bat jasoko duzu aldi baterako pasakode batekin. Erantzun testu-mezuari pasakodearekin.
+Pasakode zuzenarekin erantzuten ez baduzu, saio-hasiera ukatuko da.&lt;br/&gt;&lt;br/&gt;
+Multi-Factor Authentication mugikorreko aplikazioaren testu-mezua jaso ondoren, benetan aplikazioan saioa hasten ari bazara bakarrik erantzun behar duzu.
+Bestela, baliteke beste norbait aritzea zure pasahitza eta erabiltzaile-izena erabiltzen saioa hasteko. Ustezko iruzur honen berri eman
+behar diozu laguntza teknikoari.&lt;br/&gt;&lt;br/&gt;
+Telefono-zenbakia aldatzeko, itzuli Multi-Factor Authentication atarira.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Zure kontua Multi-Factor Authentication aplikazioa erabiltzeko konfiguratu da.&lt;br/&gt;&lt;br/&gt;
+Saioa hasteko erabiltzaile-izen eta pasahitz berdinak erabiltzen jarraituko duzu. Egiaztapena osatzeko,
+testu-mezu bat jasoko duzu aldi baterako pasakode batekin. Erantzun testu-mezuari pasakode eta PINarekin.
+Pasakode eta PIN zuzenekin erantzuten ez baduzu, saio-hasiera ukatuko da.&lt;br/&gt;&lt;br/&gt;
+Multi-Factor Authentication mugikorreko aplikazioaren testu-mezua jaso ondoren, benetan aplikazioan saioa hasten ari bazara bakarrik erantzun behar duzu.
+Bestela, baliteke beste norbait aritzea zure pasahitza eta erabiltzaile-izena erabiltzen saioa hasteko. Ustezko iruzur honen berri eman
+behar diozu laguntza teknikoari.&lt;br/&gt;&lt;br/&gt;
+Telefono-zenbakia edo PINa aldatzeko, itzuli edonoiz Multi-Factor Authentication atarira.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageStandard" xml:space="preserve">
+    <value>Zure kontua Multi-Factor Authentication aplikazioa erabiltzeko konfiguratu da.&lt;br/&gt;&lt;br/&gt;
+Saioa hasteko erabiltzaile-izen eta pasahitz berdinak erabiltzen jarraituko duzu. Egiaztapena osatzeko,
+telefono-dei bat jasoko duzu, eta traola (#) sakatu beharko duzu saio-hasiera berresteko. Ez baduzu # tekla sakatzen
+saio-hasiera berresteko, saio-hasiera ukatuko da.&lt;br/&gt;&lt;br/&gt;
+Aplikazioan benetan saioa hasten ari zarenean bakarrik sakatu behar duzu # tekla Multi-Factor Authentication deia jasotzen duzunean.
+Bestela, baliteke beste norbait aritzea zure pasahitza eta erabiltzaile-izena erabiltzen saioa hasteko. Ustezko iruzur honen berri eman 
+behar diozu laguntza teknikoari.&lt;br/&gt;&lt;br/&gt;
+Telefono-zenbakia aldatzeko, itzuli edonoiz Multi-Factor Authentication atarira.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageVoiceprint" xml:space="preserve">
+    <value>Zure kontua Multi-Factor Authentication aplikazioa erabiltzeko konfiguratu da.&lt;br/&gt;&lt;br/&gt;
+Saioa hasteko, erabiltzaile-izen eta pasahitz berdinak erabiltzen jarraituko duzu. Egiaztapena osatzeko,
+telefono-dei bat jasoko duzu, eta pasaesaldia esateko eskatuko zaizu saio-hasiera berresteko. Ez baduzu pasaesaldia esaten
+saio hasiera berresteko, saio hasiera ukatuko da.&lt;br/&gt;&lt;br/&gt;
+Aplikazioan benetan saioa hasten ari zarenean bakarrik esan behar duzu pasaesaldia Multi-Factor Authentication deia jasotzen duzunean.
+Bestela, baliteke beste norbait aritzea zure pasahitza eta erabiltzaile-izena erabiltzen saioa hasteko. Ustezko iruzur honen berri eman 
+behar diozu laguntza teknikoari.&lt;br/&gt;&lt;br/&gt;
+Telefono-zenbakia aldatzeko, itzuli edonoiz Multi-Factor Authentication atarira.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MustChangeModeToPhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication mugikorreko aplikazioa zure gailuan aktibatu ondoren metodoa Mugikorreko aplikazioa aukerara aldatu beharko duzu. Egin klik Aldatu metodoa aukeran nabigazio-menuan eta zehaztu Mugikorreko aplikazioa aukera aplikazioa erabiltzen hasteko.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_MustChangeUserToPhoneAppMode" xml:space="preserve">
+    <value>Erabiltzaileak Multi-Factor Authentication mugikorreko aplikazioa bere gailuan aktibatu ondoren, haren metodoa Mugikorreko aplikazioa aukerara aldatu beharko duzu aplikazioa erabili ahal izan dezan.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerPhoneApp" xml:space="preserve">
+    <value>Hori bakarrik gerta daiteke beste norbait zure kontuan saio hasten saiatzen bada eta dagoeneko zure pasahitza baldin badaki. Gogoratu Multi-Factor Authentication mugikorreko aplikazioaren jakinarazpenak erabiltzaile-izena eta pasahitza egiaztatu ondoren bakarrik bidaltzen direla. Beraz, hori gertatzen bada, Multi-Factor Authentication aplikazioak legez kontrako sarreren aurka babestu du zure kontua!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerSms" xml:space="preserve">
+    <value>Hori bakarrik gerta daiteke beste norbait zure kontuan saio hasten saiatzen bada eta dagoeneko zure pasahitza baldin badaki. Gogoratu testu-mezuak erabiltzaile-izena eta pasahitza egiaztatu ondoren bakarrik bidaltzen direla. Beraz, hori gertatzen bada, Multi-Factor Authentication aplikazioak legez kontrako sarreren aurka babestu du zure kontua!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerVoice" xml:space="preserve">
+    <value>Hori bakarrik gerta daiteke beste norbait zure kontuan saio hasten saiatzen bada eta dagoeneko zure pasahitza baldin badaki. Gogoratu telefono-deiak erabiltzaile-izena eta pasahitza egiaztatu ondoren bakarrik egiten direla. Beraz, hori gertatzen bada, Multi-Factor Authentication aplikazioak legez kontrako sarreren aurka babestu du zure kontua!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionPhoneApp" xml:space="preserve">
+    <value>Zer gertatzen da Multi-Factor Authentication mugikorreko aplikazioaren jakinarazpen bat jasotzen badut saioa hasten saiatzen ari ez naizenean?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionSms" xml:space="preserve">
+    <value>Zer gertatzen da Multi-Factor Authentication aplikazioaren testu-mezu bat jasotzen badut saioa hasten saiatzen ari ez naizenean?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionVoice" xml:space="preserve">
+    <value>Zer gertatzen da Multi-Factor Authentication aplikazioaren telefono-dei bat jasotzen badut saioa hasten saiatzen ari ez naizenean?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassOathToken" xml:space="preserve">
+    <value>Zure enpresak Aldi bakarreko sarbidea aukera ere eskaintzen du; haren bidez, saioa behin has dezakezu autentifikazio-kodea eskatu beharrik gabe. Hautatu Aldi bakarreko sarbidea aukera, eginbide horretaz baliatzeko, edo deitu laguntza teknikoari edozein telefonotik laguntza eskuratzeko.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_OneTimeBypassPhoneApp" xml:space="preserve">
+    <value>Zure enpresak Aldi bakarreko sarbidea aukera ere eskaintzen du; haren bidez saioa behin has dezakezu Multi-Factor Authentication mugikorreko aplikazioaren jakinarazpenik jaso beharrik gabe. Hautatu Aldi bakarreko sarbidea aukera eginbide horretaz baliatzeko, edo deitu laguntza teknikoari edozein telefonotik laguntza eskuratzeko.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassSms" xml:space="preserve">
+    <value>Zure enpresak Aldi bakarreko sarbidea aukera eskaintzen du saioa behin hasi ahal izateko testu-mezua jaso gabe. Hautatu Aldi bakarreko sarbidea aukera eginbide hau aukeratzeko. Edo deitu laguntza teknikoari edozein telefonotik laguntza eskuratzeko.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassVoice" xml:space="preserve">
+    <value>Zure enpresak Aldi bakarreko sarbidea aukera eskaintzen du saioa behin hasi ahal izateko telefono-deia jaso gabe. Hautatu Aldi bakarreko sarbidea aukera eginbide hau aukeratzeko. Edo deitu laguntza teknikoari edozein telefonotik laguntza eskuratzeko.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtp" xml:space="preserve">
+    <value>Aldi bakarreko pasaesaldia</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtpPlusPin" xml:space="preserve">
+    <value>Aldi bakarreko pasaesaldia + PINa</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_SimpleProcessOathToken" xml:space="preserve">
+    <value>Prozesu erraz honek bi irizpide eskaintzen ditu autentifikatzeko; ordezko autentifikazioa zuk daukazun zerbaitek eskaintzen du (telefono adimenduna edo tokena).</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_SimpleProcessPhoneApp" xml:space="preserve">
+    <value>Prozesu erraz honek autentifikatzeko bi irizpide eskaintzen ditu bi bide desberdinetan (ordenagailua eta telefono adimendua).</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessSms" xml:space="preserve">
+    <value>Prozesu erraz honek autentifikatzeko bi irizpide eskaintzen ditu bi bide desberdinetan (ordenagailua eta telefono-zerbitzua). Testu-mezuak jasotzen dituen edozein telefonotan erabil daiteke.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessVoice" xml:space="preserve">
+    <value>Prozesu erraz honek autentifikatzeko bi irizpide eskaintzen ditu bi bide desberdinetan (ordenagailua eta telefono-zerbitzua). Edozein telefono finko edo mugikorretan erabil daiteke.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionOathToken" xml:space="preserve">
+    <value>Berehala autentifikazio-kode bat eskatuko zaizu. Sartu unean Multi-Factor Authentication mugikorreko aplikazioan edo tokenean azaltzen den autentifikazio-kodea.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppPin" xml:space="preserve">
+    <value>Berehala Multi-Factor Authentication mugikorreko aplikazioren jakinarazpena jasoko duzu. Abiarazi aplikazioa, sartu PINa eta sakatu Autentifikatu botoia.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppStandard" xml:space="preserve">
+    <value>Berehala Multi-Factor Authentication mugikorreko aplikazioren jakinarazpena jasoko duzu. Abiarazi aplikazioa eta sakatu Autentifikatu botoia.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppVoiceprint" xml:space="preserve">
+    <value>Berehala Multi-Factor Authentication mugikorreko aplikazioren jakinarazpena jasoko duzu. Abiarazi aplikazioa eta eskatutakoan esan pasaesaldia.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPin" xml:space="preserve">
+    <value>Berehala telefono dei bat jasoko duzu. Erantzun, sartu PINa eta sakatu #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtp" xml:space="preserve">
+    <value>Berehala testu-mezu bat jasoko duzu erabilera bakarreko pasakode batekin. Sartu pasakodea aplikazioak eskatutakoan.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Berehala testu-mezu bat jasoko duzu erabilera bakarreko pasakode batekin. Sartu pasakodea eta PINa aplikazioak eskatutakoan.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtp" xml:space="preserve">
+    <value>Berehala testu-mezu bat jasoko duzu erabilera bakarreko pasakode batekin. Erantzun testu-mezuari pasakodearekin.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Berehala testu-mezu bat jasoko duzu erabilera bakarreko pasakode batekin. Erantzun testu-mezuari pasakodea eta PINarekin.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionStandard" xml:space="preserve">
+    <value>Berehala telefono-dei bat jasoko duzu. Erantzun eta sakatu #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionVoiceprint" xml:space="preserve">
+    <value>Berehala telefono-dei bat jasoko duzu. Erantzun eta esan pasaesaldia tonua entzun ondoren.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_TitleWithColon" xml:space="preserve">
+    <value>{0}:</value>
+    <comment>Page header on most pages</comment>
+  </data>
+  <data name="Label_UnblockReason" xml:space="preserve">
+    <value>Desblokeatzeko arrazoia</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_AccountConfigurationComplete" xml:space="preserve">
+    <value>Kontuaren konfigurazioa osatu da</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Message_AnswerRequired" xml:space="preserve">
+    <value>Gutxienez segurtasun-galdera bat erantzun behar duzu.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AnswerSecurityQuestions" xml:space="preserve">
+    <value>Erantzun segurtasun-galderak saioa hasteko.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AnswersIncorrect" xml:space="preserve">
+    <value>Gutxienez erantzun bat ez da zuzena.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AuthenticationDenied" xml:space="preserve">
+    <value>Multi-Factor Authentication ukatu da.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedAnswerSecurityQuestions" xml:space="preserve">
+    <value>Multi-Factor Authentication ukatu da. Erantzun segurtasun-galderak saioa hasteko.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedCallResult" xml:space="preserve">
+    <value>Multi-Factor Authentication ukatu da: {0}</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_AuthenticationSuccessful" xml:space="preserve">
+    <value>Multi-Factor Authentication behar bezala osatu da.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_BypassSecondsNumeric" xml:space="preserve">
+    <value>Sarbide-segundoak zenbaki bat izan behar du.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRange" xml:space="preserve">
+    <value>Sarbide-segundoak 5 eta 1800 (30 minutu) artekoa izan behar du.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRequired" xml:space="preserve">
+    <value>Sarbide-segundoak beharrezkoa da.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_CannotActivateDevice" xml:space="preserve">
+    <value>Zure kontuak Multi-Factor Authentication mugikorreko aplikazio batekin erlazionatuta egon behar du gailu batean metodoa Mugikorreko aplikazioa aukerara aldatu ahal izateko. Jar zaitez harremanetan laguntza teknikoarekin Multi-Factor Authentication mugikorreko aplikazioa zure gailuan nola aktibatu jakiteko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotEstablishWebServiceSdkConnection" xml:space="preserve">
+    <value>Multi-Factor Authentication erabiltzaile-atariak ezin du konexio segururik ezarri SDK web zerbitzura: {0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_CannotGetOathToken" xml:space="preserve">
+    <value>Zure kontuak Multi-Factor Authentication mugikorreko aplikazio batekin (gailu batean) edo OATH token batekin erlazionatuta egon behar du, metodoa OATH tokena aukerara aldatu ahal izateko. Jar zaitez harremanetan laguntza teknikoarekin Multi-Factor Authentication mugikorreko aplikazioa zure gailuan nola aktibatu edo OATH token baten esleipena nola eskuratu jakiteko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Zure kontuak telefono-zenbaki bat esleituta eduki behar du Testu-mezu metodora aldatu ahal izateko. Jar zaitez harremanetan laguntza teknikoarekin zure kontuari telefono-zenbaki bat esleitzeko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Zure kontuak telefono-zenbaki bat esleituta eduki behar du Telefono-deia metodora aldatu ahal izateko. Jar zaitez harremanetan laguntza teknikoarekin zure kontuari telefono-zenbaki bat esleitzeko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeOathTokenIncomplete" xml:space="preserve">
+    <value>Oharra: Erabiltzaileak ez du Multi-Factor Authentication mugikorreko aplikazioa aktibatu bere gailuan edo ez du hirugarrenen OATH tokenaren esleipena jaso, eta ondorioz ezin du OATH tokena metodoa erabili. Erabiltzaile horren babestutako aplikazioen autentifikazioak huts egingo du, eta berriro erregistratu beharko du Erabiltzaile-atarian saioa hasteko. Gomendagarria da erabiltzailearekin harremanetan jartzea Multi-Factor Authentication mugikorreko aplikazioa aktibatzen laguntzeko edo hirugarrenen OATH token bat esleitu eta banatzeko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModePhoneAppIncomplete" xml:space="preserve">
+    <value>Oharra: Erabiltzaileak ez du Multi-Factor Authentication mugikorreko aplikazioa aktibatu bere gailuan eta ondorioz ezin dun Mugikorreko aplikazioa metodoa erabili. Erabiltzaile honen babestutako aplikazioen autentifikazioak huts egingo du eta berriro erregistratu beharko du Erabiltzaile-atarian saioa hasteko. Gomendagarria da erabiltzailearekin harremanetan jartzea Multi-Factor Authentication mugikorreko aplikazioa instalatzen laguntzeko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeSmsTextIncomplete" xml:space="preserve">
+    <value>Oharra: Erabiltzaileak ez du telefono-zenbaki bat zehaztu eta ondorioz ezin du Testu-mezu metodoa erabili. Erabiltzaile honen babestutako aplikazioen autentifikazioak huts egingo du eta berriro erregistratu beharko du Erabiltzaile-atarian saioa hasteko. Gomendagarria da erabiltzailearentzat telefono-zenbaki bat zehaztea babestutako aplikazioak erabiltzen jarrai ahal dezan berriro erregistratu beharrik gabe.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeVoiceCallIncomplete" xml:space="preserve">
+    <value>Oharra: Erabiltzaileak ez du telefono-zenbaki bat zehaztu eta ondorioz ezin du Telefono-deia metodoa erabili. Erabiltzaile honen babestutako aplikazioen autentifikazioak huts egingo du eta berriro erregistratu beharko du Erabiltzaile-atarian saioa hasteko. Gomendagarria da erabiltzailearentzat telefono-zenbaki bat zehaztea babestutako aplikazioak erabiltzen jarrai ahal dezan berriro erregistratu beharrik gabe.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CodeRequired" xml:space="preserve">
+    <value>Kodea behar da.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_CodeRequiredCross" xml:space="preserve">
+    <value>Kodea behar da serie-zenbakia zehazten denean.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ConfirmDeactivate" xml:space="preserve">
+    <value>Ziur zaude gailu hau betiko desgaitu nahi duzula?</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceDeactivated" xml:space="preserve">
+    <value>Gailua desaktibatu da.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceLimit" xml:space="preserve">
+    <value>Zure kontua gehienezko {0} gailu kopurura heldu da. Dagoen gailu bat desaktibatu behar duzu gailu berri bat aktibatu ahal izateko.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DuplicateAnswer" xml:space="preserve">
+    <value>Ez dira erantzun bikoiztuak onartzen.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateQuestion" xml:space="preserve">
+    <value>Ez dira galdera bikoiztuak onartzen.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateUsername" xml:space="preserve">
+    <value>Erabiltzaile-izen bikoiztua.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUser" xml:space="preserve">
+    <value>Errorea erabiltzailea gehitzerakoan.&lt;br/&gt;{0}</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUserForPassedSession" xml:space="preserve">
+    <value>Errorea pasatako saiora erabiltzailea gehitzerakoan.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithLocal" xml:space="preserve">
+    <value>Errorea Multi-Factor Authentication zerbitzu lokalarekin komunikatzerakoan. Jar zaitez harremanetan administratzailearekin.</value>
+    <comment>Most pages when connection to local server is lost</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithMaster" xml:space="preserve">
+    <value>Errorea Multi-Factor Authentication zerbitzu maisuarekin komunikatzerakoan. Jar zaitez harremanetan administratzailearekin.</value>
+    <comment>Most pages when connection to master server is lost</comment>
+  </data>
+  <data name="Message_ErrorDeactivatingDevice" xml:space="preserve">
+    <value>Errorea gailua desaktibatzerakoan.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorDisablingUser" xml:space="preserve">
+    <value>Errorea erabiltzailea desgaitzerakoan.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorEnablingUser" xml:space="preserve">
+    <value>Errorea erabiltzailea gaitzerakoan.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorFindingUsers" xml:space="preserve">
+    <value>Errorea erabiltzaileak aurkitzerakoan.&lt;br/&gt;{0}</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_ErrorGeneratingActivationCode" xml:space="preserve">
+    <value>Errorea aktibazio-kodea sortzerakoan.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorIssuingOneTimeBypass" xml:space="preserve">
+    <value>Errorea aldi bakarreko sarbidea igortzerakoan. Jar zaitez harremanetan administratzailearekin.&lt;br/&gt;{0}</value>
+    <comment>one_time_bypass and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorRemovingUser" xml:space="preserve">
+    <value>Errorea erabiltzailea kentzerakoan.&lt;br/&gt;{0}</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_ErrorResettingMode" xml:space="preserve">
+    <value>Errorea metodoa berrezartzerakoan.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPhone" xml:space="preserve">
+    <value>Errorea telefonoa berrezartzerakoan.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPin" xml:space="preserve">
+    <value>Errorea PINa berrezartzerakoan.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingVoiceprint" xml:space="preserve">
+    <value>Errorea ahots-aztarna berrezartzerakoan. Jar zaitez harremanetan administratzailearekin.&lt;br/&gt;{0}</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingLanguage" xml:space="preserve">
+    <value>Errorea hizkuntza eguneratzerakoan.&lt;br/&gt;{0}</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingMode" xml:space="preserve">
+    <value>Errorea metodoa eguneratzerakoan.&lt;br/&gt;{0}</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhone" xml:space="preserve">
+    <value>Errorea telefonoa eguneratzerakoan.&lt;br/&gt;{0}</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhoneAppMode" xml:space="preserve">
+    <value>Errorea mugikorreko aplikazioa eguneratzerakoan.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPin" xml:space="preserve">
+    <value>Errorea PINa eguneratzerakoan.&lt;br/&gt;{0}</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSecurityQuestions" xml:space="preserve">
+    <value>Errorea segurtasun-galderak eguneratzerakoan.&lt;br/&gt;{0}</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSmsTextMode" xml:space="preserve">
+    <value>Errorea testu-mezu modua eguneratzerakoan.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingStaticToken" xml:space="preserve">
+    <value>Errorea token estatikoa eguneratzerakoan.&lt;br/&gt;{0}</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserForSecurityQuestionSetup" xml:space="preserve">
+    <value>Errorea erabiltzailearen segurtasun-galderaren konfigurazioa eguneratzerakoan.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserInformation" xml:space="preserve">
+    <value>Errorea erabiltzailearen informazioa eguneratzerakoan.&lt;br/&gt;{0}</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingVoiceCallMode" xml:space="preserve">
+    <value>Errorea telefono-dei modua eguneratzerakoan.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ExpiredSession" xml:space="preserve">
+    <value>Zure saioa iraungi da.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_IncorrectAnswers" xml:space="preserve">
+    <value>Emandako erantzunak ez dira zuzenak, saiatu berriro.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_IncorrectOathCode" xml:space="preserve">
+    <value>Autentifikazio-kodea ez da zuzena.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscode" xml:space="preserve">
+    <value>Erabilera bakarreko pasakodea ez da zuzena.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscodePlusPin" xml:space="preserve">
+    <value>Erabilera bakarreko pasakodea + PINa ez da zuzena.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_InvalidExtension" xml:space="preserve">
+    <value>Luzapen baliogabea. Zenbakiak, komak, * eta # bakarrik onartzen dira. Erabili koma segundo bateko etenaldiak egiteko. Erabili @ luzapenaren aurrizki gisa eskuzko transferentziaren luzapen-digituak adierazteko.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_InvalidSerialNumber" xml:space="preserve">
+    <value>Serie-zenbaki baliogabea. OATH tokena serie-zenbaki honekin zehaztu behar da Multi-Factor Authentication zerbitzariaren erabiltzaile-interfazean erabiltzailearekin erlazionatu aurretik.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_LineBreak" xml:space="preserve">
+    <value>&lt;br/&gt;{0}</value>
+    <comment>add_user, change_phone, change_pin, change_mode, change_language and enable_disable pages</comment>
+  </data>
+  <data name="Message_LoginFailed" xml:space="preserve">
+    <value>Saio-hasierak huts egin du.</value>
+    <comment>login and secondary_authentication pages</comment>
+  </data>
+  <data name="Message_MustActivateDevice" xml:space="preserve">
+    <value>Multi-Factor Authentication mugikorreko aplikazioa aktibatu behar duzu metodoa Mugikorreko aplikazioa aukerara aldatu ahal izateko. Egin klik Aktibatu mugikorreko aplikazioa estekan nabigazio-menuan aktibazioa hasteko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustActivateDeviceOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication mugikorreko aplikazioa aktibatu behar duzu metodoa OATH tokena aukerara aldatu ahal izateko. Egin klik Aktibatu mugikorreko aplikazioa estekan nabigazio-menuan aktibazioa hasteko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustAnswerAllQuestions" xml:space="preserve">
+    <value>Segurtasun-galdera guztiak erantzun behar dituzu.</value>
+    <comment>create_security_questions, change_security_questions, and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_MustEnrollOathToken" xml:space="preserve">
+    <value>OATH tokena zure kontuarekin erlazionatu behar duzu metodoa OATH tokena aukerara aldatu aldatu ahal izateko. Egin klik OATH tokena estekan OATH token bat erlazionatzeko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustHaveOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication mugikorreko aplikazioa aktibatu behar duzu gailu batean edo kontuak OATH token batekin erlazionatuta egon behar du metodoa OATH tokena aukerara aldatu ahal izateko. Egin klik Aktibatu mugikorreko aplikazioa estekan nabigazio-menuan aktibazioa hasteko edo egin klik OATH tokena estekan OATH token bat erlazionatzeko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Kontuaren telefono-zenbakia zehaztu behar duzu Testu-mezu metodora aldatu ahal izateko. Egin klik Aldatu telefonoa estekan nabigazio-menuan telefono zenbakia zehazteko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Kontuaren telefono-zenbakia zehaztu behar duzu Telefono-deia metodora aldatu ahal izan aurretik. Egin klik Aldatu telefonoa estekan nabigazio-menuan telefono zenbakia zehazteko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifySearchField" xml:space="preserve">
+    <value>Gutxienez bilaketa-eremu bat zehaztu behar duzu.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoActivatedDevices" xml:space="preserve">
+    <value>Ez dago aktibatutako gailurik erabiltzaile honentzat.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_NoMatchingUsersFound" xml:space="preserve">
+    <value>Ez da bat datorren erabiltzailerik aurkitu.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoSsl" xml:space="preserve">
+    <value>Multi-Factor Authentication erabiltzaile-ataria ez dago SSL bidez babestuta, SSL beharrezkoa da saioaren Cookie-ak Web.config fitxategian erabiltzeko. Erabiltzaile-ataria ez da funtzionala ezin delako saio-egoera mantendu. Erabiltzaile-ataria SSL bidez babestea gomendatzen da. Probak egiteko, aldi baterako requireSSL aukera "faltsua" ezarpenera alda dezakezu &lt;httpCookies&gt; etiketan Web.config fitxategian.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailed" xml:space="preserve">
+    <value>OATH tokenaren sinkronizazioak huts egin du. Sartu duzun kodea okerra da edo OATH tokenaren serie-zenbakia baliogabea da.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailedUser" xml:space="preserve">
+    <value>OATH tokenaren sinkronizazioak huts egin du. Sartutako kodea ez da zuzena.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OnlyFirstMatchesDisplayed" xml:space="preserve">
+    <value>Lehenengo {0} emaitzak bakarrik erakusten dira. Ezin baduzu erabiltzailea zerrendan aurkitu, sartu bilaketa-irizpide zehatzagoak.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_PassedSessionFailed" xml:space="preserve">
+    <value>Pasatako saioak huts egin du.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_PhoneRequired" xml:space="preserve">
+    <value>Telefonoa beharrezkoa da.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMatch" xml:space="preserve">
+    <value>PINa eta Berretsi PINa eremuek bat etorri behar dute.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMinimumLength" xml:space="preserve">
+    <value>PIN zenbakiak gutxienez {0} digitukoa izan behar du.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinNumeric" xml:space="preserve">
+    <value>PINak zenbakizkoa izan behar du.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinRecentlyUsed" xml:space="preserve">
+    <value>PINak ezin du azken aldian erabili den PIN baten berdina izan. Hautatu beste PIN bat.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_SamlDisabled" xml:space="preserve">
+    <value>SAML bidezko bakarreko saio-hasierak desgaitu dira kanpoko aplikazioetara.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotDefined" xml:space="preserve">
+    <value>Ez dira erabiltzaile honen segurtasun-galderak zehaztu.&lt;br/&gt;</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotSetUp" xml:space="preserve">
+    <value>Ezin duzu telefonoaren bidez saioa hasi ez dituzulako segurtasun-galderak ezarri.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsVerified" xml:space="preserve">
+    <value>Segurtasun-galderak egiaztatu dira.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityWarningNoSsl" xml:space="preserve">
+    <value>SEGURTASUN-ABISUA: Multi-Factor Authentication erabiltzaile-ataria ez dago SSL bidez babestuta. Pasahitzak testu arrunt moduan emango dira.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SerialNumberAlreadyAssociated" xml:space="preserve">
+    <value>Serie-zenbakia dagoeneko {0} erabiltzailearekin erlazionatuta dago. Erabiltzaile honen serie-zenbakia kendu behar duzu beste erabiltzaile batekin erlazionatu ahal izateko.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_SerialNumberRequired" xml:space="preserve">
+    <value>Serie-zenbakia beharrezkoa da.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_SerialNumberRequiredCross" xml:space="preserve">
+    <value>Serie-zenbakia beharrezkoa da kodea zehazten denean.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ShortAnswer" xml:space="preserve">
+    <value>Erantzunak gutxienez 4 karaktere eduki behar ditu.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_StaticTokenMatch" xml:space="preserve">
+    <value>Token estatikoa eta Berretsi token estatikoa eremuek bat etorri behar dute.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenMinimumLength" xml:space="preserve">
+    <value>Token estatikoak gutxienez {0} digitukoa izan behar du.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenNumeric" xml:space="preserve">
+    <value>Tokien estatikoak zenbakizkoa izan behar du.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserAdded" xml:space="preserve">
+    <value>Erabiltzailea gehitu da.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_UserAlreadyBlocked" xml:space="preserve">
+    <value>Blokeoak huts egin du. Erabiltzailea dagoeneko blokeatuta dago.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlocked" xml:space="preserve">
+    <value>Erabiltzailea behar bezala blokeatu da.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlockFailed" xml:space="preserve">
+    <value>Blokeoak huts egin du.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserDeviceLimit" xml:space="preserve">
+    <value>Erabiltzailea gehienezko {0} gailu kopurura heldu da. Erabiltzaile honen dagoen gailu bat desaktibatu behar duzu gailu berri bat aktibatu ahal izateko.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_UserDisabled" xml:space="preserve">
+    <value>Erabiltzailea behar bezala desgaitu da.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserEnabled" xml:space="preserve">
+    <value>Erabiltzailea behar bezala gaitu da.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserInformationChanged" xml:space="preserve">
+    <value>Erabiltzailearen informazioa aldatu da.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_UserLanguageChanged" xml:space="preserve">
+    <value>Erabiltzailearen hizkuntza-lehentasuna aldatu da.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_UserModeChanged" xml:space="preserve">
+    <value>Erabiltzailearen metodoa aldatu da.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_UsernameRequired" xml:space="preserve">
+    <value>Erabiltzaile-izena beharrezkoa da.</value>
+    <comment>login and add_user pages</comment>
+  </data>
+  <data name="Message_UserNotBlocked" xml:space="preserve">
+    <value>Desblokeoak huts egin du. Erabiltzailea unean ez dago blokeatuta.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserOathTokenSaved" xml:space="preserve">
+    <value>Erabiltzailearen OATH tokena gorde da.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_UserOneTimeBypassIssued" xml:space="preserve">
+    <value>Aldi bakarreko sarbidea igorri da. Multi-Factor Authentication saltatuko da erabiltzailearen hurrengo saio-hasieran.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_UserPhoneChanged" xml:space="preserve">
+    <value>Erabiltzailearen telefonoa aldatu da.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_UserPinChanged" xml:space="preserve">
+    <value>Erabiltzailearen PINa aldatu da.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_UserPortalDisabled" xml:space="preserve">
+    <value>Erabiltzaile-atarira saio-hasiera zuzenak desgaitu dira.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserPortalNotPurchased" xml:space="preserve">
+    <value>Multi-Factor Authentication erabiltzaile-ataria ez da funtzionala eginbide hau erosi ez delako.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserRemoved" xml:space="preserve">
+    <value>Erabiltzailea kendu da.</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_UserStaticTokenChanged" xml:space="preserve">
+    <value>Erabiltzailearen token estatikoa aldatu da.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserSubmodeChanged" xml:space="preserve">
+    <value>Erabiltzailearen modua edo moduak aldatu dira.</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_UserUnblocked" xml:space="preserve">
+    <value>Erabiltzailea behar bezala desblokeatu da.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserUnblockFailed" xml:space="preserve">
+    <value>Desblokeoak huts egin du.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserVoiceprintReset" xml:space="preserve">
+    <value>Ahots-aztarna behar bezala berrezarri da. Erabiltzaileak ahots-aztarna berri bat erregistratu beharko du bere hurrengo saio-hasieran.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_WeakPinNotAllowed" xml:space="preserve">
+    <value>Ez dira PIN ahulak onartzen. Ezin du telefono zenbakiaren 4 edo digitu gehiagoko azpimultzo bat izan, errepikatzen diren 3 edo digitu gehiago edo 3 edo digitu gehiago jarraian.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_WeakStaticTokenNotAllowed" xml:space="preserve">
+    <value>Ez dira token estatiko ahulak onartzen. Ezin du telefono zenbakiaren 4 edo digitu gehiagoko azpimultzo bat izan, errepikatzen diren 3 edo digitu gehiago edo 3 edo digitu gehiago jarraian.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_WebServiceSdkError" xml:space="preserve">
+    <value>Multi-Factor Authentication erabiltzaile-ataria SDK web zerbitzuarekin harremanetan jartzeko konfiguratuta dago eta honek ondorengo erroreak itzuli ditu:&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_WebServiceSdkNotPurchased" xml:space="preserve">
+    <value>Multi-Factor Authentication erabiltzaile-ataria SDK web zerbitzuarekin harremanetan jartzeko konfiguratuta dago baina ez da SDK web zerbitzua erosi.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_YourInformationChanged" xml:space="preserve">
+    <value>Zure informazioa aldatu da.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_YourLanguageChanged" xml:space="preserve">
+    <value>Zure hizkuntza-lehentasuna aldatu da.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_YourModeChanged" xml:space="preserve">
+    <value>Zure metodoa aldatu da.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_YourOathTokenSaved" xml:space="preserve">
+    <value>Zure OATH tokena gorde da.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_YourOneTimeBypassIssued" xml:space="preserve">
+    <value>Aldi bakarreko sarbidea igorri da. Multi-Factor Authentication saltatuko da hurrengo saio-hasieran.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_YourPhoneChanged" xml:space="preserve">
+    <value>Zure telefonoa aldatu da.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_YourPinChanged" xml:space="preserve">
+    <value>Zure PINa aldatu da.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_YourSecurityQuestionsChanged" xml:space="preserve">
+    <value>Zure segurtasun-galdera eta erantzunak aldatu dira.</value>
+    <comment>change_security_questions page</comment>
+  </data>
+  <data name="Message_YourStaticTokenChanged" xml:space="preserve">
+    <value>Zure token-estatikoa aldatu da.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_YourVoiceprintReset" xml:space="preserve">
+    <value>Ahots-aztarna behar bezala berrezarri da. Ahots-aztarna berri bat erregistratu beharko duzu hurrengo saio-hasieran.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Reason_InitiatedByAdmin" xml:space="preserve">
+    <value>Administratzaileak abiarazi du Erabiltzaile-atarian</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Reason_InitiatedByUser" xml:space="preserve">
+    <value>Erabiltzaileak abiarazi du Erabiltzaile-atarian</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Subtitle_DeactivatePhoneApp" xml:space="preserve">
+    <value>Desaktibatu mugikorreko aplikazioa</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Subtitle_Enable" xml:space="preserve">
+    <value>Gaitu</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Subtitle_UnblockUser" xml:space="preserve">
+    <value>Desblokeatu erabiltzailea</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Title_PhoneFactorUserPortal" xml:space="preserve">
+    <value>Multi-Factor Authentication™ | Erabiltzaile-ataria</value>
+    <comment>Title on all pages</comment>
+  </data>
+  <data name="Value_All" xml:space="preserve">
+    <value>Guztiak</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Value_Masked" xml:space="preserve">
+    <value>Ezkutatuta</value>
+    <comment>add_user, change_pin, and oath_token pages</comment>
+  </data>
+</root>

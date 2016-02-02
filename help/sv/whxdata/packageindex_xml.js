@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"utf-8\"?><cki><ck fm=\"!\" to=\"användarkontot\"/><ck fm=\"användarlänk\" to=\"dig\"/><ck fm=\"digits\" to=\"händer\"/><ck fm=\"här\" to=\"mobile\"/><ck fm=\"mobiltelefon\" to=\"sekundärt\"/><ck fm=\"selected\" to=\"used\"/><ck fm=\"user\" to=\"övergripande\"/></cki>";

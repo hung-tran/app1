@@ -1,0 +1,288 @@
+<html><!-- saved from url=(0014)about:internet -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Multi-Factor Authentication User Portal</title>
+
+<meta name="generator" content="Adobe RoboHelp 10" />
+<meta name="description" content="WebHelp 5.50" />
+<script  src="whutils.js" charset="utf-8" charset="utf-8"></script>
+</head>
+<body>
+<script language="JavaScript">
+<!--
+
+var gArrayCsh = new Array();
+
+var gstrWindowOption = "";
+var gstrURL = "";
+var gbWithNavPane = false;
+
+function CshEntityItem(strAliasId, nTopicNum, strUrl) 
+{
+    this.strAliasId = strAliasId;
+    this.nTopicNum = nTopicNum;
+    this.strUrl = strUrl;
+}
+
+
+//Try to get to topic number from hash string
+function GetTopicNumberAuto(strMayBeNumber)
+{
+   var nNum = -1;
+   if (strMayBeNumber.length >= 1)
+   {
+		var strTmp = strMayBeNumber;
+		var iEnd = strTmp.length;
+		for (var i=0; i<iEnd; i++)
+		{
+			  var ch = strTmp.charAt(i);
+			  if (!((ch == "0") || (ch == "1") ||
+			        (ch == "2") || (ch == "3") ||
+			        (ch == "4") || (ch == "5") ||
+			        (ch == "6") || (ch == "7") ||
+			        (ch == "8") || (ch == "9")))
+			      return GetTopicNumberById(strTmp);
+		}
+		nNum = parseInt(strTmp);
+   }
+   return nNum;
+}
+
+function GetTopicNumber(strHashString)
+{
+	var nTopicEndPos = strHashString.indexOf(',')
+	if (nTopicEndPos == -1) { // no window option.
+		return GetTopicNumberOnly(strHashString);
+	}
+	else {
+		var strWindowOption = strHashString.substring(nTopicEndPos + 1, strHashString.length);
+		var strWithNavPane = 'withnavpane=true';
+		if (strWindowOption.toLowerCase().indexOf(strWithNavPane) == 0)
+		{
+			if (strWindowOption.length > strWithNavPane.length)
+				gstrWindowOption = strWindowOption.substring(strWithNavPane.length + 1);
+			else
+				gstrWindowOption = "";
+			gbWithNavPane = true;
+		}
+		else
+			gstrWindowOption = strWindowOption;
+		return GetTopicNumberOnly(strHashString.substring(0, nTopicEndPos));		
+	}
+}
+
+function GetTopicNumberOnly(strTopicString)
+{
+	var nEqualPos = strTopicString.indexOf('=');
+	if (nEqualPos == -1) {
+		return GetTopicNumberAuto(strTopicString);
+	}
+	else {
+		var strValue=strTopicString.substring(nEqualPos + 1, strTopicString.length);
+		if (strTopicString.toLowerCase().indexOf("topicnumber") == 0) {
+			return parseInt(strValue);
+		} else if (strTopicString.toLowerCase().indexOf("topicid") == 0) {
+			return GetTopicNumberById(strValue);
+		} else if (strTopicString.toLowerCase().indexOf("remoteurl") == 0) {
+			if(IsInternal(strValue))
+				gstrURL = strValue;
+			return -1;
+		}
+
+	}
+}
+
+//Find HomePage of the WebHelp system
+// we try to get the topic from remote project if it exists.
+function RedirectToHomePage()
+{
+	if (parent && parent != this && parent.goNext)
+	{
+		var sHome = parent.goNext();
+		if (sHome != "")
+			RedirectTo(sHome);
+	}
+}
+
+function getHomePage()
+{
+	if (parent && parent != this && parent.getRelHomePage)
+	{
+		return parent.getRelHomePage(document.location.href);
+	}
+	return "";
+}
+
+function addRemoteProject(strPath)
+{
+	if (parent && parent != this && parent.addProject)
+	{
+		parent.addProject(strPath);
+	}
+}
+
+//Redirect page to...
+function RedirectTo(strUrl)
+{
+   if (gstrWindowOption.length != 0) {
+		var wnd = window.open(strUrl, "HelpStub", gstrWindowOption);
+		// close current window and rename the stub window to current window.
+		wnd.focus();
+		if (parent)
+			parent.close();
+   }
+   else {
+	parent.document.location.href = strUrl;
+	window.focus();
+  }
+}
+
+//Prompt the user that we can not find...
+function FailToFind(strMsg)
+{
+    RedirectToHomePage();
+}
+
+//Find topic by topic number (defined in h file)
+function FindTopicByTopicNum(nTopicNum)
+{
+	var i = 0;
+	var iEnd = gArrayCsh.length;
+	for (i=0; i<iEnd; i++)
+	{
+		if (gArrayCsh[i].nTopicNum == nTopicNum)
+		{
+			var strURL = gArrayCsh[i].strUrl;
+			if (gbWithNavPane)
+			{
+				var strHomePage = getHomePage();
+				if (strHomePage.length != 0)
+					strURL = strHomePage + strURL;
+			}	
+			RedirectTo(strURL);
+			return true;
+		}
+	}
+	FailToFind("Fail to find topic assocaite with topic number: " + nTopicNum);
+	return false;
+}
+
+//Find topic by topic id (alias id defined in ali file)
+function GetTopicNumberById(strTopicId)
+{
+   var i = 0;
+   var iEnd = gArrayCsh.length;
+   for (i=0; i<iEnd; i++)
+   {
+	if (gArrayCsh[i].strAliasId == strTopicId)
+	{
+	    return gArrayCsh[i].nTopicNum;
+	 }
+   }
+   gstrURL = "";
+   return -1;
+}
+
+//Set Context-sensitive help entity...
+function SetCsh(n, strAliasId, nTopicNum, strUrl)
+{
+   gArrayCsh[n] = new CshEntityItem(strAliasId,nTopicNum,strUrl);
+}
+
+
+function getHash()
+{
+	if (parent && parent != this)
+		return parent.location.hash;
+	else
+		return "";
+}
+//-->
+</script>
+<script language="javascript">
+<!--
+  SetCsh(0,"Activate_Phone_App1",27,"Activate_Phone_App.htm");
+  SetCsh(1,"Change_Mode2",30,"Change_Submode_Admin.htm");
+  SetCsh(2,"Change_Mode1",21,"Change_Mode_Admin.htm");
+  SetCsh(3,"Change_Mode",20,"Change_Mode.htm");
+  SetCsh(4,"Change_Security_Questions",4,"Change_Security_Questions.htm");
+  SetCsh(5,"Reset_Voiceprint",17,"Reset_Voiceprint.htm");
+  SetCsh(6,"Change_Phone",2,"Change_Phone.htm");
+  SetCsh(7,"Change_Phone1",12,"Change_Phone_Admin.htm");
+  SetCsh(8,"Deactivate_Phone_App",28,"Deactivate_Phone_App_Admin.htm");
+  SetCsh(9,"Enable_Disable",15,"Enable_Disable.htm");
+  SetCsh(10,"User_Setup",9,"User_Setup.htm");
+  SetCsh(11,"Remove_User",25,"Remove_User.htm");
+  SetCsh(12,"Authentication_Code",23,"Authentication_Code.htm");
+  SetCsh(13,"Activate_Phone_App",26,"Activate_Phone_App_Admin.htm");
+  SetCsh(14,"PhoneFactor_User_Portal",8,"PhoneFactor_User_Portal_1.htm");
+  SetCsh(15,"User_Page",11,"User.htm");
+  SetCsh(16,"Add_User",16,"Add_User.htm");
+  SetCsh(17,"Log_In",6,"Log_In.htm");
+  SetCsh(18,"OATH_Token1",32,"OATH_Token_User.htm");
+  SetCsh(19,"Find_User",10,"Find_User.htm");
+  SetCsh(20,"Answer_Security_Questions",1,"Answer_Security_Questions.htm");
+  SetCsh(21,"Test_Authentication",24,"Test_Authentication.htm");
+  SetCsh(22,"Change_PIN",3,"Change_PIN.htm");
+  SetCsh(23,"User_Information",11,"User_Information.htm");
+  SetCsh(24,"User_Information",22,"User_Information.htm");
+  SetCsh(25,"Block_Unblock_User",29,"Block_Unblock_User.htm");
+  SetCsh(26,"Change_PIN1",13,"Change_PIN_Admin.htm");
+  SetCsh(27,"One_Time_Bypass",7,"One-Time_Bypass.htm");
+  SetCsh(28,"One_Time_Bypass1",14,"One-Time_Bypass_Admin.htm");
+  SetCsh(29,"Change_Language1",19,"Change_Language_Admin.htm");
+  SetCsh(30,"Change_Language",18,"Change_Language.htm");
+  SetCsh(31,"Create_Security_Questions",5,"Create_Security_Questions.htm");
+  SetCsh(32,"OATH_Token",31,"OATH_Token.htm");
+
+
+//-->
+</script>
+<script language="javascript">
+<!--
+//Find CSH according to hash string after this page
+if (getHash().length > 0)
+{
+   // VH 05/16/00 now support 
+   // TopicID=
+   // TopicNumber=
+   // RemoteURL=   
+   // and WindowsOptions
+   // with the format #a=xxx,b=xxx,c=xxx...
+   var strHashString = getHash().toString();
+   // change ? to : for remote URL. because java applet have some problem to pass a URL with two : inside the URL so we changed it. 
+   // so here need to change it back.
+   strHashString = strHashString.substring(1,strHashString.length);
+   strHashString = strHashString.replace("%072%057%057", "://");
+   var nTopicNum = GetTopicNumber(strHashString);
+
+   if (nTopicNum != -1)
+   {
+      FindTopicByTopicNum(nTopicNum);
+   }
+   else
+   {
+      if (gstrURL.length > 0) 
+	RedirectTo(gstrURL);
+      else
+      	RedirectToHomePage();
+   }
+}
+else
+{
+   RedirectToHomePage();
+}
+//-->
+</script>
+<noscript>
+ <p> Your browser does not support JavaScript. WebHelp Context-Sensitive Help requires JavaScript support to run.</p>
+</noscript>
+</body>
+</html>
+
+
+
+
+
+

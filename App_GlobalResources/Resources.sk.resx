@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName_UserPortal" xml:space="preserve">
+    <value>Portál používateľa</value>
+    <comment>Application name for Multi-Factor Authentications</comment>
+  </data>
+  <data name="Button_AuthenticateMeNow" xml:space="preserve">
+    <value>Overiť ma teraz</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_CallMeNowToAuthenticate" xml:space="preserve">
+    <value>Zavolať mi kvôli overeniu</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_Next" xml:space="preserve">
+    <value>Ďalej</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_TextMeNowToAuthenticate" xml:space="preserve">
+    <value>Poslať mi textovú správu kvôli overeniu</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_VerifyOathToken" xml:space="preserve">
+    <value>Overiť token OATH</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Help_File" xml:space="preserve">
+    <value>help/PhoneFactor_User_Portal.htm</value>
+    <comment>Localize as help/xx/PhoneFactor_User_Portal.htm where xx is langauge code (e.g. de for German, zh-hans for Simplified Chinese)</comment>
+  </data>
+  <data name="Label_AlternatePhoneOathToken" xml:space="preserve">
+    <value>Na zobrazenie overovacích kódov nemusí byť mobilná aplikácia Multi-Factor Authentication pripojená k mobilnej sieti ani k sieti Wi-Fi.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_AlternatePhonePhoneApp" xml:space="preserve">
+    <value>Mobilná aplikácia Multi-Factor Authentication funguje rovnako dobre aj v sieti Wi-Fi.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneSms" xml:space="preserve">
+    <value>Výberom možnosti Zmeniť telefónne číslo môžete vo svojom konte zmeniť nastavenie na použitie alternatívneho telefónneho čísla.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneVoice" xml:space="preserve">
+    <value>Výberom možnosti Zmeniť telefónne číslo môžete vo svojom konte zmeniť nastavenie na použitie alternatívneho telefónneho čísla, napríklad pevnej linky.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_CannotChangeModeToPhoneApp" xml:space="preserve">
+    <value>Po aktivácii mobilnej aplikácie Multi-Factor Authentication v zariadení sa musí v konte zmeniť metóda na metódu Mobilná aplikácia skôr, než začnete túto aplikáciu používať. Pri zmene metódy na metódu Mobilná aplikácia sa obráťte na technickú podporu.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_Disable" xml:space="preserve">
+    <value>Zakázanie</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>Povolenie</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_FraudAlertPhoneApp" xml:space="preserve">
+    <value>Ak chcete nahlásiť incident, stlačte tlačidlo Zamietnuť a tlačidlo Nahlásiť podvod v mobilnej aplikácii Multi-Factor Authentication. Tým upozorníte tím zabezpečenia IT vašej spoločnosti. Ďalšie pokusy o overenie budú zablokované až do vyriešenia problému.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertSms" xml:space="preserve">
+    <value>Ak chcete nahlásiť incident, vo svojej odpovedi zadajte kód podvodu. Tým upozorníte tím zabezpečenia IT vašej spoločnosti. Ďalšie pokusy o overenie budú zablokované až do vyriešenia problému.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertVoice" xml:space="preserve">
+    <value>Ak chcete nahlásiť incident, počas overovacieho hovoru vyberte z ponuky telefónu možnosť Upozornenie na podvod. Tým upozorníte tím zabezpečenia IT vašej spoločnosti. Ďalšie pokusy o overenie budú zablokované až do vyriešenia problému.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_GenerateActivationCode" xml:space="preserve">
+    <value>Generovať aktivačný kód</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateActivationLink" xml:space="preserve">
+    <value>Generovať aktivačné prepojenie</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationCode" xml:space="preserve">
+    <value>Generovať nový aktivačný kód</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationLink" xml:space="preserve">
+    <value>Generovať nové aktivačné prepojenie</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionOathToken" xml:space="preserve">
+    <value>Služba Multi-Factor Authentication funguje prostredníctvom výzvy na zadanie overovacieho kódu počas prihlásenia.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionPhoneApp" xml:space="preserve">
+    <value>Služba Multi-Factor Authentication funguje prostredníctvom odoslania oznámenia do vašej mobilnej aplikácie Multi-Factor Authentication počas prihlásenia.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionSms" xml:space="preserve">
+    <value>Služba Multi-Factor Authentication funguje prostredníctvom odoslania textovej správy do vášho telefónu počas prihlásenia.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionVoice" xml:space="preserve">
+    <value>Služba Multi-Factor Authentication funguje prostredníctvom uskutočnenia potvrdzovacieho hovoru na váš telefón počas prihlásenia.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsAdministrator" xml:space="preserve">
+    <value>Výberom položky Vyhľadať používateľov z ponuky môžete spravovať používateľské kontá. Svoje konto spravujte výberom vhodnej možnosti. Ak potrebujete pomoc, vyberte ikonu Pomocníka (vpravo hore).</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeOathToken" xml:space="preserve">
+    <value>Výberom metódy &lt;b&gt;Token OATH&lt;/b&gt; môžete vykonať overenie pomocou overovacieho kódu z mobilnej aplikácie Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModePhoneApp" xml:space="preserve">
+    <value>Výberom metódy &lt;b&gt;Mobilná aplikácia&lt;/b&gt; môžete vykonať overenie pomocou mobilnej aplikácie Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeSmsText" xml:space="preserve">
+    <value>Výberom metódy &lt;b&gt;Textová správa&lt;/b&gt; môžete vykonať overenie pomocou prijatej textovej správy.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeVoiceCall" xml:space="preserve">
+    <value>Výberom metódy &lt;b&gt;Telefónny hovor&lt;/b&gt; môžete vykonať overenie pomocou prijatého telefónneho hovoru.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtp" xml:space="preserve">
+    <value>Na dokončenie overenia zadajte jednorazový prístupový kód, ktorý ste dostali v SMS správe.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtpPlusPin" xml:space="preserve">
+    <value>Na dokončenie overenia zadajte jednorazový prístupový kód, ktorý ste dostali v SMS správe, a svoj PIN kód.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsFindUser" xml:space="preserve">
+    <value>Zadajte niekoľko prvých znakov mena používateľa a kliknite na tlačidlo Vyhľadať.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsOathToken" xml:space="preserve">
+    <value>Otestujte overenie tohto používateľa cez token OATH.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneApp" xml:space="preserve">
+    <value>Otestujte overenie tohto používateľa cez mobilnú aplikáciu.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationIpWhitelist" xml:space="preserve">
+    <value>Po dokončení aktivácie môžete kliknutím na tlačidlo Ďalej pokračovať v procese inštalácie.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationOathToken" xml:space="preserve">
+    <value>Po dokončení aktivácie môžete kliknutím na nasledujúce tlačidlo otestovať overenie a pokračovať v procese inštalácie. Po zobrazení výzvy zadajte aktuálny overovací kód zobrazený v mobilnej aplikácii.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsSelectUser" xml:space="preserve">
+    <value>Vyberte používateľa zo zoznamu alebo výberom položky Späť vyhľadajte iného používateľa.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsSmsText" xml:space="preserve">
+    <value>Otestujte overenie tohto používateľa cez textovú správu.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUnblockUser" xml:space="preserve">
+    <value>Zadajte dôvod odblokovania a potvrďte odblokovanie príslušného používateľa. Overenia tohto používateľa prestanú byť blokované.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Label_InstructionsUserActivatePhoneApp" xml:space="preserve">
+    <value>Používateľ musí do svojho telefónu najprv nainštalovať mobilnú aplikáciu Multi-Factor Authentication. Kliknutím na tlačidlo Generovať dostanete aktivačný kód. Na dokončenie aktivačného procesu sa musí aktivačný kód zadať do mobilnej aplikácie príslušného používateľa.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserDeactivatePhoneApp" xml:space="preserve">
+    <value>Ak chcete deaktivovať zariadenie pre používateľa, kliknite na prepojenie Deaktivovať pre príslušné zariadenie.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserEnable" xml:space="preserve">
+    <value>Potvrďte povolenie pre používateľa, aby pri prihlasovaní prijímal hovory zo služby Multi-Factor Authentication.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_InstructionsUserInformation" xml:space="preserve">
+    <value>Zadajte nové informácie pre tohto používateľa.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Label_InstructionsUserLanguage" xml:space="preserve">
+    <value>Zadajte jazykovú preferenciu pre tohto používateľa.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Label_InstructionsUserMode" xml:space="preserve">
+    <value>Vyberte metódu pre tohto používateľa.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathCode" xml:space="preserve">
+    <value>Na dokončenie overenia zadajte aktuálny overovací kód zobrazený v mobilnej aplikácii Multi-Factor Authentication používateľa alebo na tokene.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathToken" xml:space="preserve">
+    <value>Zadajte sériové číslo tokenu OATH a kód, ktorý sa momentálne zobrazuje na tokene, aby sa token priradil k používateľovi.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Label_InstructionsUserOneTimeBypass" xml:space="preserve">
+    <value>Potvrdením jednorazového prihlásenia sa vynechá služba Multi-Factor Authentication počas najbližšieho prihlásenia tohto používateľa. Toto obídenie je dočasné.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtp" xml:space="preserve">
+    <value>Na dokončenie overenia zadajte jednorazový prístupový kód, ktorý používateľ dostal v SMS správe.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtpPlusPin" xml:space="preserve">
+    <value>Na dokončenie overenia zadajte jednorazový prístupový kód, ktorý používateľ dostal v SMS správe, a PIN kód používateľa.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserPhone" xml:space="preserve">
+    <value>Zadajte nové telefónne číslo pre tohto používateľa.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Label_InstructionsUserPin" xml:space="preserve">
+    <value>Zadajte nové číslo PIN kódu pre tohto používateľa.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Label_InstructionsUserResetVoiceprint" xml:space="preserve">
+    <value>Potvrďte vynulovanie hlasového odtlačku používateľa. Používateľ bude musieť počas najbližšieho overovacieho hovoru zaregistrovať nový hlasový odtlačok.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathToken" xml:space="preserve">
+    <value>Ak chcete povoliť službu Multi-Factor Authentication pre svoje konto pomocou metódy Token OATH, zadajte sériové číslo vytlačené na zadnej strane tokenu OATH a kód, ktorý sa momentálne zobrazuje na tokene, aby sa token priradil k vášmu kontu.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathTokenPhoneApp" xml:space="preserve">
+    <value>Ak chcete povoliť službu Multi-Factor Authentication pre svoje konto pomocou metódy Token OATH, najprv budete musieť nainštalovať aplikáciu Multi-Factor Authentication do svojho telefónu a potom kliknutím na tlačidlo Generovať nižšie prijať aktivačný kód. Na dokončenie aktivačného procesu musíte aktivačný kód zadať do mobilnej aplikácie. Platnosť aktivačného kódu uplynie do 10 minút.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPhoneApp" xml:space="preserve">
+    <value>Ak chcete povoliť službu Multi-Factor Authentication pre svoje konto pomocou mobilnej aplikácie, najprv budete musieť nainštalovať aplikáciu Multi-Factor Authentication do svojho telefónu a potom kliknutím na tlačidlo Generovať nižšie prijať aktivačný kód. Na dokončenie aktivačného procesu musíte aktivačný kód zadať do mobilnej aplikácie. Platnosť aktivačného kódu uplynie do 10 minút.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPin" xml:space="preserve">
+    <value>Ak chcete povoliť službu Multi-Factor Authentication pre svoje konto, zadajte telefónne číslo, ktoré budete používať na overenie, a PIN kód.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtp" xml:space="preserve">
+    <value>Ak chcete povoliť službu Multi-Factor Authentication pre svoje konto, zadajte telefónne číslo, ktoré budete používať na overenie.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Ak chcete povoliť službu Multi-Factor Authentication pre svoje konto, zadajte telefónne číslo, ktoré budete používať na overenie, a PIN kód.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtp" xml:space="preserve">
+    <value>Ak chcete povoliť službu Multi-Factor Authentication pre svoje konto, zadajte telefónne číslo, ktoré budete používať na overenie.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Ak chcete povoliť službu Multi-Factor Authentication pre svoje konto, zadajte telefónne číslo, ktoré budete používať na overenie, a PIN kód.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupStandard" xml:space="preserve">
+    <value>Ak chcete povoliť službu Multi-Factor Authentication pre svoje konto, zadajte telefónne číslo, ktoré budete používať na overenie.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteOathToken" xml:space="preserve">
+    <value>Podľa pokynov nižšie aktivujte aplikáciu Multi-Factor Authentication vo svojom telefóne a otestujte overenie pomocou overovacích kódov uvedených v mobilnej aplikácii.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePhoneApp" xml:space="preserve">
+    <value>Podľa pokynov nižšie aktivujte aplikáciu Multi-Factor Authentication vo svojom telefóne a otestujte overenie pomocou mobilnej aplikácie.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePin" xml:space="preserve">
+    <value>Na dokončenie tohto kroku sa zo služby Multi-Factor Authentication uskutoční hovor na zadané číslo. Overenie uskutočníte zadaním PIN kódu a následným stlačením klávesu #.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtp" xml:space="preserve">
+    <value>Na dokončenie tohto kroku sa zo služby Multi-Factor Authentication odošle textová správa s jednorazovým prístupovým kódom na zadané číslo. Po zobrazení výzvy uskutočnite overenie zadaním jednorazového prístupového kódu.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Na dokončenie tohto kroku sa zo služby Multi-Factor Authentication odošle textová správa s jednorazovým prístupovým kódom na zadané číslo. Po zobrazení výzvy uskutočnite overenie zadaním jednorazového prístupového kódu a PIN kódu.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtp" xml:space="preserve">
+    <value>Na dokončenie tohto kroku sa zo služby Multi-Factor Authentication odošle textová správa s jednorazovým prístupovým kódom na vami zadané číslo. Overenie uskutočníte, keď v odpovedi na túto textovú správu uvediete príslušný jednorazový prístupový kód.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Na dokončenie tohto kroku sa zo služby Multi-Factor Authentication odošle textová správa s jednorazovým prístupovým kódom na zadané číslo. Overenie uskutočníte odpovedaním na túto textovú správu príslušným jednorazovým prístupovým kódom aj PIN kódom.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteStandard" xml:space="preserve">
+    <value>Na dokončenie tohto kroku sa zo služby Multi-Factor Authentication uskutoční hovor na zadané číslo. Overenie uskutočníte prijatím hovoru a stlačením klávesu #.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteVoiceprint" xml:space="preserve">
+    <value>Na dokončenie tohto kroku sa zo služby Multi-Factor Authentication uskutoční hovor na zadané číslo. Postupujte podľa pokynov a zaregistrujte prístupovú frázu s hlasovým odtlačkom.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupVoiceprint" xml:space="preserve">
+    <value>Ak chcete povoliť službu Multi-Factor Authentication pre svoje konto, zadajte telefónne číslo, ktoré budete používať na overenie.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserStaticToken" xml:space="preserve">
+    <value>Zadajte nový statický token pre tohto používateľa.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Label_MessageOathToken" xml:space="preserve">
+    <value>Vaše konto je konfigurované na používanie služby Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Pri prihlasovaní budete naďalej používať rovnaké meno používateľa a heslo. Pred dokončením overenia sa v aplikácii zobrazí výzva na zadanie aktuálneho overovacieho kódu z mobilnej aplikácie Multi-Factor Authentication alebo z tokenu, čím dokončíte svoje prihlásenie. Ak nezadáte správny overovací kód, prihlásenie bude zamietnuté.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppPin" xml:space="preserve">
+    <value>Vaše konto je konfigurované na používanie služby Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Pri prihlasovaní budete naďalej používať rovnaké meno používateľa a heslo. Pred dokončením overenia
+dostanete oznámenie so žiadosťou o spustenie mobilnej aplikácie Multi-Factor Authentication a zadanie PIN kódu na účely potvrdenia prihlásenia. Ak nepotvrdíte prihlásenie zadaním PIN kódu a stlačením klávesu #, prihlásenie bude zamietnuté.&lt;br/&gt;&lt;br/&gt;
+PIN kód zadajte až po prijatí oznámenia z mobilnej aplikácie Multi-Factor Authentication o tom, že sa naozaj prihlasujete do aplikácie. V opačnom prípade sa niekto pravdepodobne pokúša prihlásiť pomocou vášho mena používateľa a hesla a tento potenciálny podvod by ste mali nahlásiť správcovi IT.&lt;br/&gt;&lt;br/&gt;Svoj PIN kód môžete kedykoľvek zmeniť na portáli služby Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppStandard" xml:space="preserve">
+    <value>Vaše konto je konfigurované na používanie služby Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Pri prihlasovaní budete naďalej používať rovnaké meno používateľa a heslo. Pred dokončením overenia
+dostanete oznámenie so žiadosťou o spustenie mobilnej aplikácie Multi-Factor Authentication a stlačenie tlačidla Overiť na účely dokončenia prihlásenia. Ak nepotvrdíte prihlásenie stlačením tlačidla Overiť, prihlásenie bude zamietnuté.&lt;br/&gt;&lt;br/&gt;
+Tlačidlo Overiť stlačte až po prijatí oznámenia z mobilnej aplikácie Multi-Factor Authentication o tom, že sa naozaj prihlasujete do aplikácie. V opačnom prípade sa niekto pravdepodobne pokúša prihlásiť pomocou vášho mena používateľa a hesla a tento potenciálny podvod by ste mali nahlásiť správcovi IT.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppVoiceprint" xml:space="preserve">
+    <value>Vaše konto je konfigurované na používanie služby Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Pri prihlasovaní budete naďalej používať rovnaké meno používateľa a heslo. Pred dokončením overenia
+dostanete oznámenie so žiadosťou o spustenie mobilnej aplikácie Multi-Factor Authentication a následné vyslovenie prístupovej frázy na účely potvrdenia prihlásenia. Ak nepotvrdíte prihlásenie vyslovením prístupovej frázy, prihlásenie bude zamietnuté.&lt;br/&gt;&lt;br/&gt;
+Prístupovú frázu vyslovte až po prijatí oznámenia z mobilnej aplikácie Multi-Factor Authentication o tom, že sa naozaj prihlasujete do aplikácie. V opačnom prípade sa niekto pravdepodobne pokúša prihlásiť pomocou vášho mena používateľa a hesla a tento potenciálny podvod by ste mali nahlásiť správcovi IT.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePin" xml:space="preserve">
+    <value>Vaše konto je konfigurované na používanie služby Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Pri prihlasovaní budete naďalej používať rovnaké meno používateľa a heslo. Pred dokončením overenia
+prijmete telefónny hovor so žiadosťou o zadanie PIN kódu a následné stlačenie klávesu # na účely potvrdenia prihlásenia. Ak
+nepotvrdíte prihlásenie zadaním PIN kódu a stlačením klávesu #, prihlásenie bude zamietnuté.&lt;br/&gt;&lt;br/&gt;
+PIN kód zadajte až po prijatí hovoru z aplikácie Multi-Factor Authentication o tom, že sa naozaj prihlasujete do aplikácie.
+V opačnom prípade sa niekto pravdepodobne pokúša prihlásiť pomocou vášho mena používateľa a hesla a tento potenciálny
+podvod by ste mali nahlásiť správcovi IT.&lt;br/&gt;&lt;br/&gt;
+Svoje telefónne číslo alebo PIN kód môžete kedykoľvek zmeniť na portáli služby Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtp" xml:space="preserve">
+    <value>Vaše konto je konfigurované na používanie služby Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Pri prihlasovaní budete naďalej používať rovnaké meno používateľa a heslo. Pred dokončením overenia
+dostanete textovú správu s jednorazovým prístupovým kódom. Po zobrazení výzvy v aplikácii zadajte tento prístupový kód.
+Ak nezadáte správny prístupový kód, prihlásenie bude zamietnuté.&lt;br/&gt;&lt;br/&gt;
+Svoje telefónne číslo môžete kedykoľvek zmeniť na portáli služby Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Vaše konto je konfigurované na používanie služby Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Pri prihlasovaní budete naďalej používať rovnaké meno používateľa a heslo. Pred dokončením overenia
+dostanete textovú správu s jednorazovým prístupovým kódom. Po zobrazení výzvy v aplikácii zadajte tento prístupový kód a svoj PIN kód.
+Ak nezadáte správny prístupový kód a PIN kód, prihlásenie bude zamietnuté.&lt;br/&gt;&lt;br/&gt;
+Svoje telefónne číslo alebo PIN kód môžete kedykoľvek zmeniť na portáli služby Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtp" xml:space="preserve">
+    <value>Vaše konto je konfigurované na používanie služby Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Pri prihlasovaní budete naďalej používať rovnaké meno používateľa a heslo. Pred dokončením overenia
+dostanete textovú správu s jednorazovým prístupovým kódom. Odpovedzte na textovú správu týmto prístupovým kódom.
+Ak neodpoviete správnym prístupovým kódom, prihlásenie bude zamietnuté.&lt;br/&gt;&lt;br/&gt;
+Odpovedzte až po prijatí textovej správy z aplikácie Multi-Factor Authentication o tom, že sa naozaj prihlasujete do aplikácie.
+V opačnom prípade sa niekto pravdepodobne pokúša prihlásiť pomocou vášho mena používateľa a hesla a tento potenciálny
+podvod by ste mali nahlásiť správcovi IT.&lt;br/&gt;&lt;br/&gt;
+Svoje telefónne číslo môžete kedykoľvek zmeniť na portáli služby Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Vaše konto je konfigurované na používanie služby Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Pri prihlasovaní budete naďalej používať rovnaké meno používateľa a heslo. Pred dokončením overenia
+dostanete textovú správu s jednorazovým prístupovým kódom. Odpovedzte na textovú správu týmto prístupovým kódom a svojím PIN kódom.
+Ak neodpoviete správnym prístupovým kódom a PIN kódom, prihlásenie bude zamietnuté.&lt;br/&gt;&lt;br/&gt;
+Odpovedzte až po prijatí textovej správy z aplikácie Multi-Factor Authentication o tom, že sa naozaj prihlasujete do aplikácie.
+V opačnom prípade sa niekto pravdepodobne pokúša prihlásiť pomocou vášho mena používateľa a hesla a tento potenciálny
+podvod by ste mali nahlásiť správcovi IT.&lt;br/&gt;&lt;br/&gt;
+Svoje telefónne číslo alebo PIN kód môžete kedykoľvek zmeniť na portáli služby Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageStandard" xml:space="preserve">
+    <value>Vaše konto je konfigurované na používanie služby Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Pri prihlasovaní budete naďalej používať rovnaké meno používateľa a heslo. Pred dokončením overenia
+prijmete telefónny hovor so žiadosťou o stlačenie klávesu # na účely potvrdenia prihlásenia. Ak nepotvrdíte prihlásenie
+stlačením klávesu #, prihlásenie bude zamietnuté.&lt;br/&gt;&lt;br/&gt;
+Kláves # stlačte až po prijatí hovoru z aplikácie Multi-Factor Authentication o tom, že sa naozaj prihlasujete do aplikácie.
+V opačnom prípade sa niekto pravdepodobne pokúša prihlásiť pomocou vášho mena používateľa a hesla a tento potenciálny
+podvod by ste mali nahlásiť správcovi IT.&lt;br/&gt;&lt;br/&gt;
+Svoje telefónne číslo môžete kedykoľvek zmeniť na portáli služby Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageVoiceprint" xml:space="preserve">
+    <value>Vaše konto je konfigurované na používanie služby Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Pri prihlasovaní budete naďalej používať rovnaké meno používateľa a heslo. Pred dokončením overenia
+prijmete telefónny hovor so žiadosťou o vyslovenie prístupovej frázy na účely potvrdenia prihlásenia. Ak
+nepotvrdíte prihlásenie vyslovením prístupovej frázy, prihlásenie bude zamietnuté.&lt;br/&gt;&lt;br/&gt;
+Prístupovú frázu vyslovte až po prijatí hovoru z aplikácie Multi-Factor Authentication o tom, že sa naozaj prihlasujete do aplikácie.
+V opačnom prípade sa niekto pravdepodobne pokúša prihlásiť pomocou vášho mena používateľa a hesla a tento potenciálny
+podvod by ste mali nahlásiť správcovi IT.&lt;br/&gt;&lt;br/&gt;
+Svoje telefónne číslo môžete kedykoľvek zmeniť na portáli služby Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MustChangeModeToPhoneApp" xml:space="preserve">
+    <value>Po aktivácii mobilnej aplikácie Multi-Factor Authentication v zariadení budete musieť zmeniť metódu na metódu Mobilná aplikácia. V navigačnej ponuke kliknite na prepojenie Zmeniť metódu a zadaním metódy Mobilná aplikácia môžete aplikáciu používať.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_MustChangeUserToPhoneAppMode" xml:space="preserve">
+    <value>Keď používateľ aktivuje mobilnú aplikáciu Multi-Factor Authentication vo svojom zariadení, budete musieť zmeniť jeho metódu na metódu Mobilná aplikácia, aby mohol aplikáciu používať.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerPhoneApp" xml:space="preserve">
+    <value>Toto by sa stalo iba v prípade, keby sa niekto iný pokúsil o prihlásenie do vášho konta a už by vedel vaše heslo. Zapamätajte si, že oznámenia sa z mobilnej aplikácie Multi-Factor Authentication posielajú len po overení mena používateľa a hesla. Ak sa teda toto stane, služba Multi-Factor Authentication práve zachránila vaše konto pred neoprávneným prístupom.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerSms" xml:space="preserve">
+    <value>Toto by sa stalo iba v prípade, keby sa niekto iný pokúsil o prihlásenie do vášho konta a už by vedel vaše heslo. Zapamätajte si, že textové správy sa posielajú len po overení mena používateľa a hesla. Ak sa teda toto stane, služba Multi-Factor Authentication práve zachránila vaše konto pred neoprávneným prístupom.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerVoice" xml:space="preserve">
+    <value>Toto by sa stalo iba v prípade, keby sa niekto iný pokúsil o prihlásenie do vášho konta a už by vedel vaše heslo. Zapamätajte si, že telefónne hovory sa uskutočňujú len po overení mena používateľa a hesla. Ak sa teda toto stane, služba Multi-Factor Authentication práve zachránila vaše konto pred neoprávneným prístupom.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionPhoneApp" xml:space="preserve">
+    <value>Čo ak dostanem oznámenie z mobilnej aplikácie Multi-Factor Authentication, aj keď sa nepokúšam prihlásiť?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionSms" xml:space="preserve">
+    <value>Čo ak dostanem textovú správu z aplikácie Multi-Factor Authentication, aj keď sa nepokúšam prihlásiť?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionVoice" xml:space="preserve">
+    <value>Čo ak prijmem telefónny hovor z aplikácie Multi-Factor Authentication, aj keď sa nepokúšam prihlásiť?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassOathToken" xml:space="preserve">
+    <value>Vaša spoločnosť tiež poskytuje možnosť Jednorazové prihlásenie, vďaka čomu sa môžete jedenkrát prihlásiť bez výzvy na zadanie overovacieho kódu. Prístup k tejto funkcii získate výberom možnosti Jednorazové prihlásenie. Prípadne z ľubovoľného telefónu zatelefonujte na oddelenie technickej podpory a požiadajte o pomoc.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_OneTimeBypassPhoneApp" xml:space="preserve">
+    <value>Vaša spoločnosť tiež poskytuje možnosť Jednorazové prihlásenie, vďaka čomu sa môžete jedenkrát prihlásiť bez oznámenia z mobilnej aplikácie Multi-Factor Authentication. Prístup k tejto funkcii získate výberom možnosti Jednorazové prihlásenie. Prípadne z ľubovoľného telefónu zatelefonujte na oddelenie technickej podpory a požiadajte o pomoc.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassSms" xml:space="preserve">
+    <value>Vaša spoločnosť poskytuje možnosť Jednorazové prihlásenie, vďaka čomu sa môžete jedenkrát prihlásiť bez textovej správy. Prístup k tejto funkcii získate výberom možnosti Jednorazové prihlásenie. Prípadne z ľubovoľného telefónu zatelefonujte na oddelenie technickej podpory a požiadajte o pomoc.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassVoice" xml:space="preserve">
+    <value>Vaša spoločnosť poskytuje možnosť Jednorazové prihlásenie, vďaka čomu sa môžete jedenkrát prihlásiť bez telefónneho hovoru. Prístup k tejto funkcii získate výberom možnosti Jednorazové prihlásenie. Prípadne z ľubovoľného telefónu zatelefonujte na oddelenie technickej podpory a požiadajte o pomoc.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtp" xml:space="preserve">
+    <value>Jednorazový prístupový kód</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtpPlusPin" xml:space="preserve">
+    <value>Jednorazový prístupový kód + PIN kód</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_SimpleProcessOathToken" xml:space="preserve">
+    <value>Tento jednoduchý proces poskytuje dva samostatné faktory overovania, pričom druhé overenie sa uskutočňuje prostredníctvom niečoho, čo máte (smartfón alebo token).</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_SimpleProcessPhoneApp" xml:space="preserve">
+    <value>Tento jednoduchý proces poskytuje dva samostatné faktory overovania prostredníctvom dvoch samostatných kanálov (počítač a smartfón).</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessSms" xml:space="preserve">
+    <value>Tento jednoduchý proces poskytuje dva samostatné faktory overovania prostredníctvom dvoch samostatných kanálov (počítač a telefónna služba). Funguje s každým telefónom, ktorý podporuje používanie textových správ.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessVoice" xml:space="preserve">
+    <value>Tento jednoduchý proces poskytuje dva samostatné faktory overovania prostredníctvom dvoch samostatných kanálov (počítač a telefónna služba). Funguje s každým bežným alebo mobilným telefónom.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionOathToken" xml:space="preserve">
+    <value>Okamžite sa zobrazí výzva na zadanie overovacieho kódu. Zadajte aktuálny overovací kód zobrazený v mobilnej aplikácii Multi-Factor Authentication alebo na tokene.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppPin" xml:space="preserve">
+    <value>Okamžite dostanete oznámenie z mobilnej aplikácie Multi-Factor Authentication. Spustite aplikáciu, zadajte PIN kód a stlačte tlačidlo Overiť.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppStandard" xml:space="preserve">
+    <value>Okamžite dostanete oznámenie z mobilnej aplikácie Multi-Factor Authentication. Spustite aplikáciu a stlačte tlačidlo Overiť.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppVoiceprint" xml:space="preserve">
+    <value>Okamžite dostanete oznámenie z mobilnej aplikácie Multi-Factor Authentication. Spustite aplikáciu a po zobrazení výzvy vyslovte prístupovú frázu.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPin" xml:space="preserve">
+    <value>Okamžite dostanete telefónny hovor. Prijmite ho, zadajte PIN kód a stlačte kláves #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtp" xml:space="preserve">
+    <value>Okamžite dostanete textovú správu s jednorazovým prístupovým kódom. Po zobrazení výzvy v aplikácii zadajte tento prístupový kód.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Okamžite dostanete textovú správu s jednorazovým prístupovým kódom. Po zobrazení výzvy v aplikácii zadajte tento prístupový kód a PIN kód.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtp" xml:space="preserve">
+    <value>Okamžite dostanete textovú správu s jednorazovým prístupovým kódom. Odpovedzte na textovú správu týmto prístupovým kódom.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Okamžite dostanete textovú správu s jednorazovým prístupovým kódom. Odpovedzte na textovú správu týmto prístupovým kódom a PIN kódom.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionStandard" xml:space="preserve">
+    <value>Okamžite dostanete telefónny hovor. Prijmite ho a stlačte kláves #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionVoiceprint" xml:space="preserve">
+    <value>Okamžite dostanete telefónny hovor. Prijmite ho a po zaznení tónu vyslovte prístupovú frázu.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_TitleWithColon" xml:space="preserve">
+    <value>{0}:</value>
+    <comment>Page header on most pages</comment>
+  </data>
+  <data name="Label_UnblockReason" xml:space="preserve">
+    <value>Dôvod odblokovania</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_AccountConfigurationComplete" xml:space="preserve">
+    <value>Konfigurácia konta dokončená</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Message_AnswerRequired" xml:space="preserve">
+    <value>Musíte zodpovedať aspoň jednu otázku zabezpečenia.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AnswerSecurityQuestions" xml:space="preserve">
+    <value>Ak sa chcete prihlásiť, odpovedzte na otázky zabezpečenia.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AnswersIncorrect" xml:space="preserve">
+    <value>Najmenej jedna odpoveď je nesprávna.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AuthenticationDenied" xml:space="preserve">
+    <value>Služba Multi-Factor Authentication bola zamietnutá.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedAnswerSecurityQuestions" xml:space="preserve">
+    <value>Služba Multi-Factor Authentication bola zamietnutá. Ak sa chcete prihlásiť, odpovedzte na otázky zabezpečenia.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedCallResult" xml:space="preserve">
+    <value>Služba Multi-Factor Authentication bola zamietnutá: {0}</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_AuthenticationSuccessful" xml:space="preserve">
+    <value>Prihlásenie do služby Multi-Factor Authentication bolo úspešné.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_BypassSecondsNumeric" xml:space="preserve">
+    <value>Hodnota v poli Sekundy obídenia musí byť číselná.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRange" xml:space="preserve">
+    <value>Hodnota v poli Sekundy obídenia musí byť medzi 5 a 1 800 (30 minút).</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRequired" xml:space="preserve">
+    <value>Vyžaduje sa hodnota Sekundy obídenia.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_CannotActivateDevice" xml:space="preserve">
+    <value>Skôr než môžete zmeniť svoju metódu na metódu Mobilná aplikácia, vaše konto musí byť priradené k aktivovanej mobilnej aplikácii Multi-Factor Authentication v zariadení. Ak potrebujete pomoc s aktiváciou mobilnej aplikácie Multi-Factor Authentication vo svojom zariadení, obráťte sa na technickú podporu.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotEstablishWebServiceSdkConnection" xml:space="preserve">
+    <value>Portál používateľa služby Multi-Factor Authentication nedokáže vytvoriť zabezpečené pripojenie k súprave SDK webovej služby: {0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_CannotGetOathToken" xml:space="preserve">
+    <value>Skôr než môžete zmeniť svoju metódu na metódu Token OATH, vaše konto musí byť priradené k aktivovanej mobilnej aplikácii Multi-Factor Authentication v zariadení alebo musí byť priradené k tokenu OATH. Ak potrebujete pomoc s aktiváciou mobilnej aplikácie Multi-Factor Authentication vo svojom zariadení alebo s priradením k tokenu OATH, obráťte sa na technickú podporu.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Skôr než môžete zmeniť svoju metódu na metódu Textová správa, k vášmu kontu musí byť priradené telefónne číslo. Ak potrebujete priradiť telefónne číslo k svojmu kontu, obráťte sa na technickú podporu.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Skôr než môžete zmeniť svoju metódu na metódu Telefónny hovor, k vášmu kontu musí byť priradené telefónne číslo. Ak potrebujete priradiť telefónne číslo k svojmu kontu, obráťte sa na technickú podporu.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeOathTokenIncomplete" xml:space="preserve">
+    <value>Poznámka: Používateľ neaktivoval mobilnú aplikáciu Multi-Factor Authentication vo svojom zariadení alebo mu bol priradený token OATH tretej strany, a tak sa jeho kroky pre metódu Token OATH považujú za neúplné. Overenia do chránených aplikácií pre tohto používateľa zlyhajú a prihlásenia na portál používateľa budú vyžadovať jeho opätovnú registráciu. Odporúčame spojiť sa s týmto používateľom a pomôcť mu s aktiváciou mobilnej aplikácie Multi-Factor Authentication alebo s priradením a distribúciou tokenu OATH.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModePhoneAppIncomplete" xml:space="preserve">
+    <value>Poznámka: Používateľ neaktivoval mobilnú aplikáciu Multi-Factor Authentication vo svojom zariadení, a tak sa jeho kroky pre metódu Mobilná aplikácia považujú za neúplné. Overenia do chránených aplikácií pre tohto používateľa zlyhajú a prihlásenia na portál používateľa budú vyžadovať jeho opätovnú registráciu. Odporúčame spojiť sa s týmto používateľom a pomôcť mu s aktiváciou mobilnej aplikácie Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeSmsTextIncomplete" xml:space="preserve">
+    <value>Poznámka: Používateľ nezadal telefónne číslo, a tak sa jeho kroky pre metódu Textová správa považujú za neúplné. Overenia do chránených aplikácií pre tohto používateľa zlyhajú a prihlásenia na portál používateľa budú vyžadovať jeho opätovnú registráciu. Odporúčame zadať telefónne číslo tohto používateľa, aby mohol naďalej používať chránené aplikácie bez nutnosti opätovnej registrácie.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeVoiceCallIncomplete" xml:space="preserve">
+    <value>Poznámka: Používateľ nezadal telefónne číslo, a tak sa jeho kroky pre metódu Telefónny hovor považujú za neúplné. Overenia do chránených aplikácií pre tohto používateľa zlyhajú a prihlásenia na portál používateľa budú vyžadovať jeho opätovnú registráciu. Odporúčame zadať telefónne číslo tohto používateľa, aby mohol naďalej používať chránené aplikácie bez nutnosti opätovnej registrácie.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CodeRequired" xml:space="preserve">
+    <value>Vyžaduje sa kód.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_CodeRequiredCross" xml:space="preserve">
+    <value>Keď je zadané sériové číslo, vyžaduje sa kód.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ConfirmDeactivate" xml:space="preserve">
+    <value>Naozaj chcete natrvalo deaktivovať toto zariadenie?</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceDeactivated" xml:space="preserve">
+    <value>Zariadenie bolo deaktivované.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceLimit" xml:space="preserve">
+    <value>Konto dosiahlo nasledujúci limit počtu zariadení: {0}. Skôr než aktivujete nové zariadenie, musíte deaktivovať jedno z existujúcich zariadení.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DuplicateAnswer" xml:space="preserve">
+    <value>Duplicitná odpoveď nie je povolená.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateQuestion" xml:space="preserve">
+    <value>Duplicitná otázka nie je povolená.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateUsername" xml:space="preserve">
+    <value>Duplicitné meno používateľa.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUser" xml:space="preserve">
+    <value>Chyba pri pridávaní používateľa.&lt;br/&gt;{0}</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUserForPassedSession" xml:space="preserve">
+    <value>Chyba pri pridávaní používateľa pre odovzdanú reláciu.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithLocal" xml:space="preserve">
+    <value>Chyba komunikácie s lokálnou službou Multi-Factor Authentication. Obráťte sa na svojho správcu.</value>
+    <comment>Most pages when connection to local server is lost</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithMaster" xml:space="preserve">
+    <value>Chyba komunikácie s hlavnou službou Multi-Factor Authentication. Obráťte sa na svojho správcu.</value>
+    <comment>Most pages when connection to master server is lost</comment>
+  </data>
+  <data name="Message_ErrorDeactivatingDevice" xml:space="preserve">
+    <value>Chyba pri deaktivácii zariadenia.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorDisablingUser" xml:space="preserve">
+    <value>Chyba pri zakazovaní používateľa.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorEnablingUser" xml:space="preserve">
+    <value>Chyba pri povoľovaní používateľa.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorFindingUsers" xml:space="preserve">
+    <value>Chyba pri vyhľadávaní používateľov.&lt;br/&gt;{0}</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_ErrorGeneratingActivationCode" xml:space="preserve">
+    <value>Chyba pri generovaní aktivačného kódu.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorIssuingOneTimeBypass" xml:space="preserve">
+    <value>Chyba pri vydávaní jednorazového prihlásenia. Obráťte sa na svojho správcu.&lt;br/&gt;{0}</value>
+    <comment>one_time_bypass and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorRemovingUser" xml:space="preserve">
+    <value>Chyba pri odstraňovaní používateľa.&lt;br/&gt;{0}</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_ErrorResettingMode" xml:space="preserve">
+    <value>Chyba pri vynulovaní metódy.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPhone" xml:space="preserve">
+    <value>Chyba pri vynulovaní telefónu.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPin" xml:space="preserve">
+    <value>Chyba pri vynulovaní PIN kódu.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingVoiceprint" xml:space="preserve">
+    <value>Chyba pri vynulovaní hlasového odtlačku. Obráťte sa na svojho správcu.&lt;br/&gt;{0}</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingLanguage" xml:space="preserve">
+    <value>Chyba pri aktualizovaní jazyka.&lt;br/&gt;{0}</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingMode" xml:space="preserve">
+    <value>Chyba pri aktualizovaní metódy.&lt;br/&gt;{0}</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhone" xml:space="preserve">
+    <value>Chyba pri aktualizovaní telefónu.&lt;br/&gt;{0}</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhoneAppMode" xml:space="preserve">
+    <value>Chyba pri aktualizovaní režimu mobilnej aplikácie.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPin" xml:space="preserve">
+    <value>Chyba pri aktualizovaní PIN kódu.&lt;br/&gt;{0}</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSecurityQuestions" xml:space="preserve">
+    <value>Chyba pri aktualizovaní otázok zabezpečenia.&lt;br/&gt;{0}</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSmsTextMode" xml:space="preserve">
+    <value>Chyba pri aktualizovaní režimu textovej správy.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingStaticToken" xml:space="preserve">
+    <value>Chyba pri aktualizovaní statického tokenu.&lt;br/&gt;{0}</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserForSecurityQuestionSetup" xml:space="preserve">
+    <value>Chyba pri aktualizovaní používateľa pri nastavovaní otázky zabezpečenia.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserInformation" xml:space="preserve">
+    <value>Chyba pri aktualizovaní informácií o používateľovi.&lt;br/&gt;{0}</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingVoiceCallMode" xml:space="preserve">
+    <value>Chyba pri aktualizovaní režimu telefónneho hovoru.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ExpiredSession" xml:space="preserve">
+    <value>Platnosť relácie uplynula.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_IncorrectAnswers" xml:space="preserve">
+    <value>Zadané odpovede sú nesprávne, skúste to znova.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_IncorrectOathCode" xml:space="preserve">
+    <value>Nesprávny overovací kód.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscode" xml:space="preserve">
+    <value>Nesprávny jednorazový prístupový kód.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscodePlusPin" xml:space="preserve">
+    <value>Nesprávny jednorazový prístupový kód + PIN kód.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_InvalidExtension" xml:space="preserve">
+    <value>Neplatná klapka. Povolené sú iba číslice, čiarky, * a #. Na jednosekundové prerušenie použite čiarku. Ak chcete vysloviť číslice klapky na manuálne prepojenie, pred klapku vložte @.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_InvalidSerialNumber" xml:space="preserve">
+    <value>Neplatné sériové číslo. Token OATH s týmto sériovým číslom sa musí v používateľskom rozhraní servera Multi-Factor Authentication Server definovať skôr, než sa priradí k používateľovi.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_LineBreak" xml:space="preserve">
+    <value>&lt;br/&gt;{0}</value>
+    <comment>add_user, change_phone, change_pin, change_mode, change_language and enable_disable pages</comment>
+  </data>
+  <data name="Message_LoginFailed" xml:space="preserve">
+    <value>Prihlásenie zlyhalo.</value>
+    <comment>login and secondary_authentication pages</comment>
+  </data>
+  <data name="Message_MustActivateDevice" xml:space="preserve">
+    <value>Mobilnú aplikáciu Multi-Factor Authentication musíte v zariadení aktivovať skôr, než môžete svoju metódu zmeniť na metódu Mobilná aplikácia. Aktiváciu možno spustiť kliknutím na prepojenie Aktivovať mobilnú aplikáciu v navigačnej ponuke.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustActivateDeviceOathToken" xml:space="preserve">
+    <value>Mobilnú aplikáciu Multi-Factor Authentication musíte v zariadení aktivovať skôr, než môžete svoju metódu zmeniť na metódu Token OATH. Aktiváciu možno spustiť kliknutím na prepojenie Aktivovať mobilnú aplikáciu v navigačnej ponuke.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustAnswerAllQuestions" xml:space="preserve">
+    <value>Musíte odpovedať na všetky otázky zabezpečenia.</value>
+    <comment>create_security_questions, change_security_questions, and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_MustEnrollOathToken" xml:space="preserve">
+    <value>Skôr než môžete svoju metódu zmeniť na metódu Token OATH, musíte token OATH priradiť k svojmu kontu. Token OATH možno priradiť kliknutím na prepojenie Token OATH.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustHaveOathToken" xml:space="preserve">
+    <value>Skôr než môžete svoju metódu zmeniť na metódu Token OATH, musíte v zariadení aktivovať mobilnú aplikáciu Multi-Factor Authentication alebo musíte priradiť token OATH k svojmu kontu. Aktiváciu možno spustiť kliknutím na prepojenie Aktivovať mobilnú aplikáciu v navigačnej ponuke, token OATH možno priradiť kliknutím na prepojenie Token OATH.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Skôr než môžete svoju metódu zmeniť na metódu Textová správa, musíte zadať telefónne číslo pre svoje konto. Telefónne číslo možno zadať kliknutím na prepojenie Zmeniť telefón v navigačnej ponuke.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Skôr než môžete svoju metódu zmeniť na metódu Telefónny hovor, musíte zadať telefónne číslo pre svoje konto. Telefónne číslo možno zadať kliknutím na prepojenie Zmeniť telefón v navigačnej ponuke.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifySearchField" xml:space="preserve">
+    <value>Musíte zadať najmenej jedno pole hľadania.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoActivatedDevices" xml:space="preserve">
+    <value>Pre tohto používateľa nie sú aktivované žiadne zariadenia.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_NoMatchingUsersFound" xml:space="preserve">
+    <value>Nenašli sa žiadni zodpovedajúci používatelia.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoSsl" xml:space="preserve">
+    <value>Portál používateľa služby Multi-Factor Authentication nie je zabezpečený protokolom SSL, no na súbory cookie relácie v rámci súboru Web.config sa protokol SSL vyžaduje. Portál používateľa nefunguje, pretože nemožno udržať stav relácie. Odporúčame zabezpečiť portál používateľa pomocou protokolu SSL. Na účely testovania môžete nastavenie Vyžadovať protokol SSL dočasne zmeniť na hodnotu False v značke &lt;httpCookies&gt; v rámci súboru Web.config.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailed" xml:space="preserve">
+    <value>Synchronizácia tokenu OATH zlyhala. Buď nie je správny zadaný kód, alebo nie je platné sériové číslo tokenu OATH.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailedUser" xml:space="preserve">
+    <value>Synchronizácia tokenu OATH zlyhala. Zadaný kód nie je správny.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OnlyFirstMatchesDisplayed" xml:space="preserve">
+    <value>Zobrazuje sa len nasledujúci počet prvých zhodných položiek: {0}. Ak určitého používateľa nemôžete v zozname nájsť, zadajte konkrétnejšie kritériá vyhľadávania.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_PassedSessionFailed" xml:space="preserve">
+    <value>Odovzdaná relácia zlyhala.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_PhoneRequired" xml:space="preserve">
+    <value>Vyžaduje sa telefón.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMatch" xml:space="preserve">
+    <value>Kódy zadané v poliach PIN kód a Potvrďte PIN kód sa musia zhodovať.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMinimumLength" xml:space="preserve">
+    <value>PIN kód musí byť najmenej {0}-ciferný.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinNumeric" xml:space="preserve">
+    <value>PIN kód musí byť číselný.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinRecentlyUsed" xml:space="preserve">
+    <value>PIN kód nemôže byť rovnaký ako niektorý z vašich naposledy používaných PIN kódov. Vyberte iný PIN kód.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_SamlDisabled" xml:space="preserve">
+    <value>Jediné prihlásenia do externých aplikácií pomocou štandardu SAML sú zakázané.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotDefined" xml:space="preserve">
+    <value>Pre tohto používateľa nie sú definované otázky zabezpečenia.&lt;br/&gt;</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotSetUp" xml:space="preserve">
+    <value>Nemôžete sa prihlásiť bez svojho telefónu, pretože ste nenastavili otázky zabezpečenia.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsVerified" xml:space="preserve">
+    <value>Otázky zabezpečenia boli overené.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityWarningNoSsl" xml:space="preserve">
+    <value>UPOZORNENIE ZABEZPEČENIA: Portál používateľa služby Multi-Factor Authentication nie je zabezpečený protokolom SSL. Heslá sa odovzdajú vo formáte obyčajného textu.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SerialNumberAlreadyAssociated" xml:space="preserve">
+    <value>Sériové číslo je už k používateľovi {0} priradené. Od tohto používateľa musíte sériové číslo odstrániť skôr, než ho môžete priradiť k tomuto používateľovi.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_SerialNumberRequired" xml:space="preserve">
+    <value>Vyžaduje sa sériové číslo.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_SerialNumberRequiredCross" xml:space="preserve">
+    <value>Keď je zadaný kód, vyžaduje sa sériové číslo.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ShortAnswer" xml:space="preserve">
+    <value>Odpoveď musí obsahovať najmenej 4 znaky.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_StaticTokenMatch" xml:space="preserve">
+    <value>Tokeny zadané v poliach Statický token a Potvrďte statický token sa musia zhodovať.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenMinimumLength" xml:space="preserve">
+    <value>Statický token musí byť najmenej {0}-ciferný.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenNumeric" xml:space="preserve">
+    <value>Statický token musí byť číselný.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserAdded" xml:space="preserve">
+    <value>Používateľ bol pridaný.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_UserAlreadyBlocked" xml:space="preserve">
+    <value>Blokovanie zlyhalo. Príslušný používateľ je už blokovaný.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlocked" xml:space="preserve">
+    <value>Používateľ bol úspešne zablokovaný.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlockFailed" xml:space="preserve">
+    <value>Blokovanie zlyhalo.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserDeviceLimit" xml:space="preserve">
+    <value>Používateľ dosiahol nasledujúci limit počtu zariadení: {0}. Skôr než používateľ môže aktivovať nové zariadenie, musíte deaktivovať jedno z existujúcich zariadení pre tohto používateľa.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_UserDisabled" xml:space="preserve">
+    <value>Používateľ bol úspešne zakázaný.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserEnabled" xml:space="preserve">
+    <value>Používateľ bol úspešne povolený.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserInformationChanged" xml:space="preserve">
+    <value>Informácie o používateľovi sa zmenili.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_UserLanguageChanged" xml:space="preserve">
+    <value>Jazyková preferencia tohto používateľa sa zmenila.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_UserModeChanged" xml:space="preserve">
+    <value>Metóda tohto používateľa sa zmenila.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_UsernameRequired" xml:space="preserve">
+    <value>Vyžaduje sa meno používateľa.</value>
+    <comment>login and add_user pages</comment>
+  </data>
+  <data name="Message_UserNotBlocked" xml:space="preserve">
+    <value>Odblokovanie zlyhalo. Tento používateľ nie je momentálne blokovaný.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserOathTokenSaved" xml:space="preserve">
+    <value>Token OATH tohto používateľa sa uložil.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_UserOneTimeBypassIssued" xml:space="preserve">
+    <value>Jednorazové prihlásenie bolo vydané. Služba Multi-Factor Authentication sa počas najbližšieho prihlásenia tohto používateľa vynechá.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_UserPhoneChanged" xml:space="preserve">
+    <value>Telefón tohto používateľa sa zmenil.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_UserPinChanged" xml:space="preserve">
+    <value>PIN kód tohto používateľa sa zmenil.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_UserPortalDisabled" xml:space="preserve">
+    <value>Priame prihlásenia na portál používateľa sú zakázané.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserPortalNotPurchased" xml:space="preserve">
+    <value>Portál používateľa služby Multi-Factor Authentication nefunguje, pretože táto funkcia nie je zakúpená.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserRemoved" xml:space="preserve">
+    <value>Používateľ bol odstránený.</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_UserStaticTokenChanged" xml:space="preserve">
+    <value>Statický token tohto používateľa sa zmenil.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserSubmodeChanged" xml:space="preserve">
+    <value>Režimy tohto používateľa sa zmenili.</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_UserUnblocked" xml:space="preserve">
+    <value>Používateľ bol úspešne odblokovaný.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserUnblockFailed" xml:space="preserve">
+    <value>Odblokovanie zlyhalo.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserVoiceprintReset" xml:space="preserve">
+    <value>Hlasový odtlačok bol úspešne vynulovaný. Používateľovi sa pri najbližšom prihlásení zobrazí výzva na registráciu nového hlasového odtlačku.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_WeakPinNotAllowed" xml:space="preserve">
+    <value>Slabý PIN kód nie je povolený. Kód nemôže obsahovať 4- ani viaccifernú podmnožinu telefónneho čísla, 3 alebo viac opakujúcich sa číslic ani 3 alebo viac po sebe idúcich číslic.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_WeakStaticTokenNotAllowed" xml:space="preserve">
+    <value>Slabý statický token nie je povolený. Token nemôže obsahovať 4- ani viaccifernú podmnožinu telefónneho čísla, 3 alebo viac opakujúcich sa číslic ani 3 alebo viac po sebe idúcich číslic.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_WebServiceSdkError" xml:space="preserve">
+    <value>Portál používateľa služby Multi-Factor Authentication je konfigurovaný na komunikáciu so súpravou SDK webovej služby, ktorá vrátila túto chybu:&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_WebServiceSdkNotPurchased" xml:space="preserve">
+    <value>Portál používateľa služby Multi-Factor Authentication je konfigurovaný na komunikáciu so súpravou SDK webovej služby, pričom funkcia súpravy SDK webovej služby nie je zakúpená.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_YourInformationChanged" xml:space="preserve">
+    <value>Vaše informácie sa zmenili.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_YourLanguageChanged" xml:space="preserve">
+    <value>Vaša jazyková preferencia sa zmenila.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_YourModeChanged" xml:space="preserve">
+    <value>Vaša metóda sa zmenila.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_YourOathTokenSaved" xml:space="preserve">
+    <value>Váš token OATH sa uložil.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_YourOneTimeBypassIssued" xml:space="preserve">
+    <value>Jednorazové prihlásenie bolo vydané. Služba Multi-Factor Authentication sa počas vášho najbližšieho prihlásenia vynechá.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_YourPhoneChanged" xml:space="preserve">
+    <value>Váš telefón sa zmenil.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_YourPinChanged" xml:space="preserve">
+    <value>Váš PIN kód sa zmenil.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_YourSecurityQuestionsChanged" xml:space="preserve">
+    <value>Vaše otázky zabezpečenia a odpovede sa zmenili.</value>
+    <comment>change_security_questions page</comment>
+  </data>
+  <data name="Message_YourStaticTokenChanged" xml:space="preserve">
+    <value>Váš statický token sa zmenil.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_YourVoiceprintReset" xml:space="preserve">
+    <value>Hlasový odtlačok bol úspešne vynulovaný. Pri vašom najbližšom prihlásení sa zobrazí výzva na registráciu nového hlasového odtlačku.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Reason_InitiatedByAdmin" xml:space="preserve">
+    <value>Inicializované správcom na portáli používateľa</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Reason_InitiatedByUser" xml:space="preserve">
+    <value>Inicializované používateľom na portáli používateľa</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Subtitle_DeactivatePhoneApp" xml:space="preserve">
+    <value>Deaktivovať mobilnú aplikáciu</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Subtitle_Enable" xml:space="preserve">
+    <value>Povolenie</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Subtitle_UnblockUser" xml:space="preserve">
+    <value>Odblokovanie používateľa</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Title_PhoneFactorUserPortal" xml:space="preserve">
+    <value>Multi-Factor Authentication™ | Portál používateľa</value>
+    <comment>Title on all pages</comment>
+  </data>
+  <data name="Value_All" xml:space="preserve">
+    <value>Všetko</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Value_Masked" xml:space="preserve">
+    <value>Maskované</value>
+    <comment>add_user, change_pin, and oath_token pages</comment>
+  </data>
+</root>

@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"UTF-8\"?><cki><ck fm=\"Ativar Aplicação Móvel\" to=\"Configuração do Utilizador\" num=\"33\"/></cki>";

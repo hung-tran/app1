@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName_UserPortal" xml:space="preserve">
+    <value>Uporabniški portal</value>
+    <comment>Application name for Multi-Factor Authentications</comment>
+  </data>
+  <data name="Button_AuthenticateMeNow" xml:space="preserve">
+    <value>Preveri mojo pristnost zdaj</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_CallMeNowToAuthenticate" xml:space="preserve">
+    <value>Pokliči me zdaj za preverjanje pristnosti</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_Next" xml:space="preserve">
+    <value>Naprej</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_TextMeNowToAuthenticate" xml:space="preserve">
+    <value>Pošlji besedilno sporočilo za preverjanje pristnosti zdaj</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_VerifyOathToken" xml:space="preserve">
+    <value>Preveri žeton OATH</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Help_File" xml:space="preserve">
+    <value>help/PhoneFactor_User_Portal.htm</value>
+    <comment>Localize as help/xx/PhoneFactor_User_Portal.htm where xx is langauge code (e.g. de for German, zh-hans for Simplified Chinese)</comment>
+  </data>
+  <data name="Label_AlternatePhoneOathToken" xml:space="preserve">
+    <value>Mobilna aplikacija Multi-Factor Authentication za prikaz kod za preverjanje pristnosti ne potrebuje povezave z mobilnim omrežjem ali brezžične povezave Wi-Fi.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_AlternatePhonePhoneApp" xml:space="preserve">
+    <value>Mobilna aplikacija Multi-Factor Authentication deluje popolnoma enakovredno tudi prek brezžične povezave Wi-Fi.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneSms" xml:space="preserve">
+    <value>V svojem računu lahko nastavite uporabo druge telefonske številke. Izberite možnost Spremeni telefonsko številko.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneVoice" xml:space="preserve">
+    <value>V svojem računu lahko nastavite uporabo druge telefonske številke (na primer stacionarne številke). Izberite možnost Spremeni telefonsko številko.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_CannotChangeModeToPhoneApp" xml:space="preserve">
+    <value>Po aktivaciji mobilne aplikacije Multi-Factor Authentication v vaši napravi morate v svojem računu nastaviti uporabo mobilne aplikacije, šele nato lahko pričnete z njeno uporabo. Obrnite se na službo za pomoč in zahtevajte vklop načina za preverjanje pristnosti z uporabo mobilne aplikacije.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_Disable" xml:space="preserve">
+    <value>Onemogoči</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>Omogoči</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_FraudAlertPhoneApp" xml:space="preserve">
+    <value>Za prijavo dogodka v mobilni aplikaciji Multi-Factor Authentication pritisnite gumb Zavrni in pošlji poročilo o prevari. S tem oddelku za varnost IT v vašem podjetju pošljete opozorilo. Dokler se težava ne razreši, bodo nadaljnji poskusi preverjanja pristnosti blokirani.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertSms" xml:space="preserve">
+    <value>Za prijavo dogodka v odgovoru navedite tudi kodo prevare. S tem oddelku za varnost IT v vašem podjetju pošljete opozorilo. Dokler se težava ne razreši, bodo nadaljnji poskusi preverjanja pristnosti blokirani.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertVoice" xml:space="preserve">
+    <value>Za prijavo dogodka med klicem za preverjanje pristnosti v meniju telefona izberite možnost Opozorilo o prevari. S tem oddelku za varnost IT v vašem podjetju pošljete opozorilo. Dokler se težava ne razreši, bodo nadaljnji poskusi preverjanja pristnosti blokirani.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_GenerateActivationCode" xml:space="preserve">
+    <value>Generiraj kodo za aktivacijo</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateActivationLink" xml:space="preserve">
+    <value>Generiraj povezavo za aktivacijo</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationCode" xml:space="preserve">
+    <value>Generiraj novo kodo za aktivacijo</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationLink" xml:space="preserve">
+    <value>Generiraj novo povezavo za aktivacijo</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionOathToken" xml:space="preserve">
+    <value>Storitev Multi-Factor Authentication deluje tako, da pri prijavi od vas zahteva kodo za preverjanje pristnosti.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionPhoneApp" xml:space="preserve">
+    <value>Storitev Multi-Factor Authentication deluje tako, da pri prijavi vaši mobilni aplikaciji Multi-Factor Authentication pošlje obvestilo.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionSms" xml:space="preserve">
+    <value>Storitev Multi-Factor Authentication deluje tako, da pri prijavi v vaš telefon pošlje besedilno sporočilo.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionVoice" xml:space="preserve">
+    <value>Storitev Multi-Factor Authentication deluje tako, da pri prijavi v vaš telefon pošlje potrditveni klic.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsAdministrator" xml:space="preserve">
+    <value>Za upravljanje uporabniških računov v meniju izberite možnost Poišči uporabnike. Za upravljanje svojega računa izberite ustrezno možnost. Za pomoč izberite ikono pomoči (zgoraj desno).</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeOathToken" xml:space="preserve">
+    <value>Za preverjanje pristnosti z uporabo kode za preverjanje pristnosti iz mobilne aplikacije Multi-Factor Authentication izberite način &lt;b&gt;Žeton OATH&lt;/b&gt;.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModePhoneApp" xml:space="preserve">
+    <value>Za preverjanje pristnosti z uporabo mobilne aplikacije Multi-Factor Authentication izberite način &lt;b&gt;Mobilna aplikacija&lt;/b&gt;.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeSmsText" xml:space="preserve">
+    <value>Za preverjanje pristnosti s prejemom besedilnega sporočila izberite način &lt;b&gt;Besedilno sporočilo&lt;/b&gt;.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeVoiceCall" xml:space="preserve">
+    <value>Za preverjanje pristnosti s prejemom telefonskega klica izberite način &lt;b&gt;Telefonski klic&lt;/b&gt;.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtp" xml:space="preserve">
+    <value>Za dokončanje preverjanja vnesite enkratno geslo, ki ga prejmete v besedilnem sporočilu.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtpPlusPin" xml:space="preserve">
+    <value>Za dokončanje preverjanja vnesite enkratno geslo, ki ga prejmete v besedilnem sporočilu in svojo kodo PIN.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsFindUser" xml:space="preserve">
+    <value>Vnesite nekaj začetnih znakov uporabniškega imena in kliknite gumb Najdi.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsOathToken" xml:space="preserve">
+    <value>Preskusite preverjanje pristnosti z žetonom OATH za tega uporabnika.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneApp" xml:space="preserve">
+    <value>Preskusite preverjanje pristnosti z mobilno aplikacijo za tega uporabnika.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationIpWhitelist" xml:space="preserve">
+    <value>Po dokončanju aktivacije za nadaljevanje postopka namestitve kliknite Naprej.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationOathToken" xml:space="preserve">
+    <value>Po dokončanju aktivacije kliknite naslednji gumb za preskus preverjanja pristnosti in nadaljujte postopek namestitve. Ob pozivu vnesite kodo za preverjanje pristnosti, ki je prikazana v mobilni aplikaciji.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsSelectUser" xml:space="preserve">
+    <value>Na seznamu izberite želenega uporabnika ali izberite Nazaj in poiščite drugega uporabnika.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsSmsText" xml:space="preserve">
+    <value>Preskusite preverjanje pristnosti z besedilnim sporočilom za tega uporabnika.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUnblockUser" xml:space="preserve">
+    <value>Vnesite razlog za deblokado in potrdite deblokado uporabnika. Preverjanje pristnosti za tega uporabnika tako ne bo več blokirano.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Label_InstructionsUserActivatePhoneApp" xml:space="preserve">
+    <value>Uporabnik mora v telefon najprej namestiti mobilno aplikacijo Multi-Factor Authentication. Za prejem kode za aktivacijo kliknite gumb Generiraj. Kodo za aktivacijo je treba za dokončanje postopka aktivacije nato vnesti v mobilni aplikaciji uporabnika.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserDeactivatePhoneApp" xml:space="preserve">
+    <value>Za deaktiviranje naprave uporabnika kliknite povezavo Deaktiviraj za ustrezno napravo.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserEnable" xml:space="preserve">
+    <value>Potrdite omogočenje uporabnika, šele nato bo pri prijavi pričel prejemati klice storitve Multi-Factor Authentication.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_InstructionsUserInformation" xml:space="preserve">
+    <value>Navedite nove podatke za tega uporabnika.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Label_InstructionsUserLanguage" xml:space="preserve">
+    <value>Izberite jezikovne nastavitve za tega uporabnika.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Label_InstructionsUserMode" xml:space="preserve">
+    <value>Izberite način za tega uporabnika.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathCode" xml:space="preserve">
+    <value>Za dokončanje preverjanja pristnosti vnesite kodo za preverjanje pristnosti, ki je prikazana v mobilni aplikaciji Multi-Factor Authentication ali žetonu uporabnika.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathToken" xml:space="preserve">
+    <value>Za povezavo žetona z uporabnikom vnesite serijsko številko žetona OATH in kodo, ki je prikazana na žetonu.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Label_InstructionsUserOneTimeBypass" xml:space="preserve">
+    <value>Potrdite enkratni dostop za preskok storitve Multi-Factor Authentication pri naslednji prijavi tega uporabnika. Ta vrsta dostopa je začasna.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtp" xml:space="preserve">
+    <value>Za dokončanje preverjanja pristnosti vnesite enkratno geslo, ki ga je uporabnik prejel v sporočilu SMS.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtpPlusPin" xml:space="preserve">
+    <value>Za dokončanje preverjanja pristnosti vnesite enkratno geslo, ki ga je uporabnik prejel v sporočilu SMS, in uporabnikovo kodo PIN.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserPhone" xml:space="preserve">
+    <value>Navedite novo telefonsko številko za tega uporabnika.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Label_InstructionsUserPin" xml:space="preserve">
+    <value>Navedite novo kodo PIN za tega uporabnika.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Label_InstructionsUserResetVoiceprint" xml:space="preserve">
+    <value>Potrdite ponastavitev glasovnega odtisa tega uporabnika. Uporabnik bo moral pri naslednjem klicu za preverjanje pristnosti včlaniti nov glasovni odtis.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathToken" xml:space="preserve">
+    <value>Za vklop storitve Multi-Factor Authentication z uporabo žetona OATH za svoj račun vnesite serijsko številko, ki je navedena na hrbtni strani žetona OATH, in kodo, ki je prikazana na žetonu. S tem žeton povežete s svojim računom.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathTokenPhoneApp" xml:space="preserve">
+    <value>Za vklop storitve Multi-Factor Authentication z uporabo žetona OATH za svoj račun v telefon najprej namestite aplikacijo Multi-Factor Authentication, nato spodaj kliknite gumb Generiraj in prejeli boste kodo za aktivacijo. Kodo za aktivacijo nato vnesite v mobilno aplikacijo in s tem zaključite postopek aktivacije. Koda za aktivacijo poteče po 10 minutah.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPhoneApp" xml:space="preserve">
+    <value>Za vklop storitve Multi-Factor Authentication z uporabo mobilne aplikacije za svoj račun v telefon najprej namestite aplikacijo Multi-Factor Authentication, nato spodaj kliknite gumb Generiraj in prejeli boste kodo za aktivacijo. Kodo za aktivacijo nato vnesite v mobilno aplikacijo in s tem zaključite postopek aktivacije. Koda za aktivacijo poteče po 10 minutah.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPin" xml:space="preserve">
+    <value>Za vklop storitve Multi-Factor Authentication za svoj račun navedite telefonsko številko, ki jo želite uporabljati za preverjanje pristnosti, in kodo PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtp" xml:space="preserve">
+    <value>Za vklop storitve Multi-Factor Authentication za svoj račun navedite telefonsko številko, ki jo želite uporabljati za preverjanje pristnosti.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Za vklop storitve Multi-Factor Authentication za svoj račun navedite telefonsko številko, ki jo želite uporabljati za preverjanje pristnosti, in kodo PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtp" xml:space="preserve">
+    <value>Za vklop storitve Multi-Factor Authentication za svoj račun navedite telefonsko številko, ki jo želite uporabljati za preverjanje pristnosti.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Za vklop storitve Multi-Factor Authentication za svoj račun navedite telefonsko številko, ki jo želite uporabljati za preverjanje pristnosti, in kodo PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupStandard" xml:space="preserve">
+    <value>Za vklop storitve Multi-Factor Authentication za svoj račun navedite telefonsko številko, ki jo želite uporabljati za preverjanje pristnosti.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteOathToken" xml:space="preserve">
+    <value>Za aktivacijo aplikacije Multi-Factor Authentication v svojem telefonu in preskus preverjanja pristnosti z uporabo kod za preverjanje pristnosti, ki jih poda mobilna aplikacija, upoštevajte spodnja navodila.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePhoneApp" xml:space="preserve">
+    <value>Za aktivacijo aplikacije Multi-Factor Authentication v svojem telefonu in preskus preverjanja pristnosti z uporabo mobilne aplikacije upoštevajte spodnja navodila.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePin" xml:space="preserve">
+    <value>Za dokončanje tega koraka bo storitev Multi-Factor Authentication poklicala navedeno telefonsko številko. Za preverjanje pristnosti vnesite kodo PIN in #.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtp" xml:space="preserve">
+    <value>Za dokončanje tega koraka bo storitev Multi-Factor Authentication na navedeno telefonsko številko poslala besedilno sporočilo z enkratnim geslom. Za preverjanje pristnosti ob pozivu vnesite enkratno geslo.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Za dokončanje tega koraka bo storitev Multi-Factor Authentication na navedeno telefonsko številko poslala besedilno sporočilo z enkratnim geslom. Za preverjanje pristnosti ob pozivu vnesite enkratno geslo in kodo PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtp" xml:space="preserve">
+    <value>Za dokončanje tega koraka bo storitev Multi-Factor Authentication na navedeno telefonsko številko poslala besedilno sporočilo z enkratnim geslom. Za preverjanje pristnosti na sporočilo odgovorite z enkratnim geslom.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Za dokončanje tega koraka bo storitev Multi-Factor Authentication na navedeno telefonsko številko poslala besedilno sporočilo z enkratnim geslom. Za preverjanje pristnosti na sporočilo odgovorite z enkratnim geslom in kodo PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteStandard" xml:space="preserve">
+    <value>Za dokončanje tega koraka bo storitev Multi-Factor Authentication poklicala navedeno telefonsko številko. Za preverjanje pristnosti sprejmite klic in pritisnite #.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteVoiceprint" xml:space="preserve">
+    <value>Za dokončanje tega koraka bo storitev Multi-Factor Authentication poklicala navedeno telefonsko številko. Za preverjanje pristnosti upoštevajte navodila za včlanitev glasovnega gesla.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupVoiceprint" xml:space="preserve">
+    <value>Za vklop storitve Multi-Factor Authentication za svoj račun navedite telefonsko številko, ki jo želite uporabljati za preverjanje pristnosti.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserStaticToken" xml:space="preserve">
+    <value>Določite novi statični žeton za tega uporabnika.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Label_MessageOathToken" xml:space="preserve">
+    <value>Vaš račun je konfiguriran za uporabo storitve Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Ob prijavi v storitev uporabite isto uporabniško ime in geslo. Za dokončanje preverjanja bo aplikacija od vas zahtevala vnos trenutne kode za preverjanje pristnosti iz mobilne aplikacije Multi-Factor Authentication ali žetona. V primeru vnosa nepravilne kode za preverjanje pristnosti bo prijava zavrnjena.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppPin" xml:space="preserve">
+    <value>Vaš račun je konfiguriran za uporabo storitve Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Ob prijavi v storitev uporabite isto uporabniško ime in geslo.
+Za dokončanje preverjanja boste prejeli obvestilo z zahtevo po zagonu mobilne aplikacije Multi-Factor Authentication in vnosu kode PIN za potrditev prijave. Če prijave ne potrdite z vnosom kode PIN in znaka #, bo prijava zavrnjena.&lt;br/&gt;&lt;br/&gt;
+Kodo PIN vnesite samo po prejemu obvestila iz mobilne aplikacije Multi-Factor Authentication, če se res poskušate prijaviti v aplikacijo. V nasprotnem primeru se morda nekdo drug poskuša prijaviti z vašim uporabniškim imenom in geslom, kar morate prijaviti skrbniku IT kot morebitno prevaro.&lt;br/&gt;&lt;br/&gt;Kodo PIN lahko kadarkoli spremenite z vnovičnim obiskom portala Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppStandard" xml:space="preserve">
+    <value>Vaš račun je konfiguriran za uporabo storitve Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Ob prijavi v storitev uporabite isto uporabniško ime in geslo.
+Za dokončanje preverjanja boste prejeli obvestilo z zahtevo po zagonu mobilne aplikacije Multi-Factor Authentication in pritisku gumba Preveri pristnost. Če prijave ne potrdite z gumbom Preveri pristnost, bo prijava zavrnjena.&lt;br/&gt;&lt;br/&gt;
+Gumb Preveri pristnost pritisnite samo po prejemu obvestila iz mobilne aplikacije Multi-Factor Authentication, če se res poskušate prijaviti v aplikacijo. V nasprotnem primeru se morda nekdo drug poskuša prijaviti z vašim uporabniškim imenom in geslom, kar morate prijaviti skrbniku IT kot morebitno prevaro.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppVoiceprint" xml:space="preserve">
+    <value>Vaš račun je konfiguriran za uporabo storitve Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Ob prijavi v storitev uporabite isto uporabniško ime in geslo.
+Za dokončanje preverjanja boste prejeli obvestilo z zahtevo po zagonu mobilne aplikacije Multi-Factor Authentication in izgovorjavi glasovnega gesla. Če prijave ne potrdite z izgovorjavo glasovnega gesla, bo prijava zavrnjena.&lt;br/&gt;&lt;br/&gt;
+Glasovno geslo povejte samo po prejemu obvestila iz mobilne aplikacije Multi-Factor Authentication, če se res poskušate prijaviti v aplikacijo. V nasprotnem primeru se morda nekdo drug poskuša prijaviti z vašim uporabniškim imenom in geslom, kar morate prijaviti skrbniku IT kot morebitno prevaro.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePin" xml:space="preserve">
+    <value>Vaš račun je konfiguriran za uporabo storitve Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Ob prijavi v storitev uporabite isto uporabniško ime in geslo.
+Za dokončanje preverjanja boste prejeli telefonski klic z zahtevo po vnosu kode PIN in znaka #.
+Če prijave ne potrdite z vnosom kode PIN in znaka #, bo prijava zavrnjena.&lt;br/&gt;&lt;br/&gt;
+Kodo PIN vnesite samo po prejemu klica storitve Multi-Factor Authentication, če se res poskušate prijaviti v aplikacijo.
+V nasprotnem primeru se morda nekdo drug poskuša prijaviti z vašim uporabniškim imenom in geslom,
+kar morate prijaviti skrbniku IT kot morebitno prevaro.&lt;br/&gt;&lt;br/&gt;
+Kodo PIN ali telefonsko številko lahko kadarkoli spremenite z vnovičnim obiskom portala Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtp" xml:space="preserve">
+    <value>Vaš račun je konfiguriran za uporabo storitve Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Ob prijavi v storitev uporabite isto uporabniško ime in geslo. Za dokončanje preverjanja
+boste prejeli besedilno sporočilo z enkratnim geslom. Ob pozivu aplikacije vnesite to geslo.
+V primeru vnosa nepravilnega gesla bo prijava zavrnjena.&lt;br/&gt;&lt;br/&gt;
+Telefonsko številko lahko kadarkoli spremenite z vnovičnim obiskom portala Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Vaš račun je konfiguriran za uporabo storitve Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Ob prijavi v storitev uporabite isto uporabniško ime in geslo. Za dokončanje
+preverjanja boste prejeli besedilno sporočilo z enkratnim geslom. Ob pozivu aplikacije vnesite to geslo in kodo PIN.
+V primeru vnosa nepravilnega gesla in kode PIN bo prijava zavrnjena.&lt;br/&gt;&lt;br/&gt;
+Telefonsko številko ali kodo PIN lahko kadarkoli spremenite z vnovičnim obiskom portala Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtp" xml:space="preserve">
+    <value>Vaš račun je konfiguriran za uporabo storitve Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Ob prijavi v storitev uporabite isto uporabniško ime in geslo. Za dokončanje preverjanja
+boste prejeli besedilno sporočilo z enkratnim geslom. Na sporočilo odgovorite s tem geslom.
+V primeru odgovora z nepravilnim geslom bo prijava zavrnjena.&lt;br/&gt;&lt;br/&gt;
+Odgovor pošljite samo po prejemu besedilnega sporočila iz storitve Multi-Factor Authentication, če se res poskušate prijaviti v aplikacijo.
+V nasprotnem primeru se morda nekdo drug poskuša prijaviti z vašim uporabniškim imenom in geslom,
+kar morate prijaviti skrbniku IT kot morebitno prevaro.&lt;br/&gt;&lt;br/&gt;
+Telefonsko številko lahko kadarkoli spremenite z vnovičnim obiskom portala Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Vaš račun je konfiguriran za uporabo storitve Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Ob prijavi v storitev uporabite isto uporabniško ime in geslo. Za dokončanje preverjanja
+boste prejeli besedilno sporočilo z enkratnim geslom. Na sporočilo odgovorite s tem geslom in kodo PIN.
+Če ne odgovorite s pravilnim geslom in kodo PIN, bo prijava zavrnjena.&lt;br/&gt;&lt;br/&gt;
+Odgovor pošljite samo po prejemu besedilnega sporočila iz storitve Multi-Factor Authentication, če se res poskušate prijaviti v aplikacijo.
+V nasprotnem primeru se morda nekdo drug poskuša prijaviti z vašim uporabniškim imenom in geslom,
+kar morate prijaviti skrbniku IT kot morebitno prevaro.&lt;br/&gt;&lt;br/&gt;
+Telefonsko številko ali kodo PIN lahko kadarkoli spremenite z vnovičnim obiskom portala Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageStandard" xml:space="preserve">
+    <value>Vaš račun je konfiguriran za uporabo storitve Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Ob prijavi v storitev uporabite isto uporabniško ime in geslo. Za dokončanje preverjanja
+boste prejeli telefonski klic z zahtevo po pritisku tipke # za potrditev prijave. Če prijave ne potrdite
+s pritiskom tipke #, bo prijava zavrnjena.&lt;br/&gt;&lt;br/&gt;
+Tipko # pritisnite samo po prejemu klica iz storitve Multi-Factor Authentication, če se res poskušate prijaviti v aplikacijo.
+V nasprotnem primeru se morda nekdo drug poskuša prijaviti z vašim uporabniškim imenom in geslom,
+kar morate prijaviti skrbniku IT kot morebitno prevaro.&lt;br/&gt;&lt;br/&gt;
+Telefonsko številko lahko kadarkoli spremenite z vnovičnim obiskom portala Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageVoiceprint" xml:space="preserve">
+    <value>Vaš račun je konfiguriran za uporabo storitve Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Ob prijavi v storitev uporabite isto uporabniško ime in geslo. Za dokončanje preverjanja
+boste prejeli telefonski klic z zahtevo po izgovorjavi glasovnega gesla za potrditev prijave. Če prijave ne potrdite
+z izgovorjavo glasovnega gesla, bo prijava zavrnjena.&lt;br/&gt;&lt;br/&gt;
+Glasovno geslo povejte samo po prejemu klica iz storitve Multi-Factor Authentication, če se res poskušate prijaviti v aplikacijo.
+V nasprotnem primeru se morda nekdo drug poskuša prijaviti z vašim uporabniškim imenom in geslom,
+kar morate prijaviti skrbniku IT kot morebitno prevaro.&lt;br/&gt;&lt;br/&gt;
+Telefonsko številko lahko kadarkoli spremenite z vnovičnim obiskom portala Multi-Factor Authentication.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MustChangeModeToPhoneApp" xml:space="preserve">
+    <value>Po aktiviranju mobilne aplikacije Multi-Factor Authentication v vaši napravi morate način spremeniti v Mobilna aplikacija. V meniju za krmarjenje kliknite povezavo Spremeni način in izberite način Mobilna aplikacija.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_MustChangeUserToPhoneAppMode" xml:space="preserve">
+    <value>Ko uporabnik aktivira mobilno aplikacijo Multi-Factor Authentication v svoji napravi, morate uporabniku način spremeniti v Mobilna aplikacija. Šele nato bo lahko pričel uporabljati aplikacijo.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerPhoneApp" xml:space="preserve">
+    <value>To se lahko zgodi samo, če bi se nekdo drug poskušal prijaviti v vaš račun in bi poznal vaše geslo. Obvestila iz mobilne aplikacije Multi-Factor Authentication prejmete šele po uspešnem preverjanju uporabniškega imena in gesla. Torej, če se to zgodi, to pomeni, da je storitev Multi-Factor Authentication ravnokar zaščitila vaš račun pred nedovoljenim dostopom!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerSms" xml:space="preserve">
+    <value>To se lahko zgodi samo, če bi se nekdo drug poskušal prijaviti v vaš račun in bi poznal vaše geslo. Besedilna sporočila prejmete šele po uspešnem preverjanju uporabniškega imena in gesla. Torej, če se to zgodi, to pomeni, da je storitev Multi-Factor Authentication ravnokar zaščitila vaš račun pred nedovoljenim dostopom!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerVoice" xml:space="preserve">
+    <value>To se lahko zgodi samo, če bi se nekdo drug poskušal prijaviti v vaš račun in bi poznal vaše geslo. Telefonske klice prejmete šele po uspešnem preverjanju uporabniškega imena in gesla. Torej, če se to zgodi, to pomeni, da je storitev Multi-Factor Authentication ravnokar zaščitila vaš račun pred nedovoljenim dostopom!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionPhoneApp" xml:space="preserve">
+    <value>Kaj pomeni, če prejmem obvestilo iz mobilne aplikacije Multi-Factor Authentication, ko se ne poskušam prijaviti?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionSms" xml:space="preserve">
+    <value>Kaj pomeni, če prejmem besedilno sporočilo od storitve Multi-Factor Authentication, ko se ne poskušam prijaviti?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionVoice" xml:space="preserve">
+    <value>Kaj pomeni, če prejmem telefonski klic od storitve Multi-Factor Authentication, ko se ne poskušam prijaviti?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassOathToken" xml:space="preserve">
+    <value>Vaše podjetje vam omogoča možnost enkratnega dostopa, pri kateri se lahko enkrat prijavite brez poziva za vnos kode za preverjanje pristnosti. Za uporabo te funkcije izberite možnost enkratnega dostopa ali pa za pomoč s poljubnega telefona pokličite središče za pomoč.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_OneTimeBypassPhoneApp" xml:space="preserve">
+    <value>Vaše podjetje vam omogoča možnost enkratnega dostopa, pri kateri se lahko enkrat prijavite brez obvestila iz mobilne aplikacije Multi-Factor Authentication. Za uporabo te funkcije izberite možnost enkratnega dostopa ali pa za pomoč s poljubnega telefona pokličite središče za pomoč.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassSms" xml:space="preserve">
+    <value>Vaše podjetje vam omogoča možnost enkratnega dostopa, pri kateri se lahko enkrat prijavite brez besedilnega sporočila. Za uporabo te funkcije izberite možnost enkratnega dostopa ali pa za pomoč s poljubnega telefona pokličite središče za pomoč.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassVoice" xml:space="preserve">
+    <value>Vaše podjetje vam omogoča možnost enkratnega dostopa, pri kateri se lahko enkrat prijavite brez telefonskega klica. Za uporabo te funkcije izberite možnost enkratnega dostopa ali pa za pomoč s poljubnega telefona pokličite središče za pomoč.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtp" xml:space="preserve">
+    <value>Enkratno geslo</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtpPlusPin" xml:space="preserve">
+    <value>Enkratno geslo in koda PIN</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_SimpleProcessOathToken" xml:space="preserve">
+    <value>Ta enostavni postopek omogoča ločeno dvojno preverjanje pristnosti s sekundarnim preverjanjem pristnosti z nečim, kar imate (vaš pametni telefon ali varnostni žeton).</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_SimpleProcessPhoneApp" xml:space="preserve">
+    <value>Ta enostavni postopek omogoča ločeno dvojno preverjanje pristnosti prek dveh ločenih kanalov (vaš računalnik in vaš pametni telefon).</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessSms" xml:space="preserve">
+    <value>Ta enostavni postopek omogoča ločeno dvojno preverjanje pristnosti prek dveh ločenih kanalov (vaš računalnik in vaša storitev telefonije). Deluje z vsakim telefonom, ki omogoča uporabo besedilnih sporočil.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessVoice" xml:space="preserve">
+    <value>Ta enostavni postopek omogoča ločeno dvojno preverjanje pristnosti prek dveh ločenih kanalov (vaš računalnik in vaša storitev telefonije). Deluje z vsakim stacionarnim in mobilnim telefonom.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionOathToken" xml:space="preserve">
+    <value>Takoj boste prejeli poziv za vnos kode za preverjanje pristnosti. Vnesite kodo za preverjanje pristnosti, ki je prikazana v mobilni aplikaciji Multi-Factor Authentication ali žetonu.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppPin" xml:space="preserve">
+    <value>Takoj boste prejeli obvestilo mobilne aplikacije Multi-Factor Authentication. Zaženite aplikacijo, vnesite kodo PIN in pritisnite gumb Preveri pristnost.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppStandard" xml:space="preserve">
+    <value>Takoj boste prejeli obvestilo mobilne aplikacije Multi-Factor Authentication. Zaženite aplikacijo in pritisnite gumb Preveri pristnost.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppVoiceprint" xml:space="preserve">
+    <value>Takoj boste prejeli obvestilo mobilne aplikacije Multi-Factor Authentication. Zaženite aplikacijo in ob pozivu povejte glasovno geslo.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPin" xml:space="preserve">
+    <value>Takoj boste prejeli telefonski klic. Sprejmite klic, vnesite kodo PIN in pritisnite #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtp" xml:space="preserve">
+    <value>Takoj boste prejeli besedilno sporočilo z enkratnim geslom. Ob pozivu aplikacije vnesite to geslo.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Takoj boste prejeli besedilno sporočilo z enkratnim geslom. Ob pozivu aplikacije vnesite to geslo in kodo PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtp" xml:space="preserve">
+    <value>Takoj boste prejeli besedilno sporočilo z enkratnim geslom. Odgovorite na sporočilo s tem geslom.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Takoj boste prejeli besedilno sporočilo z enkratnim geslom. Odgovorite na sporočilo s tem geslom in kodo PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionStandard" xml:space="preserve">
+    <value>Takoj boste prejeli telefonski klic. Sprejmite ga in pritisnite #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionVoiceprint" xml:space="preserve">
+    <value>Takoj boste prejeli telefonski klic. Sprejmite ga in po pisku povejte glasovno geslo.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_TitleWithColon" xml:space="preserve">
+    <value>{0}:</value>
+    <comment>Page header on most pages</comment>
+  </data>
+  <data name="Label_UnblockReason" xml:space="preserve">
+    <value>Razlog za deblokado</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_AccountConfigurationComplete" xml:space="preserve">
+    <value>Konfiguracija računa je dokončana</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Message_AnswerRequired" xml:space="preserve">
+    <value>Odgovoriti morate na vsaj eno varnostno vprašanje.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AnswerSecurityQuestions" xml:space="preserve">
+    <value>Za prijavo odgovorite na varnostna vprašanja.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AnswersIncorrect" xml:space="preserve">
+    <value>Eden ali več odgovorov ni pravilnih.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AuthenticationDenied" xml:space="preserve">
+    <value>Storitev Multi-Factor Authentication je bila zavrnjena.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedAnswerSecurityQuestions" xml:space="preserve">
+    <value>Storitev Multi-Factor Authentication je bila zavrnjena. Za prijavo odgovorite na varnostna vprašanja.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedCallResult" xml:space="preserve">
+    <value>Storitev Multi-Factor Authentication je bila zavrnjena: {0}</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_AuthenticationSuccessful" xml:space="preserve">
+    <value>Preverjanje pristnosti s storitvijo Multi-Factor Authentication je bilo uspešno.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_BypassSecondsNumeric" xml:space="preserve">
+    <value>Veljavnost enkratnega dostopa v sekundah mora biti navedena s številko.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRange" xml:space="preserve">
+    <value>Veljavnost enkratnega dostopa v sekundah mora biti med 5 in 1800 (30 minut).</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRequired" xml:space="preserve">
+    <value>Zahtevan je vnos veljavnosti enkratnega dostopa v sekundah.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_CannotActivateDevice" xml:space="preserve">
+    <value>Preden lahko način preverjanja pristnosti spremenite v Mobilna aplikacija, morate svoj račun povezati z aktivirano mobilno aplikacijo Multi-Factor Authentication v napravi. Za pomoč o aktiviranju mobilne aplikacije Multi-Factor Authentication v svoji napravi se obrnite na središče za pomoč.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotEstablishWebServiceSdkConnection" xml:space="preserve">
+    <value>Uporabniški portal Multi-Factor Authentication ni uspel vzpostaviti varne povezave z razvojnim kompletom Web Service SDK: {0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_CannotGetOathToken" xml:space="preserve">
+    <value>Preden lahko način preverjanja pristnosti spremenite v Žeton OATH, morate svoj račun povezati z aktivirano mobilno aplikacijo Multi-Factor Authentication v napravi ali z žetonom OATH. Za pomoč o aktiviranju mobilne aplikacije Multi-Factor Authentication v svoji napravi ali dodelitvi žetona OATH se obrnite na središče za pomoč.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Preden lahko način preverjanja pristnosti spremenite v Besedilno sporočilo, mora biti vašemu računu dodeljena telefonska številka. Za pomoč o dodelitvi telefonske številke vašemu računu se obrnite na središče za pomoč.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Preden lahko način preverjanja pristnosti spremenite v Telefonski klic, mora biti vašemu računu dodeljena telefonska številka. Za pomoč o dodelitvi telefonske številke vašemu računu se obrnite na središče za pomoč.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeOathTokenIncomplete" xml:space="preserve">
+    <value>Opomba: uporabnik ni aktiviral mobilne aplikacije Multi-Factor Authentication v svoji napravi ali pa mu ni bil dodeljen žeton OATH neodvisnega izdelovalca, zato je upoštevan kot nepopoln za uporabo načina Žeton OATH. Preverjanja pristnosti za zaščitene aplikacije pri tem uporabniku ne bodo uspela in pri prijavi v uporabniški portal se bo moral včlaniti znova. Priporočamo vam, da obvestite uporabnika in mu pomagate pri aktiviranju mobilne aplikacije Multi-Factor Authentication ali mu dodelite in predate žeton OATH neodvisnega izdelovalca.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModePhoneAppIncomplete" xml:space="preserve">
+    <value>Opomba: uporabnik ni aktiviral mobilne aplikacije Multi-Factor Authentication v svoji napravi, zato je upoštevan kot nepopoln za uporabo načina Mobilna aplikacija. Preverjanja pristnosti za zaščitene aplikacije pri tem uporabniku ne bodo uspela in pri prijavi v uporabniški portal se bo moral včlaniti znova. Priporočamo vam, da obvestite uporabnika in mu pomagate pri aktiviranju mobilne aplikacije Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeSmsTextIncomplete" xml:space="preserve">
+    <value>Opomba: Uporabniku ni določena telefonska številka, zato je upoštevan kot nepopoln za uporabo načina Besedilno sporočilo. Preverjanja pristnosti za zaščitene aplikacije pri tem uporabniku ne bodo uspela in pri prijavi v uporabniški portal se bo moral včlaniti znova. Priporočamo vam, da uporabniku določite telefonsko številko, s čimer bo lahko nadaljeval z uporabo zaščitenih aplikacij brez vnovične včlanitve.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeVoiceCallIncomplete" xml:space="preserve">
+    <value>Opomba: Uporabniku ni določena telefonska številka, zato je upoštevan kot nepopoln za uporabo načina Telefonski klic. Preverjanja pristnosti za zaščitene aplikacije pri tem uporabniku ne bodo uspela in pri prijavi v uporabniški portal se bo moral včlaniti znova. Priporočamo vam, da uporabniku določite telefonsko številko, s čimer bo lahko nadaljeval z uporabo zaščitenih aplikacij brez vnovične včlanitve.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CodeRequired" xml:space="preserve">
+    <value>Zahtevan je vnos kode.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_CodeRequiredCross" xml:space="preserve">
+    <value>Če je določena serijska številka, je zahtevan vnos kode.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ConfirmDeactivate" xml:space="preserve">
+    <value>Ali res želite trajno deaktivirati to napravo?</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceDeactivated" xml:space="preserve">
+    <value>Naprava je deaktivirana.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceLimit" xml:space="preserve">
+    <value>V vašem računu je dosežena omejitev števila naprav: {0}. Pred aktiviranjem nove naprave morate deaktivirati obstoječo napravo.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DuplicateAnswer" xml:space="preserve">
+    <value>Enaki odgovori niso dovoljeni.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateQuestion" xml:space="preserve">
+    <value>Enaka vprašanja niso dovoljena.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateUsername" xml:space="preserve">
+    <value>To uporabniško ime že obstaja.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUser" xml:space="preserve">
+    <value>Pri dodajanju uporabnika je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUserForPassedSession" xml:space="preserve">
+    <value>Pri dodajanju uporabnika v podano sejo je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithLocal" xml:space="preserve">
+    <value>Pri komunikaciji z lokalno storitvijo Multi-Factor Authentication je prišlo do napake. Obrnite se na skrbnika.</value>
+    <comment>Most pages when connection to local server is lost</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithMaster" xml:space="preserve">
+    <value>Pri komunikaciji z glavno storitvijo Multi-Factor Authentication je prišlo do napake. Obrnite se na skrbnika.</value>
+    <comment>Most pages when connection to master server is lost</comment>
+  </data>
+  <data name="Message_ErrorDeactivatingDevice" xml:space="preserve">
+    <value>Pri deaktiviranju naprave je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorDisablingUser" xml:space="preserve">
+    <value>Pri onemogočanju uporabnika je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorEnablingUser" xml:space="preserve">
+    <value>Pri omogočanju uporabnika je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorFindingUsers" xml:space="preserve">
+    <value>Pri iskanju uporabnikov je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_ErrorGeneratingActivationCode" xml:space="preserve">
+    <value>Pri generiranju kode za aktivacijo je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorIssuingOneTimeBypass" xml:space="preserve">
+    <value>Pri izdajanju enkratnega dostopa je prišlo do napake. Obrnite se na skrbnika.&lt;br/&gt;{0}</value>
+    <comment>one_time_bypass and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorRemovingUser" xml:space="preserve">
+    <value>Pri odstranjevanju uporabnika je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_ErrorResettingMode" xml:space="preserve">
+    <value>Pri ponastavljanju načina je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPhone" xml:space="preserve">
+    <value>Pri ponastavljanju telefona je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPin" xml:space="preserve">
+    <value>Pri ponastavljanju kode PIN je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingVoiceprint" xml:space="preserve">
+    <value>Pri ponastavljanju glasovnega odtisa je prišlo do napake. Obrnite se na skrbnika.&lt;br/&gt;{0}</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingLanguage" xml:space="preserve">
+    <value>Pri posodabljanju jezika je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingMode" xml:space="preserve">
+    <value>Pri posodabljanju načina je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhone" xml:space="preserve">
+    <value>Pri posodabljanju telefona je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhoneAppMode" xml:space="preserve">
+    <value>Pri posodabljanju načina mobilne aplikacije je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPin" xml:space="preserve">
+    <value>Pri posodabljanju kode PIN je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSecurityQuestions" xml:space="preserve">
+    <value>Pri posodabljanju varnostnih vprašanj je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSmsTextMode" xml:space="preserve">
+    <value>Pri posodabljanju načina besedilnega sporočila je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingStaticToken" xml:space="preserve">
+    <value>Pri posodabljanju statičnega žetona je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserForSecurityQuestionSetup" xml:space="preserve">
+    <value>Pri posodabljanju uporabnika za nastavitev varnostnih vprašanj je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserInformation" xml:space="preserve">
+    <value>Pri posodabljanju uporabniških podatkov je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingVoiceCallMode" xml:space="preserve">
+    <value>Pri posodabljanju načina telefonskega klica je prišlo do napake.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ExpiredSession" xml:space="preserve">
+    <value>Vaša seja je potekla.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_IncorrectAnswers" xml:space="preserve">
+    <value>Vaši odgovori niso pravilni, poskusite znova.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_IncorrectOathCode" xml:space="preserve">
+    <value>Koda za preverjanje pristnosti ni pravilna.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscode" xml:space="preserve">
+    <value>Enkratno geslo ni pravilno.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscodePlusPin" xml:space="preserve">
+    <value>Enkratno geslo in koda PIN nista pravilna.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_InvalidExtension" xml:space="preserve">
+    <value>Neveljavna interna številka. Dovoljena je samo uporaba številk, vejic ter znakov * in #. Vejico uporabite za enosekundni premor. Za ročno preusmeritev pred interno številko vnesite znak @ in povejte števke interne številke.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_InvalidSerialNumber" xml:space="preserve">
+    <value>Serijska številka ni veljavna. Žeton OATH s to serijsko številko morate določiti v uporabniškem vmesniku strežnika Multi-Factor Authentication, šele nato ga lahko povežete z želenim uporabnikom.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_LineBreak" xml:space="preserve">
+    <value>&lt;br/&gt;{0}</value>
+    <comment>add_user, change_phone, change_pin, change_mode, change_language and enable_disable pages</comment>
+  </data>
+  <data name="Message_LoginFailed" xml:space="preserve">
+    <value>Prijava ni uspela.</value>
+    <comment>login and secondary_authentication pages</comment>
+  </data>
+  <data name="Message_MustActivateDevice" xml:space="preserve">
+    <value>Za spremembo načina v Mobilna aplikacija morate v napravi najprej aktivirati mobilno aplikacijo Multi-Factor Authentication. Za začetek aktivacije v meniju za krmarjenje kliknite povezavo Aktiviraj mobilno aplikacijo.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustActivateDeviceOathToken" xml:space="preserve">
+    <value>Za spremembo načina v Žeton OATH morate v napravi najprej aktivirati mobilno aplikacijo Multi-Factor Authentication. Za začetek aktivacije v meniju za krmarjenje kliknite povezavo Aktiviraj mobilno aplikacijo.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustAnswerAllQuestions" xml:space="preserve">
+    <value>Odgovoriti morate na vsa varnostna vprašanja.</value>
+    <comment>create_security_questions, change_security_questions, and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_MustEnrollOathToken" xml:space="preserve">
+    <value>Za spremembo načina v Žeton OATH morate s svojim računom najprej povezati žeton OATH. Za povezovanje žetona OATH kliknite povezavo Žeton OATH.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustHaveOathToken" xml:space="preserve">
+    <value>Za spremembo načina v Žeton OATH morate v napravi najprej aktivirati mobilno aplikacijo Multi-Factor Authentication ali s svojim računom povezati žeton OATH. Za začetek aktivacije v meniju za krmarjenje kliknite povezavo Aktiviraj mobilno aplikacijo ali kliknite povezavo Žeton OATH za povezovanje z žetonom OATH.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Za spremembo načina v Besedilno sporočilo morate v napravi najprej določiti telefonsko številko za svoj račun. Za vnos telefonske številke v meniju za krmarjenje kliknite povezavo Spremeni telefonsko številko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Za spremembo načina v Telefonski klic morate v napravi najprej določiti telefonsko številko za svoj račun. Za vnos telefonske številke v meniju za krmarjenje kliknite povezavo Spremeni telefonsko številko.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifySearchField" xml:space="preserve">
+    <value>Izpolniti morate vsaj eno polje za iskanje.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoActivatedDevices" xml:space="preserve">
+    <value>Za tega uporabnika ni aktiviranih naprav.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_NoMatchingUsersFound" xml:space="preserve">
+    <value>Ujemajočih se uporabnikov ni bilo mogoče najti.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoSsl" xml:space="preserve">
+    <value>Uporabniški portal Multi-Factor Authentication ni zaščiten s protokolom SSL, ki je v datoteki Web.config zahtevana za sejne piškotke. Uporabniški portal ni funkcionalen, ker ohranjanje stanja seje ni mogoče. Priporočamo vam, da uporabniški portal zaščitite s protokolom SSL. Za preskusne namene lahko v datoteki Web.config v oznaki &lt;httpCookies&gt; nastavitev requireSSL začasno spremenite v "false".</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailed" xml:space="preserve">
+    <value>Sinhronizacija z žetonom OATH ni uspela. Vnesena koda ni pravilna ali pa serijska številka žetona OATH ni veljavna.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailedUser" xml:space="preserve">
+    <value>Sinhronizacija z žetonom OATH ni uspela. Vnesena koda ni pravilna.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OnlyFirstMatchesDisplayed" xml:space="preserve">
+    <value>Prikazanih je samo naslednje število prvih zadetkov: {0}. Če želenega uporabnika ne najdete na seznamu, vnesite natančnejše pogoje iskanja.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_PassedSessionFailed" xml:space="preserve">
+    <value>Podana seja ni uspela.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_PhoneRequired" xml:space="preserve">
+    <value>Zahtevan je vnos telefonske številke.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMatch" xml:space="preserve">
+    <value>Oba vnosa kode PIN se morata ujemati.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMinimumLength" xml:space="preserve">
+    <value>Koda PIN mora biti vsaj {0}-mestna.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinNumeric" xml:space="preserve">
+    <value>Koda PIN lahko vsebuje samo številke.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinRecentlyUsed" xml:space="preserve">
+    <value>Koda PIN ne sme biti enaka nedavno uporabljeni kodi PIN. Izberite drugo kodo PIN.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_SamlDisabled" xml:space="preserve">
+    <value>Enojne prijave v zunanje aplikacije z uporabo tehnologije SAML so onemogočene.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotDefined" xml:space="preserve">
+    <value>Ta uporabnik nima nastavljenih varnostnih vprašanj.&lt;br/&gt;</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotSetUp" xml:space="preserve">
+    <value>Prijava s telefonom ni mogoča, ker niste nastavili varnostnih vprašanj.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsVerified" xml:space="preserve">
+    <value>Varnostna vprašanja so bila uspešno preverjena.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityWarningNoSsl" xml:space="preserve">
+    <value>VARNOSTNO OPOZORILO: Uporabniški portal Multi-Factor Authentication ni zaščiten s tehnologijo SSL. Gesla bodo pošiljana v obliki navadnega besedila.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SerialNumberAlreadyAssociated" xml:space="preserve">
+    <value>Serijska številka je že povezana z uporabnikom {0}. Za povezavo serijske številke z novim uporabnikom jo morate najprej odstraniti od tega uporabnika.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_SerialNumberRequired" xml:space="preserve">
+    <value>Zahtevan je vnos serijske številke.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_SerialNumberRequiredCross" xml:space="preserve">
+    <value>Če je koda določena, je vnos serijske številke obvezen.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ShortAnswer" xml:space="preserve">
+    <value>Odgovor mora biti dolg vsaj 4 znake.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_StaticTokenMatch" xml:space="preserve">
+    <value>Oba vnosa za statični žeton se morata ujemati.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenMinimumLength" xml:space="preserve">
+    <value>Vnos za statični žeton mora biti vsaj {0}-mesten.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenNumeric" xml:space="preserve">
+    <value>Vnos za statični žeton lahko vsebuje samo številke.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserAdded" xml:space="preserve">
+    <value>Uporabnik je bil dodan.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_UserAlreadyBlocked" xml:space="preserve">
+    <value>Blokiranje ni uspelo. Uporabnik je že blokiran.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlocked" xml:space="preserve">
+    <value>Uporabnik je bil uspešno blokiran.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlockFailed" xml:space="preserve">
+    <value>Blokiranje ni uspelo.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserDeviceLimit" xml:space="preserve">
+    <value>Pri uporabniku je bila dosežena omejitev števila naprav: {0}. Pred aktiviranjem nove naprave morate deaktivirati obstoječo napravo.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_UserDisabled" xml:space="preserve">
+    <value>Uporabnik je bil uspešno onemogočen.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserEnabled" xml:space="preserve">
+    <value>Uporabnik je bil uspešno omogočen.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserInformationChanged" xml:space="preserve">
+    <value>Uporabniški podatki so bili spremenjeni.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_UserLanguageChanged" xml:space="preserve">
+    <value>Jezikovne nastavitve tega uporabnika so bile spremenjene.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_UserModeChanged" xml:space="preserve">
+    <value>Način uporabnika je bil spremenjen.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_UsernameRequired" xml:space="preserve">
+    <value>Zahtevan je vnos uporabniškega imena.</value>
+    <comment>login and add_user pages</comment>
+  </data>
+  <data name="Message_UserNotBlocked" xml:space="preserve">
+    <value>Deblokiranje ni uspelo. Uporabnik trenutno ni blokiran.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserOathTokenSaved" xml:space="preserve">
+    <value>Uporabnikov žeton OATH je bil shranjen.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_UserOneTimeBypassIssued" xml:space="preserve">
+    <value>Izdan je bil enkratni dostop. Storitev Multi-Factor Authentication bo pri naslednji prijavi uporabnika preskočena.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_UserPhoneChanged" xml:space="preserve">
+    <value>Uporabnikova telefonska številka je bila spremenjena.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_UserPinChanged" xml:space="preserve">
+    <value>Uporabnikova koda PIN je bila spremenjena.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_UserPortalDisabled" xml:space="preserve">
+    <value>Neposredne prijave v uporabniški portal so onemogočene.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserPortalNotPurchased" xml:space="preserve">
+    <value>Uporabniški portal Multi-Factor Authentication ne deluje, ker ta funkcija ni bila kupljena.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserRemoved" xml:space="preserve">
+    <value>Uporabnik je bil odstranjen.</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_UserStaticTokenChanged" xml:space="preserve">
+    <value>Uporabnikov statični žeton je bil spremenjen.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserSubmodeChanged" xml:space="preserve">
+    <value>Uporabnikov način je bil spremenjen.</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_UserUnblocked" xml:space="preserve">
+    <value>Deblokada uporabnika je uspela.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserUnblockFailed" xml:space="preserve">
+    <value>Deblokada ni uspela.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserVoiceprintReset" xml:space="preserve">
+    <value>Ponastavitev glasovnega odtisa je uspela. Uporabnik bo moral pri naslednji prijavi včlaniti nov glasovni odtis.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_WeakPinNotAllowed" xml:space="preserve">
+    <value>Šibka koda PIN ni dovoljena. Koda PIN ne sme vsebovati 4 ali več sosednjih števk iz telefonske številke, 3 ali več zaporednih enakih števk ali 3 ali več zaporednih števk.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_WeakStaticTokenNotAllowed" xml:space="preserve">
+    <value>Šibki statični žeton ni dovoljen. Statični žeton ne sme vsebovati 4 ali več sosednjih števk iz telefonske številke, 3 ali več zaporednih enakih števk ali 3 ali več zaporednih števk.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_WebServiceSdkError" xml:space="preserve">
+    <value>Uporabniški portal Multi-Factor Authentication je konfiguriran za komunikacijo z razvojnim kompletom Web Service SDK, ki je vrnil naslednjo napako:&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_WebServiceSdkNotPurchased" xml:space="preserve">
+    <value>Uporabniški portal Multi-Factor Authentication je konfiguriran za komunikacijo z razvojnim kompletom Web Service SDK, ki ni bil kupljen.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_YourInformationChanged" xml:space="preserve">
+    <value>Vaši podatki so bili spremenjeni.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_YourLanguageChanged" xml:space="preserve">
+    <value>Vaše jezikovne nastavitve so bile spremenjene.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_YourModeChanged" xml:space="preserve">
+    <value>Vaš način je bil spremenjen.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_YourOathTokenSaved" xml:space="preserve">
+    <value>Vaš žeton OATH je bil shranjen.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_YourOneTimeBypassIssued" xml:space="preserve">
+    <value>Enkratni dostop je bil izdan. Storitev Multi-Factor Authentication bo pri naslednji prijavi preskočena.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_YourPhoneChanged" xml:space="preserve">
+    <value>Vaša telefonska številka je bila spremenjena.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_YourPinChanged" xml:space="preserve">
+    <value>Vaša koda PIN je bila spremenjena.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_YourSecurityQuestionsChanged" xml:space="preserve">
+    <value>Vaša varnostna vprašanja in odgovori so bili spremenjeni.</value>
+    <comment>change_security_questions page</comment>
+  </data>
+  <data name="Message_YourStaticTokenChanged" xml:space="preserve">
+    <value>Vaš statični žeton je bil spremenjen.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_YourVoiceprintReset" xml:space="preserve">
+    <value>Ponastavitev glasovnega odtisa je uspela. Pri naslednji prijavi morate včlaniti nov glasovni odtis.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Reason_InitiatedByAdmin" xml:space="preserve">
+    <value>Sprožil ga je skrbnik v uporabniškem portalu</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Reason_InitiatedByUser" xml:space="preserve">
+    <value>Sprožil ga je uporabnik v uporabniškem portalu</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Subtitle_DeactivatePhoneApp" xml:space="preserve">
+    <value>Deaktiviraj mobilno aplikacijo</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Subtitle_Enable" xml:space="preserve">
+    <value>Omogoči</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Subtitle_UnblockUser" xml:space="preserve">
+    <value>Deblokiraj uporabnika</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Title_PhoneFactorUserPortal" xml:space="preserve">
+    <value>Multi-Factor Authentication™ | Uporabniški portal</value>
+    <comment>Title on all pages</comment>
+  </data>
+  <data name="Value_All" xml:space="preserve">
+    <value>Vse</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Value_Masked" xml:space="preserve">
+    <value>Maskirano</value>
+    <comment>add_user, change_pin, and oath_token pages</comment>
+  </data>
+</root>

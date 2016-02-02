@@ -1,0 +1,275 @@
+﻿/* Presentation Stylesheet */ 
+
+body {
+	font-family:Segoe UI , Tahoma, Verdana, Arial, sans-serif; 
+	margin:0px;
+	padding:0;
+	background-image:url(Images/PN_app_back.gif);
+	background-position:25px 0px;
+	background-repeat:repeat-y;
+}
+
+a, a:visited {
+	color:#666666;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #00BCF2;
+	text-decoration: underline;	
+}
+
+
+p, li {
+ margin:0;
+ padding:0px;
+ text-align:left;
+ font-size:12px;
+ color: #666666;
+}
+
+h5 {
+	color:#333333; 
+	font-weight:normal;
+	text-align:left;
+	font-size:13px;
+	padding:0px;
+	margin: 4px 0px 4px 0px;
+}
+
+.navBar, .navBar a, .navBar a:visited{
+	color:#414345;
+	font-size:12px;
+	text-decoration:none;
+}
+
+.navBar a:hover
+{
+	text-decoration: underline;	
+}
+
+.sectionHeader{
+	color:#555555;
+	text-align:left;
+	font-size: 21px;
+	margin-bottom:20px;	
+}
+
+.sectionHeaderAccent{color:#999999;}
+
+.listOne{
+	margin:15px 0px 0px 40px;
+}
+
+/* IE HAck*/
+html>body .listOne {
+	margin:15px 0px 0px 0px;
+}
+
+.leftNavTitle, .leftNavTitle a{
+	color:#666666;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.leftNavItem, .leftNavItem a {
+	margin-left:5px;
+	color:#666666;
+	font-size:12px;
+}
+
+.leftNavItem a:hover{
+   color:#00BCF2;
+   text-decoration:underline;
+}
+
+/* Layout Stylesheet */ 
+/* MAIN LAYOUT*/
+ 
+#bar {
+	height:25px;
+	background:#c0c0c0;
+	color: #333333;
+ }
+
+#layoutTable {
+	font-family:Segoe UI , Tahoma, Verdana, Arial, sans-serif; 
+	font-size:12px; 
+	line-height: 20px; 
+	text-align:center;
+}
+
+#leftCol {
+	width:220px;		
+	float:left;
+	vertical-align:top;
+	color: #333333;
+	position:relative; left:25px;
+ }
+
+#rightCol {
+	margin-left:25px;
+	padding:0px;
+	vertical-align:top;	
+	color: #333333;
+	text-align:left;
+	background-color:#FFFFFF;
+	position:relative; left:25px;
+ }
+
+#ftr {
+	height:auto;
+	margin:0;	
+	color: #818485;
+	font-size:10px;
+	text-align:left;
+	padding:20px 0px 0px 0px;
+	margin-left: 25px;
+	float:left;
+ }
+ 
+ /*INTERNAL ITEMS*/
+#navBar{
+	width:645px; /*-10px for right padding*/
+	height:25px; /*-5px for top padding*/
+	text-align:right;
+	padding: 5px 10px 0px 0px;
+	background: #f9f9f9;
+	background:url(Images/topNav_gradient.png) 0px 0px repeat-x;
+}
+
+#subHdr {
+	width:635px;
+	height:20px;
+	background-color:#ffffff;
+	color: #818485;
+	font-family:Segoe UI , Tahoma, Verdana, Arial, sans-serif;
+	font-size:10px;
+	text-align:right;
+	padding: 5px 20px 0px 0px;
+ }
+
+#pfLogo{background-image:url(Images/phoneFactor_logo.png); width:220px; height:170px;}
+
+#userAdmin32{background-image:url(Images/userAdmin_32x32.png); width:32px; height:32px;}
+
+#userAdmin180{background-image:url(Images/userAdmin_180x100.png); width:180px; height:100px;}
+
+#users32{background-image:url(Images/users_32x32.png); width:32px; height:32px;}
+
+#users180{background-image:url(Images/users_180x100.png); width:180px; height:100px;}
+
+#changePhone{background-image:url(Images/change_phonenumber.png); width:65px; height:75px;}
+
+#changePin{background-image:url(Images/change_pin.png); width:75px; height:75px;}
+
+#changeMode{background-image:url(Images/change_mode.png); width:75px; height:75px;}
+
+#securityQuestions{background-image:url(Images/security_questions.png); width:70px; height:66px;}
+
+#oneTimeBypass{background-image:url(Images/one-time_bypass.png); width:75px; height:75px;}
+
+#customize180{background-image:url(Images/customize_180x100.png); width:180px; height:100px;}
+
+#iconHelp{background-image:url(Images/icon_help_sm.gif); background-repeat:no-repeat; width:9px; height:9px;}
+
+.divInstructions{display: inline-block; width: 650px; min-height:100px; padding: 10px 0px 10px 0px; border-bottom:#aeaea1 1px solid;}
+
+.divInstructionsLeft{width:430px; float:left;}
+
+.divInstructionsRight{width:220px; height:100px; float:right; text-align:center;}
+
+/*Left Navigation*/
+
+#leftNav{
+	float:left;
+	margin:10px 0px 0px 0px;
+}
+
+#leftNavIcon{
+	float:left;
+	width: 50px;
+	text-align:left;
+
+}
+
+#leftNavTitle{	
+	float:right;
+	width: 170px;
+	text-align:left;
+	padding: 0px 0px 0px 0px;
+}
+
+.box{
+	background-color:#f8f9f8; 
+	border: #d3d4cd 1px solid; 
+	padding: 10px; 
+	margin-bottom: 10px;
+}
+.messageBox {
+  width: 640px;
+  padding: 5px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+.messageBox h2 {
+  	text-align: left;
+  	font-weight: bold;
+	line-height: 12px;
+	vertical-align:middle;
+  	padding: 5px;
+  	font-size: 12px;
+  	margin: -5px;
+	color: #fff;
+	background:url(Images/PF_th_back.png) #00BCF2 0px 0px repeat-x;
+}
+
+/* Table Styles*/
+
+.tablelink {
+	color: #ffffff;
+	text-decoration:none
+}
+
+.table1 {
+	padding: 0;
+	margin: 0;
+}
+
+.table1.center {margin-left:auto; margin-right:auto;}
+
+.table1 th {
+	color: #ffffff;
+	border-right: 1px solid #aeaea1;	
+	height:20px;
+	text-align: center;
+	font-weight:bold;
+	font-size: 12px;
+	padding: 3px 3px 3px 6px;
+	background:url(../images/PF_th_back.png) #00BCF2 0px 0px repeat-x;
+	background-position:bottom;
+}
+
+.table1 th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #aeaea1;
+	background: none;
+}
+
+.table1 td {
+	border-right: 1px solid #aeaea1;
+	background-color:#ffffff;
+	text-align:left;
+	padding:5px;
+	font-size: 12px;
+}
+
+.table1 td.alt {
+	background-color:#f9f9f9;
+}
+
+#table1 tr.alt td{
+	background-color:#f9f9f9;
+}

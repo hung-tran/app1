@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName_UserPortal" xml:space="preserve">
+    <value>Cổng thông tin Người dùng</value>
+    <comment>Application name for Multi-Factor Authentications</comment>
+  </data>
+  <data name="Button_AuthenticateMeNow" xml:space="preserve">
+    <value>Xác thực Tôi Ngay bây giờ</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_CallMeNowToAuthenticate" xml:space="preserve">
+    <value>Gọi Tôi Ngay bây giờ để Xác thực</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_Next" xml:space="preserve">
+    <value>Tiếp theo</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_TextMeNowToAuthenticate" xml:space="preserve">
+    <value>Nhắn tin cho Tôi Ngay bây giờ để Xác thực</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_VerifyOathToken" xml:space="preserve">
+    <value>Kiểm chứng Hiệu bài OATH</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Help_File" xml:space="preserve">
+    <value>help/PhoneFactor_User_Portal.htm</value>
+    <comment>Localize as help/xx/PhoneFactor_User_Portal.htm where xx is langauge code (e.g. de for German, zh-hans for Simplified Chinese)</comment>
+  </data>
+  <data name="Label_AlternatePhoneOathToken" xml:space="preserve">
+    <value>Ứng dụng di động Multi-Factor Authentication không cần phải được kết nối đến mạng di động hoặc WiFi để hiển thị các mã xác thực.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_AlternatePhonePhoneApp" xml:space="preserve">
+    <value>Ứng dụng di động Multi-Factor Authentication vẫn hoạt động tốt như thường qua WiFi.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneSms" xml:space="preserve">
+    <value>Bạn có thể thay đổi tài khoản của bạn để chỉ đến một số điện thoại thay thế, bằng cách chọn tùy chọn Thay đổi Số Điện thoại.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneVoice" xml:space="preserve">
+    <value>Bạn có thể thay đổi tài khoản của bạn để chỉ đến một số điện thoại thay thế, ví dụ như một đường dây cố định, bằng cách chọn tùy chọn Thay đổi Số Điện thoại.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_CannotChangeModeToPhoneApp" xml:space="preserve">
+    <value>Sau khi kích hoạt ứng dụng di động Multi-Factor Authentication trên thiết bị của bạn, phương pháp trong tài khoản của bạn phải được thay đổi thành Ứng dụng Di động trước khi bạn có thể bắt đầu sử dụng ứng dụng.  Hãy liên hệ bộ phận trợ giúp để thay đổi phương pháp của bạn thành Ứng dụng Di động.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_Disable" xml:space="preserve">
+    <value>Vô hiệu hóa</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>Hiệu lực hóa</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_FraudAlertPhoneApp" xml:space="preserve">
+    <value>Để báo cáo sự cố, hãy nhấn nút Từ chối và Báo cáo Lừa đảo trong ứng dụng di động Multi-Factor Authentication. Thao tác này sẽ cảnh báo cho nhóm bảo mật CNTT của công ty của bạn. Các nỗ lực xác thực trong tương lai sẽ bị chặn lại cho đến khi vấn đề được giải quyết.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertSms" xml:space="preserve">
+    <value>Để báo cáo sự cố, hãy nhập mã lừa đảo trong trả lời của bạn. Thao tác này sẽ cảnh báo cho nhóm bảo mật CNTT của công ty của bạn. Các nỗ lực xác thực trong tương lai sẽ bị chặn lại cho đến khi vấn đề được giải quyết.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertVoice" xml:space="preserve">
+    <value>Để báo cáo sự cố, hãy chọn tùy chọn Báo hiệu Lừa đảo từ menu điện thoại trong cuộc gọi xác nhận. Thao tác này sẽ cảnh báo cho nhóm bảo mật CNTT của công ty của bạn. Các nỗ lực xác thực trong tương lai sẽ bị chặn lại cho đến khi vấn đề được giải quyết.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_GenerateActivationCode" xml:space="preserve">
+    <value>Tạo Mã Kích hoạt</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateActivationLink" xml:space="preserve">
+    <value>Tạo Nối kết Kích hoạt</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationCode" xml:space="preserve">
+    <value>Tạo Mã Kích hoạt Mới</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationLink" xml:space="preserve">
+    <value>Tạo Nối kết Kích hoạt Mới</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication hoạt động bằng cách yêu cầu mã xác thực trong lúc đăng nhập.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionPhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication hoạt động bằng cách gửi một thông báo đến ứng dụng di động Multi-Factor Authentication của bạn trong lúc đăng nhập.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionSms" xml:space="preserve">
+    <value>Multi-Factor Authentication hoạt động bằng cách gửi một tin nhắn văn bản đến điện thoại của bạn trong lúc đăng nhập.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionVoice" xml:space="preserve">
+    <value>Multi-Factor Authentication hoạt động bằng cách gọi một cuộc gọi xác nhận đến điện thoại của bạn trong lúc đăng nhập.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsAdministrator" xml:space="preserve">
+    <value>Quản lý tài khoản người dùng bằng cách chọn Tìm Người dùng từ menu.  Quản lý tài khoản của bạn bằng cách chọn tùy chọn phù hợp.  Chọn Biểu tượng Trợ giúp (góc trên bên phải) để được hỗ trợ.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeOathToken" xml:space="preserve">
+    <value>Chọn phương pháp &lt;b&gt;Hiệu bài OATH&lt;/b&gt; để xác thực bằng cách dùng một mã xác thực từ ứng dụng di động Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModePhoneApp" xml:space="preserve">
+    <value>Chọn phương pháp &lt;b&gt;Ứng dụng Di động&lt;/b&gt; để xác thực bằng cách dùng ứng dụng di động Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeSmsText" xml:space="preserve">
+    <value>Chọn phương pháp &lt;b&gt;Tin nhắn Văn bản&lt;/b&gt; để nhận một tin nhắn văn bản để xác thực.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeVoiceCall" xml:space="preserve">
+    <value>Chọn phương pháp &lt;b&gt;Cuộc gọi Điện thoại&lt;/b&gt; để nhận một cuộc gọi điện thoại để xác thực.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtp" xml:space="preserve">
+    <value>Để hoàn tất việc xác minh của bạn, hãy nhập mã khóa dùng một lần mà bạn nhận được qua tin nhắn văn bản.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtpPlusPin" xml:space="preserve">
+    <value>Để hoàn tất việc xác minh, hãy nhập mã khóa dùng một lần mà bạn nhận được qua tin nhắn văn bản cùng với mã PIN.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsFindUser" xml:space="preserve">
+    <value>Nhập vài ký tự đầu tiên của tên người dùng và bấm nút Tìm.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsOathToken" xml:space="preserve">
+    <value>Kiểm thử xác thực hiệu bài OATH của người dùng này.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneApp" xml:space="preserve">
+    <value>Kiểm thử xác thực ứng dụng di động của người dùng này.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationIpWhitelist" xml:space="preserve">
+    <value>Sau khi kích hoạt hoàn tất, bấm Tiếp theo để tiếp tục quá trình thiết lập.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationOathToken" xml:space="preserve">
+    <value>Sau khi kích hoạt hoàn tất, bấm vào nút sau đây để kiểm thử việc xác thực và tiếp tục quá trình thiết lập.  Khi được nhắc, hãy nhập mã xác thực hiện tại đang được hiển thị trong ứng dụng di động.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsSelectUser" xml:space="preserve">
+    <value>Chọn một người dùng từ danh sách hoặc chọn Quay lại để tìm một người dùng khác.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsSmsText" xml:space="preserve">
+    <value>Kiểm thử xác thực tin nhắn văn bản của người dùng này.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUnblockUser" xml:space="preserve">
+    <value>Nhập lý do bỏ chặn và xác nhận bỏ chặn cho người dùng.  Người dùng sẽ không còn bị chặn xác thực nữa.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Label_InstructionsUserActivatePhoneApp" xml:space="preserve">
+    <value>Người dùng phải cài đặt ứng dụng di động Multi-Factor Authentication trên điện thoại của họ trước.  Bấm nút Tạo để nhận một mã kích hoạt.  Mã kích hoạt sẽ được nhập vào ứng dụng di động của người dùng để hoàn tất quá trình kích hoạt.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserDeactivatePhoneApp" xml:space="preserve">
+    <value>Để bỏ kích hoạt một thiết bị cho người dùng, bấm vào nối kết Bỏ kích hoạt cho thiết bị.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserEnable" xml:space="preserve">
+    <value>Xác nhận hiệu lực hóa người dùng để họ sẽ bắt đầu nhận cuộc gọi Multi-Factor Authentication khi đăng nhập.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_InstructionsUserInformation" xml:space="preserve">
+    <value>Chỉ rõ các thông tin mới cho người dùng này.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Label_InstructionsUserLanguage" xml:space="preserve">
+    <value>Chỉ rõ ngôn ngữ ưu tiên cho người dùng này.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Label_InstructionsUserMode" xml:space="preserve">
+    <value>Chọn phương pháp cho người dùng này.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathCode" xml:space="preserve">
+    <value>Để hoàn tất xác thực, hãy nhập mã xác thực hiện tại được hiển thị trong ứng dụng di động Multi-Factor Authentication hoặc hiệu bài của người dùng.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathToken" xml:space="preserve">
+    <value>Nhập số sê-ri của hiệu bài OATH và mã hiện tại được hiển thị trên hiệu bài để liên kết hiệu bài với người dùng.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Label_InstructionsUserOneTimeBypass" xml:space="preserve">
+    <value>Xác nhận cấp phép truy cập một lần để bỏ qua Multi-Factor Authentication trong lần đăng nhập tiếp theo của người dùng này.  Việc bỏ qua chỉ là tạm thời.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtp" xml:space="preserve">
+    <value>Để hoàn tất xác thực, hãy nhập mã thông hành dùng một lần người dùng đã nhận được trong tin nhắn SMS.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtpPlusPin" xml:space="preserve">
+    <value>Để hoàn tất xác thực, hãy nhập mã thông hành dùng một lần người dùng đã nhận được trong tin nhắn SMS và PIN của người dùng.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserPhone" xml:space="preserve">
+    <value>Chỉ rõ một số điện thoại mới cho người dùng này.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Label_InstructionsUserPin" xml:space="preserve">
+    <value>Chỉ rõ một số PIN mới cho người dùng này.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Label_InstructionsUserResetVoiceprint" xml:space="preserve">
+    <value>Xác nhận đặt lại nhận dạng giọng nói của người dùng.  Người dùng sẽ phải đăng ký một mẫu nhận dạng giọng nói mới trong cuộc gọi xác thực tiếp theo của họ.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathToken" xml:space="preserve">
+    <value>Để hiệu lực hóa Multi-Factor Authentication cho tài khoản của bạn bằng phương pháp Hiệu bài OATH, hãy nhập số sê-ri được in ở mặt sau của hiệu bài OATH và mã hiện tại được hiển thị trên hiệu bài để liên kết hiệu bài với tài khoản của bạn.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathTokenPhoneApp" xml:space="preserve">
+    <value>Để hiệu lực hóa Multi-Factor Authentication cho tài khoản của bạn bằng phương pháp hiệu bài OATH, trước tiên bạn sẽ cần cài đặt ứng dụng Multi-Factor Authentication trên điện thoại của bạn và sau đó bấm nút Tạo phía dưới để nhận được một mã kích hoạt.  Mã kích hoạt sẽ được nhập vào ứng dụng di động để hoàn tất quá trình kích hoạt.  Mã kích hoạt sẽ hết hạn trong vòng 10 phút.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPhoneApp" xml:space="preserve">
+    <value>Để hiệu lực hóa Multi-Factor Authentication cho tài khoản của bạn bằng ứng dụng di động, trước tiên bạn sẽ cần cài đặt ứng dụng Multi-Factor Authentication trên điện thoại của bạn và sau đó bấm nút Tạo phía dưới để nhận được một mã kích hoạt.  Mã kích hoạt sẽ được nhập vào ứng dụng di động để hoàn tất quá trình kích hoạt.  Mã kích hoạt sẽ hết hạn trong vòng 10 phút.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPin" xml:space="preserve">
+    <value>Để hiệu lực hóa Multi-Factor Authentication cho tài khoản của bạn, vui lòng chỉ rõ số điện thoại bạn sẽ dùng để xác thực và một PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtp" xml:space="preserve">
+    <value>Để hiệu lực hóa Multi-Factor Authentication cho tài khoản của bạn, vui lòng chỉ rõ số điện thoại bạn sẽ dùng để xác thực.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Để hiệu lực hóa Multi-Factor Authentication cho tài khoản của bạn, vui lòng chỉ rõ số điện thoại bạn sẽ dùng để xác thực và một PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtp" xml:space="preserve">
+    <value>Để hiệu lực hóa Multi-Factor Authentication cho tài khoản của bạn, vui lòng chỉ rõ số điện thoại bạn sẽ dùng để xác thực.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Để hiệu lực hóa Multi-Factor Authentication cho tài khoản của bạn, vui lòng chỉ rõ số điện thoại bạn sẽ dùng để xác thực và một PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupStandard" xml:space="preserve">
+    <value>Để hiệu lực hóa Multi-Factor Authentication cho tài khoản của bạn, vui lòng chỉ rõ số điện thoại bạn sẽ dùng để xác thực.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteOathToken" xml:space="preserve">
+    <value>Thực hiện theo hướng dẫn dưới đây để kích hoạt ứng dụng Multi-Factor Authentication trên điện thoại của bạn và kiểm thử việc xác thực bằng cách dùng các mã xác thực được cung cấp bởi ứng dụng di động.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePhoneApp" xml:space="preserve">
+    <value>Thực hiện theo hướng dẫn dưới đây để kích hoạt ứng dụng Multi-Factor Authentication trên điện thoại của bạn và kiểm thử việc xác thực bằng cách dùng ứng dụng di động.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePin" xml:space="preserve">
+    <value>Để hoàn tất bước này, Multi-Factor Authentication sẽ gọi đến số bạn đã nhập. Nhập vào PIN của bạn và sau đó bấm dấu # để xác thực.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtp" xml:space="preserve">
+    <value>Để hoàn tất bước này, Multi-Factor Authentication sẽ gửi một mã thông hành dùng một lần trong một tin nhắn văn bản đến số bạn đã nhập. Khi được nhắc, hãy nhập mã thông hành dùng một lần này để xác thực.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Để hoàn tất bước này, Multi-Factor Authentication sẽ gửi một mã thông hành dùng một lần trong một tin nhắn văn bản đến số bạn đã nhập. Khi được nhắc, hãy nhập mã thông hành dùng một lần này và PIN của bạn để xác thực.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtp" xml:space="preserve">
+    <value>Để hoàn tất bước này, Multi-Factor Authentication sẽ gửi một mã thông hành dùng một lần trong một tin nhắn văn bản đến số bạn đã nhập. Trả lời tin nhắn văn bản với mã thông hành dùng một lần này để xác thực.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Để hoàn tất bước này, Multi-Factor Authentication sẽ gửi một mã thông hành dùng một lần trong một tin nhắn văn bản đến số bạn đã nhập. Trả lời tin nhắn văn bản với mã thông hành dùng một lần này và PIN của bạn để xác thực.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteStandard" xml:space="preserve">
+    <value>Để hoàn tất bước này, Multi-Factor Authentication sẽ gọi đến số bạn đã nhập. Trả lời và bấm # để xác thực.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteVoiceprint" xml:space="preserve">
+    <value>Để hoàn tất bước này, Multi-Factor Authentication sẽ gọi đến số bạn đã nhập. Thực hiện theo hướng dẫn để đăng ký một câu thông hành nhận dạng giọng nói.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupVoiceprint" xml:space="preserve">
+    <value>Để hiệu lực hóa Multi-Factor Authentication cho tài khoản của bạn, vui lòng chỉ rõ số điện thoại bạn sẽ dùng để xác thực.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserStaticToken" xml:space="preserve">
+    <value>Chỉ rõ một hiệu bài tĩnh mới cho người dùng này.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Label_MessageOathToken" xml:space="preserve">
+    <value>Tài khoản của bạn đã được định cấu hình để sử dụng Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Khi bạn đăng nhập, bạn sẽ tiếp tục sử dụng cùng tên người dùng và mật khẩu. Trước khi hoàn tất quá trình xác minh, ứng dụng sẽ nhắc bạn nhập vào mã xác thực hiện tại từ ứng dụng di động Multi-Factor Authentication hoặc mã khóa để hoàn tất việc đăng nhập của bạn. Nếu bạn không nhập đúng mã xác thực, đăng nhập sẽ bị từ chối.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppPin" xml:space="preserve">
+    <value>Tài khoản của bạn đã được định cấu hình để sử dụng Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Khi bạn đăng nhập, bạn sẽ tiếp tục sử dụng cùng tên người dùng và mật khẩu. Trước khi hoàn tất quá trình xác minh,
+bạn sẽ nhận được thông báo yêu cầu bạn khởi chạy ứng dụng di động Multi-Factor Authentication và nhập mã PIN của bạn để xác nhận việc đăng nhập của bạn. Nếu bạn không xác nhận việc đăng nhập của bạn bằng cách nhập mã PIN của bạn và bấm #, việc đăng nhập sẽ bị từ chối.&lt;br/&gt;&lt;br/&gt;
+Bạn chỉ nên nhập mã PIN của bạn khi bạn nhận được thông báo của ứng dụng di động Multi-Factor Authentication nếu bạn đang thực sự đăng nhập vào ứng dụng này. Nếu không, có thể ai đó đang cố đăng nhập bằng tên người dùng và mật khẩu của bạn và bạn nên thông báo khả năng lừa đảo này cho quản trị viên CNTT của mình.&lt;br/&gt;&lt;br/&gt;Bạn có thể quay lại cổng thông tin Multi-Factor Authentication bất kỳ lúc nào để đổi mã PIN của mình.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppStandard" xml:space="preserve">
+    <value>Tài khoản của bạn đã được định cấu hình để sử dụng Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Khi bạn đăng nhập, bạn sẽ tiếp tục sử dụng cùng tên người dùng và mật khẩu. Trước khi hoàn tất quá trình xác minh,
+bạn sẽ nhận được thông báo yêu cầu bạn khởi chạy ứng dụng di động Multi-Factor Authentication và bấm nút Xác thực để hoàn tất việc đăng nhập của bạn.  Nếu bạn không xác nhận việc đăng nhập của bạn bằng cách bấm Xác thực, việc đăng nhập sẽ bị từ chối.&lt;br/&gt;&lt;br/&gt;
+Bạn chỉ nên bấm nút Xác thực khi bạn nhận được thông báo của ứng dụng di động Multi-Factor Authentication nếu bạn đang thực sự đăng nhập vào ứng dụng này. Nếu không, có thể ai đó đang cố đăng nhập bằng tên người dùng và mật khẩu của bạn và bạn nên thông báo khả năng lừa đảo này cho quản trị viên CNTT của mình.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppVoiceprint" xml:space="preserve">
+    <value>Tài khoản của bạn đã được định cấu hình để sử dụng Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Khi bạn đăng nhập, bạn sẽ tiếp tục sử dụng cùng tên người dùng và mật khẩu. Trước khi hoàn tất quá trình xác minh,
+bạn sẽ nhận được thông báo yêu cầu bạn khởi chạy ứng dụng di động Multi-Factor Authentication và sau đó nói câu thông hành của bạn để xác nhận việc đăng nhập của bạn.  Nếu bạn không xác nhận việc đăng nhập của bạn bằng cách nói câu thông hành của bạn, việc đăng nhập sẽ bị từ chối.&lt;br/&gt;&lt;br/&gt;
+Bạn chỉ nên nói câu thông hành của bạn khi bạn nhận được thông báo của ứng dụng di động Multi-Factor Authentication nếu bạn đang thực sự đăng nhập vào ứng dụng này. Nếu không, có thể ai đó đang cố đăng nhập bằng tên người dùng và mật khẩu của bạn và bạn nên thông báo khả năng lừa đảo này cho quản trị viên CNTT của mình.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePin" xml:space="preserve">
+    <value>Tài khoản của bạn đã được định cấu hình để sử dụng Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Khi bạn đăng nhập, bạn sẽ tiếp tục sử dụng cùng tên người dùng và mật khẩu. Trước khi hoàn tất quá trình xác minh,
+bạn sẽ nhận được cuộc gọi yêu cầu bạn nhập mã PIN sau đó bấm phím thăng (#) để xác nhận việc đăng nhập của bạn. Nếu bạn
+không xác nhận việc đăng nhập bằng cách nhập mã PIN của bạn rồi bấm #, việc đăng nhập sẽ bị từ chối.&lt;br/&gt;&lt;br/&gt;
+Bạn chỉ nên nhập mã PIN của bạn khi bạn nhận được cuộc gọi từ Multi-Factor Authentication nếu bạn đang thực sự đăng nhập vào ứng dụng này.
+Nếu không, có thể ai đó đang cố đăng nhập bằng tên người dùng và mật khẩu của bạn và bạn nên thông báo khả năng
+lừa đảo này cho quản trị viên CNTT của mình..&lt;br/&gt;&lt;br/&gt;
+Bạn có thể quay lại cổng thông tin Multi-Factor Authentication bất kỳ lúc nào để thay đổi số điện thoại hoặc mã PIN của mình.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtp" xml:space="preserve">
+    <value>Tài khoản của bạn đã được định cấu hình để sử dụng Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Khi bạn đăng nhập, bạn sẽ tiếp tục sử dụng cùng tên người dùng và mật khẩu. Trước khi hoàn tất quá trình xác minh,
+bạn sẽ nhận được một tin nhắn văn bản có chứa mã khóa dùng một lần. Nhập mã khóa này khi được nhắc bởi ứng dụng.
+Nếu bạn không nhập đúng mã khóa, việc đăng nhập sẽ bị từ chối.&lt;br/&gt;&lt;br/&gt;
+Bạn có thể quay lại cổng thông tin Multi-Factor Authentication bất kỳ lúc nào để thay đổi số điện thoại của mình.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Tài khoản của bạn đã được định cấu hình để sử dụng Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Khi bạn đăng nhập, bạn sẽ tiếp tục sử dụng cùng tên người dùng và mật khẩu. Trước khi hoàn tất quá trình xác minh,
+bạn sẽ nhận được một tin nhắn văn bản có chứa mã khóa dùng một lần. Nhập mã khóa này và PIN của bạn khi được nhắc bởi ứng dụng.
+Nếu bạn không nhập đúng mã khóa và PIN, việc đăng nhập sẽ bị từ chối.&lt;br/&gt;&lt;br/&gt;
+Bạn có thể quay lại cổng thông tin Multi-Factor Authentication bất kỳ lúc nào để thay đổi số điện thoại hoặc mã PIN của mình.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtp" xml:space="preserve">
+    <value>Tài khoản của bạn đã được định cấu hình để sử dụng Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Khi bạn đăng nhập, bạn sẽ tiếp tục sử dụng cùng tên người dùng và mật khẩu. Trước khi hoàn tất quá trình xác minh,
+bạn sẽ nhận được một tin nhắn văn bản có chứa mã khóa dùng một lần. Trả lời tin nhắn văn bản này với mã khóa này.
+Nếu bạn không trả lời với mã khóa đúng, việc đăng nhập sẽ bị từ chối.&lt;br/&gt;&lt;br/&gt;
+Bạn chỉ nên trả lời khi bạn nhận được tin nhắn văn bản của Multi-Factor Authentication nếu bạn đang thực sự đăng nhập vào ứng dụng này.
+Nếu không, có thể ai đó đang cố đăng nhập bằng tên người dùng và mật khẩu của bạn và bạn nên thông báo khả năng
+lừa đảo này cho quản trị viên CNTT của mình.&lt;br/&gt;&lt;br/&gt;
+Bạn có thể quay lại cổng thông tin Multi-Factor Authentication bất kỳ lúc nào để thay đổi số điện thoại của mình.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Tài khoản của bạn đã được định cấu hình để sử dụng Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Khi bạn đăng nhập, bạn sẽ tiếp tục sử dụng cùng tên người dùng và mật khẩu. Trước khi hoàn tất quá trình xác minh,
+bạn sẽ nhận được một tin nhắn văn bản có chứa mã khóa dùng một lần.  Trả lời tin nhắn văn bản này với mã khóa này và PIN của bạn.
+Nếu bạn không trả lời với mã khóa và PIN đúng, việc đăng nhập sẽ bị từ chối.&lt;br/&gt;&lt;br/&gt;
+Bạn chỉ nên trả lời khi bạn nhận được tin nhắn văn bản của Multi-Factor Authentication nếu bạn đang thực sự đăng nhập vào ứng dụng này.
+Nếu không, có thể ai đó đang cố đăng nhập bằng tên người dùng và mật khẩu của bạn và bạn nên thông báo khả năng
+lừa đảo này cho quản trị viên CNTT của mình.&lt;br/&gt;&lt;br/&gt;
+Bạn có thể quay lại cổng thông tin Multi-Factor Authentication bất kỳ lúc nào để thay đổi số điện thoại hoặc mã PIN của mình.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageStandard" xml:space="preserve">
+    <value>Tài khoản của bạn đã được định cấu hình để sử dụng Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Khi bạn đăng nhập, bạn sẽ tiếp tục sử dụng cùng tên người dùng và mật khẩu. Trước khi hoàn tất quá trình xác minh,
+bạn sẽ nhận được một cuộc gọi điện thoại yêu cầu bạn bấm phím thăng (#) để xác nhận việc đăng nhập. Nếu bạn không xác nhận việc đăng
+nhập bằng cách bấm #, việc đăng nhập sẽ bị từ chối.&lt;br/&gt;&lt;br/&gt;
+Bạn chỉ nên bấm # khi bạn nhận được cuộc gọi từ Multi-Factor Authentication nếu bạn đang thực sự đăng nhập vào ứng dụng này.
+Nếu không, có thể ai đó đang cố đăng nhập bằng tên người dùng và mật khẩu của bạn và bạn nên thông báo khả năng
+lừa đảo này cho quản trị viên CNTT của mình.&lt;br/&gt;&lt;br/&gt;
+Bạn có thể quay lại cổng thông tin Multi-Factor Authentication bất kỳ lúc nào để thay đổi số điện thoại của mình.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageVoiceprint" xml:space="preserve">
+    <value>Tài khoản của bạn đã được định cấu hình để sử dụng Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+Khi bạn đăng nhập, bạn sẽ tiếp tục sử dụng cùng tên người dùng và mật khẩu. Trước khi hoàn tất quá trình xác minh,
+bạn sẽ nhận được một cuộc gọi điện thoại yêu cầu bạn nói câu thông hành của bạn để xác nhận việc đăng nhập của bạn. Nếu bạn không xác nhận
+việc đăng nhập bằng cách nói câu thông hành của bạn, việc đăng nhập sẽ bị từ chối.&lt;br/&gt;&lt;br/&gt;
+Bạn chỉ nên nói câu thông hành của bạn khi bạn nhận được cuộc gọi từ Multi-Factor Authentication nếu bạn thật sự đang đăng nhập vào ứng dụng.
+Nếu không, có thể ai đó đang cố đăng nhập bằng tên người dùng và mật khẩu của bạn và bạn nên thông báo khả năng
+lừa đảo này cho quản trị viên CNTT của mình.&lt;br/&gt;&lt;br/&gt;
+Bạn có thể quay lại cổng thông tin Multi-Factor Authentication bất kỳ lúc nào để thay đổi số điện thoại của mình.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MustChangeModeToPhoneApp" xml:space="preserve">
+    <value>Sau khi kích hoạt ứng dụng di động Multi-Factor Authentication trên thiết bị của bạn, bạn sẽ cần thay đổi phương thức của bạn thành Ứng dụng Di động.  Bấm vào nối kết Thay đổi Phương thức trong menu dẫn hướng và chỉ rõ phương thức Ứng dụng Di động để bắt đầu sử dụng ứng dụng.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_MustChangeUserToPhoneAppMode" xml:space="preserve">
+    <value>Sau khi người dùng kích hoạt ứng dụng di động Multi-Factor Authentication trên thiết bị của họ, bạn sẽ cần thay đổi phương thức của họ thành Ứng dụng Di động để họ có thể sử dụng ứng dụng.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerPhoneApp" xml:space="preserve">
+    <value>Điều này chỉ xày ra nếu ai đó đã cố đăng nhập vào tài khoản của bạn, và họ đã biết mật khẩu của bạn. Hãy nhớ rằng, những thông báo của ứng dụng di động Multi-Factor Authentication chỉ được gửi đi sau khi tên người dùng và mật khẩu đã được kiểm chứng. Vì vậy, nếu điều này xảy ra, Multi-Factor Authentication đã vừa giữ cho tài khoản của bạn khỏi bị truy nhập trái phép!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerSms" xml:space="preserve">
+    <value>Điều này chỉ xày ra nếu ai đó đã cố đăng nhập vào tài khoản của bạn, và họ đã biết mật khẩu của bạn. Hãy nhớ rằng, những tin nhắn văn bản chỉ được gửi đi sau khi tên người dùng và mật khẩu đã được kiểm chứng. Vì vậy, nếu điều này xảy ra, Multi-Factor Authentication đã vừa giữ cho tài khoản của bạn khỏi bị truy nhập trái phép!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerVoice" xml:space="preserve">
+    <value>Điều này chỉ xày ra nếu ai đó đã cố đăng nhập vào tài khoản của bạn, và họ đã biết mật khẩu của bạn. Hãy nhớ rằng, những cuộc gọi chỉ được thực hiện sau khi tên người dùng và mật khẩu đã được kiểm chứng. Vì vậy, nếu điều này xảy ra, Multi-Factor Authentication đã vừa giữ cho tài khoản của bạn khỏi bị truy nhập trái phép!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionPhoneApp" xml:space="preserve">
+    <value>Điều gì sẽ xảy ra nếu tôi nhận được thông báo của ứng dụng di động Multi-Factor Authentication trong khi tôi đang không thực hiện việc đăng nhập?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionSms" xml:space="preserve">
+    <value>Điều gì sẽ xảy ra nếu tôi nhận được tin nhắn văn bản từ Multi-Factor Authentication trong khi tôi đang không thực hiện việc đăng nhập?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionVoice" xml:space="preserve">
+    <value>Điều gì sẽ xảy ra nếu tôi nhận được cuộc gọi từ Multi-Factor Authentication trong khi tôi đang không thực hiện việc đăng nhập?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassOathToken" xml:space="preserve">
+    <value>Ngoài ra, công ty của bạn cũng cung cấp tùy chọn Cấp phép Truy cập Một lần cho phép bạn đăng nhập một lần mà không bị nhắc cung cấp mã xác thực. Hãy chọn tùy chọn Cấp phép Truy cập Một lần để truy nhập tính năng này. Hoặc gọi bộ phận trợ giúp từ bất kì điện thoại nào để được hỗ trợ.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_OneTimeBypassPhoneApp" xml:space="preserve">
+    <value>Ngoài ra, công ty của bạn cũng cung cấp tùy chọn Cấp phép Truy cập Một lần cho phép bạn đăng nhập một lần mà không nhận thông báo của ứng dụng di động Multi-Factor Authentication. Hãy chọn tùy chọn Cấp phép Truy cập Một lần để truy nhập tính năng này. Hoặc gọi bộ phận trợ giúp từ bất kì điện thoại nào để được hỗ trợ.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassSms" xml:space="preserve">
+    <value>Công ty của bạn cung cấp tùy chọn Cấp phép Truy cập Một lần cho phép bạn đăng nhập một lần mà không cần tin nhắn văn bản. Hãy chọn tùy chọn Cấp phép Truy cập Một lần để truy nhập tính năng này. Hoặc gọi bộ phận trợ giúp từ bất kì điện thoại nào để được hỗ trợ.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassVoice" xml:space="preserve">
+    <value>Công ty của bạn cung cấp tùy chọn Cấp phép Truy cập Một lần cho phép bạn đăng nhập một lần mà không cần cuộc gọi điện thoại. Hãy chọn tùy chọn Cấp phép Truy cập Một lần để truy nhập tính năng này. Hoặc gọi bộ phận trợ giúp từ bất kì điện thoại nào để được hỗ trợ.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtp" xml:space="preserve">
+    <value>Mã Thông hành dùng Một lần</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtpPlusPin" xml:space="preserve">
+    <value>Mã Thông hành dùng Một lần + PIN</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_SimpleProcessOathToken" xml:space="preserve">
+    <value>Qui trình đơn giản này cung cấp hai nhân tố riêng biệt cho việc xác thực và thao tác xác thực phụ được cung cấp bởi một vật mà bạn đang có (điện thoại thông minh của bạn hoặc hiệu bài).</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_SimpleProcessPhoneApp" xml:space="preserve">
+    <value>Qui trình đơn giản này cung cấp hai nhân tố riêng biệt cho việc xác thực thông qua hai kênh riêng biệt (máy tính của bạn và điện thoại thông minh của bạn).</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessSms" xml:space="preserve">
+    <value>Qui trình đơn giản này cung cấp hai nhân tố riêng biệt cho việc xác thực thông qua hai kênh riêng biệt (máy tính của bạn và dịch vụ điện thoại của bạn). Nó hoạt động được với bất kì điện thoại nào có chức năng tin nhắn văn bản.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessVoice" xml:space="preserve">
+    <value>Qui trình đơn giản này cung cấp hai nhân tố riêng biệt cho việc xác thực thông qua hai kênh riêng biệt (máy tính của bạn và dịch vụ điện thoại của bạn). Nó hoạt động được với bất kì điện thoại thông thường hoặc điện thoại di động nào.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionOathToken" xml:space="preserve">
+    <value>Ngay lập tức, bạn được nhắc nhập mã xác thực. Nhập mã xác thực hiện tại được hiển thị bởi ứng dụng di động Multi-Factor Authentication hoặc hiệu bài.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppPin" xml:space="preserve">
+    <value>Ngay lập tức, bạn nhận được một thông báo của ứng dụng di động Multi-Factor Authentication. Khởi chạy ứng dụng, nhập PIN của bạn, và nhấn nút Xác thực.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppStandard" xml:space="preserve">
+    <value>Ngay lập tức, bạn nhận được một thông báo của ứng dụng di động Multi-Factor Authentication. Khởi chạy ứng dụng và nhấn nút Xác thực.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppVoiceprint" xml:space="preserve">
+    <value>Ngay lập tức, bạn nhận được một thông báo của ứng dụng di động Multi-Factor Authentication. Khởi chạy ứng dụng và nói câu thông hành của bạn khi được nhắc.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPin" xml:space="preserve">
+    <value>Ngay lập tức, bạn nhận được một cuộc gọi điện thoại. Trả lời máy, nhập PIN của bạn, và nhấn #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtp" xml:space="preserve">
+    <value>Ngay lập tức, bạn nhận được một tin nhắn văn bản với một mã thông hành dùng một lần. Nhập mã thông hành này khi được nhắc bởi ứng dụng.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Ngay lập tức, bạn nhận được một tin nhắn văn bản với một mã thông hành dùng một lần. Nhập mã thông hành này và PIN của bạn khi được nhắc bởi ứng dụng.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtp" xml:space="preserve">
+    <value>Ngay lập tức, bạn nhận được một tin nhắn văn bản với một mã thông hành dùng một lần. Trả lời tin nhắn văn bản với mã thông hành này.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Ngay lập tức, bạn nhận được một tin nhắn văn bản với một mã thông hành dùng một lần. Trả lời tin nhắn văn bản với mã thông hành này và PIN của bạn.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionStandard" xml:space="preserve">
+    <value>Ngay lập tức, bạn nhận được một cuộc gọi điện thoại. Trả lời và nhấn #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionVoiceprint" xml:space="preserve">
+    <value>Ngay lập tức, bạn nhận được một cuộc gọi điện thoại. Trả lời và nói câu thông hành của bạn sau khi nghe tín hiệu.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_TitleWithColon" xml:space="preserve">
+    <value>{0}:</value>
+    <comment>Page header on most pages</comment>
+  </data>
+  <data name="Label_UnblockReason" xml:space="preserve">
+    <value>Lí do Bỏ chặn</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_AccountConfigurationComplete" xml:space="preserve">
+    <value>Cấu hình Tài khoản Hoàn tất</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Message_AnswerRequired" xml:space="preserve">
+    <value>Bạn phải trả lời ít nhất một câu hỏi bảo mật.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AnswerSecurityQuestions" xml:space="preserve">
+    <value>Vui lòng trả lời các câu hỏi bảo mật của bạn để đăng nhập.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AnswersIncorrect" xml:space="preserve">
+    <value>Một hay nhiều câu trả lời không đúng.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AuthenticationDenied" xml:space="preserve">
+    <value>Multi-Factor Authentication bị từ chối.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedAnswerSecurityQuestions" xml:space="preserve">
+    <value>Multi-Factor Authentication bị từ chối. Vui lòng trả lời các câu hỏi bảo mật của bạn để đăng nhập.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedCallResult" xml:space="preserve">
+    <value>Multi-Factor Authentication bị từ chối: {0}</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_AuthenticationSuccessful" xml:space="preserve">
+    <value>Multi-Factor Authentication thành công.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_BypassSecondsNumeric" xml:space="preserve">
+    <value>Giây Cấp phép Truy cập phải là số.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRange" xml:space="preserve">
+    <value>Giây Cấp phép Truy cập phải có giá trị giữa 5 và 1800 (30 phút).</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRequired" xml:space="preserve">
+    <value>Yêu cầu Giây Cấp phép Truy cập.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_CannotActivateDevice" xml:space="preserve">
+    <value>Tài khoản của bạn phải được liên kết với một ứng dụng di động Multi-Factor Authentication đã được kích hoạt trên một thiết bị trước khi bạn có thể thay đổi phương thức của bạn thành Ứng dụng Di động.  Hãy liên hệ bộ phận trợgiúp để được hỗ trợ về việc kích hoạt ứng dụng di động Multi-Factor Authentication trên thiết bị của bạn.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotEstablishWebServiceSdkConnection" xml:space="preserve">
+    <value>Cổng Thông tin Người dùng Multi-Factor Authentication không thể thiết lập một kết nối bảo mật đến SDK Dịch vụ Web: {0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_CannotGetOathToken" xml:space="preserve">
+    <value>Tài khoản của bạn phải được liên kết với một ứng dụng di động Multi-Factor Authentication đã được kích hoạt trên một thiết bị hoặc liên kết với một hiệu bài OATH trước khi bạn có thể thay đổi phương thức của bạn thành hiệu bài OATH.  Hãy liên hệ bộ phận trợ giúp để được hỗ trợ về việc kích hoạt ứng dụng di động Multi-Factor Authentication trên thiết bị của bạn hoặc lấy một hiệu bài OATH được cấp cho bạn.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Tài khoản của bạn phải có một số điện thoại được gán trước khi bạn có thể thay đổi phương thức của bạn thành Tin nhắn Văn bản.  Hãy liên hệ bộ phận trợ giúp để gán một số điện thoại cho tài khoản của bạn.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Tài khoản của bạn phải có một số điện thoại được gán trước khi bạn có thể thay đổi phương thức của bạn thành Cuộc gọi Điện thoại.  Hãy liên hệ bộ phận trợ giúp để gán một số điện thoại cho tài khoản của bạn.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeOathTokenIncomplete" xml:space="preserve">
+    <value>Ghi chú: Người dùng chưa kích hoạt ứng dụng di động Multi-Factor Authentication trên thiết bị của họ hoặc chưa được cấp một hiệu bài OATH của bên thứ ba và được xem là chưa hoàn tất đối với phương thức Hiệu bài OATH. Việc xác thực vào các ứng dụng được bảo vệ sẽ không thành công với người dùng này và các lần đăng nhập vào Cổng thông tin Người dùng sẽ yêu cầu họ phải đăng ký lại.  Bạn nên liên hệ với người dùng này để hỗ trợ họ kích hoạt ứng dụng di động Multi-Factor Authentication hoặc gán và phân phối một hiệu bài OATH của bên thứ ba.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModePhoneAppIncomplete" xml:space="preserve">
+    <value>Ghi chú: Người dùng chưa kích hoạt ứng dụng di động Multi-Factor Authentication trên thiết bị của họ và được xem là chưa hoàn tất đối với phương thức Ứng dụng Di động. Việc xác thực vào các ứng dụng được bảo vệ sẽ không thành công với người dùng này và các lần đăng nhập vào Cổng thông tin Người dùng sẽ yêu cầu họ phải đăng ký lại.  Bạn nên liên hệ với người dùng này để hỗ trợ họ kích hoạt ứng dụng di động Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeSmsTextIncomplete" xml:space="preserve">
+    <value>Ghi chú: Người dùng chưa chỉ rõ một số điện thoại và được xem là chưa hoàn tất đối với phương thức Tin nhắn Văn bản. Việc xác thực vào các ứng dụng được bảo vệ sẽ không thành công với người dùng này và các lần đăng nhập vào Cổng thông tin Người dùng sẽ yêu cầu họ phải đăng ký lại.  Bạn nên chỉ rõ một số điện thoại cho người dùng này để họ có thể tiếp tục dùng các ứng dụng được bảo vệ mà không phải đăng ký lại.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeVoiceCallIncomplete" xml:space="preserve">
+    <value>Ghi chú: Người dùng chưa chỉ rõ một số điện thoại và được xem là chưa hoàn tất đối với phương thức Cuộc gọi Điện thoại. Việc xác thực vào các ứng dụng được bảo vệ sẽ không thành công với người dùng này và các lần đăng nhập vào Cổng thông tin Người dùng sẽ yêu cầu họ phải đăng ký lại.  Bạn nên chỉ rõ một số điện thoại cho người dùng này để họ có thể tiếp tục dùng các ứng dụng được bảo vệ mà không phải đăng ký lại.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CodeRequired" xml:space="preserve">
+    <value>Yêu cầu mã.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_CodeRequiredCross" xml:space="preserve">
+    <value>Yêu cầu mã khi số sê-ri được chỉ rõ.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ConfirmDeactivate" xml:space="preserve">
+    <value>Bạn có chắc muốn bỏ kích hoạt thiết bị này vĩnh viễn?</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceDeactivated" xml:space="preserve">
+    <value>Thiết bị đã được bỏ kích hoạt.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceLimit" xml:space="preserve">
+    <value>Tài khoản của bạn đã đạt đến giới hạn {0} thiết bị. Bạn phải bỏ kích hoạt một thiết bị hiện có trước khi kích hoạt một thiết bị mới.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DuplicateAnswer" xml:space="preserve">
+    <value>Không cho phép câu trả lời trùng lặp.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateQuestion" xml:space="preserve">
+    <value>Không cho phép câu hỏi trùng lặp.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateUsername" xml:space="preserve">
+    <value>Tên người dùng trùng lặp.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUser" xml:space="preserve">
+    <value>Lỗi thêm người dùng.&lt;br/&gt;{0}</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUserForPassedSession" xml:space="preserve">
+    <value>Lỗi thêm người dùng cho phiên làm việc đã qua.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithLocal" xml:space="preserve">
+    <value>Lỗi giao tiếp với dịch vụ Multi-Factor Authentication cục bộ. Vui lòng liên hệ quản trị viên của bạn.</value>
+    <comment>Most pages when connection to local server is lost</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithMaster" xml:space="preserve">
+    <value>Lỗi giao tiếp với dịch vụ Multi-Factor Authentication chính. Vui lòng liên hệ quản trị viên của bạn.</value>
+    <comment>Most pages when connection to master server is lost</comment>
+  </data>
+  <data name="Message_ErrorDeactivatingDevice" xml:space="preserve">
+    <value>Lỗi bỏ kích hoạt thiết bị.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorDisablingUser" xml:space="preserve">
+    <value>Lỗi vô hiệu hóa người dùng.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorEnablingUser" xml:space="preserve">
+    <value>Lỗi hiệu lực hóa người dùng.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorFindingUsers" xml:space="preserve">
+    <value>Lỗi tìm kiếm người dùng.&lt;br/&gt;{0}</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_ErrorGeneratingActivationCode" xml:space="preserve">
+    <value>Lỗi tạo mã kích hoạt.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorIssuingOneTimeBypass" xml:space="preserve">
+    <value>Lỗi phát hành cấp phép truy cập một lần. Vui lòng liên hệ quản trị viên của bạn.&lt;br/&gt;{0}</value>
+    <comment>one_time_bypass and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorRemovingUser" xml:space="preserve">
+    <value>Lỗi loại bỏ người dùng.&lt;br/&gt;{0}</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_ErrorResettingMode" xml:space="preserve">
+    <value>Lỗi đặt lại phương thức.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPhone" xml:space="preserve">
+    <value>Lỗi đặt lại điện thoại.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPin" xml:space="preserve">
+    <value>Lỗi đặt lại PIN.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingVoiceprint" xml:space="preserve">
+    <value>Lỗi đặt lại nhận dạng giọng nói. Vui lòng liên hệ quản trị viên của bạn.&lt;br/&gt;{0}</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingLanguage" xml:space="preserve">
+    <value>Lỗi cập nhật ngôn ngữ.&lt;br/&gt;{0}</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingMode" xml:space="preserve">
+    <value>Lỗi cập nhật phương thức.&lt;br/&gt;{0}</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhone" xml:space="preserve">
+    <value>Lỗi cập nhật điện thoại.&lt;br/&gt;{0}</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhoneAppMode" xml:space="preserve">
+    <value>Lỗi cập nhật chế độ ứng dụng di động.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPin" xml:space="preserve">
+    <value>Lỗi cập nhật PIN.&lt;br/&gt;{0}</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSecurityQuestions" xml:space="preserve">
+    <value>Lỗi cập nhật câu hỏi bảo mật.&lt;br/&gt;{0}</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSmsTextMode" xml:space="preserve">
+    <value>Lỗi cập nhật chế độ tin nhắn văn bản.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingStaticToken" xml:space="preserve">
+    <value>Lỗi cập nhật hiệu bài tĩnh.&lt;br/&gt;{0}</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserForSecurityQuestionSetup" xml:space="preserve">
+    <value>Lỗi cập nhật người dùng để thiết lập câu hỏi bảo mật.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserInformation" xml:space="preserve">
+    <value>Lỗi cập nhật thông tin người dùng.&lt;br/&gt;{0}</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingVoiceCallMode" xml:space="preserve">
+    <value>Lỗi cập nhật chế độ cuộc gọi điện thoại.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ExpiredSession" xml:space="preserve">
+    <value>Phiên làm việc của bạn đã hết hạn.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_IncorrectAnswers" xml:space="preserve">
+    <value>Các câu trả lời bạn đã cung cấp không đúng, xin vui lòng thử lại.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_IncorrectOathCode" xml:space="preserve">
+    <value>Mã xác thực không đúng.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscode" xml:space="preserve">
+    <value>Mã thông hành dùng một lần không đúng.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscodePlusPin" xml:space="preserve">
+    <value>Mã thông hành dùng một lần + PIN không đúng.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_InvalidExtension" xml:space="preserve">
+    <value>Phần mở rộng không hợp lệ.  Chỉ cho phép các chữ số, dấu phẩy, *, và #.  Dùng dấu phẩy để tạm dừng trong một giây.  Thêm tiền tố @ trước phần mở rộng để nói các chữ số phần mở rộng cho chuyển hướng thủ công.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_InvalidSerialNumber" xml:space="preserve">
+    <value>Số sê-ri không hợp lệ.  Hiệu bài OATH với số sê-ri này phải được xác định trong giao diện người dùng của Máy chủ Multi-Factor Authentication trước khi liên kết nó với một người dùng.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_LineBreak" xml:space="preserve">
+    <value>&lt;br/&gt;{0}</value>
+    <comment>add_user, change_phone, change_pin, change_mode, change_language and enable_disable pages</comment>
+  </data>
+  <data name="Message_LoginFailed" xml:space="preserve">
+    <value>Đăng nhập thất bại.</value>
+    <comment>login and secondary_authentication pages</comment>
+  </data>
+  <data name="Message_MustActivateDevice" xml:space="preserve">
+    <value>Bạn phải kích hoạt ứng dụng di động Multi-Factor Authentication trên một thiết bị trước khi bạn có thể thay đổi phương thức của bạn thành Ứng dụng Di động. Bấm vào nối kết Kích Hoạt Ứng dụng Di động trong menu dẫn hướng để bắt đầu việc kích hoạt của bạn.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustActivateDeviceOathToken" xml:space="preserve">
+    <value>Bạn phải kích hoạt ứng dụng di động Multi-Factor Authentication trên một thiết bị trước khi bạn có thể thay đổi phương thức của bạn thành Hiệu bài OATH. Bấm vào nối kết Kích Hoạt Ứng dụng Di động trong menu dẫn hướng để bắt đầu việc kích hoạt của bạn.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustAnswerAllQuestions" xml:space="preserve">
+    <value>Bạn phải trả lời tất cả các câu hỏi bảo mật.</value>
+    <comment>create_security_questions, change_security_questions, and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_MustEnrollOathToken" xml:space="preserve">
+    <value>Bạn phải liên kết một hiệu bài OATH với tài khoản của bạn trước khi bạn có thể thay đổi phương thức của bạn thành Hiệu bài OATH. Bấm vào nối kết Hiệu bài OATH để liên kết một hiệu bài OATH.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustHaveOathToken" xml:space="preserve">
+    <value>Bạn phải kích hoạt ứng dụng di động Multi-Factor Authentication trên một thiết bị hoặc liên kết một hiệu bài OATH với tài khoản của bạn trước khi bạn có thể thay đổi phương thức của bạn thành Hiệu bài OATH. Bấm vào nối kết Kích Hoạt Ứng dụng Di động trong menu dẫn hướng để bắt đầu việc kích hoạt của bạn hoặc bấm vào nối kết Hiệu bài OATH để liên kết một hiệu bài OATH.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Bạn phải chỉ rõ một số điện thoại cho tài khoản của bạn trước khi bạn có thể thay đổi phương thức của bạn thành Tin nhắn Văn bản. Bấm vào nối kết Thay đổi Điện thoại trong menu dẫn hướng để chỉ rõ một số điện thoại.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Bạn phải chỉ rõ một số điện thoại cho tài khoản của bạn trước khi bạn có thể thay đổi phương thức của bạn thành Cuộc gọi Điện thoại. Bấm vào nối kết Thay đổi Điện thoại trong menu dẫn hướng để chỉ rõ một số điện thoại.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifySearchField" xml:space="preserve">
+    <value>Phải chỉ rõ ít nhất một trường tìm kiếm.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoActivatedDevices" xml:space="preserve">
+    <value>Không có thiết bị nào được kích hoạt cho người dùng này.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_NoMatchingUsersFound" xml:space="preserve">
+    <value>Không tìm thấy người dùng nào phù hợp.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoSsl" xml:space="preserve">
+    <value>Cổng thông tin Người dùng Multi-Factor Authentication không được bảo mật bằng SSL, nhưng các cookie của phiên làm việc trong Web.config yêu cầu SSL. Cổng thông tin Người dùng không hoạt động vì trạng thái của phiên làm việc không thể được duy trì. Chúng tôi khuyến nghị Cổng thông tin Người dùng nên được bảo mật bằng SSL. Đối với mục đích kiểm thử, bạn có thể tạm thời đổi requireSSL thành "false" tại thẻ &lt;httpCookies&gt; trong Web.config.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailed" xml:space="preserve">
+    <value>Đồng bộ hóa hiệu bài OATH thất bại. Mã được nhập không đúng hoặc số sê-ri hiệu bài OATH không hợp lệ.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailedUser" xml:space="preserve">
+    <value>Đồng bộ hóa hiệu bài OATH thất bại. Mã được nhập không đúng.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OnlyFirstMatchesDisplayed" xml:space="preserve">
+    <value>Chỉ có {0} kết quả phù hợp đầu tiên được hiển thị. Nếu bạn không thể tìm thấy người dùng trong danh sách, hãy nhập những tiêu chí tìm kiếm cụ thể hơn.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_PassedSessionFailed" xml:space="preserve">
+    <value>Phiên làm việc trước đã thất bại.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_PhoneRequired" xml:space="preserve">
+    <value>Yêu cầu điện thoại.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMatch" xml:space="preserve">
+    <value>PIN và Xác nhận PIN phải khớp.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMinimumLength" xml:space="preserve">
+    <value>PIN phải có ít nhất {0} chữ số.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinNumeric" xml:space="preserve">
+    <value>PIN phải là số.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinRecentlyUsed" xml:space="preserve">
+    <value>PIN không thể giống với một trong các PIN bạn đã dùng gần đây. Vui lòng chọn một PIN khác.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_SamlDisabled" xml:space="preserve">
+    <value>Đăng nhập đơn cho các ứng dụng bên ngoài dùng SAML bị vô hiệu hóa.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotDefined" xml:space="preserve">
+    <value>Các câu hỏi bảo mật không được xác định cho người dùng này.&lt;br/&gt;</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotSetUp" xml:space="preserve">
+    <value>Bạn không thể đăng nhập mà không có điện thoại của bạn vì bạn đã không thiết lập các câu hỏi bảo mật.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsVerified" xml:space="preserve">
+    <value>Các câu hỏi bảo mật đã được kiểm chứng.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityWarningNoSsl" xml:space="preserve">
+    <value>CẢNH BÁO BẢO MẬT: Cổng thông tin Người dùng Multi-Factor Authentication không được bảo mật với SSL.  Mật khẩu sẽ được truyền dưới dạng văn bản thuần.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SerialNumberAlreadyAssociated" xml:space="preserve">
+    <value>Số sê-ri đã được liên kết với {0}.  Bạn phải loại bỏ số sê-ri khỏi người dùng đó trước khi liên kết nó với người dùng này.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_SerialNumberRequired" xml:space="preserve">
+    <value>Yêu cầu số sê-ri.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_SerialNumberRequiredCross" xml:space="preserve">
+    <value>Yêu cầu số sê-ri khi mã được chỉ rõ.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ShortAnswer" xml:space="preserve">
+    <value>Câu trả lời phải có ít nhất 4 ký tự.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_StaticTokenMatch" xml:space="preserve">
+    <value>Hiệu bài Tĩnh và Xác nhận Hiệu bài Tĩnh phải khớp.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenMinimumLength" xml:space="preserve">
+    <value>Hiệu bài Tĩnh phải có ít nhất {0} chữ số.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenNumeric" xml:space="preserve">
+    <value>Hiệu bài Tĩnh phải là số.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserAdded" xml:space="preserve">
+    <value>Đã thêm người dùng.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_UserAlreadyBlocked" xml:space="preserve">
+    <value>Chặn thất bại. Người dùng này đã bị chặn trước đó.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlocked" xml:space="preserve">
+    <value>Người dùng đã được chặn thành công.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlockFailed" xml:space="preserve">
+    <value>Chặn thất bại.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserDeviceLimit" xml:space="preserve">
+    <value>Người dùng đã đạt đến giới hạn {0} thiết bị. Bạn phải bỏ kích hoạt một thiết bị hiện có cho người dùng này trước khi họ có thể kích hoạt một thiết bị mới.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_UserDisabled" xml:space="preserve">
+    <value>Người dùng đã được vô hiệu hóa thành công.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserEnabled" xml:space="preserve">
+    <value>Người dùng đã được hiệu lực hóa thành công.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserInformationChanged" xml:space="preserve">
+    <value>Thông tin người dùng đã được thay đổi.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_UserLanguageChanged" xml:space="preserve">
+    <value>Ngôn ngữ ưu tiên của người dùng đã được thay đổi.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_UserModeChanged" xml:space="preserve">
+    <value>Phương thức của người dùng đã được thay đổi.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_UsernameRequired" xml:space="preserve">
+    <value>Yêu cầu tên người dùng.</value>
+    <comment>login and add_user pages</comment>
+  </data>
+  <data name="Message_UserNotBlocked" xml:space="preserve">
+    <value>Bỏ chặn thất bại. Người dùng này hiện tại không bị chặn.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserOathTokenSaved" xml:space="preserve">
+    <value>Hiệu bài OATH của người dùng đã được lưu lại.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_UserOneTimeBypassIssued" xml:space="preserve">
+    <value>Cấp phép truy cập một lần đã được phát hành. Multi-Factor Authentication sẽ được bỏ qua trong lần đăng nhập tiếp theo của người dùng.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_UserPhoneChanged" xml:space="preserve">
+    <value>Điện thoại của người dùng đã được thay đổi.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_UserPinChanged" xml:space="preserve">
+    <value>PIN của người dùng đã được thay đổi.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_UserPortalDisabled" xml:space="preserve">
+    <value>Đăng nhập trực tiếp vào Cổng thông tin Người dùng bị vô hiệu hóa.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserPortalNotPurchased" xml:space="preserve">
+    <value>Cổng thông tin Người dùng Multi-Factor Authentication không hoạt động vì tính năng này chưa được mua.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserRemoved" xml:space="preserve">
+    <value>Đã loại bỏ người dùng.</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_UserStaticTokenChanged" xml:space="preserve">
+    <value>Hiệu bài tĩnh của người dùng đã được thay đổi.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserSubmodeChanged" xml:space="preserve">
+    <value>Các chế độ của người dùng đã được thay đổi.</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_UserUnblocked" xml:space="preserve">
+    <value>Người dùng đã được bỏ chặn thành công.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserUnblockFailed" xml:space="preserve">
+    <value>Bỏ chặn thất bại.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserVoiceprintReset" xml:space="preserve">
+    <value>Nhận dạng giọng nói đã được đặt lại. Người dùng sẽ được nhắc đăng ký mẫu nhận dạng giọng nói mới trong lần đăng nhập tiếp theo.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_WeakPinNotAllowed" xml:space="preserve">
+    <value>Không cho phép mã PIN bảo mật kém. Không thể chứa tập con gồm 4 chữ số hoặc hơn của số điện thoại, 3 chữ số lặp lại hoặc hơn, hoặc 3 chữ số liên tiếp hoặc hơn.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_WeakStaticTokenNotAllowed" xml:space="preserve">
+    <value>Không cho phép Hiệu bài Tĩnh bảo mật kém. Không thể chứa tập con gồm 4 chữ số hoặc hơn của số điện thoại, 3 chữ số lặp lại hoặc hơn, hoặc 3 chữ số liên tiếp hoặc hơn.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_WebServiceSdkError" xml:space="preserve">
+    <value>Cổng thông tin Người dùng Multi-Factor Authentication được đặt cấu hình để giao tiếp với SDK Dịch vụ Web đã trả về lỗi sau:&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_WebServiceSdkNotPurchased" xml:space="preserve">
+    <value>Cổng thông tin Người dùng Multi-Factor Authentication được đặt cấu hình để giao tiếp với SDK Dịch vụ Web và tính năng SDK Dịch vụ Web chưa được mua.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_YourInformationChanged" xml:space="preserve">
+    <value>Thông tin của bạn đã được thay đổi.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_YourLanguageChanged" xml:space="preserve">
+    <value>Ngôn ngữ ưu tiên của bạn đã được thay đổi.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_YourModeChanged" xml:space="preserve">
+    <value>Phương thức của bạn đã được thay đổi.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_YourOathTokenSaved" xml:space="preserve">
+    <value>Hiệu bài OATH của bạn đã được lưu lại.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_YourOneTimeBypassIssued" xml:space="preserve">
+    <value>Cấp phép truy cập một lần đã được phát hành. Multi-Factor Authentication sẽ được bỏ qua trong lần đăng nhập tiếp theo của bạn.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_YourPhoneChanged" xml:space="preserve">
+    <value>Điện thoại của bạn đã được thay đổi.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_YourPinChanged" xml:space="preserve">
+    <value>PIN của bạn đã được thay đổi.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_YourSecurityQuestionsChanged" xml:space="preserve">
+    <value>Các câu hỏi và câu trả lời bảo mật của bạn đã được thay đổi.</value>
+    <comment>change_security_questions page</comment>
+  </data>
+  <data name="Message_YourStaticTokenChanged" xml:space="preserve">
+    <value>Hiệu bài tĩnh của bạn đã được thay đổi.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_YourVoiceprintReset" xml:space="preserve">
+    <value>Nhận dạng giọng nói đã được đặt lại thành công. Bạn sẽ được nhắc đăng ký một mẫu nhận dạng giọng nói mới trong lần đăng nhập tiếp theo.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Reason_InitiatedByAdmin" xml:space="preserve">
+    <value>Được khởi xướng bởi người quản trị trong Cổng thông tin Người dùng</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Reason_InitiatedByUser" xml:space="preserve">
+    <value>Được khởi xướng bởi người dùng trong Cổng thông tin Người dùng</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Subtitle_DeactivatePhoneApp" xml:space="preserve">
+    <value>Bỏ kích hoạt Ứng dụng Di động</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Subtitle_Enable" xml:space="preserve">
+    <value>Hiệu lực hóa</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Subtitle_UnblockUser" xml:space="preserve">
+    <value>Bỏ chặn Người dùng</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Title_PhoneFactorUserPortal" xml:space="preserve">
+    <value>Multi-Factor Authentication™ | Cổng thông Tin Người dùng</value>
+    <comment>Title on all pages</comment>
+  </data>
+  <data name="Value_All" xml:space="preserve">
+    <value>Tất cả</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Value_Masked" xml:space="preserve">
+    <value>Đã được ẩn</value>
+    <comment>add_user, change_pin, and oath_token pages</comment>
+  </data>
+</root>

@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName_UserPortal" xml:space="preserve">
+    <value>مدخل المستخدمين</value>
+    <comment>Application name for Multi-Factor Authentications</comment>
+  </data>
+  <data name="Button_AuthenticateMeNow" xml:space="preserve">
+    <value>مصادقتي الآن</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_CallMeNowToAuthenticate" xml:space="preserve">
+    <value>اتصل بي الآن للمصادقة</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_Next" xml:space="preserve">
+    <value>التالي</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_TextMeNowToAuthenticate" xml:space="preserve">
+    <value>راسلني نصيًا الآن للمصادقة</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_VerifyOathToken" xml:space="preserve">
+    <value>التحقق من رمز OATH المميز</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Help_File" xml:space="preserve">
+    <value>help/PhoneFactor_User_Portal.htm</value>
+    <comment>Localize as help/xx/PhoneFactor_User_Portal.htm where xx is langauge code (e.g. de for German, zh-hans for Simplified Chinese)</comment>
+  </data>
+  <data name="Label_AlternatePhoneOathToken" xml:space="preserve">
+    <value>لا يلزم تطبيق الأجهزة المحمولة Multi-Factor Authentication الاتصال بشبكة الجوال أو WiFi ليتسنى له عرض رموز المصادقة.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_AlternatePhonePhoneApp" xml:space="preserve">
+    <value>يعمل تطبيق الأجهزة المحمولة Multi-Factor Authentication بنفس الكفاءة عبر WiFi.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneSms" xml:space="preserve">
+    <value>يمكنك تغيير حسابك لعرض رقم هاتف بديل، وذلك بتحديد الخيار "تغيير رقم الهاتف".</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneVoice" xml:space="preserve">
+    <value>يمكنك تغيير حسابك لعرض رقم هاتف بديل، مثل رقم خط أرضي، وذلك بتحديد الخيار "تغيير رقم الهاتف".</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_CannotChangeModeToPhoneApp" xml:space="preserve">
+    <value>بعد تنشيط تطبيق الأجهزة المحمولة Multi-Factor Authentication على جهازك، يجب أن يتم تغيير الأسلوب الخاص بحسابك إلى تطبيق الأجهزة المحمولة قبل أن تبدأ باستخدام التطبيق. الرجاء الاتصال بمكتب المساعدة لتغيير الأسلوب الخاص بك إلى تطبيق الأجهزة المحمولة.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_Disable" xml:space="preserve">
+    <value>تعطيل</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>تمكين</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_FraudAlertPhoneApp" xml:space="preserve">
+    <value>للإبلاغ عن حادث، اضغط على الزر "رفض والإبلاغ عن احتيال" في تطبيق الأجهزة المحمولة Multi-Factor Authentication. وسيؤدي ذلك إلى تنبيه فريق أمان تكنولوجيا المعلومات بشركتك، كما سيتم حظر أية محاولات مستقبلية للمصادقة حتى تُحل المشكلة.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertSms" xml:space="preserve">
+    <value>للإبلاغ عن حادث، أدخل رمز الاحتيال في الرد الخاص بك. وسيعمل ذلك على تنبيه فريق أمان تكنولوجيا المعلومات بشركتك. كما سيتم حظر أية محاولات مستقبلية للمصادقة حتى تُحل هذه المشكلة.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertVoice" xml:space="preserve">
+    <value>للإبلاغ عن حادث، حدد خيار "التنبيه من احتيال" من قائمة الهاتف أثناء مكالمة المصادقة. وسيعمل ذلك على تنبيه فريق أمان تكنولوجيا المعلومات بشركتك. كما سيتم حظر أية محاولات مستقبلية للمصادقة حتى تُحل المشكلة.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_GenerateActivationCode" xml:space="preserve">
+    <value>إنشاء رمز تنشيط</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateActivationLink" xml:space="preserve">
+    <value>إنشاء ارتباط تنشيط</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationCode" xml:space="preserve">
+    <value>إنشاء رمز تنشيط جديد</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationLink" xml:space="preserve">
+    <value>إنشاء ارتباط تنشيط جديد</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionOathToken" xml:space="preserve">
+    <value>يعمل Multi-Factor Authentication بالمطالبة برمز مصادقة أثناء تسجيل الدخول.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionPhoneApp" xml:space="preserve">
+    <value>يعمل Multi-Factor Authentication بإرسال إعلام إلى تطبيق الأجهزة المحمولة Multi-Factor Authentication أثناء تسجيل الدخول.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionSms" xml:space="preserve">
+    <value>يعمل Multi-Factor Authentication بإرسال رسالة نصية إلى هاتفك أثناء تسجيل الدخول.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionVoice" xml:space="preserve">
+    <value>يعمل Multi-Factor Authentication بإجراء مكالمة تأكيد بهاتفك أثناء تسجيل الدخول.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsAdministrator" xml:space="preserve">
+    <value>قم بإدارة حسابات المستخدمين بتحديد "البحث عن مستخدمين" من القائمة. وأدر حسابك عن طريق تحديد الخيار المناسب. وحدد أيقونة التعليمات (أعلى اليمين) للحصول على الدعم.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeOathToken" xml:space="preserve">
+    <value>حدد الأسلوب &lt;b&gt;رمز OATH المميز&lt;/b&gt; لتقوم بالمصادقة باستخدام رمز مصادقة من تطبيق الأجهزة المحمولة Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModePhoneApp" xml:space="preserve">
+    <value>حدد الأسلوب &lt;b&gt;تطبيق الأجهزة المحمولة&lt;/b&gt; لتقوم بالمصادقة باستخدام تطبيق الأجهزة المحمولة Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeSmsText" xml:space="preserve">
+    <value>حدد الأسلوب &lt;b&gt;رسالة نصية&lt;/b&gt; لتستقبل رسالة نصية للمصادقة.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeVoiceCall" xml:space="preserve">
+    <value>حدد الأسلوب &lt;b&gt;مكالمة هاتفية&lt;/b&gt; لتستقبل مكالمة هاتفية للمصادقة.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtp" xml:space="preserve">
+    <value>لاستكمال التحقق من الصحة، أدخل رمز المرور لمرة واحدة الذي استلمته عبر رسالة نصية.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtpPlusPin" xml:space="preserve">
+    <value>لاستكمال التحقق من الصحة، أدخل رمز المرور لمرة واحدة الذي استلمته عبر رسالة نصية بالإضافة إلى رقم PIN الخاص بك.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsFindUser" xml:space="preserve">
+    <value>أدخل بعض الحروف الأولى من اسم المستخدم ثم انقر فوق الزر "بحث".</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsOathToken" xml:space="preserve">
+    <value>اختبر مصادقة رمز OATH المميز الخاص بهذا المستخدم.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneApp" xml:space="preserve">
+    <value>قم باختبار مصادقة تطبيق الأجهزة المحمولة الخاص بهذا المستخدم.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationIpWhitelist" xml:space="preserve">
+    <value>بعد اكتمال التنشيط، انقر فوق "التالي" لمتابعة عملية الإعداد.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationOathToken" xml:space="preserve">
+    <value>بعد اكتمال التنشيط، انقر فوق الزر التالي لاختبار المصادقة ثم تابع عملية الإعداد. وأدخل رمز المصادقة الحالي المعروض في تطبيق الأجهزة المحمولة حال مطالبتك بذلك.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsSelectUser" xml:space="preserve">
+    <value>حدد مستخدمًا من القائمة أو حدد "الخلف" لتبحث عن مستخدم مختلف.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsSmsText" xml:space="preserve">
+    <value>قم باختبار مصادقة الرسالة النصية الخاصة بهذا المستخدم.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUnblockUser" xml:space="preserve">
+    <value>أدخل سببًا لإلغاء الحظر وقم بتأكيد إلغاء حظر المستخدم، وحينئذ لن يكون هناك أي حظر على أية عمليات مصادقة للمستخدم.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Label_InstructionsUserActivatePhoneApp" xml:space="preserve">
+    <value>يجب على المستخدم أولاً تثبيت تطبيق الأجهزة المحمولة Multi-Factor Authentication على هاتفه. انقر فوق الزر "إنشاء" لتستقبل رمز تنشيط. وعندئذٍ سيتم إدخال رمز التنشيط في تطبيق الأجهزة المحمولة الخاص بالمستخدم لإكمال عملية التنشيط.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserDeactivatePhoneApp" xml:space="preserve">
+    <value>لإلغاء تنشيط جهاز خاص بالمستخدم، انقر فوق الارتباط "إلغاء تنشيط" الخاص بالجهاز.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserEnable" xml:space="preserve">
+    <value>قم بتأكيد تمكين المستخدم حتى يمكنه بدء استقبال مكالمات Multi-Factor Authentication عند تسجيل الدخول.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_InstructionsUserInformation" xml:space="preserve">
+    <value>حدد المعلومات الجديدة لهذا المستخدم.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Label_InstructionsUserLanguage" xml:space="preserve">
+    <value>حدد تفضيل اللغة الخاص بهذا المستخدم.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Label_InstructionsUserMode" xml:space="preserve">
+    <value>حدد الأسلوب الخاص بهذا المستخدم.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathCode" xml:space="preserve">
+    <value>لتستكمل المصادقة، أدخل رمز المصادقة الحالي المعروض في تطبيق الأجهزة المحمولة Multi-Factor Authentication للمستخدم أو الرمز المميز.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathToken" xml:space="preserve">
+    <value>أدخل الرقم التسلسلي لرمز OATH المميز والرمز المعروض حاليًا على الرمز المميز لإقران الرمز المميز بالمستخدم.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Label_InstructionsUserOneTimeBypass" xml:space="preserve">
+    <value>قم بتأكيد السماح مرة واحدة لتتخطى Multi-Factor Authentication أثناء تسجيل الدخول التالي لهذا المستخدم. ويُعد هذا السماح مؤقتًا.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtp" xml:space="preserve">
+    <value>لتستكمل المصادقة، أدخل رمز مرور المرة الواحدة الذي استلمه المستخدم في رسالة SMS.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtpPlusPin" xml:space="preserve">
+    <value>لتستكمل المصادقة، أدخل رقم PIN الخاص بالمستخدم إضافة إلى رمز مرور المرة الواحدة الذي استلمه المستخدم في رسالة SMS.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserPhone" xml:space="preserve">
+    <value>حدد رقم هاتف جديدًا لهذا المستخدم.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Label_InstructionsUserPin" xml:space="preserve">
+    <value>حدد رقم PIN جديدًا لهذا المستخدم.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Label_InstructionsUserResetVoiceprint" xml:space="preserve">
+    <value>قم بتأكيد إعادة تعيين بصمة صوت المستخدم. ويجب على المستخدم أن يسجل بصمة صوت جديدة أثناء مكالمة المصادقة التالية.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathToken" xml:space="preserve">
+    <value>لتمكين Multi-Factor Authentication لحسابك باستخدام أسلوب رمز OATH المميز، أدخل الرقم التسلسلي المطبوع على الجانب الخلفي من رمز OATH المميز والرمز المعروض حاليًا على الرمز المميز ليقترن الرمز المميز بحسابك.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathTokenPhoneApp" xml:space="preserve">
+    <value>لتمكين Multi-Factor Authentication لحسابك باستخدام أسلوب رمز OATH المميز، ستكون بحاجة أولاً إلى تثبيت تطبيق Multi-Factor Authentication على هاتفك ثم النقر فوق الزر "إنشاء" أدناه لتستقبل رمز تنشيط. وسيتم إدخال رمز التنشيط في تطبيق الأجهزة المحمولة لإكمال عملية التنشيط. وتنتهي صلاحية رمز التنشيط خلال 10 دقائق.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPhoneApp" xml:space="preserve">
+    <value>لتمكين Multi-Factor Authentication لحسابك باستخدام تطبيق الأجهزة المحمولة، ستكون بحاجة أولاً إلى تثبيت تطبيق Multi-Factor Authentication على هاتفك ثم النقر فوق الزر "إنشاء" أدناه لتستقبل رمز تنشيط. وسيتم إدخال رمز التنشيط في تطبيق الأجهزة المحمولة لإكمال عملية التنشيط. وتنتهي صلاحية رمز التنشيط خلال 10 دقائق.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPin" xml:space="preserve">
+    <value>لتمكين Multi-Factor Authentication لحسابك، يرجى أن تحدد PIN ورقم الهاتف الذي ستستخدمه للمصادقة.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtp" xml:space="preserve">
+    <value>لتمكين Multi-Factor Authentication لحسابك، يرجى أن تحدد رقم الهاتف الذي ستستخدمه للمصادقة.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>لتمكين Multi-Factor Authentication لحسابك، يرجى أن تحدد PIN ورقم الهاتف الذي ستستخدمه للمصادقة.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtp" xml:space="preserve">
+    <value>لتمكين Multi-Factor Authentication لحسابك، يرجى أن تحدد رقم الهاتف الذي ستستخدمه للمصادقة.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>لتمكين Multi-Factor Authentication لحسابك، يرجى أن تحدد PIN ورقم الهاتف الذي ستستخدمه للمصادقة.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupStandard" xml:space="preserve">
+    <value>لتمكين Multi-Factor Authentication لحسابك، يرجى أن تحدد رقم الهاتف الذي ستستخدمه للمصادقة.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteOathToken" xml:space="preserve">
+    <value>اتبع الإرشادات أدناه لتنشيط تطبيق Multi-Factor Authentication على هاتفك ولتختبر المصادقة باستخدام الرموز الخاصة بها التي وفرها تطبيق الأجهزة المحمولة.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePhoneApp" xml:space="preserve">
+    <value>اتبع الإرشادات أدناه لتنشيط تطبيق Multi-Factor Authentication على هاتفك ولتختبر المصادقة باستخدام تطبيق الأجهزة المحمولة.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePin" xml:space="preserve">
+    <value>لإكمال هذه الخطوة، سيتصل Multi-Factor Authentication بالرقم الذي أدخلته. أدخل رقم PIN متبوعًا بـ # كي يمكنك المصادقة.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtp" xml:space="preserve">
+    <value>لإكمال هذه الخطوة، سيرسل Multi-Factor Authentication رمز مرور لمرة واحدة في رسالة نصية إلى الرقم الذي أدخلته. أدخل رمز مرور المرة الواحدة عند مطالبتك به كي تتمكن من المصادقة.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>لإكمال هذه الخطوة، سيرسل Multi-Factor Authentication رمز مرور لمرة واحدة في رسالة نصية إلى الرقم الذي أدخلته. أدخل رمز مرور المرة الواحدة ورقم PIN عند مطالبتك بهما كي تتمكن من المصادقة.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtp" xml:space="preserve">
+    <value>لإكمال هذه الخطوة، سيرسل Multi-Factor Authentication رمز مرور لمرة واحدة في رسالة نصية إلى الرقم الذي أدخلته. ويرجى الرد على الرسالة النصية برمز مرور المرة الواحدة كي تتمكن من المصادقة.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>لإكمال هذه الخطوة، سيرسل Multi-Factor Authentication رمز مرور لمرة واحدة في رسالة نصية إلى الرقم الذي أدخلته. ويرجى الرد على الرسالة النصية برمز مرور المرة الواحدة ورقم PIN كي تتمكن من المصادقة.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteStandard" xml:space="preserve">
+    <value>لإكمال هذه الخطوة، سيتصل Multi-Factor Authentication بالرقم الذي أدخلته. يرجى الرد ثم الضغط على # لتتمكن من المصادقة.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteVoiceprint" xml:space="preserve">
+    <value>لإكمال هذه الخطوة، سيتصل Multi-Factor Authentication بالرقم الذي أدخلته. اتبع الإرشادات لتسجيل عبارة مرور لبصمة صوت.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupVoiceprint" xml:space="preserve">
+    <value>لتمكين Multi-Factor Authentication لحسابك، يرجى أن تحدد رقم الهاتف الذي ستستخدمه للمصادقة.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserStaticToken" xml:space="preserve">
+    <value>حدد رمزًا مميزًا ثابتًا جديدًا لهذا المستخدم.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Label_MessageOathToken" xml:space="preserve">
+    <value>تم تكوين حسابك لاستخدام Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+عندما تسجل الدخول، ستتمكن من متابعة استخدام نفس اسم المستخدم وكلمة المرور. وقبل اكتمال التحقق من الصحة، سيطالبك التطبيق بإدخال رمز المصادقة الحالي من تطبيق الأجهزة المحمولة Multi-Factor Authentication أو الرمز المميز لتكمل تسجيل الدخول. وإذا لم تُدخل رمز المصادقة الصحيح، فسيتم رفض تسجيل الدخول.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppPin" xml:space="preserve">
+    <value>تم تكوين حسابك لاستخدام Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+عندما تسجل الدخول، ستتمكن من متابعة استخدام نفس اسم المستخدم وكلمة المرور. وقبل اكتمال التحقق من الصحة،
+ستتلقى إعلامًا يطالبك بتشغيل تطبيق الأجهزة المحمولة Multi-Factor Authentication وإدخال رقم PIN الخاص بك لتقوم بتأكيد تسجيل الدخول. وسيتم رفض تسجيل الدخول إذا لم تقم بتأكيده بإدخال رقم PIN وبالضغط على #.&lt;br/&gt;&lt;br/&gt;
+يجب عليك فقط أن تدخل رقم PIN عندما تتلقى الإعلام الخاص بتطبيق الأجهزة المحمولة Multi-Factor Authentication، وذلك إذا كنت مسجلاً الدخول بالتطبيق بالفعل. من جانب آخر، قد يحاول شخص ما تسجيل الدخول باستخدام اسم المستخدم الخاص بك وكلمة مرورك، وحينئذٍ يجب عليك إبلاغ مسؤول تكنولوجيا المعلومات لديك بهذا الاحتيال المحتمل.&lt;br/&gt;&lt;br/&gt;قم بالعودة إلى مدخل Multi-Factor Authentication في أي وقت لتغيير رقم PIN الخاص بك.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppStandard" xml:space="preserve">
+    <value>تم تكوين حسابك لاستخدام Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+عندما تسجل الدخول، ستتمكن من متابعة استخدام نفس اسم المستخدم وكلمة المرور. وقبل اكتمال التحقق من الصحة،
+ستتلقى إعلامًا يطالبك بتشغيل تطبيق الأجهزة المحمولة Multi-Factor Authentication والضغط على الزر "مصادقة" لتستكمل تسجيل الدخول. وسيتم رفض تسجيل الدخول إذا لم تقم بتأكيده بالضغط على الزر "مصادقة".&lt;br/&gt;&lt;br/&gt;
+يجب عليك فقط أن تضغط على الزر "مصادقة" عندما تتلقى الإعلام الخاص بتطبيق الأجهزة المحمولة Multi-Factor Authentication، وذلك إذا كنت مسجلاً الدخول بالتطبيق بالفعل. من جانب آخر، قد يحاول شخص ما تسجيل الدخول باستخدام اسم المستخدم الخاص بك وكلمة مرورك، وحينئذٍ يجب عليك إبلاغ مسؤول تكنولوجيا المعلومات لديك بهذا الاحتيال المحتمل.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppVoiceprint" xml:space="preserve">
+    <value>تم تكوين حسابك لاستخدام Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+عندما تسجل الدخول، ستتمكن من متابعة استخدام نفس اسم المستخدم وكلمة المرور. وقبل اكتمال التحقق من الصحة،
+ستتلقى إعلامًا يطالبك بتشغيل تطبيق الأجهزة المحمولة Multi-Factor Authentication ثم نطق عبارة المرور لتؤكد تسجيل الدخول. وسيتم رفض تسجيل الدخول إذا لم تقم بتأكيده بنطق عبارة المرور الخاصة بك.&lt;br/&gt;&lt;br/&gt;
+يجب عليك فقط أن تنطق بعبارة المرور الخاصة بك عندما تتلقى الإعلام الخاص بتطبيق الأجهزة المحمولة Multi-Factor Authentication، وذلك إذا كنت مسجلاً الدخول بالتطبيق بالفعل. من جانب آخر، قد يحاول شخص ما تسجيل الدخول باستخدام اسم المستخدم الخاص بك وكلمة مرورك، وحينئذٍ يجب عليك إبلاغ مسؤول تكنولوجيا المعلومات لديك بهذا الاحتيال المحتمل.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePin" xml:space="preserve">
+    <value>تم تكوين حسابك لاستخدام  Multi-Factor Authentication.&lt;br/&gt;&lt;br/&gt;
+عندما تسجل الدخول، ستتمكن من متابعة استخدام نفس اسم المستخدم وكلمة المرور. وقبل اكتمال التحقق من الصحة،
+ستتلقى مكالمة هاتفية تطالبك بإدخال رقم PIN متبوعًا بمفتاح # لتأكيد تسجيل الدخول. وسيتم رفض تسجيل الدخول إذا لم تقم
+بتأكيده بإدخال رقم PIN والضغط على #.&lt;br/&gt;&lt;br/&gt;
+يجب عليك فقط أن تدخل رقم PIN عندما تتلقى مكالمة Multi-Factor Authentication، وذلك إذا كنت مسجلاً الدخول بالتطبيق بالفعل.
+من جانب آخر، قد يحاول شخص ما تسجيل الدخول باستخدام اسم المستخدم الخاص بك وكلمة مرورك، وحينئذٍ يجب عليك إبلاغ مسؤول تكنولوجيا المعلومات
+لديك بهذا الاحتيال المحتمل.&lt;br/&gt;&lt;br/&gt;
+قم بالعودة إلى مدخل Multi-Factor Authentication في أي وقت لتغيير رقم هاتفك أو PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtp" xml:space="preserve">
+    <value>تم تكوين حسابك لاستخدام Multi-Factor Authentication.‏&lt;br/&gt;&lt;br/&gt;
+عندما تسجل الدخول، ستتمكن من متابعة استخدام نفس اسم المستخدم وكلمة المرور.  وقبل اكتمال التحقق من الصحة،
+ستصلك رسالة نصية تحتوي على رمز مرور مرة واحدة.  أدخل رمز المرور هذا عندما يطالبك التطبيق به.
+وإذا أدخلت رمز مرور غير صحيح، فسيتم رفض تسجيل الدخول.&lt;br/&gt;&lt;br/&gt;
+قم بالعودة إلى مدخل Multi-Factor Authentication في أي وقت لتغيير رقم هاتفك.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>تم تكوين حسابك لاستخدام Multi-Factor Authentication.‏&lt;br/&gt;&lt;br/&gt;
+عندما تسجل الدخول، ستتمكن من متابعة استخدام نفس اسم المستخدم وكلمة المرور.  وقبل اكتمال التحقق من الصحة،
+ستصلك رسالة نصية تحتوي على رمز مرور مرة واحدة.  أدخل رمز المرور هذا ورقم PINعندما يطالبك التطبيق بهما.
+وإذا أدخلت رقم PIN ورمز مرور غير صحيحين، فسيتم رفض تسجيل الدخول.&lt;br/&gt;&lt;br/&gt;
+قم بالعودة إلى مدخل Multi-Factor Authentication في أي وقت لتغيير رقم هاتفك أو PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtp" xml:space="preserve">
+    <value>تم تكوين حسابك لاستخدام Multi-Factor Authentication.‏&lt;br/&gt;&lt;br/&gt;
+عندما تسجل الدخول، ستتمكن من متابعة استخدام نفس اسم المستخدم وكلمة المرور.  وقبل اكتمال التحقق من الصحة،
+ستصلك رسالة نصية تحتوي على رمز مرور مرة واحدة.  ويرجى الرد على الرسالة النصية برمز المرور هذا.
+وإذا لم ترد برمز المرور الصحيح، فسيتم رفض تسجيل الدخول.&lt;br/&gt;&lt;br/&gt;
+ولا يجب عليك الرد إلا عندما تستقبل الرسالة النصية الخاصة بـ Multi-Factor Authentication، خاصة إذا كنت مسجلاً الدخول بالتطبيق بالفعل.
+من جانب آخر، قد يحاول شخص ما تسجيل الدخول باستخدام اسم المستخدم وكلمة مرورك، وحينئذٍ يجب عليك إبلاغ
+مسؤول تكنولوجيا المعلومات عن هذا الاحتيال المحتمل.&lt;br/&gt;&lt;br/&gt;
+قم بالعودة إلى مدخل Multi-Factor Authentication في أي وقت لتغيير رقم هاتفك.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>تم تكوين حسابك لاستخدام Multi-Factor Authentication.‏&lt;br/&gt;&lt;br/&gt;
+عندما تسجل الدخول، ستتمكن من متابعة استخدام نفس اسم المستخدم وكلمة المرور.  وقبل اكتمال التحقق من الصحة،
+ستصلك رسالة نصية تحتوي على رمز مرور مرة واحدة.  ويرجى الرد على الرسالة النصية برمز المرور هذا ورقم PIN الخاص بك.
+وإذا لم ترد برمز المرور ورقم PIN الصحيحين، فسيتم رفض تسجيل الدخول.&lt;br/&gt;&lt;br/&gt;
+ولا يجب عليك الرد إلا عندما تستقبل الرسالة النصية الخاصة بـ Multi-Factor Authentication، خاصة إذا كنت مسجلاً الدخول بالتطبيق بالفعل.
+من جانب آخر، قد يحاول شخص ما تسجيل الدخول باستخدام اسم المستخدم وكلمة مرورك، وحينئذٍ يجب عليك إبلاغ
+مسؤول تكنولوجيا المعلومات عن هذا الاحتيال المحتمل.&lt;br/&gt;&lt;br/&gt;
+قم بالعودة إلى مدخل Multi-Factor Authentication في أي وقت لتغيير رقم هاتفك أو رقم PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageStandard" xml:space="preserve">
+    <value>تم تكوين حسابك لاستخدام Multi-Factor Authentication.‏&lt;br/&gt;&lt;br/&gt;
+عندما تسجل الدخول، ستتمكن من متابعة استخدام نفس اسم المستخدم وكلمة المرور.  وقبل اكتمال التحقق من الصحة،
+ستستقبل مكالمة هاتفية تطالبك بالضغط على مفتاح (#) لتأكيد تسجيل الدخول.  وسيتم رفض تسجيل الدخول إذا لم تقم بتأكيده
+بالضغط على #.&lt;br/&gt;&lt;br/&gt;
+ولا يجب عليك سوى إدخال # عندما تستقبل مكالمة Multi-Factor Authentication، خاصة إذا كنت مسجلاً الدخول بالتطبيق بالفعل.
+من جانب آخر، قد يحاول شخص ما تسجيل الدخول باستخدام اسم المستخدم وكلمة مرورك، وحينئذٍ يجب عليك إبلاغ
+مسؤول تكنولوجيا المعلومات عن هذا الاحتيال المحتمل.&lt;br/&gt;&lt;br/&gt;
+قم بالعودة إلى مدخل Multi-Factor Authentication في أي وقت لتغيير رقم هاتفك.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageVoiceprint" xml:space="preserve">
+    <value>تم تكوين حسابك لاستخدام Multi-Factor Authentication.‏&lt;br/&gt;&lt;br/&gt;
+عندما تسجل الدخول، ستتمكن من متابعة استخدام نفس اسم المستخدم وكلمة المرور.  وقبل اكتمال التحقق من الصحة،
+ستستقبل مكالمة هاتفية تطالبك بنطق عبارة المرور الخاصة بك لتأكيد تسجيل الدخول.  وسيتم رفض تسجيل الدخول إذا لم تقم بتأكيده
+بنطق عبارة المرور الخاصة بك.&lt;br/&gt;&lt;br/&gt;
+ولا يجب عليك سوى نطق عبارة المرور عندما تستقبل مكالمة Multi-Factor Authentication، خاصة إذا كنت مسجلاً الدخول بالتطبيق بالفعل.
+من جانب آخر، قد يحاول شخص ما تسجيل الدخول باستخدام اسم المستخدم وكلمة مرورك، وحينئذٍ يجب عليك إبلاغ
+مسؤول تكنولوجيا المعلومات عن هذا الاحتيال المحتمل.&lt;br/&gt;&lt;br/&gt;
+قم بالعودة إلى مدخل Multi-Factor Authentication في أي وقت لتغيير رقم هاتفك.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MustChangeModeToPhoneApp" xml:space="preserve">
+    <value>بعد تنشيط تطبيق الأجهزة المحمولة Multi-Factor Authentication على جهازك، ستكون بحاجة إلى تغيير الأسلوب الخاص بك إلى "تطبيق الأجهزة المحمولة". انقر فوق ارتباط "تغيير الأسلوب" في قائمة التنقل وحدد أسلوب "تطبيق الأجهزة المحمولة" لتبدأ استخدام التطبيق.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_MustChangeUserToPhoneAppMode" xml:space="preserve">
+    <value>بعدما يقوم المستخدم بتنشيط تطبيق الأجهزة المحمولة Multi-Factor Authentication على جهازه، ستكون بحاجة إلى تغيير الأسلوب الخاص به إلى "تطبيق الأجهزة المجمولة" ليمكنه استخدام التطبيق.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerPhoneApp" xml:space="preserve">
+    <value>سيحدث هذا فقط إذا حاول شخص ما تسجيل الدخول إلى حسابك وكان على معرفة بكلمة مرورك بالفعل. تذكر أن إعلامات تطبيق الأجهزة المحمولة Multi-Factor Authentication لا يتم إرسالها إلا بعد التحقق من صحة اسم المستخدم وكلمة المرور. وإذا حدث هذا، فإن Multi-Factor Authentication يقوم فقط بحفظ حسابك من الوصول غير المشروع!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerSms" xml:space="preserve">
+    <value>سيحدث هذا فقط إذا حاول شخص ما تسجيل الدخول إلى حسابك وكان على معرفة بكلمة مرورك بالفعل. تذكر أن الرسائل النصية لا يتم إرسالها إلا بعد التحقق من صحة اسم المستخدم وكلمة المرور. وإذا حدث هذا، فإن Multi-Factor Authentication يقوم فقط بحفظ حسابك من الوصول غير المشروع!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerVoice" xml:space="preserve">
+    <value>سيحدث هذا فقط إذا حاول شخص ما تسجيل الدخول إلى حسابك وكان على معرفة بكلمة مرورك بالفعل. تذكر أن المكالمات الهاتفية لا يتم إجراؤها إلا بعد التحقق من صحة اسم المستخدم وكلمة المرور. وإذا حدث هذا، فإن Multi-Factor Authentication يقوم فقط بحفظ حسابك من الوصول غير المشروع!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionPhoneApp" xml:space="preserve">
+    <value>ما الذي سيحدث إذا استقبلت إعلام تطبيق الأجهزة المحمولة Multi-Factor Authentication عندما لا أحاول تسجيل الدخول؟</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionSms" xml:space="preserve">
+    <value>ما الذي سيحدث إذا حصلت على رسالة نصية من Multi-Factor Authentication عندما لا أحاول تسجيل الدخول؟</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionVoice" xml:space="preserve">
+    <value>ما الذي سيحدث إذا حصلت على مكالمة هاتفية من Multi-Factor Authentication عندما لا أحاول تسجيل الدخول؟</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassOathToken" xml:space="preserve">
+    <value>توفر لك الشركة أيضًا خيار "السماح مرة واحدة" والذي سيتيح لك تسجيل الدخول لمرة واحدة دون مطالبتك برمز مصادقة. حدد الخيار "السماح مرة واحدة" لتصل إلى هذه الميزة؛ أو اتصل بمكتب الدعم من أي هاتف للحصول على مساعدة.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_OneTimeBypassPhoneApp" xml:space="preserve">
+    <value>توفر لك الشركة أيضًا خيار "السماح مرة واحدة" والذي سيتيح لك تسجيل الدخول لمرة واحدة دون إعلام تطبيق الأجهزة المحمولة Multi-Factor Authentication. حدد الخيار "السماح مرة واحدة" لتصل إلى هذه الميزة؛ أو اتصل بمكتب الدعم من أي هاتف للحصول على مساعدة.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassSms" xml:space="preserve">
+    <value>توفر لك الشركة خيار "السماح مرة واحدة" والذي سيتيح لك تسجيل الدخول لمرة واحدة دون رسالة نصية. حدد الخيار "السماح مرة واحدة" لتصل إلى هذه الميزة؛ أو اتصل بمكتب الدعم من أي هاتف للحصول على مساعدة.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassVoice" xml:space="preserve">
+    <value>توفر لك الشركة خيار "السماح مرة واحدة" والذي سيتيح لك تسجيل الدخول لمرة واحدة دون مكالمة هاتفية. حدد الخيار "السماح مرة واحدة" لتصل إلى هذه الميزة؛ أو اتصل بمكتب الدعم من أي هاتف للحصول على مساعدة.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtp" xml:space="preserve">
+    <value>رمز مرور لمرة واحدة</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtpPlusPin" xml:space="preserve">
+    <value>رمز مرور لمرة واحدة + PIN</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_SimpleProcessOathToken" xml:space="preserve">
+    <value>توفر هذه العملية البسيطة عاملين منفصلين للمصادقة مع مصادقة ثانوية يوفرها شيء ما لديك (كهاتفك الذكي أو الرمز المميز).</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_SimpleProcessPhoneApp" xml:space="preserve">
+    <value>توفر هذه العملية البسيطة عاملين منفصلين للمصادقة من خلال قناتين منفصلتين (جهاز الكمبيوتر وهاتفك الذكي).</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessSms" xml:space="preserve">
+    <value>توفر هذه العملية البسيطة عاملين منفصلين للمصادقة من خلال قناتين منفصلتين (جهاز الكمبيوتر وخدمة هاتفك). وتستخدم هذه العملية أي هاتف مزود بإمكانات الرسالة النصية.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessVoice" xml:space="preserve">
+    <value>توفر هذه العملية البسيطة عاملين منفصلين للمصادقة من خلال قناتين منفصلتين (جهاز الكمبيوتر وخدمة هاتفك). وتستخدم هذه العملية أي هاتف عادي أو هاتف محمول.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionOathToken" xml:space="preserve">
+    <value>تتم مطالبتك على الفور برمز مصادقة، لذا أدخل رمز المصادقة الحالي الذي تم عرضه بواسطة الرمز المميز أو تطبيق الأجهزة المحمولة Multi-Factor Authentication.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppPin" xml:space="preserve">
+    <value>ستستلم على الفور إعلامًا خاصًا بتطبيق الأجهزة المحمولة Multi-Factor Authentication. لذا قم بتشغيل التطبيق وأدخل رقم PIN ثم اضغط على الزر "مصادقة".</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppStandard" xml:space="preserve">
+    <value>ستتلقى على الفور إعلامًا خاصًا بتطبيق الأجهزة المحمولة Multi-Factor Authentication. لذا قم بتشغيل التطبيق ثم اضغط على الزر "مصادقة".</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppVoiceprint" xml:space="preserve">
+    <value>ستتلقى على الفور إعلامًا خاصًا بتطبيق الأجهزة المحمولة Multi-Factor Authentication. لذا قم بتشغيل التطبيق ثم انطق بعبارة المرور عند مطالبتك بذلك.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPin" xml:space="preserve">
+    <value>ستتلقى على الفور مكالمة هاتفية. قم بالرد عليها، ثم أدخل رقم PIN واضغط على #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtp" xml:space="preserve">
+    <value>ستتلقى على الفور رسالة نصية بها رمز مرور مرة واحدة. أدخل رمز المرور هذا عندما يطالبك التطبيق به.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>ستتلقى على الفور رسالة نصية بها رمز مرور مرة واحدة. أدخل رمز المرور هذا ورقم PIN عندما يطالبك التطبيق بهما.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtp" xml:space="preserve">
+    <value>ستتلقى على الفور رسالة نصية بها رمز مرور مرة واحدة. قم بالرد على الرسالة النصية برمز المرور هذا.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>ستتلقى على الفور رسالة نصية بها رمز مرور مرة واحدة. قم بالرد على الرسالة النصية برمز المرور هذا ورقم PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionStandard" xml:space="preserve">
+    <value>ستتلقى على الفور مكالمة هاتفية. قم بالرد عليها ثم اضغط على #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionVoiceprint" xml:space="preserve">
+    <value>ستصلك على الفور مكالمة هاتفية، يرجى الرد عليها والنطق بعبارة المرور عند سماع النغمة.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_TitleWithColon" xml:space="preserve">
+    <value>{0}:</value>
+    <comment>Page header on most pages</comment>
+  </data>
+  <data name="Label_UnblockReason" xml:space="preserve">
+    <value>سبب إلغاء الحظر</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_AccountConfigurationComplete" xml:space="preserve">
+    <value>تكوين الحساب مكتمل</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Message_AnswerRequired" xml:space="preserve">
+    <value>يجب أن تجيب على سؤال أمان واحد على الأقل.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AnswerSecurityQuestions" xml:space="preserve">
+    <value>يرجى الإجابة على أسئلة الأمان لتتمكن من تسجيل الدخول.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AnswersIncorrect" xml:space="preserve">
+    <value>توجد إجابة أو أكثر غير صحيحة.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AuthenticationDenied" xml:space="preserve">
+    <value>تم رفض Multi-Factor Authentication.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedAnswerSecurityQuestions" xml:space="preserve">
+    <value>تم رفض Multi-Factor Authentication، الرجاء الإجابة على أسئلة الأمان لتسجيل الدخول.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedCallResult" xml:space="preserve">
+    <value>تم رفض Multi-Factor Authentication: ‏{0}</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_AuthenticationSuccessful" xml:space="preserve">
+    <value>تم Multi-Factor Authentication بنجاح.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_BypassSecondsNumeric" xml:space="preserve">
+    <value>يجب أن تكون "ثواني السماح" رقمية.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRange" xml:space="preserve">
+    <value>يجب أن تتراوح "ثواني السماح" بين 5 و1800 (30 دقيقة).</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRequired" xml:space="preserve">
+    <value>"ثواني السماح" مطلوبة.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_CannotActivateDevice" xml:space="preserve">
+    <value>يجب أن يقترن حسابك بتطبيق أجهزة محمولة Multi-Factor Authentication تم تنشيطه على أي جهاز قبل تغيير الأسلوب الخاص بك إلى "تطبيق الأجهزة المحمولة".  اتصل بمكتب المساعدة لتحصل على الدعم حول تنشيط تطبيق الأجهزة المحمولة Multi-Factor Authentication على جهازك.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotEstablishWebServiceSdkConnection" xml:space="preserve">
+    <value>لا يمكن لمدخل مستخدمي Multi-Factor Authentication أن يؤسس اتصالاً آمنًا بحزمة تطوير برامج خدمة الويب: {0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_CannotGetOathToken" xml:space="preserve">
+    <value>يجب أن يقترن حسابك بتطبيق أجهزة محمولة Multi-Factor Authentication تم تنشيطه على أي جهاز أو برمز OATH مميز قبل تغيير الأسلوب الخاص بك إلى "رمز OATH المميز".  اتصل بمكتب المساعدة لتحصل على الدعم حول تنشيط تطبيق الأجهزة المحمولة Multi-Factor Authentication على جهازك أو حول تعيين رمز OATH مميز.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneSmsText" xml:space="preserve">
+    <value>يجب تعيين رقم هاتف إلى حسابك قبل تغيير الأسلوب إلى "رسالة نصية". اتصل بمكتب المساعدة لتقوم بتعيين رقم هاتف إلى حسابك.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>يجب تعيين رقم هاتف إلى حسابك قبل تغيير الأسلوب الخاص بك إلى "مكالمة هاتفية". اتصل بمكتب المساعدة لتعيين رقم هاتف إلى حسابك.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeOathTokenIncomplete" xml:space="preserve">
+    <value>ملاحظة: لم يقم المستخدم بتنشيط تطبيق الأجهزة المحمولة Multi-Factor Authentication على جهازه أو لم يتم تعيين رمز OATH مميز خارجي له، ومن ثم تعتبر بياناته غير كاملة، الأمر الذي لا يمكَّنه من استخدام أسلوب "رمز OATH المميز".  وسيفشل هذا المستخدم في إجراء أية عمليات مصادقة للتطبيقات المحمية، كما سيلزمه التسجيل مرة أخرى ليتمكن من تسجيل الدخول.  ونوصيك بأحد أمرين، إما أن تتصل بالمستخدم لتساعده في تنشيط تطبيق الأجهزة المحمولة Multi-Factor Authentication أو تقم بتعيين وتوزيع رمز OATH مميز خارجي.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModePhoneAppIncomplete" xml:space="preserve">
+    <value>ملاحظة: لم يقم المستخدم بتنشيط تطبيق الأجهزة المحمولة Multi-Factor Authentication، ومن ثم تعتبر بياناته غير كاملة، الأمر الذي لا يمكِّنه من استخدام أسلوب "تطبيق الأجهزة المحمولة".  وسيفشل هذا المستخدم في إجراء أية عمليات مصادقة للتطبيقات المحمية، كما سيلزمه التسجيل مرة أخرى ليتمكن من تسجيل الدخول.  ونوصيك بأن تتصل بالمستخدم لتساعده في تنشيط تطبيق الأجهزة المحمولة Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeSmsTextIncomplete" xml:space="preserve">
+    <value>ملاحظة: لم يتم تحديد رقم هاتف للمستخدم، ومن ثم تعتبر بياناته غير كاملة، الأمر الذي لا يمكِّنه من استخدام أسلوب "الرسالة النصية".  وسيفشل هذا المستخدم في إجراء أية عمليات مصادقة للتطبيقات المحمية، كما سيلزمه التسجيل مرة أخرى ليتمكن من تسجيل الدخول.  ونوصيك بأن تحدد رقم هاتف للمستخدم حتى يمكنه متابعة استخدام التطبيقات المحمية دون التسجيل مرة أخرى.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeVoiceCallIncomplete" xml:space="preserve">
+    <value>ملاحظة: لم يتم تحديد رقم هاتف للمستخدم، ومن ثم تعتبر بياناته غير كاملة، الأمر الذي لا يمكِّنه من استخدام أسلوب "المكالمة الهاتفية".  وسيفشل هذا المستخدم في إجراء أية عمليات مصادقة للتطبيقات المحمية، كما سيلزمه التسجيل مرة أخرى ليتمكن من تسجيل الدخول.  ونوصيك بأن تحدد رقم هاتف للمستخدم حتى يمكنه متابعة استخدام التطبيقات المحمية دون التسجيل مرة أخرى.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CodeRequired" xml:space="preserve">
+    <value>الرمز مطلوب.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_CodeRequiredCross" xml:space="preserve">
+    <value>الرمز مطلوب عندما يتم تحديد رقم تسلسلي.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ConfirmDeactivate" xml:space="preserve">
+    <value>هل تريد بالتأكيد إلغاء تنشيط هذا الجهاز نهائيًا؟</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceDeactivated" xml:space="preserve">
+    <value>تم إلغاء تنشيط الجهاز.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceLimit" xml:space="preserve">
+    <value>يقتصر حسابك على {0} جهاز (أجهزة). يجب إلغاء تنشيط جهاز موجود قبل تنشيط آخر جديد.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DuplicateAnswer" xml:space="preserve">
+    <value>غير مسموح بإجابة مكررة.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateQuestion" xml:space="preserve">
+    <value>غير مسموح بسؤال مكرر.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateUsername" xml:space="preserve">
+    <value>اسم مستخدم مكرر.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUser" xml:space="preserve">
+    <value>حدث خطأ أثناء إضافة مستخدم.&lt;br/&gt;{0}</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUserForPassedSession" xml:space="preserve">
+    <value>حدث خطأ أثناء إضافة مستخدم للجلسة المنقضية.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithLocal" xml:space="preserve">
+    <value>حدث خطأ أثناء الاتصال بخدمة Multi-Factor Authentication المحلية، يرجى الاتصال بالمسؤول لديك.</value>
+    <comment>Most pages when connection to local server is lost</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithMaster" xml:space="preserve">
+    <value>حدث خطأ أثناء الاتصال بخدمة Multi-Factor Authentication الرئيسية، يرجى الاتصال بالمسؤول لديك.</value>
+    <comment>Most pages when connection to master server is lost</comment>
+  </data>
+  <data name="Message_ErrorDeactivatingDevice" xml:space="preserve">
+    <value>حدث خطأ أثناء إلغاء تنشيط الجهاز.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorDisablingUser" xml:space="preserve">
+    <value>حدث خطأ أثناء تعطيل المستخدم.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorEnablingUser" xml:space="preserve">
+    <value>حدث خطأ أثناء تمكين المستخدم.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorFindingUsers" xml:space="preserve">
+    <value>حدث خطأ أثناء البحث عن مستخدمين.&lt;br/&gt;{0}</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_ErrorGeneratingActivationCode" xml:space="preserve">
+    <value>حدث خطأ أثناء إنشاء رمز تنشيط.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorIssuingOneTimeBypass" xml:space="preserve">
+    <value>حدث خطأ أثناء إصدار سماح مرة واحدة. الرجاء الاتصال بالمسؤول لديك.&lt;br/&gt;{0}</value>
+    <comment>one_time_bypass and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorRemovingUser" xml:space="preserve">
+    <value>حدث خطأ أثناء إزالة المستخدم.&lt;br/&gt;{0}</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_ErrorResettingMode" xml:space="preserve">
+    <value>حدث خطأ أثناء إعادة تعيين الأسلوب.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPhone" xml:space="preserve">
+    <value>حدث خطأ أثناء إعادة تعيين الهاتف.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPin" xml:space="preserve">
+    <value>حدث خطأ أثناء إعادة تعيين رقم PIN.‏&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingVoiceprint" xml:space="preserve">
+    <value>حدث خطأ أثناء إعادة تعيين بصمة الصوت، الرجاء الاتصال بالمسؤول لديك.&lt;br/&gt;{0}</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingLanguage" xml:space="preserve">
+    <value>حدث خطأ أثناء تحديث اللغة.&lt;br/&gt;{0}</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingMode" xml:space="preserve">
+    <value>حدث خطأ أثناء تحديث الأسلوب.&lt;br/&gt;{0}</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhone" xml:space="preserve">
+    <value>حدث خطأ أثناء تحديث الهاتف.&lt;br/&gt;{0}</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhoneAppMode" xml:space="preserve">
+    <value>حدث خطأ أثناء تحديث وضع تطبيق الأجهزة المحمولة.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPin" xml:space="preserve">
+    <value>حدث خطأ أثناء تحديث رقم PIN.‏&lt;br/&gt;{0}</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSecurityQuestions" xml:space="preserve">
+    <value>حدث خطأ أثناء تحديث أسئلة الأمان.&lt;br/&gt;{0}</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSmsTextMode" xml:space="preserve">
+    <value>حدث خطأ أثناء تحديث وضع الرسالة النصية.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingStaticToken" xml:space="preserve">
+    <value>حدث خطأ أثناء تحديث الرمز المميز الثابت.&lt;br/&gt;{0}</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserForSecurityQuestionSetup" xml:space="preserve">
+    <value>حدث خطأ أثناء تحديث المستخدم لإعداد سؤال الأمان.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserInformation" xml:space="preserve">
+    <value>حدث خطأ أثناء تحديث معلومات المستخدم.&lt;br/&gt;{0}</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingVoiceCallMode" xml:space="preserve">
+    <value>حدث خطأ أثناء تحديث وضع المكالمة الهاتفية.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ExpiredSession" xml:space="preserve">
+    <value>انتهت صلاحية جلسة العمل الخاصة بك.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_IncorrectAnswers" xml:space="preserve">
+    <value>الإجابة التي قدمتها غير صحيحة، الرجاء المحاولة مرة أخرى.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_IncorrectOathCode" xml:space="preserve">
+    <value>رمز مصادقة غير صحيح.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscode" xml:space="preserve">
+    <value>رمز مرور لمرة واحدة غير صحيح.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscodePlusPin" xml:space="preserve">
+    <value>رقم PIN + رمز مرور لمرة واحدة غير صحيح.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_InvalidExtension" xml:space="preserve">
+    <value>الملحق غير صالح. غير مسموح إلا بالأرقام والفواصل و* و#. استخدم الفاصلة لتتوقف مؤقتًا لمدة ثانية. وابدأ الملحق بـ @ لتنطق بالأرقام التي يتكون منها الملحق لتتمكن من التحويل يدويًا.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_InvalidSerialNumber" xml:space="preserve">
+    <value>الرقم التسلسلي غير صالح. يجب تحديد رمز OATH المميز الذي يحتوي على الرقم التسلسلي هذا في واجهة مستخدم خادم Multi-Factor Authentication قبل اقترانه بمستخدم.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_LineBreak" xml:space="preserve">
+    <value>&lt;br/&gt;{0}</value>
+    <comment>add_user, change_phone, change_pin, change_mode, change_language and enable_disable pages</comment>
+  </data>
+  <data name="Message_LoginFailed" xml:space="preserve">
+    <value>فشل تسجيل الدخول.</value>
+    <comment>login and secondary_authentication pages</comment>
+  </data>
+  <data name="Message_MustActivateDevice" xml:space="preserve">
+    <value>يجب عليك تنشيط تطبيق الأجهزة المحمولة Multi-Factor Authentication على جهازك قبل تغيير الأسلوب الخاص بك إلى تطبيق الأجهزة المحمولة. انقر فوق ارتباط "تنشيط تطبيق الأجهزة المحمولة" في قائمة التنقل لتبدأ التنشيط.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustActivateDeviceOathToken" xml:space="preserve">
+    <value>يجب عليك تنشيط تطبيق الأجهزة المحمولة Multi-Factor Authentication على جهازك قبل تغيير الأسلوب الخاص بك إلى رمز OATH المميز. انقر فوق ارتباط "تنشيط تطبيق الأجهزة المحمولة" في قائمة التنقل لتبدأ التنشيط.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustAnswerAllQuestions" xml:space="preserve">
+    <value>يجب أن تجيب على جميع أسئلة الأمان.</value>
+    <comment>create_security_questions, change_security_questions, and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_MustEnrollOathToken" xml:space="preserve">
+    <value>يجب عليك أن تقرن رمز OATH مميزًا بحسابك قبل أن تغير الأسلوب الخاص بك إلى رمز OATH المميز. انقر فوق ارتباط "رمز OATH المميز" لتقرن رمز OATH مميزًا.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustHaveOathToken" xml:space="preserve">
+    <value>يجب عليك إما أن تقوم بتنشيط تطبيق الأجهزة المحمولة Multi-Factor Authentication على جهازك أو بإقران رمز OATH مميز مع حسابك قبل تغيير الأسلوب إلى رمز OATH المميز.  انقر فوق الارتباط "تنشيط تطبيق الأجهزة المحمولة" في قائمة التنقل لتبدأ التنشيط أو انقر فوق الارتباط "رمز OATH المميز" لإقران رمز OATH مميز.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneSmsText" xml:space="preserve">
+    <value>يجب عليك أن تحدد رقم هاتف لحسابك قبل تغيير الأسلوب إلى "رسالة نصية". انقر فوق ارتباط "تغيير الهاتف" في قائمة التنقل لتحديد رقم هاتف.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>يجب عليك أن تحدد رقم هاتف لحسابك قبل تغيير الأسلوب الخاص بك إلى مكالمة هاتفية. انقر فوق ارتباط "تغيير الهاتف" في قائمة التنقل لتحديد رقم هاتف.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifySearchField" xml:space="preserve">
+    <value>يجب تحديد حقل بحث واحد على الأقل.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoActivatedDevices" xml:space="preserve">
+    <value>لم يتم تنشيط أجهزة لهذا المستخدم.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_NoMatchingUsersFound" xml:space="preserve">
+    <value>لم يتم العثور على مستخدمين مطابقين.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoSsl" xml:space="preserve">
+    <value>مدخل مستخدمي Multi-Factor Authentication غير مؤمَّن بـ SSL، لكن SSL مطلوبة في ملفات تعريف ارتباطات جلسة العمل الموجودة في Web.config.  كما أن مدخل المستخدمين لا يعمل لعدم التمكن من صيانة حالة جلسة العمل.  ومن المستحسن أن يكون مدخل المستخدمين مؤمنًا.  ولأغراض الاختبار، قد يمكنك تغيير requireSSL بصفة مؤقتة إلى "false" في علامة &lt;httpCookies&gt; في Web.config.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailed" xml:space="preserve">
+    <value>فشلت مزامنة رمز OATH المميز. إما أن يكون الرمز المدخل غير صحيح أو الرقم التسلسلي لرمز OATH المميز غير صالح.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailedUser" xml:space="preserve">
+    <value>فشل مزامنة رمز OATH المميز، لأن الرمز المدخَل غير صحيح.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OnlyFirstMatchesDisplayed" xml:space="preserve">
+    <value>يتم عرض الـ {0} نتيجة (نتائج) الأولى فقط. وإذا لم تتمكن من العثور على المستخدم في القائمة، فأدخل معايير بحث أكثر تحديدًا.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_PassedSessionFailed" xml:space="preserve">
+    <value>فشل جلسة العمل المنقضية.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_PhoneRequired" xml:space="preserve">
+    <value>الهاتف مطلوب.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMatch" xml:space="preserve">
+    <value>يجب أن يتطابق PIN مع تأكيد PIN.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMinimumLength" xml:space="preserve">
+    <value>يجب أن يتكون PIN من {0} رقم (أرقام) على الأقل.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinNumeric" xml:space="preserve">
+    <value>يجب أن يكون PIN رقميًا.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinRecentlyUsed" xml:space="preserve">
+    <value>لا يمكن أن يكون PIN مطابقًا لأي من أرقام PIN المستخدمة حديثًا. الرجاء اختيار PIN مختلف.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_SamlDisabled" xml:space="preserve">
+    <value>تم تعطيل عمليات تسجيل الدخول الأحادي إلى التطبيقات الخارجية باستخدام SAML.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotDefined" xml:space="preserve">
+    <value>لم يتم تعريف أسئلة الأمان لهذا المستخدم.&lt;br/&gt;</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotSetUp" xml:space="preserve">
+    <value>قد لا تتمكن من تسجيل الدخول بدون هاتفك لأنك لم تقم بإعداد أسئلة الأمان.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsVerified" xml:space="preserve">
+    <value>تم التحقق من أسئلة الأمان.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityWarningNoSsl" xml:space="preserve">
+    <value>تحذير الأمان: مدخل مستخدمي Multi-Factor Authentication غير مؤمَّن بواسطة SSL. وسيتم تمرير كلمات المرور في نص عادي.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SerialNumberAlreadyAssociated" xml:space="preserve">
+    <value>الرقم التسلسلي مقترن بـ {0} بالفعل. يجب عليك أن تزيل الرقم التسلسلي من بيانات المستخدم قبل إقرانه بهذا المستخدم.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_SerialNumberRequired" xml:space="preserve">
+    <value>الرقم التسلسلي مطلوب.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_SerialNumberRequiredCross" xml:space="preserve">
+    <value>الرقم التسلسلي مطلوب عندما يتم تحديد رمز.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ShortAnswer" xml:space="preserve">
+    <value>يجب أن تكون الإجابة مكونة من 4 حروف على الأقل.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_StaticTokenMatch" xml:space="preserve">
+    <value>يجب أن يتطابق "الرمز المميز الثابت" مع "تأكيد الرمز المميز الثابت".</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenMinimumLength" xml:space="preserve">
+    <value>يجب أن يكون الرمز المميز الثابت مكونًا من {0} رقم (أرقام).</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenNumeric" xml:space="preserve">
+    <value>يجب أن يكون الرمز المميز الثابت رقميًا.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserAdded" xml:space="preserve">
+    <value>تمت إضافة مستخدم.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_UserAlreadyBlocked" xml:space="preserve">
+    <value>فشل الحظر لأن المستخدم تم حظره بالفعل.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlocked" xml:space="preserve">
+    <value>تم حظر المستخدم بنجاح.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlockFailed" xml:space="preserve">
+    <value>فشل الحظر.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserDeviceLimit" xml:space="preserve">
+    <value>يقتصر المستخدم على {0} جهاز (أجهزة). يجب عليك إلغاء تنشيط جهاز موجود خاص بهذا المستخدم قبل تنشيط آخر جديد.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_UserDisabled" xml:space="preserve">
+    <value>تم تعطيل المستخدم بنجاح.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserEnabled" xml:space="preserve">
+    <value>تم تمكين المستخدم بنجاح.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserInformationChanged" xml:space="preserve">
+    <value>تم تغيير معلومات المستخدم.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_UserLanguageChanged" xml:space="preserve">
+    <value>تم تغيير تفضيل لغة المستخدم.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_UserModeChanged" xml:space="preserve">
+    <value>تم تغيير أسلوب المستخدم.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_UsernameRequired" xml:space="preserve">
+    <value>اسم المستخدم مطلوب.</value>
+    <comment>login and add_user pages</comment>
+  </data>
+  <data name="Message_UserNotBlocked" xml:space="preserve">
+    <value>فشل إلغاء الحظر. والمستخدم غير محظور حاليًا.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserOathTokenSaved" xml:space="preserve">
+    <value>تم حفظ رمز OATH المميز الخاص بالمستخدم.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_UserOneTimeBypassIssued" xml:space="preserve">
+    <value>تم إصدار سماح لمرة واحدة. وسيتم تخطي Multi-Factor Authentication أثناء تسجيل الدخول التالي للمستخدم.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_UserPhoneChanged" xml:space="preserve">
+    <value>تم تغيير هاتف المستخدم.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_UserPinChanged" xml:space="preserve">
+    <value>تم تغيير رقم PIN الخاص بالمستخدم.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_UserPortalDisabled" xml:space="preserve">
+    <value>تم تعطيل عمليات تسجيل الدخول المباشر إلى مدخل المستخدمين.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserPortalNotPurchased" xml:space="preserve">
+    <value>لا يعمل مدخل مستخدمي Multi-Factor Authentication لعدم شراء هذه الميزة.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserRemoved" xml:space="preserve">
+    <value>تمت إزالة المستخدم.</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_UserStaticTokenChanged" xml:space="preserve">
+    <value>تم تغيير الرمز المميز الثابت الخاص بالمستخدم.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserSubmodeChanged" xml:space="preserve">
+    <value>تم تغيير وضع (أوضاع) المستخدم.</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_UserUnblocked" xml:space="preserve">
+    <value>تم إلغاء حظر المستخدم بنجاح.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserUnblockFailed" xml:space="preserve">
+    <value>فشل إلغاء الحظر.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserVoiceprintReset" xml:space="preserve">
+    <value>تمت إعادة تعيين بصمة الصوت بنجاح. وستتم مطالبة المستخدم بتسجيل بصمة صوت جديدة أثناء تسجيل الدخول التالي.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_WeakPinNotAllowed" xml:space="preserve">
+    <value>غير مسموح برقم PIN ضعيف. فلا يمكن أن يحتوي على مجموعة فرعية مؤلفة من 4 أرقام أو أكثر موجودة برقم الهاتف، أو على 3 أرقام مكررة أو أكثر، أو 3 أرقام متسلسلة أو أكثر.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_WeakStaticTokenNotAllowed" xml:space="preserve">
+    <value>غير مسموح برمز مميز ثابت ضعيف. فلا يمكن أن يحتوي على مجموعة فرعية مؤلفة من 4 أرقام أو أكثر موجودة برقم الهاتف، أو على 3 أرقام مكررة أو أكثر، أو 3 أرقام متسلسلة أو أكثر.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_WebServiceSdkError" xml:space="preserve">
+    <value>تم تكوين مدخل مستخدمي Multi-Factor Authentication بحيث يمكنه الاتصال بحزمة برامج تطوير خدمات الويب التي نتج عنها الخطأ التالي:&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_WebServiceSdkNotPurchased" xml:space="preserve">
+    <value>تم تكوين مدخل مستخدمي Multi-Factor Authentication بحيث يمكنه الاتصال بحزمة تطوير برامج خدمة الويب مع العلم بأن ميزة حزمة تطوير برامج خدمة الويب لم يتم شراؤها.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_YourInformationChanged" xml:space="preserve">
+    <value>تم تغيير المعلومات الخاصة بك.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_YourLanguageChanged" xml:space="preserve">
+    <value>تم تغيير تفضيل اللغة الخاص بك.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_YourModeChanged" xml:space="preserve">
+    <value>تم تغيير الأسلوب الخاص بك.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_YourOathTokenSaved" xml:space="preserve">
+    <value>تم حفظ رمز OATH المميز الخاص بك.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_YourOneTimeBypassIssued" xml:space="preserve">
+    <value>تم إصدار سماح لمرة واحدة. وسيتم تخطي Multi-Factor Authentication أثناء تسجيل الدخول التالي.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_YourPhoneChanged" xml:space="preserve">
+    <value>تم تغيير هاتفك.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_YourPinChanged" xml:space="preserve">
+    <value>تم تغيير رقم PIN الخاص بك.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_YourSecurityQuestionsChanged" xml:space="preserve">
+    <value>تم تغيير أسئلة الأمان والإجابات عليها.</value>
+    <comment>change_security_questions page</comment>
+  </data>
+  <data name="Message_YourStaticTokenChanged" xml:space="preserve">
+    <value>تم تغيير الرمز المميز الثابت الخاص بك.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_YourVoiceprintReset" xml:space="preserve">
+    <value>تمت إعادة تعيين بصمة الصوت بنجاح. وستتم مطالبتك بتسجيل بصمة صوت جديدة أثناء تسجيل الدخول التالي.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Reason_InitiatedByAdmin" xml:space="preserve">
+    <value>تم البدء بواسطة المسؤول في مدخل المستخدمين</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Reason_InitiatedByUser" xml:space="preserve">
+    <value>تم البدء بواسطة المستخدم في مدخل المستخدمين</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Subtitle_DeactivatePhoneApp" xml:space="preserve">
+    <value>إلغاء تنشيط تطبيق الأجهزة المحمولة</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Subtitle_Enable" xml:space="preserve">
+    <value>تمكين</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Subtitle_UnblockUser" xml:space="preserve">
+    <value>إلغاء حظر المستخدم</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Title_PhoneFactorUserPortal" xml:space="preserve">
+    <value>Multi-Factor Authentication™ | مدخل المستخدمين</value>
+    <comment>Title on all pages</comment>
+  </data>
+  <data name="Value_All" xml:space="preserve">
+    <value>الكل</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Value_Masked" xml:space="preserve">
+    <value>مقنع</value>
+    <comment>add_user, change_pin, and oath_token pages</comment>
+  </data>
+</root>

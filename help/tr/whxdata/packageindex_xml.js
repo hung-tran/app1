@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"utf-8\"?><cki><ck fm=\"!\" to=\"bakın\"/><ck fm=\"bana\" to=\"doğrulaması\"/><ck fm=\"doğrulamasında\" to=\"harf\"/><ck fm=\"hat\" to=\"mesajı\"/><ck fm=\"mesajın\" to=\"sms\"/><ck fm=\"son\" to=\"yedek\"/><ck fm=\"yeni\" to=\"şirketler\"/></cki>";

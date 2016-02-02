@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName_UserPortal" xml:space="preserve">
+    <value>Lietotāju portāls</value>
+    <comment>Application name for Multi-Factor Authentications</comment>
+  </data>
+  <data name="Button_AuthenticateMeNow" xml:space="preserve">
+    <value>Autentificēt mani tūlīt</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_CallMeNowToAuthenticate" xml:space="preserve">
+    <value>Zvanīt man tūlīt, lai autentificētu</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_Next" xml:space="preserve">
+    <value>Tālāk</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_TextMeNowToAuthenticate" xml:space="preserve">
+    <value>Nosūtīt īsziņu man tūlīt, lai autentificētu</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_VerifyOathToken" xml:space="preserve">
+    <value>Pārbaudīt OATH marķieri</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Help_File" xml:space="preserve">
+    <value>help/PhoneFactor_User_Portal.htm</value>
+    <comment>Localize as help/xx/PhoneFactor_User_Portal.htm where xx is langauge code (e.g. de for German, zh-hans for Simplified Chinese)</comment>
+  </data>
+  <data name="Label_AlternatePhoneOathToken" xml:space="preserve">
+    <value>Lai parādītu autentifikācijas kodus, mobilajai programmai Multi-Factor Authentication nav jāizveido savienojums ar mobilo sakaru vai Wi-Fi tīklu.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_AlternatePhonePhoneApp" xml:space="preserve">
+    <value>Mobilā programma Multi-Factor Authentication darbojas vienlīdz labi arī Wi-Fi tīklā.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneSms" xml:space="preserve">
+    <value>Varat labot konta informāciju, lai norādītu alternatīvo tālruņa numuru, atlasot opciju Mainīt tālruņa numuru.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneVoice" xml:space="preserve">
+    <value>Varat labot konta informāciju, lai norādītu alternatīvo tālruņa numuru, piemēram, virszemes sakaru līniju, atlasot opciju Mainīt tālruņa numuru.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_CannotChangeModeToPhoneApp" xml:space="preserve">
+    <value>Pēc mobilās programmas Multi-Factor Authentication aktivizēšanas savā ierīcē mainiet konta metodi uz Mobilā programma, lai sāktu lietot šo programmu. Lai uzzinātu, kā mainīt metodi uz Mobilā programma, sazinieties ar palīdzības dienestu.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_Disable" xml:space="preserve">
+    <value>Atspējošana</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>Iespējošana</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_FraudAlertPhoneApp" xml:space="preserve">
+    <value>Lai ziņotu par incidentu, mobilajā programmā Multi-Factor Authentication nospiediet pogu Atteikt un ziņot par krāpšanos. Tādējādi par šo incidentu tiks informēti jūsu uzņēmuma IT drošības grupas darbinieki. Turpmākie autentifikācijas mēģinājumi tiks bloķēti, līdz problēma tiks atrisināta.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertSms" xml:space="preserve">
+    <value>Lai ziņotu par incidentu, atbildē norādiet krāpšanās incidenta kodu. Tādējādi par šo incidentu tiks informēti jūsu uzņēmuma IT drošības grupas darbinieki. Turpmākie autentifikācijas mēģinājumi tiks bloķēti, līdz problēma tiks atrisināta.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertVoice" xml:space="preserve">
+    <value>Lai ziņotu par incidentu, autentifikācijas zvana laikā tālruņa izvēlnē atlasiet opciju Ziņot par krāpšanos. Tādējādi par šo incidentu tiks informēti jūsu uzņēmuma IT drošības grupas darbinieki. Turpmākie autentifikācijas mēģinājumi tiks bloķēti, līdz problēma tiks atrisināta.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_GenerateActivationCode" xml:space="preserve">
+    <value>Ģenerēt aktivizācijas kodu</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateActivationLink" xml:space="preserve">
+    <value>Ģenerēt aktivizācijas saiti</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationCode" xml:space="preserve">
+    <value>Ģenerēt jaunu aktivizācijas kodu</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationLink" xml:space="preserve">
+    <value>Ģenerēt jaunu aktivizācijas saiti</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionOathToken" xml:space="preserve">
+    <value>Izmantojot Multi-Factor Authentication pakalpojumu, pieteikšanās laikā tiek pieprasīts norādīt autentifikācijas kodu.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionPhoneApp" xml:space="preserve">
+    <value>Izmantojot Multi-Factor Authentication pakalpojumu, pieteikšanās laikā uz mobilo programmu Multi-Factor Authentication tiek nosūtīts paziņojums.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionSms" xml:space="preserve">
+    <value>Izmantojot Multi-Factor Authentication pakalpojumu, pieteikšanās laikā uz norādīto tālruņa numuru tiek nosūtīta īsziņa.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionVoice" xml:space="preserve">
+    <value>Izmantojot Multi-Factor Authentication pakalpojumu, pieteikšanās laikā tiek veikts apstiprinājuma zvans uz norādīto tālruņa numuru.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsAdministrator" xml:space="preserve">
+    <value>Pārvaldiet lietotāju kontus, izvēlnē atlasot opciju Atrast lietotājus. Pārvaldiet savu kontu, atlasot atbilstošo opciju. Lai saņemtu palīdzību, atlasiet ikonu Palīdzība (redzama augšējā labajā stūrī).</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeOathToken" xml:space="preserve">
+    <value>Lai veiktu autentifikāciju, izmantojot mobilajā programmā Multi-Factor Authentication saņemto autentifikācijas kodu, atlasiet metodi &lt;b&gt;OATH marķieris&lt;/b&gt;.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModePhoneApp" xml:space="preserve">
+    <value>Lai veiktu autentifikāciju, izmantojot mobilo programmu Multi-Factor Authentication, atlasiet metodi &lt;b&gt;Mobilā programma&lt;/b&gt;.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeSmsText" xml:space="preserve">
+    <value>Lai veiktu autentifikāciju, izmantojot īsziņu, atlasiet metodi &lt;b&gt;Īsziņa&lt;/b&gt;.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeVoiceCall" xml:space="preserve">
+    <value>Lai veiktu autentifikāciju, izmantojot tālruņa zvanu, atlasiet metodi &lt;b&gt;Tālruņa zvans&lt;/b&gt;.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtp" xml:space="preserve">
+    <value>Lai pabeigtu verifikāciju, ievadiet īsziņā norādīto vienreizējo ieejas kodu.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtpPlusPin" xml:space="preserve">
+    <value>Lai pabeigtu verifikāciju, ievadiet īsziņā norādīto vienreizējo ieejas kodu un PIN.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsFindUser" xml:space="preserve">
+    <value>Ievadiet dažas pirmās lietotājvārda rakstzīmes un noklikšķiniet uz pogas Atrast.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsOathToken" xml:space="preserve">
+    <value>Pārbaudiet šī lietotāja autentifikāciju, izmantojot OATH marķieri.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneApp" xml:space="preserve">
+    <value>Pārbaudiet šī lietotāja autentifikāciju, izmantojot mobilo programmu.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationIpWhitelist" xml:space="preserve">
+    <value>Kad aktivizācija būs pabeigta, noklikšķiniet uz pogas Tālāk, lai turpinātu iestatīšanas procesu.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationOathToken" xml:space="preserve">
+    <value>Kad aktivizācija būs pabeigta, noklikšķiniet uz tālāk redzamās pogas, lai pārbaudītu autentifikāciju, un pēc tam turpiniet iestatīšanas procesu. Kad tiek parādīts atbilstošs uzaicinājums, ievadiet mobilajā programmā redzamo pašreizējo aktivizācijas kodu.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsSelectUser" xml:space="preserve">
+    <value>Sarakstā atlasiet lietotāju vai atlasiet pogu Atpakaļ, lai atrastu citu lietotāju.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsSmsText" xml:space="preserve">
+    <value>Pārbaudiet šī lietotāja autentifikāciju, izmantojot īsziņu.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUnblockUser" xml:space="preserve">
+    <value>Ievadiet atbloķēšanas iemeslu un apstipriniet lietotāja atbloķēšanu. Lietotāja autentifikācijas bloķēšana tiks atcelta.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Label_InstructionsUserActivatePhoneApp" xml:space="preserve">
+    <value>Lietotājam vispirms jāinstalē savā tālrunī mobilā programma Multi-Factor Authentication. Pēc tam jānoklikšķina uz pogas Ģenerēt, lai saņemtu aktivizācijas kodu. Lai pabeigtu aktivizācijas procesu, aktivizācijas kods ir jāievada lietotāja tālrunī instalētajā mobilajā programmā.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserDeactivatePhoneApp" xml:space="preserve">
+    <value>Lai deaktivizētu lietotāja ierīci, šajā ierīcē noklikšķiniet uz saites Deaktivizēt.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserEnable" xml:space="preserve">
+    <value>Apstipriniet, iespējojot lietotājam Multi-Factor Authentication zvanu saņemšanu pierakstīšanās procesa laikā.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_InstructionsUserInformation" xml:space="preserve">
+    <value>Norādiet šī lietotāja jauno informāciju.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Label_InstructionsUserLanguage" xml:space="preserve">
+    <value>Norādiet šī lietotāja valodas preferences.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Label_InstructionsUserMode" xml:space="preserve">
+    <value>Atlasiet šī lietotāja metodi.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathCode" xml:space="preserve">
+    <value>Lai pabeigtu autentifikāciju, ievadiet lietotāja ierīcē instalētajā mobilajā programmā Multi-Factor Authentication redzamo pašreizējo autentifikācijas kodu vai marķieri.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathToken" xml:space="preserve">
+    <value>Lai marķieri saistītu ar lietotāju, ievadiet pašreiz marķierī redzamo OATH marķiera sērijas numuru un kodu.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Label_InstructionsUserOneTimeBypass" xml:space="preserve">
+    <value>Apstipriniet vienreizējas apejas izmantošanu, lai izlaistu Multi-Factor Authentication autentifikāciju, kad šis lietotājs nākamreiz pierakstīsies. Apeja ir pagaidu metode.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtp" xml:space="preserve">
+    <value>Lai pabeigtu autentifikāciju, ievadiet vienreizējo ieejas kodu, ko lietotājs saņēma īsziņā.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtpPlusPin" xml:space="preserve">
+    <value>Lai pabeigtu autentifikāciju, ievadiet lietotāja PIN un vienreizējo ieejas kodu, ko lietotājs saņēma īsziņā.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserPhone" xml:space="preserve">
+    <value>Norādiet šī lietotāja jauno tālruņa numuru.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Label_InstructionsUserPin" xml:space="preserve">
+    <value>Norādiet šī lietotāja jauno PIN.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Label_InstructionsUserResetVoiceprint" xml:space="preserve">
+    <value>Apstipriniet lietotāja balss nospieduma atiestatīšanu. Kad lietotājs nākamreiz saņems autentifikācijas zvanu, viņam būs jāreģistrē jauns balss nospiedums.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathToken" xml:space="preserve">
+    <value>Lai Multi-Factor Authentication pakalpojumu iespējotu savam kontam, izmantojot OATH marķiera metodi, ievadiet OATH marķiera aizmugurē nodrukāto sērijas numuru un marķierī redzamo kodu, lai šo marķieri saistītu ar savu kontu.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathTokenPhoneApp" xml:space="preserve">
+    <value>Lai Multi-Factor Authentication pakalpojumu iespējotu savam kontam, izmantojot OATH marķiera metodi, vispirms instalējiet programmu Multi-Factor Authentication savā tālrunī un pēc tam noklikšķiniet uz tālāk redzamās pogas Ģenerēt, lai saņemtu aktivizācijas kodu. Lai pabeigtu aktivizācijas procesu, aktivizācijas kods ir jāievada mobilajā programmā. Aktivizācijas kods ir derīgs 10 minūtes.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPhoneApp" xml:space="preserve">
+    <value>Lai Multi-Factor Authentication pakalpojumu iespējotu savam kontam, izmantojot mobilo programmu, vispirms instalējiet programmu Multi-Factor Authentication savā tālrunī un pēc tam noklikšķiniet uz tālāk redzamās pogas Ģenerēt, lai saņemtu aktivizācijas kodu. Lai pabeigtu aktivizācijas procesu, aktivizācijas kods ir jāievada mobilajā programmā. Aktivizācijas kods ir derīgs 10 minūtes.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPin" xml:space="preserve">
+    <value>Lai Multi-Factor Authentication pakalpojumu iespējotu savam kontam, lūdzu, norādiet autentifikācijai izmantojamo tālruņa numuru un PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtp" xml:space="preserve">
+    <value>Lai Multi-Factor Authentication pakalpojumu iespējotu savam kontam, lūdzu, norādiet autentifikācijai izmantojamo tālruņa numuru.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Lai Multi-Factor Authentication pakalpojumu iespējotu savam kontam, lūdzu, norādiet autentifikācijai izmantojamo tālruņa numuru un PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtp" xml:space="preserve">
+    <value>Lai Multi-Factor Authentication pakalpojumu iespējotu savam kontam, lūdzu, norādiet autentifikācijai izmantojamo tālruņa numuru.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Lai Multi-Factor Authentication pakalpojumu iespējotu savam kontam, lūdzu, norādiet autentifikācijai izmantojamo tālruņa numuru un PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupStandard" xml:space="preserve">
+    <value>Lai Multi-Factor Authentication pakalpojumu iespējotu savam kontam, lūdzu, norādiet autentifikācijai izmantojamo tālruņa numuru.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteOathToken" xml:space="preserve">
+    <value>Lai tālrunī aktivizētu programmu Multi-Factor Authentication un pārbaudītu autentifikāciju, izmantojot mobilajā programmā saņemtos autentifikācijas kodus, izpildiet tālāk redzamos norādījumus.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePhoneApp" xml:space="preserve">
+    <value>Lai tālrunī aktivizētu programmu Multi-Factor Authentication un pārbaudītu autentifikāciju, izmantojot mobilo programmu, izpildiet tālāk redzamos norādījumus.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePin" xml:space="preserve">
+    <value>Pēc tam programma Multi-Factor Authentication veiks zvanu uz norādīto tālruņa numuru. Lai veiktu autentifikāciju, ievadiet PIN un nospiediet taustiņu #.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtp" xml:space="preserve">
+    <value>Pēc tam programma Multi-Factor Authentication nosūtīs uz norādīto tālruņa numuru īsziņu, kurā būs norādīts vienreizējs ieejas kods. Kad tiks parādīta atbilstoša uzvedne, ievadiet vienreizējo ieejas kodu, lai veiktu autentifikāciju.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Pēc tam programma Multi-Factor Authentication nosūtīs uz norādīto tālruņa numuru īsziņu, kurā būs norādīts vienreizējs ieejas kods. Kad tiks parādīta atbilstoša uzvedne, ievadiet vienreizējo ieejas kodu un PIN, lai veiktu autentifikāciju.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtp" xml:space="preserve">
+    <value>Pēc tam programma Multi-Factor Authentication nosūtīs uz norādīto tālruņa numuru īsziņu, kurā būs norādīts vienreizējs ieejas kods. Lai veiktu autentifikāciju, atbildiet uz īsziņu, norādot ieejas kodu.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Pēc tam programma Multi-Factor Authentication nosūtīs uz norādīto tālruņa numuru īsziņu, kurā būs norādīts vienreizējs ieejas kods. Lai veiktu autentifikāciju, atbildiet uz īsziņu, norādot ieejas kodu un PIN.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteStandard" xml:space="preserve">
+    <value>Pēc tam programma Multi-Factor Authentication veiks zvanu uz norādīto tālruņa numuru. Lai veiktu autentifikāciju, atbildiet uz zvanu un nospiediet taustiņu #.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteVoiceprint" xml:space="preserve">
+    <value>Pēc tam programma Multi-Factor Authentication veiks zvanu uz norādīto tālruņa numuru. Izpildiet norādījumus, lai reģistrētu ieejas frāzes balss nospiedumu.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupVoiceprint" xml:space="preserve">
+    <value>Lai Multi-Factor Authentication pakalpojumu iespējotu savam kontam, lūdzu, norādiet autentifikācijai izmantojamo tālruņa numuru.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserStaticToken" xml:space="preserve">
+    <value>Norādiet šī lietotāja jauno statisko marķieri.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Label_MessageOathToken" xml:space="preserve">
+    <value>Jūsu konts tika konfigurēts pakalpojuma Multi-Factor Authentication izmantošanai.&lt;br/&gt;&lt;br/&gt;
+Kad pierakstīsities, varēsit arī turpmāk izmantot to pašu lietotājvārdu un paroli. Lai pabeigtu verifikāciju, lietojumprogramma aicinās pierakstīties, ievadot pašreizējo mobilajā programmā Multi-Factor Authentication izmantoto autentifikācijas kodu vai marķieri. Ja neievadīsit pareizu autentifikācijas kodu, pierakstīšanās tiks atteikta.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppPin" xml:space="preserve">
+    <value>Jūsu konts tika konfigurēts pakalpojuma Multi-Factor Authentication izmantošanai.&lt;br/&gt;&lt;br/&gt;
+Kad pierakstīsities, varēsit arī turpmāk izmantot to pašu lietotājvārdu un paroli. Lai pabeigtu verifikāciju,
+jūs saņemsit aicinājumu palaist mobilo programmu Multi-Factor Authentication un ievadīt savu PIN, lai apstiprinātu pierakstīšanos. Ja neapstiprināsit pierakstīšanos, ievadot PIN un nospiežot taustiņu #, pierakstīšanās tiks atteikta.&lt;br/&gt;&lt;br/&gt;
+PIN kodu ievadiet tikai tad, kad no mobilās programmas Multi-Factor Authentication saņemsit paziņojumu par to, ka patiešām pierakstāties lietojumprogrammā.  Pretējā gadījumā cita persona var mēģināt pierakstīties, izmantojot jūsu lietotājvārdu un paroli. Tādā situācijā ziņojiet savam IT administratoram par iespējamo krāpšanu.&lt;br/&gt;&lt;br/&gt;Jebkurā laikā varat atgriezties Multi-Factor Authentication portālā un nomainīt savu PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppStandard" xml:space="preserve">
+    <value>Jūsu konts tika konfigurēts pakalpojuma Multi-Factor Authentication izmantošanai.&lt;br/&gt;&lt;br/&gt;
+Kad pierakstīsities, varēsit arī turpmāk izmantot to pašu lietotājvārdu un paroli. Lai pabeigtu verifikāciju,
+jūs saņemsit aicinājumu palaist mobilo programmu Multi-Factor Authentication un pierakstīties, nospiežot pogu Autentificēt. Ja neapstiprināsit pierakstīšanos, nospiežot pogu Autentificēt, pierakstīšanās tiks atteikta.&lt;br/&gt;&lt;br/&gt;
+Pogu Autentificēt nospiediet tikai tad, kad no mobilās programmas Multi-Factor Authentication saņemsit paziņojumu par to, ka patiešām pierakstāties lietojumprogrammā. Pretējā gadījumā cita persona var mēģināt pierakstīties, izmantojot jūsu lietotājvārdu un paroli. Tādā situācijā ziņojiet savam IT administratoram par iespējamo krāpšanu.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppVoiceprint" xml:space="preserve">
+    <value>Jūsu konts tika konfigurēts pakalpojuma Multi-Factor Authentication izmantošanai.&lt;br/&gt;&lt;br/&gt;
+Kad pierakstīsities, varēsit arī turpmāk izmantot to pašu lietotājvārdu un paroli. Lai pabeigtu verifikāciju,
+jūs saņemsit aicinājumu palaist mobilo programmu Multi-Factor Authentication un pēc tam izrunāt ieejas frāzi, lai apstiprinātu pierakstīšanos. Ja neapstiprināsit pierakstīšanos, izrunājot ieejas frāzi, pierakstīšanās tiks atteikta.&lt;br/&gt;&lt;br/&gt;
+Ieejas frāzi izrunājiet tikai tad, kad no mobilās programmas Multi-Factor Authentication saņemsit paziņojumu par to, ka patiešām pierakstāties lietojumprogrammā. Pretējā gadījumā cita persona var mēģināt pierakstīties, izmantojot jūsu lietotājvārdu un paroli. Tādā situācijā ziņojiet savam IT administratoram par iespējamo krāpšanu.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePin" xml:space="preserve">
+    <value>Jūsu konts tika konfigurēts pakalpojuma Multi-Factor Authentication izmantošanai.&lt;br/&gt;&lt;br/&gt;
+Kad pierakstīsities, varēsit arī turpmāk izmantot to pašu lietotājvārdu un paroli. Lai pabeigtu verifikāciju,
+saņemsit tālruņa zvanu, kura laikā būs jāievada PIN un pēc tam jānospiež restītes (#) taustiņš, lai apstiprinātu pierakstīšanos. Ja
+neapstiprināsit pierakstīšanos, ievadot PIN un nospiežot taustiņu #, pierakstīšanās tiks atteikta.&lt;br/&gt;&lt;br/&gt;
+PIN kodu ievadiet tikai tad, kad no mobilās programmas Multi-Factor Authentication saņemsit tālruņa zvanu par to, ka patiešām pierakstāties lietojumprogrammā.
+Pretējā gadījumā cita persona var mēģināt pierakstīties, izmantojot jūsu lietotājvārdu un paroli. Tādā situācijā ziņojiet savam IT administratoram par
+iespējamo krāpšanu.&lt;br/&gt;&lt;br/&gt;
+Jebkurā laikā varat atgriezties Multi-Factor Authentication portālā un nomainīt savu tālruņa numuru vai PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtp" xml:space="preserve">
+    <value>Jūsu konts tika konfigurēts pakalpojuma Multi-Factor Authentication izmantošanai.&lt;br/&gt;&lt;br/&gt;
+Kad pierakstīsities, varēsit arī turpmāk izmantot to pašu lietotājvārdu un paroli. Lai pabeigtu verifikāciju,
+saņemsit īsziņu, kurā būs norādīts vienreizējs ieejas kods. Kad lietojumprogramma parādīs atbilstošu uzaicinājumu, ievadiet šo ieejas kodu.
+Ja neievadīsit pareizu ieejas kodu, pierakstīšanās tiks atteikta.&lt;br/&gt;&lt;br/&gt;
+Jebkurā laikā varat atgriezties Multi-Factor Authentication portālā un nomainīt savu tālruņa numuru.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Jūsu konts tika konfigurēts pakalpojuma Multi-Factor Authentication izmantošanai.&lt;br/&gt;&lt;br/&gt;
+Kad pierakstīsities, varēsit arī turpmāk izmantot to pašu lietotājvārdu un paroli. Lai pabeigtu verifikāciju,
+saņemsit īsziņu, kurā būs norādīts vienreizējs ieejas kods. Kad lietojumprogramma parādīs atbilstošu uzaicinājumu, ievadiet šo ieejas kodu un PIN.
+Ja neievadīsit pareizu ieejas kodu un PIN, pierakstīšanās tiks atteikta.&lt;br/&gt;&lt;br/&gt;
+Jebkurā laikā varat atgriezties Multi-Factor Authentication portālā un nomainīt savu tālruņa numuru un PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtp" xml:space="preserve">
+    <value>Jūsu konts tika konfigurēts pakalpojuma Multi-Factor Authentication izmantošanai.&lt;br/&gt;&lt;br/&gt;
+Kad pierakstīsities, varēsit arī turpmāk izmantot to pašu lietotājvārdu un paroli. Lai pabeigtu verifikāciju,
+saņemsit īsziņu, kurā būs norādīts vienreizējs ieejas kods. Atbildiet uz īsziņu, norādot šo ieejas kodu.
+Ja atbildes īsziņā nenorādīsit pareizu ieejas kodu, pierakstīšanās tiks atteikta.&lt;br/&gt;&lt;br/&gt;
+Atbildiet uz īsziņu tikai tad, kad no mobilās programmas Multi-Factor Authentication saņemsit īsziņu par to, ka patiešām pierakstāties lietojumprogrammā.
+Pretējā gadījumā cita persona var mēģināt pierakstīties, izmantojot jūsu lietotājvārdu un paroli. Tādā situācijā ziņojiet savam IT administratoram
+par iespējamo krāpšanu.&lt;br/&gt;&lt;br/&gt;
+Jebkurā laikā varat atgriezties Multi-Factor Authentication portālā un nomainīt savu tālruņa numuru.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Jūsu konts tika konfigurēts pakalpojuma Multi-Factor Authentication izmantošanai.&lt;br/&gt;&lt;br/&gt;
+Kad pierakstīsities, varēsit arī turpmāk izmantot to pašu lietotājvārdu un paroli. Lai pabeigtu verifikāciju,
+saņemsit īsziņu, kurā būs norādīts vienreizējs ieejas kods. Atbildiet uz īsziņu, norādot šo ieejas kodu un PIN.
+Ja atbildes īsziņā nenorādīsit pareizu ieejas kodu un PIN, pierakstīšanās tiks atteikta.&lt;br/&gt;&lt;br/&gt;
+Atbildiet uz īsziņu tikai tad, kad no mobilās programmas Multi-Factor Authentication saņemsit īsziņu par to, ka patiešām pierakstāties lietojumprogrammā.
+Pretējā gadījumā cita persona var mēģināt pierakstīties, izmantojot jūsu lietotājvārdu un paroli. Tādā situācijā ziņojiet savam IT administratoram
+par iespējamo krāpšanu.&lt;br/&gt;&lt;br/&gt;
+Jebkurā laikā varat atgriezties Multi-Factor Authentication portālā un nomainīt savu tālruņa numuru vai PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageStandard" xml:space="preserve">
+    <value>Jūsu konts tika konfigurēts pakalpojuma Multi-Factor Authentication izmantošanai.&lt;br/&gt;&lt;br/&gt;
+Kad pierakstīsities, varēsit arī turpmāk izmantot to pašu lietotājvārdu un paroli. Lai pabeigtu verifikāciju,
+saņemsit tālruņa zvanu, kura laikā būs jānospiež restītes (#) taustiņš, lai apstiprinātu pierakstīšanos. Ja neapstiprināsit pierakstīšanos,
+nospiežot taustiņu #, pierakstīšanās tiks atteikta.&lt;br/&gt;&lt;br/&gt;
+Taustiņu # nospiediet tikai tad, kad no mobilās programmas Multi-Factor Authentication saņemsit tālruņa zvanu par to, ka patiešām pierakstāties lietojumprogrammā.
+Pretējā gadījumā cita persona var mēģināt pierakstīties, izmantojot jūsu lietotājvārdu un paroli. Tādā situācijā ziņojiet savam IT administratoram par
+iespējamo krāpšanu.&lt;br/&gt;&lt;br/&gt;
+Jebkurā laikā varat atgriezties Multi-Factor Authentication portālā un nomainīt savu tālruņa numuru.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageVoiceprint" xml:space="preserve">
+    <value>Jūsu konts tika konfigurēts pakalpojuma Multi-Factor Authentication izmantošanai.&lt;br/&gt;&lt;br/&gt;
+Kad pierakstīsities, varēsit arī turpmāk izmantot to pašu lietotājvārdu un paroli. Lai pabeigtu verifikāciju,
+saņemsit tālruņa zvanu, kura laikā būs jāizrunā ieejas frāze, lai apstiprinātu pierakstīšanos. Ja neapstiprināsit
+pierakstīšanos, izrunājot ieejas frāzi, pierakstīšanās tiks atteikta.&lt;br/&gt;&lt;br/&gt;
+ Ieejas frāzi izrunājiet tikai tad, kad no mobilās programmas Multi-Factor Authentication saņemsit tālruņa zvanu par to, ka patiešām pierakstāties lietojumprogrammā.
+Pretējā gadījumā cita persona var mēģināt pierakstīties, izmantojot jūsu lietotājvārdu un paroli. Tādā situācijā ziņojiet savam IT administratoram par
+iespējamo krāpšanu.&lt;br/&gt;&lt;br/&gt;
+Jebkurā laikā varat atgriezties Multi-Factor Authentication portālā un nomainīt savu tālruņa numuru.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MustChangeModeToPhoneApp" xml:space="preserve">
+    <value>Pēc mobilās programmas Multi-Factor Authentication aktivizēšanas savā ierīcē nomainiet metodi uz Mobilā programma. Lai sāktu izmantot lietojumprogrammu, navigācijas izvēlnē noklikšķiniet uz saites Mainīt metodi un norādiet metodi Mobilā programma.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_MustChangeUserToPhoneAppMode" xml:space="preserve">
+    <value>Kad lietotājs aktivizēs mobilo programmu Multi-Factor Authentication savā ierīcē, nomainiet metodi uz Mobilā programma, lai viņš varētu izmantot šo lietojumprogrammu.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerPhoneApp" xml:space="preserve">
+    <value>Šādi var gadīties tikai tad, ja cita persona ir mēģinājusi pieteikties jūsu kontā, zinot jūsu paroli. Ņemiet vērā, ka mobilā programma Multi-Factor Authentication ziņojumus sūta tikai pēc tam, kad ir pārbaudīts lietotājvārds un parole. Tādējādi programma Multi-Factor Authentication tikai novērsa nepilnvarotu piekļuvi jūsu kontam.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerSms" xml:space="preserve">
+    <value>Šādi var gadīties tikai tad, ja cita persona ir mēģinājusi pieteikties jūsu kontā, zinot jūsu paroli. Ņemiet vērā, ka mobilā programma Multi-Factor Authentication īsziņas sūta tikai pēc tam, kad ir pārbaudīts lietotājvārds un parole. Tādējādi programma Multi-Factor Authentication tikai novērsa nepilnvarotu piekļuvi jūsu kontam.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerVoice" xml:space="preserve">
+    <value>Šādi var gadīties tikai tad, ja cita persona ir mēģinājusi pieteikties jūsu kontā, zinot jūsu paroli. Ņemiet vērā, ka mobilā programma Multi-Factor Authentication tālruņa zvanus veic tikai pēc tam, kad ir pārbaudīts lietotājvārds un parole. Tādējādi programma Multi-Factor Authentication tikai novērsa nepilnvarotu piekļuvi jūsu kontam.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionPhoneApp" xml:space="preserve">
+    <value>Kā rīkoties, saņemot paziņojumu no mobilās programmas Multi-Factor Authentication, ja neesmu mēģinājis pieteikties?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionSms" xml:space="preserve">
+    <value>Kā rīkoties, saņemot īsziņu no mobilās programmas Multi-Factor Authentication, ja neesmu mēģinājis pieteikties?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionVoice" xml:space="preserve">
+    <value>Kā rīkoties, saņemot tālruņa zvanu no mobilās programmas Multi-Factor Authentication, ja neesmu mēģinājis pieteikties?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassOathToken" xml:space="preserve">
+    <value>Jūsu uzņēmums nodrošina vienreizējas apejas opciju, lai vienu reizi varētu pieteikties, neievadot autentifikācijas kodu. Lai piekļūtu šim līdzeklim, atlasiet opciju Vienreizēja apeja. Lai saņemtu palīdzību, sazinieties ar palīdzības dienestu, izmantojot jebkuru tālruņa numuru.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_OneTimeBypassPhoneApp" xml:space="preserve">
+    <value>Jūsu uzņēmums nodrošina vienreizējas apejas opciju, lai vienu reizi varētu pieteikties, nesaņemot paziņojumu no mobilās programmas Multi-Factor Authentication. Lai piekļūtu šim līdzeklim, atlasiet opciju Vienreizēja apeja. Lai saņemtu palīdzību, sazinieties ar palīdzības dienestu, izmantojot jebkuru tālruņa numuru.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassSms" xml:space="preserve">
+    <value>Jūsu uzņēmums nodrošina vienreizējas apejas opciju, lai vienu reizi varētu pieteikties, nesaņemot īsziņu. Lai piekļūtu šim līdzeklim, atlasiet opciju Vienreizēja apeja. Lai saņemtu palīdzību, sazinieties ar palīdzības dienestu, izmantojot jebkuru tālruņa numuru.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassVoice" xml:space="preserve">
+    <value>Jūsu uzņēmums nodrošina vienreizējas apejas opciju, lai vienu reizi varētu pieteikties, nesaņemot tālruņa zvanu. Lai piekļūtu šim līdzeklim, atlasiet opciju Vienreizēja apeja. Lai saņemtu palīdzību, sazinieties ar palīdzības dienestu, izmantojot jebkuru tālruņa numuru.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtp" xml:space="preserve">
+    <value>Vienreizējs ieejas kods</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtpPlusPin" xml:space="preserve">
+    <value>Vienreizējs ieejas kods un PIN</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_SimpleProcessOathToken" xml:space="preserve">
+    <value>Šī vienkāršā procesa laikā tiek nodrošināti divi dažādi autentifikācijas faktori, sekundārai autentifikācijai varat izmantot, piemēram, viedtālruni vai marķieri.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_SimpleProcessPhoneApp" xml:space="preserve">
+    <value>Šī vienkāršā procesa laikā tiek nodrošināti divi dažādi autentifikācijas faktori, kam tiek izmantoti divi atšķirīgi kanāli (jūsu dators un viedtālrunis).</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessSms" xml:space="preserve">
+    <value>Šī vienkāršā procesa laikā tiek nodrošināti divi dažādi autentifikācijas faktori, kam tiek izmantoti divi atšķirīgi kanāli (jūsu dators un mobilo sakaru pakalpojums). Procesam var izmantot jebkuru tālruni, kam ir iespējota īsziņu sūtīšana vai saņemšana.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessVoice" xml:space="preserve">
+    <value>Šī vienkāršā procesa laikā tiek nodrošināti divi dažādi autentifikācijas faktori, kam tiek izmantoti divi atšķirīgi kanāli (jūsu dators un mobilo sakaru pakalpojums). Procesam var izmantot jebkuru mājas vai mobilo tālruni.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionOathToken" xml:space="preserve">
+    <value>Nekavējoties tiks parādīts uzaicinājums ievadīt autentifikācijas kodu. Ievadiet mobilajā programmā Multi-Factor Authentication redzamo pašreizējo aktivizācijas kodu vai marķieri.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppPin" xml:space="preserve">
+    <value>Nekavējoties saņemsit paziņojumu no mobilās programmas Multi-Factor Authentication. Palaidiet lietojumprogrammu, ievadiet PIN un nospiediet pogu Autentificēt.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppStandard" xml:space="preserve">
+    <value>Nekavējoties saņemsit paziņojumu no mobilās programmas Multi-Factor Authentication. Palaidiet lietojumprogrammu un nospiediet pogu Autentificēt.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppVoiceprint" xml:space="preserve">
+    <value>Nekavējoties saņemsit paziņojumu no mobilās programmas Multi-Factor Authentication. Kad tiks parādīts atbilstošs uzaicinājums, palaidiet lietojumprogrammu un izrunājiet ieejas frāzi.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPin" xml:space="preserve">
+    <value>Nekavējoties saņemsit tālruņa zvanu. Atbildiet uz to, ievadiet PIN un nospiediet taustiņu #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtp" xml:space="preserve">
+    <value>Nekavējoties saņemsit īsziņu ar vienreizēju ieejas kodu. Kad lietojumprogramma parādīs atbilstošu uzaicinājumu, ievadiet šo ieejas kodu.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Nekavējoties saņemsit īsziņu ar vienreizēju ieejas kodu. Kad lietojumprogramma parādīs atbilstošu uzaicinājumu, ievadiet šo ieejas kodu un PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtp" xml:space="preserve">
+    <value>Nekavējoties saņemsit īsziņu ar vienreizēju ieejas kodu. Atbildiet uz īsziņu, norādot šo ieejas kodu.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Nekavējoties saņemsit īsziņu ar vienreizēju ieejas kodu. Atbildiet uz īsziņu, norādot šo ieejas kodu un PIN.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionStandard" xml:space="preserve">
+    <value>Nekavējoties saņemsit tālruņa zvanu. Atbildiet uz to un nospiediet taustiņu #.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionVoiceprint" xml:space="preserve">
+    <value>Nekavējoties saņemsit tālruņa zvanu. Atbildiet uz to un izrunājiet ieejas frāzi.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_TitleWithColon" xml:space="preserve">
+    <value>{0}:</value>
+    <comment>Page header on most pages</comment>
+  </data>
+  <data name="Label_UnblockReason" xml:space="preserve">
+    <value>Atbloķēšanas iemesls</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_AccountConfigurationComplete" xml:space="preserve">
+    <value>Konta konfigurēšana tika pabeigta</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Message_AnswerRequired" xml:space="preserve">
+    <value>Atbildiet uz vismaz vienu drošības jautājumu.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AnswerSecurityQuestions" xml:space="preserve">
+    <value>Lai pieteiktos, lūdzu, atbildiet uz drošības jautājumiem.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AnswersIncorrect" xml:space="preserve">
+    <value>Viena vai vairākas atbildes nav pareizas.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AuthenticationDenied" xml:space="preserve">
+    <value>Multi-Factor Authentication autentifikācija tika atteikta.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedAnswerSecurityQuestions" xml:space="preserve">
+    <value>Multi-Factor Authentication autentifikācija tika atteikta. Lai pieteiktos, lūdzu, atbildiet uz drošības jautājumiem.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedCallResult" xml:space="preserve">
+    <value>Multi-Factor Authentication autentifikācija tika atteikta: {0}</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_AuthenticationSuccessful" xml:space="preserve">
+    <value>Multi-Factor Authentication autentifikācija veiksmīgi izdevās.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_BypassSecondsNumeric" xml:space="preserve">
+    <value>Apejas sekundēm jānorāda skaitliska vērtība.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRange" xml:space="preserve">
+    <value>Apejas sekundēm jānorāda vērtība no 5 līdz 1800 (30 minūtes).</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRequired" xml:space="preserve">
+    <value>Norādiet apejas sekundes.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_CannotActivateDevice" xml:space="preserve">
+    <value>Lai metodi mainītu uz Mobilā programma, jūsu kontam jābūt saistītam ar ierīcē aktivizētu mobilo programmu Multi-Factor Authentication. Lai saņemtu palīdzību saistībā ar mobilās programmas Multi-Factor Authentication aktivizēšanu ierīcē, sazinieties ar palīdzības dienestu.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotEstablishWebServiceSdkConnection" xml:space="preserve">
+    <value>Multi-Factor Authentication lietotāju portālam nevarēja izveidot drošu savienojumu ar tīmekļa pakalpojuma SDK: {0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_CannotGetOathToken" xml:space="preserve">
+    <value>Lai metodi mainītu uz Mobilā programma, jūsu kontam jābūt saistītam ar ierīcē aktivizētu mobilo programmu Multi-Factor Authentication vai OATH marķieri. Lai saņemtu palīdzību saistībā ar mobilās programmas Multi-Factor Authentication aktivizēšanu ierīcē vai OATH marķiera saņemšanu, sazinieties ar palīdzības dienestu.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Lai metodi mainītu uz Īsziņa, jūsu kontam jābūt pievienotam tālruņa numuram. Lai kontam pievienotu tālruņa numuru, sazinieties ar palīdzības dienestu.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Lai metodi mainītu uz Tālruņa zvans, jūsu kontam jābūt pievienotam tālruņa numuram. Lai kontam pievienotu tālruņa numuru, sazinieties ar palīdzības dienestu.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeOathTokenIncomplete" xml:space="preserve">
+    <value>Piezīme. Lietotājs nav aktivizējis savā ierīcē mobilo programmu Multi-Factor Authentication, vai viņam tika piešķirts trešās personas OATH marķieris. Lai izmantotu metodi OATH Token, šie kritēriji ir jāievēro. Šis lietotājs nevarēs autentificēties aizsargātās lietojumprogrammās, kā arī, lai pieteiktos lietotāju portālā, būs no jauna jāreģistrējas. Ieteicams sazināties ar lietotāju, lai palīdzētu aktivizēt mobilo programmu Multi-Factor Authentication, vai piešķirt un izplatīt trešās personas OATH marķieri.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModePhoneAppIncomplete" xml:space="preserve">
+    <value>Piezīme. Lietotājs nav aktivizējis savā ierīcē mobilo programmu Multi-Factor Authentication. Lai izmantotu metodi Mobilā programma, šis kritērijs ir jāievēro. Šis lietotājs nevarēs autentificēties aizsargātās lietojumprogrammās, kā arī, lai pieteiktos lietotāju portālā, būs no jauna jāreģistrējas. Ieteicams sazināties ar lietotāju, lai palīdzētu aktivizēt mobilo programmu Multi-Factor Authentication.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeSmsTextIncomplete" xml:space="preserve">
+    <value>Piezīme. Lietotājs nav norādījis tālruņa numuru. Lai izmantotu metodi Īsziņa, šis kritērijs ir jāievēro. Šis lietotājs nevarēs autentificēties aizsargātās lietojumprogrammās, kā arī, lai pieteiktos lietotāju portālā, būs no jauna jāreģistrējas. Lai lietotājs turpinātu lietot aizsargātās lietojumprogrammas un nebūtu jāreģistrējas, ieteicams norādīt tālruņa numuru viņa vietā.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeVoiceCallIncomplete" xml:space="preserve">
+    <value>Piezīme. Lietotājs nav norādījis tālruņa numuru. Lai izmantotu metodi Tālruņa zvans, šis kritērijs ir jāievēro. Šis lietotājs nevarēs autentificēties aizsargātās lietojumprogrammās, kā arī, lai pieteiktos lietotāju portālā, būs no jauna jāreģistrējas. Lai lietotājs turpinātu lietot aizsargātās lietojumprogrammas un nebūtu jāreģistrējas, ieteicams norādīt tālruņa numuru viņa vietā.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CodeRequired" xml:space="preserve">
+    <value>Jānorāda kods.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_CodeRequiredCross" xml:space="preserve">
+    <value>Ja ir norādīts sērijas numurs, nepieciešams kods.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ConfirmDeactivate" xml:space="preserve">
+    <value>Vai tiešām vēlaties neatgriezeniski deaktivizēt šo ierīci?</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceDeactivated" xml:space="preserve">
+    <value>Ierīce tika deaktivizēta.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceLimit" xml:space="preserve">
+    <value>Jūsu kontā aktivizētas {0} ierīces, un tas ir maksimālais atļautais ierīču skaits. Pirms jaunas ierīces aktivizēšanas deaktivizējiet vienu no esošajām ierīcēm.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DuplicateAnswer" xml:space="preserve">
+    <value>Nav atļauts izmantot vienādas atbildes.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateQuestion" xml:space="preserve">
+    <value>Nav atļauts izmantot vienādus jautājumus.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateUsername" xml:space="preserve">
+    <value>Tika izmantoti vienādi lietotājvārdi.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUser" xml:space="preserve">
+    <value>Pievienojot lietotāju, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUserForPassedSession" xml:space="preserve">
+    <value>Pievienojot pagājušai sesijai lietotāju, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithLocal" xml:space="preserve">
+    <value>Sazinoties ar lokālo Multi-Factor Authentication pakalpojumu, radās kļūda. Lūdzu, sazinieties ar administratoru.</value>
+    <comment>Most pages when connection to local server is lost</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithMaster" xml:space="preserve">
+    <value>Sazinoties ar galveno Multi-Factor Authentication pakalpojumu, radās kļūda. Lūdzu, sazinieties ar administratoru.</value>
+    <comment>Most pages when connection to master server is lost</comment>
+  </data>
+  <data name="Message_ErrorDeactivatingDevice" xml:space="preserve">
+    <value>Deaktivizējot ierīci, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorDisablingUser" xml:space="preserve">
+    <value>Atspējojot lietotāju, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorEnablingUser" xml:space="preserve">
+    <value>Iespējojot lietotāju, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorFindingUsers" xml:space="preserve">
+    <value>Meklējot lietotājus, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_ErrorGeneratingActivationCode" xml:space="preserve">
+    <value>Ģenerējot aktivizācijas kodu, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorIssuingOneTimeBypass" xml:space="preserve">
+    <value>Izsniedzot vienreizēju apeju, radās kļūda. Lūdzu, sazinieties ar administratoru.&lt;br/&gt;{0}</value>
+    <comment>one_time_bypass and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorRemovingUser" xml:space="preserve">
+    <value>Noņemot lietotāju, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_ErrorResettingMode" xml:space="preserve">
+    <value>Atiestatot metodi, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPhone" xml:space="preserve">
+    <value>Atiestatot tālruņa numuru, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPin" xml:space="preserve">
+    <value>Atiestatot PIN, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingVoiceprint" xml:space="preserve">
+    <value>Atiestatot balss nospiedumu, radās kļūda. Lūdzu, sazinieties ar administratoru.&lt;br/&gt;{0}</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingLanguage" xml:space="preserve">
+    <value>Atjauninot valodu, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingMode" xml:space="preserve">
+    <value>Atjauninot metodi, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhone" xml:space="preserve">
+    <value>Atjauninot tālruņa numuru, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhoneAppMode" xml:space="preserve">
+    <value>Atjauninot mobilās programmas režīmu, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPin" xml:space="preserve">
+    <value>Atjauninot PIN, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSecurityQuestions" xml:space="preserve">
+    <value>Atjauninot drošības jautājumus, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSmsTextMode" xml:space="preserve">
+    <value>Atjauninot īsziņas režīmu, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingStaticToken" xml:space="preserve">
+    <value>Atjauninot statisko marķieri, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserForSecurityQuestionSetup" xml:space="preserve">
+    <value>Atjauninot drošības jautājuma iestatīšanai paredzēto lietotāju, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserInformation" xml:space="preserve">
+    <value>Atjauninot lietotāja informāciju, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingVoiceCallMode" xml:space="preserve">
+    <value>Atjauninot tālruņa zvana režīmu, radās kļūda.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ExpiredSession" xml:space="preserve">
+    <value>Beidzās sesijas derīgums.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_IncorrectAnswers" xml:space="preserve">
+    <value>Izvēlētās atbildes nav pareizas. Lūdzu, mēģiniet vēlreiz.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_IncorrectOathCode" xml:space="preserve">
+    <value>Autentifikācijas kods nav pareizs.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscode" xml:space="preserve">
+    <value>Vienreizējais ieejas kods nav pareizs.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscodePlusPin" xml:space="preserve">
+    <value>Vienreizējais ieejas kods un PIN nav pareizs.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_InvalidExtension" xml:space="preserve">
+    <value>Paplašinājums nav derīgs. Atļauts izmantot tikai ciparus, komatu, kā arī rakstzīmi * un #. Komatu izmantojiet, lai ievadītu vienu sekundi ilgu pauzi. Ievadiet paplašinājumam prefiksu @, lai izrunātu paplašinājuma ciparus un iespējotu manuālu pārsūtīšanu.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_InvalidSerialNumber" xml:space="preserve">
+    <value>Sērijas numurs nav derīgs. Pirms OATH marķiera un šī sērijas numura piesaistīšanas lietotājam, tie jānorāda Multi-Factor Authentication servera lietotāja interfeisā.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_LineBreak" xml:space="preserve">
+    <value>&lt;br/&gt;{0}</value>
+    <comment>add_user, change_phone, change_pin, change_mode, change_language and enable_disable pages</comment>
+  </data>
+  <data name="Message_LoginFailed" xml:space="preserve">
+    <value>Pieteikšanās neizdevās.</value>
+    <comment>login and secondary_authentication pages</comment>
+  </data>
+  <data name="Message_MustActivateDevice" xml:space="preserve">
+    <value>Lai metodi mainītu uz Mobilā programma, ierīcē aktivizējiet mobilo programmu Multi-Factor Authentication. Lai sāktu aktivizāciju, navigācijas izvēlnē noklikšķiniet uz saites Mobilās programmas aktivizēšana.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustActivateDeviceOathToken" xml:space="preserve">
+    <value>Lai metodi mainītu uz OATH marķieris, ierīcē aktivizējiet mobilo programmu Multi-Factor Authentication. Lai sāktu aktivizāciju, navigācijas izvēlnē noklikšķiniet uz saites Mobilās programmas aktivizēšana.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustAnswerAllQuestions" xml:space="preserve">
+    <value>Atbildiet uz visiem drošības jautājumiem.</value>
+    <comment>create_security_questions, change_security_questions, and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_MustEnrollOathToken" xml:space="preserve">
+    <value>Lai metodi mainītu uz OATH marķieris, šis marķieris ir jāpiesaista kontam. Lai piesaistītu OATH marķieri, noklikšķiniet uz saites OATH marķieris.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustHaveOathToken" xml:space="preserve">
+    <value>Lai metodi mainītu uz OATH marķieris, ierīcē aktivizējiet mobilo programmu Multi-Factor Authentication vai piesaistiet OATH marķieri kontam. Lai sāktu aktivizāciju, navigācijas izvēlnē noklikšķiniet uz saites Mobilās programmas aktivizēšana, savukārt, lai piesaistītu OATH marķieri, noklikšķiniet uz saites OATH marķieris.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneSmsText" xml:space="preserve">
+    <value>Lai metodi mainītu uz Īsziņa, norādiet kontam izmantojamo tālruņa numuru. Lai norādītu tālruņa numuru, navigācijas izvēlnē noklikšķiniet uz saites Mainīt tālruņa numuru.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>Lai metodi mainītu uz Tālruņa zvans, norādiet kontam izmantojamo tālruņa numuru. Lai norādītu tālruņa numuru, navigācijas izvēlnē noklikšķiniet uz saites Mainīt tālruņa numuru.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifySearchField" xml:space="preserve">
+    <value>Jānorāda vismaz viens meklēšanas lauks.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoActivatedDevices" xml:space="preserve">
+    <value>Šim lietotājam nav aktivizēta neviena ierīce.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_NoMatchingUsersFound" xml:space="preserve">
+    <value>Neatrada nevienu atbilstošu lietotāju.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoSsl" xml:space="preserve">
+    <value>Multi-Factor Authentication lietotāju portāla drošībai netiek izmantots SSL, taču tas ir nepieciešams faila Web.config sesijas sīkfailiem. Lietotāju portāls nedarbojas, jo nevar uzturēt sesijas statusu. Lietotāju portāla drošībai ieteicams izmantot SSL. Lai veiktu pārbaudi, faila Web.config tagā &lt;httpCookies&gt; parametram “requireSSL” varat uz laiku iestatīt vērtību “false”.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailed" xml:space="preserve">
+    <value>Neizdevās sinhronizēt OATH marķieri. Vai nu ievadītais kods nav pareizs, vai arī OATH marķiera sērijas numurs nav derīgs.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailedUser" xml:space="preserve">
+    <value>Neizdevās sinhronizēt OATH marķieri. Ievadītais kods nav pareizs.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OnlyFirstMatchesDisplayed" xml:space="preserve">
+    <value>Ir parādītas tikai pirmās {0} atbilstības. Ja sarakstā lietotāju nevarat atrast, ievadiet precīzāku meklēšanas kritēriju.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_PassedSessionFailed" xml:space="preserve">
+    <value>Nokārtota sesija neizdevās.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_PhoneRequired" xml:space="preserve">
+    <value>Jānorāda tālruņa numurs.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMatch" xml:space="preserve">
+    <value>Laukā PIN un Apstiprināt PIN jānorāda viena vērtība.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMinimumLength" xml:space="preserve">
+    <value>PIN kodam jānorāda vismaz {0} cipari.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinNumeric" xml:space="preserve">
+    <value>PIN kodam jānorāda skaitliska vērtība.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinRecentlyUsed" xml:space="preserve">
+    <value>Nedrīkst norādīt nesen izmantotu PIN. Lūdzu, izvēlieties citu PIN.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_SamlDisabled" xml:space="preserve">
+    <value>Vienotā pierakstīšanās ārējās lietojumprogrammās, izmantojot SAML, ir atspējota.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotDefined" xml:space="preserve">
+    <value>Šim lietotājam nav noteikti drošības jautājumi.&lt;br/&gt;</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotSetUp" xml:space="preserve">
+    <value>Iespējams, nevarēsit pieteikties, izmantojot savu mobilo tālruni, jo nav iestatīti drošības jautājumi.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsVerified" xml:space="preserve">
+    <value>Drošības jautājumi tika pārbaudīti.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityWarningNoSsl" xml:space="preserve">
+    <value>BRĪDINĀJUMS PAR DROŠĪBU. Multi-Factor Authentication lietotāju portāla drošībai netiek izmantots SSL. Paroles tiks nosūtītas vienkārša teksta formā.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SerialNumberAlreadyAssociated" xml:space="preserve">
+    <value>Sērijas numurs jau ir saistīts ar {0}. Lai sērijas numuru piesaistītu šim lietotājam, atceliet tā piesaisti šim lietotājam.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_SerialNumberRequired" xml:space="preserve">
+    <value>Jānorāda sērijas numurs.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_SerialNumberRequiredCross" xml:space="preserve">
+    <value>Ja ir norādīts kods, jānorāda arī sērijas numurs.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ShortAnswer" xml:space="preserve">
+    <value>Atbildei jāizmanto vismaz 4 rakstzīmes.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_StaticTokenMatch" xml:space="preserve">
+    <value>Laukā Statiskais marķieris un Apstiprināt statisko marķieri jānorāda vienādas vērtības.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenMinimumLength" xml:space="preserve">
+    <value>Statiskajam marķierim jānorāda vismaz {0} cipari.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenNumeric" xml:space="preserve">
+    <value>Statiskajam marķierim jānorāda skaitliskas vērtības.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserAdded" xml:space="preserve">
+    <value>Lietotājs tika pievienots.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_UserAlreadyBlocked" xml:space="preserve">
+    <value>Bloķēšana neizdevās. Lietotājs jau ir bloķēts.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlocked" xml:space="preserve">
+    <value>Lietotājs tika veiksmīgi bloķēts.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlockFailed" xml:space="preserve">
+    <value>Bloķēšana neizdevās.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserDeviceLimit" xml:space="preserve">
+    <value>Lietotājs ir aktivizējis {0} ierīces, un tas ir maksimālais atļautais ierīču skaits. Lai lietotājs varētu aktivizēt jaunu ierīci, deaktivizējiet vienu no lietotāja esošajām ierīcēm.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_UserDisabled" xml:space="preserve">
+    <value>Lietotājs tika veiksmīgi atspējots.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserEnabled" xml:space="preserve">
+    <value>Lietotājs tika veiksmīgi iespējots.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserInformationChanged" xml:space="preserve">
+    <value>Lietotāja informācija tika mainīta.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_UserLanguageChanged" xml:space="preserve">
+    <value>Lietotāja valodas preference tika mainīta.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_UserModeChanged" xml:space="preserve">
+    <value>Lietotāja metode tika mainīta.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_UsernameRequired" xml:space="preserve">
+    <value>Jānorāda lietotājvārds.</value>
+    <comment>login and add_user pages</comment>
+  </data>
+  <data name="Message_UserNotBlocked" xml:space="preserve">
+    <value>Atbloķēšana neizdevās. Lietotājs pašlaik nav bloķēts.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserOathTokenSaved" xml:space="preserve">
+    <value>Lietotāja OATH marķieris tika saglabāts.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_UserOneTimeBypassIssued" xml:space="preserve">
+    <value>Vienreizēja apeja tika izsniegta. Kad lietotājs nākamreiz pierakstīsies, Multi-Factor Authentication pakalpojums tiks izlaists.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_UserPhoneChanged" xml:space="preserve">
+    <value>Lietotāja tālruņa numurs tika nomainīts.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_UserPinChanged" xml:space="preserve">
+    <value>Lietotāja PIN tika nomainīts.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_UserPortalDisabled" xml:space="preserve">
+    <value>Tieša pieteikšanas lietotāju portālā tika atspējota.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserPortalNotPurchased" xml:space="preserve">
+    <value>Multi-Factor Authentication lietotāju portāls nedarbojas, jo šis līdzeklis nav iegādāts.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserRemoved" xml:space="preserve">
+    <value>Lietotājs tika noņemts.</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_UserStaticTokenChanged" xml:space="preserve">
+    <value>Lietotāja statiskais marķieris tika nomainīts.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserSubmodeChanged" xml:space="preserve">
+    <value>Lietotāja režīmi tika mainīti.</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_UserUnblocked" xml:space="preserve">
+    <value>Lietotājs tika veiksmīgi atbloķēts.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserUnblockFailed" xml:space="preserve">
+    <value>Atbloķēšana neizdevās.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserVoiceprintReset" xml:space="preserve">
+    <value>Balss nospiedums tika veiksmīgi atiestatīts. Kad lietotājs nākamreiz pierakstīsies, viņam tiks lūgts reģistrēt jaunu balss nospiedumu.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_WeakPinNotAllowed" xml:space="preserve">
+    <value>Nedrīkst izmantot vāju PIN. Tam nedrīkst izmantot 4 vai vairāk tālruņa numura ciparu apakškopas, 3 vai vairāk vienādus ciparus vai arī 3 vai vairāk secīgus ciparus.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_WeakStaticTokenNotAllowed" xml:space="preserve">
+    <value>Nedrīkst izmantot vāju statisko marķieri. Tam nedrīkst izmantot 4 vai vairāk tālruņa numura ciparu apakškopas, 3 vai vairāk vienādus ciparus vai arī 3 vai vairāk secīgus ciparus.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_WebServiceSdkError" xml:space="preserve">
+    <value>Multi-Factor Authentication lietotāju portāls ir konfigurēts tā, lai veidotu savienojumu ar tīmekļa pakalpojuma SDK, kas atgrieza šādu kļūdu:&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_WebServiceSdkNotPurchased" xml:space="preserve">
+    <value>Multi-Factor Authentication lietotāju portāls ir konfigurēts tā, lai veidotu savienojumu ar tīmekļa pakalpojuma SDK, taču līdzeklis Tīmekļa pakalpojuma SDK netika iegādāts.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_YourInformationChanged" xml:space="preserve">
+    <value>Jūsu informācija tika nomainīta.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_YourLanguageChanged" xml:space="preserve">
+    <value>Jūsu valodas preference tika nomainīta.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_YourModeChanged" xml:space="preserve">
+    <value>Jūsu metode tika nomainīta.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_YourOathTokenSaved" xml:space="preserve">
+    <value>Jūsu OATH marķieris tika saglabāts.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_YourOneTimeBypassIssued" xml:space="preserve">
+    <value>Vienreizēja apeja tika izsniegta. Kad nākamreiz pierakstīsities, Multi-Factor Authentication pakalpojums tiks izlaists.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_YourPhoneChanged" xml:space="preserve">
+    <value>Jūsu tālruņa numurs tika nomainīts.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_YourPinChanged" xml:space="preserve">
+    <value>Jūsu PIN tika nomainīts.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_YourSecurityQuestionsChanged" xml:space="preserve">
+    <value>Jūsu drošības jautājumi un atbildes uz tiem tika nomainītas.</value>
+    <comment>change_security_questions page</comment>
+  </data>
+  <data name="Message_YourStaticTokenChanged" xml:space="preserve">
+    <value>Jūsu statiskais marķieris tika nomainīts.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_YourVoiceprintReset" xml:space="preserve">
+    <value>Balss nospiedums tika veiksmīgi atiestatīts. Kad nākamreiz pierakstīsities, tiks parādīts uzaicinājums reģistrēt jaunu balss nospiedumu.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Reason_InitiatedByAdmin" xml:space="preserve">
+    <value>Inicializēja administrators lietotāju portālā</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Reason_InitiatedByUser" xml:space="preserve">
+    <value>Inicializēja lietotājs lietotāju portālā</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Subtitle_DeactivatePhoneApp" xml:space="preserve">
+    <value>Mobilās programmas deaktivizēšana</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Subtitle_Enable" xml:space="preserve">
+    <value>Iespējošana</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Subtitle_UnblockUser" xml:space="preserve">
+    <value>Lietotāja atbloķēšana</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Title_PhoneFactorUserPortal" xml:space="preserve">
+    <value>Multi-Factor Authentication™ | Lietotāju portāls</value>
+    <comment>Title on all pages</comment>
+  </data>
+  <data name="Value_All" xml:space="preserve">
+    <value>Visi</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Value_Masked" xml:space="preserve">
+    <value>Maskēts</value>
+    <comment>add_user, change_pin, and oath_token pages</comment>
+  </data>
+</root>

@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"utf-8\"?><cki><ck fm=\"!\" to=\"czwart\"/><ck fm=\"czy\" to=\"konfigurowanych\"/><ck fm=\"konieczn\" to=\"oath\"/><ck fm=\"obejści\" to=\"pytani\"/><ck fm=\"pytania\" to=\"uwierzytelniani\"/><ck fm=\"uwierzytelniania\" to=\"zabezpieczających\"/><ck fm=\"zabezpieczającymi\" to=\"że\"/></cki>";

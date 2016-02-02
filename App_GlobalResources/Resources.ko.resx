@@ -1,0 +1,1201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName_UserPortal" xml:space="preserve">
+    <value>사용자 포털</value>
+    <comment>Application name for Multi-Factor Authentications</comment>
+  </data>
+  <data name="Button_AuthenticateMeNow" xml:space="preserve">
+    <value>지금 인증</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_CallMeNowToAuthenticate" xml:space="preserve">
+    <value>지금 전화로 인증 받기</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_Next" xml:space="preserve">
+    <value>다음</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_TextMeNowToAuthenticate" xml:space="preserve">
+    <value>지금 문자로 인증 받기</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Button_VerifyOathToken" xml:space="preserve">
+    <value>OATH 토큰 확인</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Help_File" xml:space="preserve">
+    <value>help/ko/PhoneFactor_User_Portal.htm</value>
+    <comment>Localize as help/xx/PhoneFactor_User_Portal.htm where xx is langauge code (e.g. de for German, zh-hans for Simplified Chinese)</comment>
+  </data>
+  <data name="Label_AlternatePhoneOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication 모바일 앱의 인증 코드를 표시하기 위해 모바일 네트워크나 WiFi에 연결하지 않아도 됩니다.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_AlternatePhonePhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication 모바일 앱은 WiFi에서도 동일하게 잘 작동합니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneSms" xml:space="preserve">
+    <value>[전화 번호 변경] 옵션을 선택하여 대체 전화 번호를 가리키도록 계정을 변경할 수 있습니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_AlternatePhoneVoice" xml:space="preserve">
+    <value>[전화 번호 변경] 옵션을 선택하여 유선 전화 등의 대체 전화 번호를 가리키도록 계정을 변경할 수 있습니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_CannotChangeModeToPhoneApp" xml:space="preserve">
+    <value>장치에서 Multi-Factor Authentication 모바일 앱을 활성화한 후 계정의 방법을 [모바일 앱]으로 변경해야 앱을 사용하기 시작할 수 있습니다. 방법을 [모바일 앱]으로 변경하려면 지원 센터에 문의하십시오.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_Disable" xml:space="preserve">
+    <value>사용 안 함</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_Enable" xml:space="preserve">
+    <value>사용</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_FraudAlertPhoneApp" xml:space="preserve">
+    <value>발생한 문제를 보고하려면 Multi-Factor Authentication 모바일 앱의 [거부 및 사기 행위 보고 단추]를 누르십시오. 그러면 회사의 IT 보안 팀에 알림이 전송됩니다. 문제가 해결될 때까지 이후 인증 시도는 차단됩니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertSms" xml:space="preserve">
+    <value>발생한 문제를 보고하려면 회신에 사기 코드를 입력하십시오. 그러면 회사의 IT 보안 팀에 알림이 전송됩니다. 문제가 해결될 때까지 이후 인증 시도는 차단됩니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_FraudAlertVoice" xml:space="preserve">
+    <value>발생한 문제를 보고하려면 인증 통화 시 폰 메뉴에서 [사기 행위 알림] 옵션을 선택하십시오. 그러면 회사의 IT 보안 팀에 알림이 전송됩니다. 문제가 해결될 때까지 이후 인증 시도는 차단됩니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_GenerateActivationCode" xml:space="preserve">
+    <value>활성화 코드 생성</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateActivationLink" xml:space="preserve">
+    <value>활성화 링크 생성</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationCode" xml:space="preserve">
+    <value>새 활성화 코드 생성</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_GenerateNewActivationLink" xml:space="preserve">
+    <value>새 활성화 링크 생성</value>
+    <comment>user_setup and activate_phone_app pages</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionOathToken" xml:space="preserve">
+    <value>로그인 시 인증 코드를 묻는 방식으로 Multi-Factor Authentication이 작동합니다.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionPhoneApp" xml:space="preserve">
+    <value>로그인 시 Multi-Factor Authentication 모바일 앱에 알림을 보내는 방식으로 Multi-Factor Authentication이 작동합니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionSms" xml:space="preserve">
+    <value>로그인 시 사용자 폰에 문자 메시지를 보내는 방식으로 Multi-Factor Authentication이 작동합니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_HowPhoneFactorWorksDescriptionVoice" xml:space="preserve">
+    <value>로그인 시 사용자 폰으로 확인 전화를 거는 방식으로 Multi-Factor Authentication이 작동합니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsAdministrator" xml:space="preserve">
+    <value>메뉴에서 [사용자 찾기]를 선택하여 사용자의 계정을 관리하고, 적합한 옵션을 선택하여 자신의 계정을 관리합니다. 도움이 필요한 경우 오른쪽 위에 있는 도움말 아이콘을 선택합니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication 모바일 앱의 인증 코드를 사용하여 인증하려면 &lt;b&gt;OATH 토큰&lt;/b&gt; 방법을 선택합니다.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModePhoneApp" xml:space="preserve">
+    <value>Multi-Factor Authentication 모바일 앱을 사용하여 인증하려면 &lt;b&gt;모바일 앱&lt;/b&gt; 방법을 선택합니다.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeSmsText" xml:space="preserve">
+    <value>문자 메시지를 받아 인증하려면 &lt;b&gt;문자 메시지&lt;/b&gt; 방법을 선택합니다.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsChangeModeVoiceCall" xml:space="preserve">
+    <value>전화 통화를 받아 인증하려면 &lt;b&gt;전화 통화&lt;/b&gt; 방법을 선택합니다.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtp" xml:space="preserve">
+    <value>확인을 완료하려면 문자 메시지로 받은 OTP(일회성 암호)를 입력하세요.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsEnterOtpPlusPin" xml:space="preserve">
+    <value>확인을 완료하려면 문자 메시지로 받은 OTP(일회성 암호)와 PIN을 입력하세요.</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_InstructionsFindUser" xml:space="preserve">
+    <value>사용자 이름의 처음 몇 자를 입력하고 [찾기] 단추를 클릭하십시오.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsOathToken" xml:space="preserve">
+    <value>이 사용자의 OATH 토큰 인증을 테스트하십시오.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneApp" xml:space="preserve">
+    <value>이 사용자의 모바일 앱 인증을 테스트하세요.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationIpWhitelist" xml:space="preserve">
+    <value>활성화가 완료되면 [다음]을 클릭하여 설치 프로세스를 계속 진행하십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsPhoneAuthenticationOathToken" xml:space="preserve">
+    <value>활성화가 완료되면 다음 단추를 클릭하여 인증을 테스트하고 설치 프로세스를 계속 진행하십시오. 인증 코드를 입력하라는 메시지가 나타나면 모바일 앱에 표시된 현재 인증 코드를 입력하십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsSelectUser" xml:space="preserve">
+    <value>목록에서 사용자를 선택하거나 [뒤로]를 클릭하여 다른 사용자를 찾으십시오.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Label_InstructionsSmsText" xml:space="preserve">
+    <value>이 사용자의 문자 메시지 인증을 테스트하세요.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUnblockUser" xml:space="preserve">
+    <value>차단 해제 이유를 입력하고 사용자 차단 해제를 확인합니다. 사용자의 인증이 더 이상 차단되지 않습니다.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Label_InstructionsUserActivatePhoneApp" xml:space="preserve">
+    <value>먼저, 폰에 Multi-Factor Authentication 모바일 앱을 설치해야 합니다. [생성] 단추를 클릭하여 활성화 코드를 받습니다. 활성화 코드를 사용자의 모바일 앱에 입력하면 활성화 프로세스가 완료됩니다.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserDeactivatePhoneApp" xml:space="preserve">
+    <value>사용자의 장치를 비활성화하려면 장치에 대한 [비활성화] 링크를 클릭하십시오.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_InstructionsUserEnable" xml:space="preserve">
+    <value>로그온할 때 Multi-Factor Authentication 통화를 받을 수 있도록 사용자를 사용하도록 설정할지를 확인하십시오.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Label_InstructionsUserInformation" xml:space="preserve">
+    <value>이 사용자에 대한 새 정보를 지정하십시오.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Label_InstructionsUserLanguage" xml:space="preserve">
+    <value>이 사용자의 기본 언어를 지정하십시오.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Label_InstructionsUserMode" xml:space="preserve">
+    <value>이 사용자의 방법을 선택하십시오.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathCode" xml:space="preserve">
+    <value>인증을 완료하려면 사용자의 Multi-Factor Authentication 모바일 앱 또는 토큰에 표시된 현재 인증 코드를 입력하십시오.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOathToken" xml:space="preserve">
+    <value>토큰을 사용자에 연결할 수 있도록 토큰에 현재 표시된 코드와 OATH 토큰 일련 번호를 입력하십시오.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Label_InstructionsUserOneTimeBypass" xml:space="preserve">
+    <value>이 사용자의 다음 번 로그온 시 Multi-Factor Authentication을 건너뛰려면 일회성 바이패스를 확인하십시오. 바이패스는 일시적입니다.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtp" xml:space="preserve">
+    <value>인증을 완료하려면 사용자가 SMS 메시지로 받은 OTP(일회성 암호)를 입력하십시오.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserOtpPlusPin" xml:space="preserve">
+    <value>인증을 완료하려면 사용자가 SMS 메시지로 받은 OTP(일회성 암호)와 사용자의 PIN을 입력하십시오.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Label_InstructionsUserPhone" xml:space="preserve">
+    <value>이 사용자의 새 전화 번호를 지정하십시오.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Label_InstructionsUserPin" xml:space="preserve">
+    <value>이 사용자의 새 PIN 번호를 지정하십시오.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Label_InstructionsUserResetVoiceprint" xml:space="preserve">
+    <value>사용자의 성문을 다시 설정할지를 확인하십시오. 사용자는 다음 인증 통화에서 새 성문을 등록해야 합니다.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathToken" xml:space="preserve">
+    <value>OATH 토큰 방법을 사용하여 계정에 Multi-Factor Authentication을 사용하려면 토큰을 사용자에 연결할 수 있도록 토큰에 현재 표시된 코드와 OATH 토큰 뒷면에 나와 있는 일련 번호를 입력하십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupOathTokenPhoneApp" xml:space="preserve">
+    <value>OATH 토큰 방법을 사용하여 계정에 Multi-Factor Authentication을 사용하려면 먼저 폰에 Multi-Factor Authentication 앱을 설치한 다음 아래의 [생성] 단추를 눌러 활성화 코드를 받아야 합니다. 모바일 앱에 활성화 코드를 입력하면 활성화 프로세스가 완료됩니다. 활성화 코드는 10분 후에 만료됩니다.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPhoneApp" xml:space="preserve">
+    <value>모바일 앱을 사용하여 계정에 Multi-Factor Authentication을 사용하려면 먼저 폰에 Multi-Factor Authentication 앱을 설치한 다음 아래의 [생성] 단추를 눌러 활성화 코드를 받아야 합니다. 모바일 앱에 활성화 코드를 입력하면 활성화 프로세스가 완료됩니다. 활성화 코드는 10분 후에 만료됩니다.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupPin" xml:space="preserve">
+    <value>사용자 계정에 Multi-Factor Authentication을 사용하려면 인증하는 데 사용할 전화 번호와 PIN을 지정하십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtp" xml:space="preserve">
+    <value>사용자 계정에 Multi-Factor Authentication을 사용하려면 인증하는 데 사용할 전화 번호를 지정하십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>사용자 계정에 Multi-Factor Authentication을 사용하려면 인증하는 데 사용할 전화 번호와 PIN을 지정하십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtp" xml:space="preserve">
+    <value>사용자 계정에 Multi-Factor Authentication을 사용하려면 인증하는 데 사용할 전화 번호를 지정하십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>사용자 계정에 Multi-Factor Authentication을 사용하려면 인증하는 데 사용할 전화 번호와 PIN을 지정하십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupStandard" xml:space="preserve">
+    <value>사용자 계정에 Multi-Factor Authentication을 사용하려면 인증하는 데 사용할 전화 번호를 지정하십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteOathToken" xml:space="preserve">
+    <value>모바일 앱에서 제공한 인증 코드를 사용하여 폰에서 Multi-Factor Authentication 앱을 활성화하고 인증을 테스트하려면 아래 지시를 따르십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePhoneApp" xml:space="preserve">
+    <value>모바일 앱을 사용하여 폰에서 Multi-Factor Authentication 앱을 활성화하고 인증을 테스트하려면 아래 지시를 따르십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompletePin" xml:space="preserve">
+    <value>이 단계를 완료하기 위해 Multi-Factor Authentication에서 입력한 번호로 전화를 겁니다. 인증하려면 PIN을 입력한 후 # 키를 누르십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtp" xml:space="preserve">
+    <value>이 단계를 완료하기 위해 Multi-Factor Authentication에서 입력한 번호로 OTP(일회성 암호)를 문자 메시지로 보냅니다. 인증을 위해 OTP(일회성 암호)를 묻는 메시지가 나타나면 입력하십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>이 단계를 완료하기 위해 Multi-Factor Authentication에서 입력한 번호로 OTP(일회성 암호)를 문자 메시지로 보냅니다. 인증을 위해 OTP(일회성 암호)와 PIN을 묻는 메시지가 나타나면 입력하십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtp" xml:space="preserve">
+    <value>이 단계를 완료하기 위해 Multi-Factor Authentication에서 입력한 번호로 OTP(일회성 암호)를 문자 메시지로 보냅니다. 인증을 위해 OTP(일회성 암호)를 포함하여 문자 메시지에 회신하십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>이 단계를 완료하기 위해 Multi-Factor Authentication에서 입력한 번호로 OTP(일회성 암호)를 문자 메시지로 보냅니다. 인증을 위해 OTP(일회성 암호)와 PIN을 포함하여 문자 메시지에 회신하십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteStandard" xml:space="preserve">
+    <value>이 단계를 완료하기 위해 Multi-Factor Authentication에서 입력한 번호로 전화를 겁니다. 인증하려면 전화를 받고 # 키를 누르십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupToCompleteVoiceprint" xml:space="preserve">
+    <value>이 단계를 완료하기 위해 Multi-Factor Authentication에서 입력한 번호로 전화를 겁니다. 다음 지침에 따라 성문 암호를 등록하십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserSetupVoiceprint" xml:space="preserve">
+    <value>사용자 계정에 Multi-Factor Authentication을 사용하려면 인증하는 데 사용할 전화 번호를 지정하십시오.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Label_InstructionsUserStaticToken" xml:space="preserve">
+    <value>이 사용자에 대한 새 정적 토큰을 지정하십시오.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Label_MessageOathToken" xml:space="preserve">
+    <value>Multi-Factor Authentication을 사용하도록 계정이 구성되었습니다.&lt;br/&gt;&lt;br/&gt;
+계속 동일한 사용자 이름과 암호를 사용하여 로그온할 수 있습니다. 하지만 확인이 완료되기 전에, 로그온을 완료할 수 있도록 Multi-Factor Authentication 모바일 앱 또는 토큰에 표시된 현재 인증 코드를 입력하라는 메시지가 나타납니다. 올바른 인증 코드를 입력하지 않으면 로그온이 거부됩니다.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppPin" xml:space="preserve">
+    <value>Multi-Factor Authentication을 사용하도록 계정이 구성되었습니다.&lt;br/&gt;&lt;br/&gt;
+계속 동일한 사용자 이름과 암호를 사용하여 로그온할 수 있습니다. 하지만 확인이 완료되기 전에, 로그온을 확인할 수 있도록
+Multi-Factor Authentication 모바일 앱을 시작하고 PIN을 입력하라는 알림이 나타납니다. PIN을 입력하고 # 키를 눌러 로그온을 확인하는 작업을 수행하지 않으면 로그온이 거부됩니다.&lt;br/&gt;&lt;br/&gt;
+실제로 응용 프로그램에 로그온하는 경우에 Multi-Factor Authentication 모바일 앱 알림을 받을 때만 PIN을 입력해야 합니다. 그렇지 않으면 다른 사람이 사용자 이름과 암호로 로그온하려 할 수 있으며, 이러한 잠재적 사기 행위는 IT 관리자에게 보고해야 합니다.&lt;br/&gt;&lt;br/&gt;언제든지 Multi-Factor Authentication 포털로 돌아가 PIN을 변경할 수 있습니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppStandard" xml:space="preserve">
+    <value>Multi-Factor Authentication을 사용하도록 계정이 구성되었습니다.&lt;br/&gt;&lt;br/&gt;
+계속 동일한 사용자 이름과 암호를 사용하여 로그온할 수 있습니다. 하지만 확인이 완료되기 전에, 로그온을 완료할 수 있도록
+Multi-Factor Authentication모바일 앱을 시작하고 [인증] 단추를 누르라는 알림이 나타납니다. [인증]을 눌러 로그온을 확인하는 작업을 수행하지 않으면 로그온이 거부됩니다.&lt;br/&gt;&lt;br/&gt;
+실제로 응용 프로그램에 로그온하는 경우에 Multi-Factor Authentication 모바일 앱 알림을 받을 때만 [인증] 단추를 눌러야 합니다. 그렇지 않으면 다른 사람이 사용자 이름과 암호로 로그온하려 할 수 있으며, 이러한 잠재적 사기 행위는 IT 관리자에게 보고해야 합니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePhoneAppVoiceprint" xml:space="preserve">
+    <value>Multi-Factor Authentication을 사용하도록 계정이 구성되었습니다.&lt;br/&gt;&lt;br/&gt;
+계속 동일한 사용자 이름과 암호를 사용하여 로그온할 수 있습니다. 하지만 확인이 완료되기 전에, 로그온을 확인할 수 있도록
+Multi-Factor Authentication 모바일 앱을 시작하고 암호를 말하라는 알림이 나타납니다. 암호를 말해 로그온을 확인하는 작업을 수행하지 않으면 로그온이 거부됩니다.&lt;br/&gt;&lt;br/&gt;
+실제로 응용 프로그램에 로그온하는 경우에 Multi-Factor Authentication 모바일 앱 알림을 받을 때만 암호를 말해야 합니다. 그렇지 않으면 다른 사람이 사용자 이름과 암호로 로그온하려 할 수 있으며, 이러한 잠재적 사기 행위는 IT 관리자에게 보고해야 합니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessagePin" xml:space="preserve">
+    <value>Multi-Factor Authentication을 사용하도록 계정이 구성되었습니다.&lt;br/&gt;&lt;br/&gt;
+계속 동일한 사용자 이름과 암호를 사용하여 로그온할 수 있습니다. 하지만 확인이 완료되기 전에, 로그온을 확인할 수 있도록
+PIN을 입력하고 우물정자(#)를 누르라는 전화를 받게 됩니다.
+PIN을 입력하고 우물정자(#)를 눌러 로그온을 확인하는 작업을 수행하지 않으면 로그온이 거부됩니다.&lt;br/&gt;&lt;br/&gt;
+Multi-Factor Authentication 전화를 받았을 때 실제로 응용 프로그램에 로그온하는 경우에만 PIN을 입력해야 합니다.
+그렇지 않으면 다른 사람이 사용자 이름과 암호로 로그온하려 할 수 있으며, 이러한 잠재적 사기 행위는
+IT 관리자에게 보고해야 합니다.&lt;br/&gt;&lt;br/&gt;
+언제든지 Multi-Factor Authentication 포털로 돌아가 전화 번호 또는 PIN을 변경할 수 있습니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtp" xml:space="preserve">
+    <value>Multi-Factor Authentication을 사용하도록 계정이 구성되었습니다.&lt;br/&gt;&lt;br/&gt;
+계속 동일한 사용자 이름과 암호를 사용하여 로그온할 수 있습니다. 하지만 확인이 완료되기 전에,
+OTP(일회성 암호)가 있는 문자 메시지를 받게 됩니다. 이 OTP(일회성 암호)를 입력하라는 메시지가 응용 프로그램에 표시되면 입력하세요.
+올바른 암호를 입력하지 않으면 로그온이 거부됩니다.&lt;br/&gt;&lt;br/&gt;
+언제든지 Multi-Factor Authentication 포털로 돌아가 전화 번호를 변경할 수 있습니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>Multi-Factor Authentication을 사용하도록 계정이 구성되었습니다.&lt;br/&gt;&lt;br/&gt;
+계속 동일한 사용자 이름과 암호를 사용하여 로그온할 수 있습니다. 하지만 확인이 완료되기 전에,
+OTP(일회성 암호)가 있는 문자 메시지를 받게 됩니다. 이 암호와 PIN을 입력하라는 메시지가 응용 프로그램에 표시되면 입력하세요.
+올바른 암호와 PIN을 입력하지 않으면 로그온이 거부됩니다.&lt;br/&gt;&lt;br/&gt;
+언제든지 Multi-Factor Authentication 포털로 돌아가 전화 번호 또는 PIN을 변경할 수 있습니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtp" xml:space="preserve">
+    <value>Multi-Factor Authentication을 사용하도록 계정이 구성되었습니다.&lt;br/&gt;&lt;br/&gt;
+계속 동일한 사용자 이름과 암호를 사용하여 로그온할 수 있습니다. 하지만 확인이 완료되기 전에,
+OTP(일회성 암호)가 있는 문자 메시지를 받게 됩니다. 이 암호를 포함하여 문자 메시지에 회신하세요.
+올바른 암호로 메시지에 회신하지 않으면 로그온이 거부됩니다.&lt;br/&gt;&lt;br/&gt;
+Multi-Factor Authentication 문자 메시지를 받았을 때 실제로 응용 프로그램에 로그온하는 경우에만 회신해야 합니다.
+그렇지 않으면 다른 사람이 사용자 이름과 암호로 로그온하려 할 수 있으며, 이러한 잠재적 사기 행위는
+IT 관리자에게 보고해야 합니다.&lt;br/&gt;&lt;br/&gt;
+언제든지 Multi-Factor Authentication 포털로 돌아가 전화 번호를 변경할 수 있습니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>Multi-Factor Authentication을 사용하도록 계정이 구성되었습니다.&lt;br/&gt;&lt;br/&gt;
+계속 동일한 사용자 이름과 암호를 사용하여 로그온할 수 있습니다. 하지만 확인이 완료되기 전에,
+OTP(일회성 암호)가 있는 문자 메시지를 받게 됩니다. 이 암호와 PIN을 포함하여 문자 메시지에 회신하세요.
+올바른 암호와 PIN으로 메시지에 회신하지 않으면 로그온이 거부됩니다.&lt;br/&gt;&lt;br/&gt;
+Multi-Factor Authentication 문자 메시지를 받았을 때 실제로 응용 프로그램에 로그온하는 경우에만 회신해야 합니다.
+그렇지 않으면 다른 사람이 사용자 이름과 암호로 로그온하려 할 수 있으며, 이러한 잠재적 사기 행위는
+IT 관리자에게 보고해야 합니다.&lt;br/&gt;&lt;br/&gt;
+언제든지 Multi-Factor Authentication 포털로 돌아가 전화 번호 또는 PIN을 변경할 수 있습니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageStandard" xml:space="preserve">
+    <value>Multi-Factor Authentication을 사용하도록 계정이 구성되었습니다.&lt;br/&gt;&lt;br/&gt;
+계속 동일한 사용자 이름과 암호를 사용하여 로그온할 수 있습니다. 하지만 확인이 완료되기 전에, 로그온을 확인할 수 있도록
+우물정자(#)를 누르라는 전화를 받게 됩니다. 우물정자(#)를 눌러
+로그온을 확인하는 작업을 수행하지 않으면 로그온이 거부됩니다.&lt;br/&gt;&lt;br/&gt;
+Multi-Factor Authentication 전화를 받았을 때 실제로 응용 프로그램에 로그온하는 경우에만 우물정자(#)를 눌러야 합니다.
+그렇지 않으면 다른 사람이 사용자 이름과 암호로 로그온하려 할 수 있으며, 이러한 잠재적 사기 행위는
+IT 관리자에게 보고해야 합니다.&lt;br/&gt;&lt;br/&gt;
+언제든지 Multi-Factor Authentication 포털로 돌아가 전화 번호를 변경할 수 있습니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MessageVoiceprint" xml:space="preserve">
+    <value>Multi-Factor Authentication을 사용하도록 계정이 구성되었습니다.&lt;br/&gt;&lt;br/&gt;
+계속 동일한 사용자 이름과 암호를 사용하여 로그온할 수 있습니다. 하지만 확인이 완료되기 전에, 로그온을 확인할 수 있도록
+암호를 말하라는 전화를 받게 됩니다. 암호를 말해
+로그온을 확인하는 작업을 수행하지 않으면 로그온이 거부됩니다.&lt;br/&gt;&lt;br/&gt;
+Multi-Factor Authentication 전화를 받았을 때 실제로 응용 프로그램에 로그온하는 경우에만 암호를 말해야 합니다.
+그렇지 않으면 다른 사람이 사용자 이름과 암호로 로그온하려 할 수 있으며, 이러한 잠재적 사기 행위는
+IT 관리자에게 보고해야 합니다.&lt;br/&gt;&lt;br/&gt;
+언제든지 Multi-Factor Authentication 포털로 돌아가 전화 번호를 변경할 수 있습니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_MustChangeModeToPhoneApp" xml:space="preserve">
+    <value>장치에서 Multi-Factor Authentication 모바일 앱을 활성화한 후 방법을 [모바일 앱]으로 변경해야 합니다. 탐색 메뉴에서 [방법 변경] 링크를 클릭하고 [모바일 앱] 방법을 지정하여 앱을 사용하기 시작하십시오.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_MustChangeUserToPhoneAppMode" xml:space="preserve">
+    <value>사용자가 장치에서 Multi-Factor Authentication 모바일 앱을 활성화하면 사용자가 앱을 사용할 수 있도록 사용자의 방법을 [모바일 앱]으로 변경해줘야 합니다.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerPhoneApp" xml:space="preserve">
+    <value>이는 암호를 이미 알고 있는 다른 사람이 사용자의 계정으로 로그인을 시도하는 경우에만 발생합니다. Multi-Factor Authentication 모바일 앱 알림은 사용자 이름과 암호가 확인된 후에만 발송된다는 점에 유의하십시오. 따라서 이러한 상황이 발생하는 경우 Multi-Factor Authentication이 불법 액세스로부터 사용자 계정을 보호합니다!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerSms" xml:space="preserve">
+    <value>이는 암호를 이미 알고 있는 다른 사람이 사용자의 계정으로 로그인을 시도하는 경우에만 발생합니다. 문자 메시지는 사용자 이름과 암호가 확인된 후에만 발송된다는 점에 유의하십시오. 따라서 이러한 상황이 발생하는 경우 Multi-Factor Authentication이 불법 액세스로부터 사용자 계정을 보호합니다!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInAnswerVoice" xml:space="preserve">
+    <value>이는 암호를 이미 알고 있는 다른 사람이 사용자의 계정으로 로그인을 시도하는 경우에만 발생합니다. 전화 통화는 사용자 이름과 암호가 확인된 후에만 걸려온다는 점에 유의하십시오. 따라서 이러한 상황이 발생하는 경우 Multi-Factor Authentication이 불법 액세스로부터 사용자 계정을 보호합니다!</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionPhoneApp" xml:space="preserve">
+    <value>로그인하려는 상황이 아닌데 Multi-Factor Authentication 모바일 앱 알림을 받는 경우 어떻게 해야 합니까?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionSms" xml:space="preserve">
+    <value>로그인하려는 상황이 아닌데 Multi-Factor Authentication에서 문자 메시지를 받는 경우 어떻게 해야 합니까?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_NotLoggingInQuestionVoice" xml:space="preserve">
+    <value>로그인하려는 상황이 아닌데 Multi-Factor Authentication에서 전화를 받는 경우 어떻게 해야 합니까?</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassOathToken" xml:space="preserve">
+    <value>또한 회사에서 일회성 바이패스 옵션을 제공하여 한 번은 인증 코드를 입력하라는 메시지 없이 로그인할 수 있습니다. 이 기능을 사용하려면 [일회성 바이패스] 옵션을 선택하십시오. 지원이 필요한 경우 아무 전화기를 사용하여 지원 센터에 전화할 수 있습니다.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_OneTimeBypassPhoneApp" xml:space="preserve">
+    <value>또한 회사에서 일회성 바이패스 옵션을 제공하여 한 번은 Multi-Factor Authentication 모바일 앱 알림 없이 로그인할 수 있습니다. 이 기능을 사용하려면 [일회성 바이패스] 옵션을 선택하십시오. 지원이 필요한 경우 아무 전화기를 사용하여 지원 센터에 전화할 수 있습니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassSms" xml:space="preserve">
+    <value>또한 회사에서 일회성 바이패스 옵션을 제공하여 한 번은 문자 메시지 없이 로그인할 수 있습니다. 이 기능을 사용하려면 [일회성 바이패스] 옵션을 선택하십시오. 지원이 필요한 경우 아무 전화기를 사용하여 지원 센터에 전화할 수 있습니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimeBypassVoice" xml:space="preserve">
+    <value>또한 회사에서 일회성 바이패스 옵션을 제공하여 한 번은 전화 통화 없이 로그인할 수 있습니다. 이 기능을 사용하려면 [일회성 바이패스] 옵션을 선택하십시오. 지원이 필요한 경우 아무 전화기를 사용하여 지원 센터에 전화할 수 있습니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtp" xml:space="preserve">
+    <value>OTP(일회성 암호)</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_OneTimePasscodeOtpPlusPin" xml:space="preserve">
+    <value>OTP(일회성 암호) + PIN</value>
+    <comment>one_time_passcode page</comment>
+  </data>
+  <data name="Label_SimpleProcessOathToken" xml:space="preserve">
+    <value>이 간단한 프로세스를 통해 별도의 두 가지 인증 방법을 제공할 수 있으며, 보조 인증은 사용자가 보유한 스마트폰이나 토큰을 통해 제공됩니다.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_SimpleProcessPhoneApp" xml:space="preserve">
+    <value>이 간단한 프로세스를 통해 별도의 두 가지 인증 방법을 제공할 수 있으며, 컴퓨터와 스마트폰이라는 별도의 두 채널이 사용됩니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessSms" xml:space="preserve">
+    <value>이 간단한 프로세스를 통해 별도의 두 가지 인증 방법을 제공할 수 있으며, 컴퓨터와 스마트폰이라는 별도의 두 채널이 사용됩니다. 이는 문자 메시지 기능이 있는 폰에서만 작동합니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_SimpleProcessVoice" xml:space="preserve">
+    <value>이 간단한 프로세스를 통해 별도의 두 가지 인증 방법을 제공할 수 있으며, 컴퓨터와 폰 서비스라는 별도의 두 채널이 사용됩니다. 이는 일반 전화기 또는 휴대폰에서만 작동합니다.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionOathToken" xml:space="preserve">
+    <value>인증 코드를 입력하라는 메시지가 즉시 나타납니다. Multi-Factor Authentication 모바일 앱 또는 토큰에 표시되는 현재 인증 코드를 입력하십시오.</value>
+    <comment>main_page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppPin" xml:space="preserve">
+    <value>Multi-Factor Authentication 모바일 앱 알림을 즉시 받습니다. 앱을 시작하고 PIN을 입력한 후 [인증] 단추를 누르십시오.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppStandard" xml:space="preserve">
+    <value>Multi-Factor Authentication 모바일 앱 알림을 즉시 받습니다. 앱을 시작하고 [인증] 단추를 누르십시오.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPhoneAppVoiceprint" xml:space="preserve">
+    <value>Multi-Factor Authentication 모바일 앱 알림을 즉시 받습니다. 앱을 시작하고 암호를 말하라는 메시지가 나타나면 암호를 말하십시오.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionPin" xml:space="preserve">
+    <value>전화가 즉시 걸려옵니다. 전화를 받고 PIN을 입력한 후 # 키를 누르십시오.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtp" xml:space="preserve">
+    <value>OTP(일회성 암호)가 있는 문자 메시지를 즉시 받게 됩니다. 이 암호를 입력하라는 메시지가 응용 프로그램에 표시되면 입력하십시오.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsOneWayOtpPlusPin" xml:space="preserve">
+    <value>OTP(일회성 암호)가 있는 문자 메시지를 즉시 받게 됩니다. 이 암호와 PIN을 입력하라는 메시지가 응용 프로그램에 표시되면 입력하십시오.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtp" xml:space="preserve">
+    <value>OTP(일회성 암호)가 있는 문자 메시지를 즉시 받게 됩니다. 이 암호를 포함하여 문자 메시지에 회신하십시오.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionSmsTwoWayOtpPlusPin" xml:space="preserve">
+    <value>OTP(일회성 암호)가 있는 문자 메시지를 즉시 받게 됩니다. 이 암호와 PIN을 포함하여 문자 메시지에 회신하십시오.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionStandard" xml:space="preserve">
+    <value>전화가 즉시 걸려옵니다. 전화를 받고 # 키를 누르십시오.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_Step2DescriptionVoiceprint" xml:space="preserve">
+    <value>전화가 즉시 걸려옵니다. 전화를 받고 소리 내어 암호를 말하십시오.</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Label_TitleWithColon" xml:space="preserve">
+    <value>{0}:</value>
+    <comment>Page header on most pages</comment>
+  </data>
+  <data name="Label_UnblockReason" xml:space="preserve">
+    <value>차단 해제 이유</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_AccountConfigurationComplete" xml:space="preserve">
+    <value>계정 구성 완료</value>
+    <comment>main page</comment>
+  </data>
+  <data name="Message_AnswerRequired" xml:space="preserve">
+    <value>하나 이상의 보안 질문에 답변해야 합니다.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AnswerSecurityQuestions" xml:space="preserve">
+    <value>로그온하려면 보안 질문에 답변하십시오.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AnswersIncorrect" xml:space="preserve">
+    <value>하나 이상의 답변이 올바르지 않습니다.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_AuthenticationDenied" xml:space="preserve">
+    <value>Multi-Factor Authentication이 거부되었습니다.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedAnswerSecurityQuestions" xml:space="preserve">
+    <value>Multi-Factor Authentication이 거부되었습니다. 로그온하려면 보안 질문에 답변하십시오.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_AuthenticationDeniedCallResult" xml:space="preserve">
+    <value>Multi-Factor Authentication이 거부됨: {0}</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_AuthenticationSuccessful" xml:space="preserve">
+    <value>Multi-Factor Authentication에 성공했습니다.</value>
+    <comment>test_authentication page</comment>
+  </data>
+  <data name="Message_BypassSecondsNumeric" xml:space="preserve">
+    <value>바이패스 시간(초)은 숫자여야 합니다.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRange" xml:space="preserve">
+    <value>바이패스 시간(초)은 5에서 1800(30분) 사이여야 합니다.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_BypassSecondsRequired" xml:space="preserve">
+    <value>[바이패스 시간(초)]은 필수입니다.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_CannotActivateDevice" xml:space="preserve">
+    <value>방법을 [모바일 앱]으로 변경하려면 먼저 장치에서 활성화된 Multi-Factor Authentication 모바일 앱에 계정이 연결되어야 합니다. 장치에서 Multi-Factor Authentication 모바일 앱을 활성화하는 작업에 대한 도움이 필요한 경우 지원 센터에 문의하십시오.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotEstablishWebServiceSdkConnection" xml:space="preserve">
+    <value>Multi-Factor Authentication 사용자 포털과 웹 서비스 SDK를 보안 연결할 수 없음: {0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_CannotGetOathToken" xml:space="preserve">
+    <value>방법을 [OATH 토큰]으로 변경하려면 먼저 계정이 장치에서 활성화된 Multi-Factor Authentication 모바일 앱에 연결되거나 OATH 토큰에 연결되어야 합니다. 장치에서 Multi-Factor Authentication 모바일 앱을 활성화하거나 OATH 토큰을 할당받는 작업에 대한 도움이 필요한 경우 지원 센터에 문의하십시오.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneSmsText" xml:space="preserve">
+    <value>방법을 [문자 메시지]로 변경하려면 먼저 계정에 전화 번호를 지정해야 합니다. 지원 센터에 문의하여 계정에 전화 번호를 지정하십시오.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CannotSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>방법을 [전화 통화]로 변경하려면 먼저 계정에 전화 번호를 지정해야 합니다. 지원 센터에 문의하여 계정에 전화 번호를 지정하십시오.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeOathTokenIncomplete" xml:space="preserve">
+    <value>참고: 사용자가 사용자 장치에서 Multi-Factor Authentication 모바일 앱을 활성화하지 않았거나, 타사 OATH 토큰을 지정하지 않아 [OATH 토큰] 방법을 사용하기에 불완전한 것으로 간주됩니다. 이 사용자의 보호된 응용 프로그램에 대한 인증이 실패하고 사용자 포털에 로그인하려면 다시 등록해야 합니다. 사용자에게 연락하여 Multi-Factor Authentication 모바일 앱을 활성화할 수 있도록 지원하거나 타사 OATH 토큰을 지정 및 배포할 수 있도록 지원하는 것이 좋습니다.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModePhoneAppIncomplete" xml:space="preserve">
+    <value>참고: 사용자가 사용자 장치에서 Multi-Factor Authentication 모바일 앱을 활성화하지 않아 [모바일 앱] 방법을 사용하기에 불완전한 것으로 간주됩니다. 이 사용자의 보호된 응용 프로그램에 대한 인증이 실패하고 사용자 포털에 로그인하려면 다시 등록해야 합니다. 사용자에게 연락하여 Multi-Factor Authentication 모바일 앱을 활성화할 수 있도록 지원하는 것이 좋습니다.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeSmsTextIncomplete" xml:space="preserve">
+    <value>참고: 사용자가 전화 번호를 지정하지 않아 [문자 메시지] 방법을 사용하기에 불완전한 것으로 간주됩니다. 이 사용자의 보호된 응용 프로그램에 대한 인증이 실패하고 사용자 포털에 로그인하려면 다시 등록해야 합니다. 다시 등록하지 않고 보호된 응용 프로그램을 계속 사용할 수 있도록 사용자의 전화 번호를 지정해주는 것이 좋습니다.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ChangeModeVoiceCallIncomplete" xml:space="preserve">
+    <value>참고: 사용자가 전화 번호를 지정하지 않아 [전화 통화] 방법을 사용하기에 불완전한 것으로 간주됩니다. 이 사용자의 보호된 응용 프로그램에 대한 인증이 실패하고 사용자 포털에 로그인하려면 다시 등록해야 합니다. 다시 등록하지 않고 보호된 응용 프로그램을 계속 사용할 수 있도록 사용자의 전화 번호를 지정해주는 것이 좋습니다.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_CodeRequired" xml:space="preserve">
+    <value>[코드]는 필수입니다.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_CodeRequiredCross" xml:space="preserve">
+    <value>일련 번호가 지정된 경우 코드가 필요합니다.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ConfirmDeactivate" xml:space="preserve">
+    <value>이 장치를 영구적으로 비활성화하시겠습니까?</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceDeactivated" xml:space="preserve">
+    <value>장치가 비활성화되었습니다.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DeviceLimit" xml:space="preserve">
+    <value>계정의 {0}개 장치 제한에 도달했습니다. 새 장치를 활성화하기 전에 기존 장치를 비활성화해야 합니다.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_DuplicateAnswer" xml:space="preserve">
+    <value>중복된 답변은 허용되지 않습니다.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateQuestion" xml:space="preserve">
+    <value>중복된 질문은 허용되지 않습니다.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_DuplicateUsername" xml:space="preserve">
+    <value>중복된 사용자 이름입니다.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUser" xml:space="preserve">
+    <value>사용자를 추가하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_ErrorAddingUserForPassedSession" xml:space="preserve">
+    <value>전달된 세션에 대한 사용자를 추가하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithLocal" xml:space="preserve">
+    <value>로컬 Multi-Factor Authentication 서비스와 통신하는 동안 오류가 발생했습니다. 관리자에게 문의하십시오.</value>
+    <comment>Most pages when connection to local server is lost</comment>
+  </data>
+  <data name="Message_ErrorCommunicatingWithMaster" xml:space="preserve">
+    <value>마스터 Multi-Factor Authentication 서비스와 통신하는 동안 오류가 발생했습니다. 관리자에게 문의하십시오.</value>
+    <comment>Most pages when connection to master server is lost</comment>
+  </data>
+  <data name="Message_ErrorDeactivatingDevice" xml:space="preserve">
+    <value>장치를 비활성화하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorDisablingUser" xml:space="preserve">
+    <value>사용자를 사용하지 않도록 설정하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorEnablingUser" xml:space="preserve">
+    <value>사용자를 사용하도록 설정하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_ErrorFindingUsers" xml:space="preserve">
+    <value>사용자를 찾는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_ErrorGeneratingActivationCode" xml:space="preserve">
+    <value>활성화 코드를 생성하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_ErrorIssuingOneTimeBypass" xml:space="preserve">
+    <value>일회성 바이패스를 발급하는 동안 오류가 발생했습니다. 관리자에게 문의하십시오.&lt;br/&gt;{0}</value>
+    <comment>one_time_bypass and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorRemovingUser" xml:space="preserve">
+    <value>사용자를 제거하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_ErrorResettingMode" xml:space="preserve">
+    <value>방법을 다시 설정하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPhone" xml:space="preserve">
+    <value>폰을 다시 설정하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingPin" xml:space="preserve">
+    <value>PIN을 다시 설정하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_ErrorResettingVoiceprint" xml:space="preserve">
+    <value>성문을 다시 설정하는 동안 오류가 발생했습니다. 관리자에게 문의하십시오.&lt;br/&gt;{0}</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingLanguage" xml:space="preserve">
+    <value>언어를 업데이트하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingMode" xml:space="preserve">
+    <value>방법을 업데이트하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhone" xml:space="preserve">
+    <value>폰을 업데이트하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPhoneAppMode" xml:space="preserve">
+    <value>모바일 앱 모드를 업데이트하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingPin" xml:space="preserve">
+    <value>PIN을 업데이트하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSecurityQuestions" xml:space="preserve">
+    <value>보안 질문을 업데이트하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_ErrorUpdatingSmsTextMode" xml:space="preserve">
+    <value>문자 메시지 모드를 업데이트하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingStaticToken" xml:space="preserve">
+    <value>정적 토큰을 업데이트하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserForSecurityQuestionSetup" xml:space="preserve">
+    <value>보안 질문 설정에 대해 사용자를 업데이트하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingUserInformation" xml:space="preserve">
+    <value>사용자 정보를 업데이트하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_ErrorUpdatingVoiceCallMode" xml:space="preserve">
+    <value>전화 통화 모드를 업데이트하는 동안 오류가 발생했습니다.&lt;br/&gt;{0}</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_ExpiredSession" xml:space="preserve">
+    <value>세션이 만료되었습니다.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_IncorrectAnswers" xml:space="preserve">
+    <value>제공한 답변이 올바르지 않습니다. 다시 시도하십시오.</value>
+    <comment>login_with_security_questions page</comment>
+  </data>
+  <data name="Message_IncorrectOathCode" xml:space="preserve">
+    <value>잘못된 인증 코드입니다.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscode" xml:space="preserve">
+    <value>잘못된 OTP(일회성 암호)입니다.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_IncorrectOneTimePasscodePlusPin" xml:space="preserve">
+    <value>잘못된 OTP(일회성 암호) + PIN입니다.</value>
+    <comment>login and user_setup pages</comment>
+  </data>
+  <data name="Message_InvalidExtension" xml:space="preserve">
+    <value>잘못된 내선 번호입니다. 숫자, 쉼표, * 및 #만 허용됩니다. 1초 일시 중지에는 쉼표를 사용하고, 수동 전환용 내선 번호를 말하려면 내선 번호 앞에 @을 붙이십시오.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_InvalidSerialNumber" xml:space="preserve">
+    <value>잘못된 일련 번호입니다. 사용자와 연결하기 전에 Multi-Factor Authentication 서버 사용자 인터페이스에서 이 일련 번호를 사용하여 OATH 토큰을 정의해야 합니다.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_LineBreak" xml:space="preserve">
+    <value>&lt;br/&gt;{0}</value>
+    <comment>add_user, change_phone, change_pin, change_mode, change_language and enable_disable pages</comment>
+  </data>
+  <data name="Message_LoginFailed" xml:space="preserve">
+    <value>로그인에 실패했습니다.</value>
+    <comment>login and secondary_authentication pages</comment>
+  </data>
+  <data name="Message_MustActivateDevice" xml:space="preserve">
+    <value>방법을 [모바일 앱]으로 변경하려면 먼저 Multi-Factor Authentication 모바일 앱을 활성화해야 합니다. 활성화를 시작하려면 탐색 메뉴에서 [모바일 앱 활성화] 링크를 클릭하십시오.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustActivateDeviceOathToken" xml:space="preserve">
+    <value>방법을 [OATH 토큰]으로 변경하려면 먼저 Multi-Factor Authentication 모바일 앱을 활성화해야 합니다. 활성화를 시작하려면 탐색 메뉴에서 [모바일 앱 활성화] 링크를 클릭하십시오.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustAnswerAllQuestions" xml:space="preserve">
+    <value>모든 보안 질문에 답변해야 합니다.</value>
+    <comment>create_security_questions, change_security_questions, and login_with_security_questions pages</comment>
+  </data>
+  <data name="Message_MustEnrollOathToken" xml:space="preserve">
+    <value>방법을 [OATH 토큰]으로 변경하려면 먼저 OATH 토큰을 계정에 연결해야 합니다. OATH 토큰을 연결하려면 [OATH 토큰] 링크를 클릭하십시오.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustHaveOathToken" xml:space="preserve">
+    <value>방법을 [OATH 토큰]으로 변경하려면 먼저 Multi-Factor Authentication 모바일 앱을 활성화하거나, OATH 토큰을 계정에 연결해야 합니다. 활성화를 시작하려면 탐색 메뉴에서 [모바일 앱 활성화] 링크를 클릭하거나 OATH 토큰을 연결할 수 있도록 [OATH 토큰] 링크를 클릭하십시오.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneSmsText" xml:space="preserve">
+    <value>방법을 [문자 메시지]로 변경하려면 먼저 계정에 전화 번호를 지정해야 합니다. 전화 번호를 지정하려면 탐색 메뉴에서 [폰 변경] 링크를 클릭하십시오.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifyPhoneVoiceCall" xml:space="preserve">
+    <value>방법을 [전화 통화]로 변경하려면 먼저 계정에 전화 번호를 지정해야 합니다. 전화 번호를 지정하려면 탐색 메뉴에서 [폰 변경] 링크를 클릭하십시오.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_MustSpecifySearchField" xml:space="preserve">
+    <value>하나 이상의 검색 필드를 지정해야 합니다.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoActivatedDevices" xml:space="preserve">
+    <value>이 사용자에 대해 활성화된 장치가 없습니다.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_NoMatchingUsersFound" xml:space="preserve">
+    <value>일치하는 사용자를 찾을 수 없습니다.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_NoSsl" xml:space="preserve">
+    <value>Multi-Factor Authentication 사용자 포털은 SSL로 보호되지 않지만 Web.config의 세션 쿠키를 위해 SSL이 필요합니다. 세션 상태가 유지 관리될 수 없기 때문에 사용자 포털이 작동하지 않습니다. 사용자 포털을 SSL로 보호하는 것이 좋습니다. 테스트를 위해 Web.config의 &lt;httpCookies&gt; 태그에서 일시적으로 requireSSL을 "false"로 변경할 수 있습니다.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailed" xml:space="preserve">
+    <value>OATH 토큰 동기화에 실패했습니다. 입력한 코드가 올바르지 않거나 OATH 토큰 일련 번호가 유효하지 않습니다.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OathTokenSynchronizationFailedUser" xml:space="preserve">
+    <value>OATH 토큰 동기화에 실패했습니다. 입력한 코드가 올바르지 않습니다.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_OnlyFirstMatchesDisplayed" xml:space="preserve">
+    <value>첫 번째 {0}개 일치 항목만 표시됩니다. 목록에서 사용자를 찾을 수 없는 경우 좀 더 구체적인 검색 조건을 입력하십시오.</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Message_PassedSessionFailed" xml:space="preserve">
+    <value>전달된 세션이 실패했습니다.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_PhoneRequired" xml:space="preserve">
+    <value>[전화]는 필수입니다.</value>
+    <comment>user_setup, change_phone, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMatch" xml:space="preserve">
+    <value>PIN 및 PIN 확인에 입력한 내용이 일치해야 합니다.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinMinimumLength" xml:space="preserve">
+    <value>PIN은 {0}자리 이상이어야 합니다.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinNumeric" xml:space="preserve">
+    <value>PIN은 숫자여야 합니다.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_PinRecentlyUsed" xml:space="preserve">
+    <value>PIN은 최근에 사용한 PIN 중 하나와 동일해서는 안 됩니다. 다른 PIN을 선택하십시오.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_SamlDisabled" xml:space="preserve">
+    <value>SAML을 통한 외부 응용 프로그램에 대한 SSL(Single Sign-On)은 사용하지 않도록 설정되어 있습니다.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotDefined" xml:space="preserve">
+    <value>이 사용자에 대해 보안 질문이 정의되지 않았습니다.&lt;br/&gt;</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsNotSetUp" xml:space="preserve">
+    <value>보안 질문을 설정하지 않았으므로 폰 없이 로그인할 수 없습니다.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SecurityQuestionsVerified" xml:space="preserve">
+    <value>보안 질문이 확인되었습니다.</value>
+    <comment>user page</comment>
+  </data>
+  <data name="Message_SecurityWarningNoSsl" xml:space="preserve">
+    <value>보안 경고: Multi-Factor Authentication 사용자 포털이 SSL로 보호되고 있지 않습니다. 암호는 일반 텍스트로 전달됩니다.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_SerialNumberAlreadyAssociated" xml:space="preserve">
+    <value>일련 번호가 이미 {0}에 연결되어 있습니다. 해당 사용자에게서 일련 번호를 제거해야 일련 번호를 새 사용자에게 연결할 수 있습니다.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_SerialNumberRequired" xml:space="preserve">
+    <value>[일련 번호]는 필수입니다.</value>
+    <comment>user_setup page</comment>
+  </data>
+  <data name="Message_SerialNumberRequiredCross" xml:space="preserve">
+    <value>코드가 지정된 경우 [일련 번호]는 필수입니다.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_ShortAnswer" xml:space="preserve">
+    <value>답변은 4자 이상이어야 합니다.</value>
+    <comment>create_security_questions and change_security_questions pages</comment>
+  </data>
+  <data name="Message_StaticTokenMatch" xml:space="preserve">
+    <value>정적 토큰 및 정적 토큰 확인에 입력한 내용이 일치해야 합니다.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenMinimumLength" xml:space="preserve">
+    <value>정적 토큰은 {0}자리 이상이어야 합니다.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_StaticTokenNumeric" xml:space="preserve">
+    <value>정적 토큰은 숫자여야 합니다.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserAdded" xml:space="preserve">
+    <value>사용자가 추가되었습니다.</value>
+    <comment>add_user page</comment>
+  </data>
+  <data name="Message_UserAlreadyBlocked" xml:space="preserve">
+    <value>차단에 실패했습니다. 사용자가 이미 차단되었습니다.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlocked" xml:space="preserve">
+    <value>사용자가 성공적으로 차단되었습니다.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserBlockFailed" xml:space="preserve">
+    <value>차단에 실패했습니다.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserDeviceLimit" xml:space="preserve">
+    <value>사용자의 {0}개 장치 제한에 도달했습니다. 새 장치를 활성화하기 전에 이 사용자에 대한 기존 장치를 비활성화해야 합니다.</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Message_UserDisabled" xml:space="preserve">
+    <value>사용자를 성공적으로 사용하지 않도록 설정했습니다.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserEnabled" xml:space="preserve">
+    <value>사용자를 성공적으로 사용하도록 설정했습니다.</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Message_UserInformationChanged" xml:space="preserve">
+    <value>사용자의 정보가 변경되었습니다.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_UserLanguageChanged" xml:space="preserve">
+    <value>사용자의 기본 언어가 변경되었습니다.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_UserModeChanged" xml:space="preserve">
+    <value>사용자의 방법이 변경되었습니다.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_UsernameRequired" xml:space="preserve">
+    <value>[사용자 이름]은 필수입니다.</value>
+    <comment>login and add_user pages</comment>
+  </data>
+  <data name="Message_UserNotBlocked" xml:space="preserve">
+    <value>차단 해제에 실패했습니다. 사용자가 현재 차단되어 있지 않습니다.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserOathTokenSaved" xml:space="preserve">
+    <value>사용자의 OATH 토큰이 저장되었습니다.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_UserOneTimeBypassIssued" xml:space="preserve">
+    <value>일회성 바이패스가 발급되었습니다. 사용자가 다음 번에 로그온할 때 Multi-Factor Authentication 인증을 건너뛰게 됩니다.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_UserPhoneChanged" xml:space="preserve">
+    <value>사용자의 폰이 변경되었습니다.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_UserPinChanged" xml:space="preserve">
+    <value>사용자의 PIN이 변경되었습니다.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_UserPortalDisabled" xml:space="preserve">
+    <value>사용자 포털에 대한 직접 로그인을 사용하지 않도록 설정했습니다.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserPortalNotPurchased" xml:space="preserve">
+    <value>이 기능을 구매하지 않았으므로 Multi-Factor Authentication 사용자 포털이 작동하지 않습니다.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_UserRemoved" xml:space="preserve">
+    <value>사용자가 제거되었습니다.</value>
+    <comment>remove_user page</comment>
+  </data>
+  <data name="Message_UserStaticTokenChanged" xml:space="preserve">
+    <value>사용자의 정적 토큰이 변경되었습니다.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_UserSubmodeChanged" xml:space="preserve">
+    <value>사용자의 모드가 변경되었습니다.</value>
+    <comment>change_submode page</comment>
+  </data>
+  <data name="Message_UserUnblocked" xml:space="preserve">
+    <value>사용자가 성공적으로 차단 해제되었습니다.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserUnblockFailed" xml:space="preserve">
+    <value>차단 해제에 실패했습니다.</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Message_UserVoiceprintReset" xml:space="preserve">
+    <value>성문을 성공적으로 다시 설정했습니다. 다음 번 로그온 시 새 성문을 등록하라는 메시지가 사용자에게 표시됩니다.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Message_WeakPinNotAllowed" xml:space="preserve">
+    <value>약한 PIN은 허용되지 않습니다. 전화 번호와 4자리 이상 겹쳐서는 안 되며, 3자리 이상 반복할 수 없으며, 3자리 이상의 연속된 숫자를 사용할 수 없습니다.</value>
+    <comment>user_setup, change_pin, and add_user pages</comment>
+  </data>
+  <data name="Message_WeakStaticTokenNotAllowed" xml:space="preserve">
+    <value>약한 정적 토큰은 허용되지 않습니다. 전화 번호와 4자리 이상 겹쳐서는 안 되며, 3자리 이상 반복할 수 없으며, 3자리 이상의 연속된 숫자를 사용할 수 없습니다.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_WebServiceSdkError" xml:space="preserve">
+    <value>Multi-Factor Authentication 사용자 포털이 웹 서비스 SDK와 통신하도록 구성되어 있지만 웹 서비스 SDK에서 다음 오류를 반환했습니다.&lt;br/&gt;{0}</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_WebServiceSdkNotPurchased" xml:space="preserve">
+    <value>Multi-Factor Authentication 사용자 포털이 웹 서비스 SDK와 통신하도록 구성되어 있지만 웹 서비스 SDK 기능은 구매되지 않았습니다.</value>
+    <comment>login page</comment>
+  </data>
+  <data name="Message_YourInformationChanged" xml:space="preserve">
+    <value>정보가 변경되었습니다.</value>
+    <comment>user_information page</comment>
+  </data>
+  <data name="Message_YourLanguageChanged" xml:space="preserve">
+    <value>기본 언어가 변경되었습니다.</value>
+    <comment>change_language page</comment>
+  </data>
+  <data name="Message_YourModeChanged" xml:space="preserve">
+    <value>방법이 변경되었습니다.</value>
+    <comment>change_mode page</comment>
+  </data>
+  <data name="Message_YourOathTokenSaved" xml:space="preserve">
+    <value>OATH 토큰이 저장되었습니다.</value>
+    <comment>oath_token page</comment>
+  </data>
+  <data name="Message_YourOneTimeBypassIssued" xml:space="preserve">
+    <value>일회성 바이패스가 발급되었습니다. 다음 번에 로그온할 때 Multi-Factor Authentication 인증을 건너뛰게 됩니다.</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Message_YourPhoneChanged" xml:space="preserve">
+    <value>폰이 변경되었습니다.</value>
+    <comment>change_phone page</comment>
+  </data>
+  <data name="Message_YourPinChanged" xml:space="preserve">
+    <value>PIN이 변경되었습니다.</value>
+    <comment>change_pin page</comment>
+  </data>
+  <data name="Message_YourSecurityQuestionsChanged" xml:space="preserve">
+    <value>보안 질문 및 답변이 변경되었습니다.</value>
+    <comment>change_security_questions page</comment>
+  </data>
+  <data name="Message_YourStaticTokenChanged" xml:space="preserve">
+    <value>정적 토큰이 변경되었습니다.</value>
+    <comment>change_static_token page</comment>
+  </data>
+  <data name="Message_YourVoiceprintReset" xml:space="preserve">
+    <value>성문을 성공적으로 다시 설정했습니다. 다음 번 로그온 시 새 성문을 등록하라는 메시지가 표시됩니다.</value>
+    <comment>reset_voiceprint page</comment>
+  </data>
+  <data name="Reason_InitiatedByAdmin" xml:space="preserve">
+    <value>사용자 포털에서 관리자가 시작</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Reason_InitiatedByUser" xml:space="preserve">
+    <value>사용자 포털에서 사용자가 시작</value>
+    <comment>one_time_bypass page</comment>
+  </data>
+  <data name="Subtitle_DeactivatePhoneApp" xml:space="preserve">
+    <value>모바일 앱 비활성화</value>
+    <comment>activate_phone_app page</comment>
+  </data>
+  <data name="Subtitle_Enable" xml:space="preserve">
+    <value>사용</value>
+    <comment>enable_disable page</comment>
+  </data>
+  <data name="Subtitle_UnblockUser" xml:space="preserve">
+    <value>사용자 차단 해제</value>
+    <comment>block_unblock_user page</comment>
+  </data>
+  <data name="Title_PhoneFactorUserPortal" xml:space="preserve">
+    <value>Multi-Factor Authentication™ | 사용자 포털</value>
+    <comment>Title on all pages</comment>
+  </data>
+  <data name="Value_All" xml:space="preserve">
+    <value>모두</value>
+    <comment>find_user page</comment>
+  </data>
+  <data name="Value_Masked" xml:space="preserve">
+    <value>마스킹됨</value>
+    <comment>add_user, change_pin, and oath_token pages</comment>
+  </data>
+</root>
